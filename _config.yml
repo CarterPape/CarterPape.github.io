@@ -1,5 +1,5 @@
 title:            Favorite Carrot
-description:      "I made this website to exercise the privilege of having one."
+description:      "A website containing the writings by a programmer who also loves math."
 disqus_shortname: favcarrot
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url:
 owner:
     name:             Carter Pape
     avatar:           avatar.jpg
-    bio:              "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+    bio:              "Student, programmer, artist, longboarder, mathematician, describer"
     email:            carterpape@gmail.com
     # Social networking links used in footer. Update and remove as you like.
     twitter:          
