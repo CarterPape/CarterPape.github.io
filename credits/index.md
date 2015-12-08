@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The people who make this possible
+title: Credits
 comments: false
 ---
 
