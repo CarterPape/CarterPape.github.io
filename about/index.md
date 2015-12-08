@@ -16,7 +16,7 @@ Every winter, I wear swim trunks on the first day for which snow is forecast in 
 
 I once choked on a protein bar because I was literally running to take an exam.
 
-I am the grammar police, so feel free to police my grammar and tell me the grammar mistakes (and typos) I have made.
+I am the grammar police, so feel free to police my grammar and [tell me](https://docs.google.com/forms/d/19Q3QpoSNBT4IWoQ1d1umCOBJtBm3xwNXTOylre6LKus/viewform) the grammar mistakes (and typos) I have made.
 
 [^1]: My family has moved three times in my life, all within a five-mile radius of the hospital I was born. My move to Raleigh for college was the biggest move I have ever made. I'm just a regular nomad.
 
