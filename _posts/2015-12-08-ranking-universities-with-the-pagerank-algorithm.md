@@ -2,10 +2,6 @@
 layout: post
 title: "Ranking Universities with the Pagerank Algorithm"
 tags: [data mining, cross-post, feature]
-image:
-  feature: 
-  credit: 
-  creditlink: 
 comments: false
 ---
 
