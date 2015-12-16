@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "cgi"
 
 ## -- Config -- ##
 
@@ -8,6 +9,7 @@ public_dir      = "public"    # compiled site directory
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"  # default new post file extension when using the new_post task
 new_page_ext    = "md"  # default new page file extension when using the new_page task
+scripts_file    = "_includes/scripts.html"
 
 
 #############################
@@ -68,6 +70,27 @@ task :new_page, :title do |t, args|
     page.puts "    creditlink: "
     page.puts "---"
   end
+end
+
+# usage rake new_page
+desc "Add a new message of the minute"
+task :motm, :message do |m, args|
+    if args.message
+        message = args.message
+    else
+        message = get_stdin("Enter the message: ")
+    end
+    message = CGI.escapeHTML(message)
+    filename = scripts_file
+    if !File.exist?(filename)
+        abort("The scripts file was not found")
+    end
+    puts "Creating new message: #{message}"
+    text = File.read(filename)
+    new_contents = text.gsub(/var POSSIBLE_MESSAGES = \[\n[ ,] /,
+                             "var POSSIBLE_MESSAGES = [\n  \"#{message}\"\n, ")
+    
+    File.open(filename, "w") {|file| file.puts new_contents }
 end
 
 def get_stdin(message)
