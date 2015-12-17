@@ -10,6 +10,7 @@ posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"  # default new post file extension when using the new_post task
 new_page_ext    = "md"  # default new page file extension when using the new_page task
 scripts_file    = "_includes/scripts.html"
+config_file     = "_config.yml"
 
 
 #############################
@@ -91,6 +92,33 @@ task :motm, :message do |m, args|
                              "var POSSIBLE_MESSAGES = [\n  \"#{message}\"\n, ")
     
     File.open(filename, "w") {|file| file.puts new_contents }
+    puts "Done"
+end
+
+# usage rake local
+desc "Prepare for local editing"
+task :local do |args|
+    filename = config_file
+    if !File.exist?(filename)
+        abort("The config file was not found")
+    end
+    text = File.read(filename)
+    new_contents = text.gsub(/(url: *)http:\/\/carterpape.github.io/, '\1http://localhost:4000')
+    File.open(filename, "w") {|file| file.puts new_contents }
+    puts "Done"
+end
+
+# usage rake remote
+desc "Prepare for committing to server"
+task :remote do |args|
+    filename = config_file
+    if !File.exist?(filename)
+        abort("The config file was not found")
+    end
+    text = File.read(filename)
+    new_contents = text.gsub(/(url: *)http:\/\/localhost:4000/, '\1http://carterpape.github.io')
+    File.open(filename, "w") {|file| file.puts new_contents }
+    puts "Done"
 end
 
 def get_stdin(message)
