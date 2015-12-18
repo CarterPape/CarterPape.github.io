@@ -416,6 +416,12 @@ header .entry-meta {
     }
 }
 
+#license-disclosure {
+    max-width: 800px;
+    margin: auto;
+    @include font-rem(10);
+}
+
 // Social Share
 // --------------------------------------------------
 .socialcount {
