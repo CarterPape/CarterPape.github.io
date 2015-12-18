@@ -9,21 +9,8 @@ url:                http://carterpape.github.io
 
 # Owner/author information
 owner:
-    name:             Carter Pape
-    avatar:           avatar.jpg
-    bio:              "Student, programmer, artist, longboarder, mathematician, describer"
-    email:            carterpape@gmail.com
-    # Social networking links used in footer. Update and remove as you like.
-    twitter:          
-    facebook:         
-    github:           
-    stackexchange:    
-    linkedin:         
-    instagram:        
-    flickr:           
-    tumblr:           
-    # google plus id, include the '+', eg +mmistakes
-    google_plus:      
+    name:   Carter Pape
+    email:  carterpape@gmail.com
 
 # Background image to be tiled on all pages
 background:
@@ -34,7 +21,6 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
 highlighter: pygments
