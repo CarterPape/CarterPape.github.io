@@ -327,15 +327,12 @@ header .entry-meta {
         }
     }
 }
-.read-more-list {
-    border-top: solid 2px lighten($base-color,80);
-}
 .list-item {
     width: 100%;
     text-align: left;
     h4 {
         @include font-rem(18);
-        margin-bottom: 0;
+        margin: 0;
     }
     span {
         display: block;
