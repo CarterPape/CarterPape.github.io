@@ -27,4 +27,4 @@ Go out this week, and the next, and reinforce all the things you've learned this
 
 And if that's not enough for you, our friends in Chapel Hill are 89th on the same list. 750 positions above us. Maybe that competition is the thing that motivates you.
 
-[^1]: [Link](http://www.technologyreview.com//view/544266/wikipedia-mining-algorithm-reveals-worlds-most-influential-universities/) to the MIT Technology Review article
+[^1]: [Link](https://www.technologyreview.com/s/544266/wikipedia-mining-algorithm-reveals-worlds-most-influential-universities/) to the MIT Technology Review article
