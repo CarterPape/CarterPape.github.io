@@ -1,11 +1,11 @@
 title:              Favorite Carrot
-description:        "A website containing the writings by a programmer who also loves math."
+description:        "A website containing the writing of a programmer who also loves math."
 disqus_shortname:   favcarrot
 reading_time:       true
 words_per_minute:   200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:                http://carterpape.github.io
+url:                http://localhost:4000
 
 # Owner/author information
 owner:
@@ -23,8 +23,8 @@ bing_verify:
 
 timezone:    America/New_York
 future:      true
-highlighter: pygments
 markdown:    kramdown
+highlighter: rouge
 gems:
     - jekyll-sitemap
     - jekyll-paginate
@@ -39,18 +39,10 @@ permalink:   /:categories/:title/
 paginate: 42
 
 kramdown:
-    auto_ids:         true
-    footnote_nr:      1
-    entity_output:    as_char
-    toc_levels:       1..6
-    enable_coderay:   true
-
-    coderay:
-        coderay_line_numbers:       nil
-        coderay_line_numbers_start: 1
-        coderay_tab_width:          4
-        coderay_bold_every:         10
-        coderay_css:                class
+    auto_ids:           true
+    footnote_nr:        1
+    entity_output:      as_char
+    toc_levels:         1..6
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
