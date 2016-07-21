@@ -5,7 +5,7 @@ tags: [data mining, cross-post, feature]
 comments: false
 ---
 
-_[Originally posted](https://www.facebook.com/groups/134770703321201/permalink/757649487699983/) in NC State's Honors Village Facebook page, without the footnotes, during an exam week:_
+_Originally posted in NC State's Honors Village Facebook page, without the footnotes, during the exam week of fall, 2015:_
 
 Let me tell you a little something interesting about NC State's relevance to the world of academia.
 
