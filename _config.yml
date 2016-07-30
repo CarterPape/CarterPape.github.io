@@ -18,8 +18,6 @@ background:
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-71517617-1
 google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 timezone:    America/New_York
 future:      true
@@ -35,7 +33,7 @@ sass:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
-# Amount of post to show on home page
+# Number of posts to show on the homepage
 paginate: 42
 
 kramdown:
