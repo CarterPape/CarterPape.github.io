@@ -17,11 +17,7 @@
     <article class="hentry">
         <header class="header-title">
             <div class="header-title-wrap">
-                {% if page.link %}
-                    <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark permalink"></i></a> <a href="{{ page.link }}">{{ page.title }}</a></h1>
-                {% else %}
-                    <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
-                {% endif %}
+                <h1 class="entry-title"><a href="{% if page.link %}{{ page.link }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
                 <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
                 {% if site.reading_time %}
                 <p class="entry-reading-time">

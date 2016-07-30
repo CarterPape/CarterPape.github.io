@@ -203,6 +203,11 @@ header .entry-meta {
         display: block;
     }
 }
+.linked {
+    header .entry-title a {
+        text-decoration: underline;
+    }
+}
 #post,
 #page {
     .entry-content {
@@ -376,6 +381,9 @@ header .entry-meta {
             margin-bottom: 30px;
             padding: 50px 80px;
         }
+    }
+    article.linked {
+        background-color: #fafafa;
     }
 }
 .entry-image-index {

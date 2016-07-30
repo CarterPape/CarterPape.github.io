@@ -8,7 +8,7 @@ image:
 
 {% include motm.html %}
 {% for post in paginator.posts %}
-<article class="hentry">
+<article class="hentry{% if post.link %} linked{% endif %}">
   <header>
     {% if post.image.feature %}
       <div class="entry-image-index">
@@ -24,11 +24,7 @@ image:
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
-    {% if post.link %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
+    <h1 class="entry-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
   </header>
   <div class="entry-content">
     {{ post.content }}
