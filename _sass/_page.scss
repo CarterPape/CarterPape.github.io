@@ -295,7 +295,7 @@ header .entry-meta {
     @media #{$large} {
         max-width: 800px;
         padding: 50px 80px;
-        margin: 60px auto;
+        margin: 60px auto 20px auto;
     }
     text-align: center;
     @include clearfix;
@@ -424,6 +424,9 @@ header .entry-meta {
     max-width: 800px;
     margin: auto;
     @include font-rem(10);
+    a {
+        text-decoration: underline;
+    }
 }
 
 // Social Share
