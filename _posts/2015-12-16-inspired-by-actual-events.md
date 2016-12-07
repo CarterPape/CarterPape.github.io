@@ -3,6 +3,12 @@ layout: post
 title: "Inspired by Actual Events"
 tags: [politics, Ben Carson, election 2016]
 link: http://www.mcsweeneys.net/articles/finding-the-right-neurosurgeon-for-you
+image:
+  feature:
+    source: Ben-Carson.jpg
+    credit: Pete Enns
+    creditlink: http://www.peteenns.com/ben-carson-and-the-bible-maybe-he-should-get-a-second-opinion/
+    no_preview: true
 comments: false
 ---
 

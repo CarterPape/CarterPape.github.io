@@ -10,14 +10,14 @@
 <body id="post" class="{% if page.image.feature %}feature{% endif %} {% if page.image.background %}static-background{% endif %}">
 
 {% include browser-upgrade.html %}
-{% include navigation.html %}
-{% include feature-image.html %}
+{% include top-nav.html %}
 
 <div id="main" role="main">
+    {% include feature-image.html %}
     <article class="hentry">
         <header class="header-title">
             <div class="header-title-wrap">
-                <h1 class="entry-title"><a href="{% if page.link %}{{ page.link }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+                <h1 class="entry-title"><a href="{% if page.link %}{{ page.link }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" title="{{ page.title }}">{{ page.title }}</a></h1>
                 <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
                 {% if site.reading_time %}
                 <p class="entry-reading-time">
@@ -28,11 +28,13 @@
         </header>
         <div class="entry-content">
             {{ content }}
-            <footer class="entry-meta">
-                {% if page.modified %}<span>Updated on <span class="entry-date date updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
-                        {% if page.author %}<span class="author vcard"><span class="fn">{{ page.author }}</span></span>{% endif %}
-                {% endif %}
-            </footer>
+            {% if page.modified or page.author %}
+                <footer class="entry-meta">
+                    {% if page.modified %}<span>Updated on <span class="entry-date date updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
+                            {% if page.author %}<span class="author vcard"><span class="fn">{{ page.author }}</span></span>{% endif %}
+                    {% endif %}
+                </footer>
+            {% endif %}
         </div><!-- /.entry-content -->
         {% if page.comments != false %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
         {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}

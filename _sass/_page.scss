@@ -30,6 +30,19 @@ body.static-background {
         }
     }
 }
+#main {
+    position: relative;
+}
+
+// Navigation Header
+// --------------------------------------------------
+.navigation-image {
+    width: 100%;
+    height: $head-nav-height;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: $comp-color;
+}
 
 // Entry Header
 // --------------------------------------------------
@@ -405,6 +418,9 @@ header .entry-meta {
     }
     img {
         @include border-radius(3px,0,0,3px); // round image corners
+        object-fit: cover;
+        max-height: 400px;
+        width: 100%;
     }
 }
 
