@@ -3,9 +3,6 @@ layout: post
 title: "Ranking Universities with the Pagerank Algorithm"
 tags: [data mining, cross-post, feature]
 comments: false
-image:
-  feature:
-    source: ../cabstract-2.jpg
 ---
 
 _Originally posted in NC State's Honors Village Facebook page, without the footnote, during the exam week of fall, 2015:_
