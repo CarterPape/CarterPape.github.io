@@ -10,14 +10,14 @@
 <body id="post-index" class="{% if page.image.feature %}feature{% endif %} {% if page.image.background %}static-background{% endif %}">
 
 {% include browser-upgrade.html %}
-{% include navigation.html %}
+{% include top-nav.html %}
 
 <div class="entry-header">
     {% include feature-image.html %}
     <div class="header-title">
         <div class="header-title-wrap">
             <h1 id="site-title">{{ site.title }}</h1>
-            <h2 id="page-title">{{ page.title }}</h2>
+            <h2 id="page-title">{{ site.description }}</h2>
         </div><!-- /.header-title-wrap -->
     </div><!-- /.header-title -->
 </div><!-- /.entry-header -->

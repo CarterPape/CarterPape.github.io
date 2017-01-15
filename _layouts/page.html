@@ -10,10 +10,10 @@
 <body id="page" class="{% if page.image.feature %}feature{% endif %} {% if page.image.background %}static-background{% endif %}">
 
 {% include browser-upgrade.html %}
-{% include navigation.html %}
-{% include feature-image.html %}
+{% include top-nav.html %}
 
 <div id="main" role="main">
+    {% include feature-image.html %}
     <article class="hentry">
         <header class="header-title">
             <div class="header-title-wrap">
