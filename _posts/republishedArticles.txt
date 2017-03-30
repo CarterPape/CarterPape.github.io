@@ -8,3 +8,10 @@
 /news/article_d9a196b0-e763-11e6-8d53-7bd1b1ab058f.html
 /news/article_6a4584ea-e694-11e6-ae9a-a79ab0a09fa2.html
 /news/article_a924243e-fcae-11e6-ab57-53e36d7a71c7.html
+/news/article_07da7104-0de4-11e7-8940-cbc5c09c8657.html
+/news/article_def1ab94-0a01-11e7-b5dd-e3e7f6e4e7fa.html
+/news/article_33890182-133c-11e7-84fe-7fa633db1fdd.html
+/news/article_02e27bc6-0f6d-11e7-83f5-1fb152a1897c.html
+/news/article_68c6d134-1261-11e7-a7a5-7bbf26aecbfd.html
+/news/article_583d43d0-0a04-11e7-a817-ebc6c833a86a.html
+/news/article_bb210f42-1420-11e7-88e6-e7ca771fd926.html
