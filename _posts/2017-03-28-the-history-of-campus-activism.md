@@ -10,4 +10,7 @@ image:
         credit: "NCSU Libraries"
         creditlink: https://d.lib.ncsu.edu/collections/catalog/technician-v54n79-1970-05-06
 ---
+
+Part 3 of a series on activism at NC State, and my first story published as assistant news editor!
+
 > A historical look at NC States protests and rallies reveals how the national context of student activism has influenced student attitudes and the issues NC State students feel strongly enough to rally or protest.
