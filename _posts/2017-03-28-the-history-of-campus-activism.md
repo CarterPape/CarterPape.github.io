@@ -13,4 +13,4 @@ image:
 
 Part 3 of a series on activism at NC State, and my first story published as assistant news editor!
 
-> A historical look at NC States protests and rallies reveals how the national context of student activism has influenced student attitudes and the issues NC State students feel strongly enough to rally or protest.
+> A historical look at NC State’s protests and rallies reveals how the national context of student activism has influenced student attitudes and the issues NC State students feel strongly enough to rally or protest.

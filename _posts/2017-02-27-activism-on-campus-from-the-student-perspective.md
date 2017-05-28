@@ -13,4 +13,5 @@ image:
 
 Part 1 of a series on activism at NC State.
 
-> Student advocacy at NC State is lacking in the eyes of many student activists, and they want to see a change. Leaders of many student organizations on campus have observed a lack of involvement and have shared their ideas on why the student body doesnt seem to agitate for cultural and political change, as well as what students can do to stand up for their cause.
+> Student advocacy at NC State is lacking in the eyes of many student activists, and they want to see a change. Leaders of many student organizations on campus have observed a lack of involvement and have shared their ideas on why the student body doesn’t seem to agitate for cultural and political change, as well as what students can do to stand up for their cause.
+

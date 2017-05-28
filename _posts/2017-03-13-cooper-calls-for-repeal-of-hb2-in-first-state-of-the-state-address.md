@@ -10,4 +10,5 @@ image:
         credit: "Chris Seward from The News and Observer"
         creditlink: http://www.newsobserver.com/news/politics-government/state-politics/article138313558.html
 ---
-> In his first State of the State address, Gov. Roy Cooper appealed to a joint session of North Carolinas General Assembly to repeal House Bill 2 on Monday. He also shared points from his proposed budget, including better pay for teachers and free community college education for qualifying students.
+> In his first State of the State address, Gov. Roy Cooper appealed to a joint session of North Carolina’s General Assembly to repeal House Bill 2 on Monday. He also shared points from his proposed budget, including better pay for teachers and free community college education for qualifying students.
+

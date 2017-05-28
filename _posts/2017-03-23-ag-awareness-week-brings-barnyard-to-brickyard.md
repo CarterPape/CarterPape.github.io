@@ -10,4 +10,4 @@ image:
         credit: "Sam Feldstein from Technician"
         creditlink: http://www.technicianonline.com/news/article_02e27bc6-0f6d-11e7-83f5-1fb152a1897c.html
 ---
-> Ag Awareness Week brings farm animals back to the Brickyard, giving students who don't normally get to see farm animals a chance to stop to take a picture with them and learn more about agriculture at NC State.
+> Ag Awareness Week brings farm animals back to the Brickyard, giving students who don’t normally get to see farm animals a chance to stop to take a picture with them and learn more about agriculture at NC State.
