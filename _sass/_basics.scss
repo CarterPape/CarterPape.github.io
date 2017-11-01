@@ -114,8 +114,9 @@ img {
 header.site-info {
   width:270px;
   float:left;
-  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  text-align: right;
+  
   p.site-description {
     margin-bottom: 1.5em;
   }
