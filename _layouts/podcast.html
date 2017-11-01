@@ -1,0 +1,12 @@
+---
+layout: post
+---
+{{ content }}
+
+{% capture pod_avail %}{% include podcast-availability.md %}{% endcapture %}
+{{ pod_avail | markdownify }}
+
+<audio controls>
+    <source src="{{page.audio_file}}" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
