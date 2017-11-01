@@ -41,11 +41,6 @@ _Apr 2017 – Sep 2017_
 * Produced and edited weekly Technician’s first podcast
 * Covered the largest NC State stories of the year, including sexual assault allegations, Student Government impeachment, and possible breach of open meetings law by the university
 
-### Intern at Parata Systems
-_May 2017 – Aug 2017_
-
-Created an automated documentation workflow that yields diagrams for non-developers troubleshooting production Parata units. Output is descriptive, interactive UML state diagrams, generated directly from the code base of the system being represented.
-
 ### Reporter at Technician
 _Jan 2017 – Apr 2017_
 
