@@ -73,9 +73,10 @@ a:hover small {
 }
 
 .wrapper {
-  width:770px;
+  width: 750px;
   height: auto;
   margin:50px auto 0 auto;
+  padding: 0 10px;
   &:after {
       content: "";
       display: table;
@@ -150,7 +151,7 @@ strong {
 }
 
 section {
-    width:500px;
+    width: 480px;
     float:right;
     padding-bottom:50px;
     line-height: 150%;
