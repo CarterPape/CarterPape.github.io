@@ -18,7 +18,7 @@ I seek to capitalize on my experience in student journalism by assimilating into
 Fourth year student at North Carolina State University
 * Graduating May 2018
 * 3.453 GPA
-* Receiving BS in Mathematics and BS in Computer Science
+* Receiving B.S. in Mathematics and B.S. in Computer Science
 * Received S-STEM Scholarship for excellence in math
 
 ## experience
