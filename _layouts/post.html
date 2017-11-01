@@ -1,53 +1,33 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include head.html %}
-</head>
-
-<body id="post" class="{% if page.image.feature %}feature{% endif %} {% if page.image.background %}static-background{% endif %}">
-
-{% include browser-upgrade.html %}
-{% include top-nav.html %}
-
-<div id="main" role="main">
-    {% include feature-image.html %}
-    <article class="hentry">
-        <header class="header-title">
-            <div class="header-title-wrap">
-                <h1 class="entry-title"><a href="{% if page.link %}{{ page.link }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" title="{{ page.title }}">{{ page.title }}</a></h1>
-                <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
-                {% if site.reading_time %}
-                <p class="entry-reading-time">
-                    {% include read-time.html %}
-                </p><!-- /.entry-reading-time -->
-                {% endif %}
-            </div><!-- /.header-title-wrap -->
-        </header>
-        <div class="entry-content">
-            {{ content }}
-            {% if page.modified or page.author %}
-                <footer class="entry-meta">
-                    {% if page.modified %}<span>Updated on <span class="entry-date date updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
-                            {% if page.author %}<span class="author vcard"><span class="fn">{{ page.author }}</span></span>{% endif %}
-                    {% endif %}
-                </footer>
-            {% endif %}
-        </div><!-- /.entry-content -->
-        {% if page.comments != false %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-        {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
-    </article>
-</div><!-- /#main -->
-
-<div class="footer-wrapper">
-    <footer role="contentinfo">
-        {% include footer.html %}
-    </footer>
-</div><!-- /.footer-wrapper -->
-
-{% include scripts.html %}
-
-</body>
-</html>
+---
+layout: main
+---
+{% assign title=page.title %}
+{% if page.collection == "podcast" %}
+    {% assign title=title | prepend:"The Praeci Podcast: " %}
+{% endif %}
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="article-title">{{title}}</h1>
+        <div class="signatory">
+            <span class="byline">
+                {% include authors.html %}
+            </span>
+            <span class="article-date">{{page.date | date: '%B %-d at %I:%M %p'}}</span>
+        </div>
+      </header>
+      {% if page.img %}
+        {% include inline-img.html img=page.img %}
+      {% endif %}
+      {{ content | markdownify }}
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+        </div>
+      </div>
+      {% include disqus.html %}
+    </div>
+  </div>
+</article>

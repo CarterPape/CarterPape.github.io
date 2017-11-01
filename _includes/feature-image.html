@@ -1,8 +1,0 @@
-{% if page.image.feature %}
-<div class="entry-header">
-    {% if page.image.feature.credit %}<div class="image-credit">Image source: {% if page.image.feature.creditlink %}<a href="{{ page.image.feature.creditlink }}">{% endif %}{{ page.image.feature.credit }}{% if page.image.feature.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
-    <div class="entry-image">
-        <img src="{{ site.url }}/images/feature/{{ page.image.feature.source }}" alt="{{ page.title }}">
-    </div><!-- /.entry-image -->
-</div><!-- /.entry-header -->
-{% endif %}

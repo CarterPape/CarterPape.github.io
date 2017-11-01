@@ -1,46 +1,10 @@
-title:              Less
-description:        "by Carter Pape"
-disqus_shortname:   less
-reading_time:       true
-words_per_minute:   200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:                
+title: "Carter Pape's personal website"
+author:
+    name: "Carter Pape"
+    email: "carterpape@gmail.com"
+    linkedin_url: "https://www.linkedin.com/in/carter-pape/"
+    twitter_url: "https://twitter.com/cartrpape"
 
-# Owner/author information
-owner:
-    name:   Carter Pape
-    email:  carterpape@gmail.com
-
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-71517617-1
-google_verify:
-
-timezone:    America/New_York
-future:      true
-markdown:    kramdown
-highlighter: rouge
-gems:
-    - jekyll-sitemap
-    - jekyll-paginate
-sass:
-    sass_dir: _sass
-    style:    compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Number of posts to show on the homepage
-paginate: 42
-
-kramdown:
-    auto_ids:           true
-    footnote_nr:        1
-    entity_output:      as_char
-    toc_levels:         1..6
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+praeci_link: http://praeci.com
+technician_link: http://technicianonline.com
+tech_articles_link: http://www.technicianonline.com/search/?f=html&q=carter+pape&s=start_time&sd=desc&l=10&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
