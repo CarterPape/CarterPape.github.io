@@ -6,6 +6,12 @@ body {
   font-size: 14px;
   color:#595959;
   font-weight:400;
+  width: 770px;
+  &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +70,13 @@ a:hover small {
 
 .wrapper {
   width:770px;
+  height: auto;
   margin:0 auto;
+  &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 }
 
 blockquote {
