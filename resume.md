@@ -28,17 +28,18 @@ Visit [my LinkedIn page]({{site.author.linkedin_url}}) for a comprehensive list 
 ### Editor and Producer of Praeci
 _Sep 2017 – Present_
 
-* Built Praeci.com using Jekyll and GitHub Pages
-* Producing and reporting independent digital student media covering NC State and Raleigh news
-* Producing and editing The Praeci Podcast, which is released biweekly
+* Built Praeci.com website from scratch using Jekyll and GitHub Pages
+* Creating biweekly, in-depth podcast episodes on NC State and Raleigh news and stories
+* Producing all aspects of written and digital coverage of top NC State news stories
 * Part of two semester capstone project counting toward completion of NC State Honors Program
 
 ### News Editor of Technician
 _Apr 2017 – Sep 2017_
 
 * Provided editorial and managerial leadership to the news team of NC State’s student newspaper
-* Produced, edited, designed, and marketed the first Technician podcast, Dialogue with Technician
-* Filled in for reporting on breaking and other important stories
+* Recruited and retained record number of new correspondents
+* Produced and edited weekly Technician’s first podcast
+* Covered the largest NC State stories of the year, including sexual assault allegations, Student Government impeachment, and possible breach of open meetings law by the university
 
 ### Intern at Parata Systems
 _May 2017 – Aug 2017_
