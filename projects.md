@@ -10,7 +10,7 @@ Praeci is a reporting project I am starting that will present NC State and Ralei
 
 I have been customizing a template built by Artem Sheludko, adding custom layouts and elements. I have also built podcast RSS feed syndication, enabled by Amazon S3 for storage of podcast audio and by [PodTrac](http://analytics.podtrac.com) download analytics.
 
-[Project on GitHub](https://github.com/Praeci/praeci.github.io)
+[Project on GitHub](https://github.com/Praeci/praeci.github.io){:target="_blank"}
 
 ## Basic binary genetic optimization
 
@@ -18,4 +18,4 @@ This project was an excursion into genetic optimization. I built the original fr
 
 Swift is not the optimum language to use for such a project, but I was interested to learn the language at the same time that I first wanted to build a genetic optimization framework, so I used it anyway.
 
-[Project on GitHub](https://github.com/CarterPape/Basic-binary-genetic-optimization)
+[Project on GitHub](https://github.com/CarterPape/Basic-binary-genetic-optimization){:target="_blank"}
