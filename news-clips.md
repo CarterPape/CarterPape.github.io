@@ -12,7 +12,7 @@ For a more complete look at my work, visit [Praeci]({{site.praeci_link}}){:targe
 
 Published for The Praeci Podcast on October 16, 2017.
 
-In the first episode of The Praeci Podcast, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy Devos.
+In the first episode of The Praeci Podcast, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy DeVos.
 
 ## [Student Government impeachment proceedings set for a do-over](http://praeci.com/initial-impeachment-hearing-set-for-a-do-over.html){:target="_blank"}
 
