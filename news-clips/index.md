@@ -11,7 +11,7 @@ For a more complete look at my work, visit [Praeci]({{site.praeci_link}}){:targe
 ## podcast episodes
 
 {% for clip in site.data.news-clips.podcast %}
-### [{{clip.title}}](clip.link){:target="_blank"}
+### [{{clip.title}}]({{clip.link}}){:target="_blank"}
 
 {{clip.publish-info}}
 
@@ -21,7 +21,7 @@ For a more complete look at my work, visit [Praeci]({{site.praeci_link}}){:targe
 ## print clips
 
 {% for clip in site.data.news-clips.print %}
-### [{{clip.title}}](clip.link){:target="_blank"}
+### [{{clip.title}}]({{clip.link}}){:target="_blank"}
 
 {{clip.publish-info}}
 
