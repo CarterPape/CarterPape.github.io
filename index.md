@@ -2,6 +2,9 @@
 layout: main
 permalink: "/"
 ---
+
+![{{site.author.photo.alt}}][Carter]
+
 I am a student journalist reporting on NC State and Raleigh news through my own [digital media capstone project][praeci].
 
 I have extensive experience in web development and software engineering, priming me for working in the digital media environment. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
@@ -13,7 +16,6 @@ I have extensive experience in web development and software engineering, priming
 * Former news editor of [Technician][technician], NC State's student newspaper
 * Nine years of programming experience, five of which have been in the workplace
 
-
-
 [praeci]: {{site.praeci_link}}
 [Technician]: {{site.technician_link}}
+[Carter]: {{site.author.photo.path}} "{{site.author.photo.title}}"

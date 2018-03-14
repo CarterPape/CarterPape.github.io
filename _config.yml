@@ -4,6 +4,11 @@ author:
     email: "carterpape@gmail.com"
     linkedin_url: "https://www.linkedin.com/in/carter-pape/"
     twitter_url: "https://twitter.com/cartrpape"
+    photo:
+        path: "/assets/images/Carter-Pape.jpg"
+        title: "Carter Pape in front of Winslow Hall"
+        alt: "Carter Pape stands in front of Winslow Hall on campus at NC State."
+        
 
 praeci_link: http://praeci.com
 technician_link: http://technicianonline.com
