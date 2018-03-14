@@ -83,7 +83,7 @@ Fourth year student at North Carolina State University
 #### May 2017 - present
 
 * SATELLITE introduces North Carolina high school students from underserved parts of the state to college opportunities, focused in STEM topics and hosted at NC State. SATELLITE is organized and run by students of NC State, through the Caldwell Fellows Program.
-* Joined the program as a camp counselor in 2017, now working to provide meals for SATELLITE in its 21st year
+* Joined the program as a camp counselor in 2017, now working to provide meals for SATELLITE campers and volunteers in its 21st year
 
 [activism series]: http://www.technicianonline.com/search/?f=html&q=activism+series+carter+pape&d1=2017-02-01&d2=2017-04-01&sd=desc&l=25&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
 [Diversity Dialogue]: https://oied.ncsu.edu/divweb/2018/01/25/diversity-dialogue-to-delve-into-issues-on-college-campuses/
