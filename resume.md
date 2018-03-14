@@ -79,7 +79,7 @@ Fourth year student at North Carolina State University
 
 * Presented with [Jamie Lynn Gilbert][Jamie Gilbert] at the 2018 North Carolina College Media Association to an audience of North Carolina student journalists on how student newspapers can bring podcasting to their audiences
 
-### Volunteer for [SATELLITE](https://www.go.ncsu.edu/satellite) at NC State
+### Volunteer for [SATELLITE][SATELLITE] at NC State
 #### May 2017 - present
 
 * SATELLITE introduces North Carolina high school students from underserved parts of the state to college opportunities, focused in STEM topics and hosted at NC State. SATELLITE is organized and run by students of NC State, through the Caldwell Fellows Program.
@@ -98,5 +98,6 @@ Fourth year student at North Carolina State University
 [Podcasting presentation]: https://twitter.com/ellenmeder/status/967483510935248897
 [Praeci]: {{site.praeci_link}}eedition
 [Protected Class]: http://praeci.com/protected-class/
+[SATELLITE]: https://www.go.ncsu.edu/satellite
 [SG Reporting]: http://www.technicianonline.com/search/?f=html&q=student+government+carter+pape&sd=desc&l=25&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=
 [Technician]: {{site.technician_link}}
