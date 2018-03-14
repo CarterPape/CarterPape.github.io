@@ -3,19 +3,16 @@ layout: page
 permalink: "/references/"
 title: references
 ---
-## Jamie Gilbert
-_Associate Director of Student Media at NC State_  
-Advisor for The Praeci Podcast  
-contact info available [upon request](mailto:carter@carterpape.com)
+Reference contact information is available [upon request](mailto:carter@carterpape.com).
 
-## Jonathan Carter
+## Jamie Gilbert  
+**Associate Director of Student Media at NC State**  
+Advisor for The Praeci Podcast
 
-_Editor-in-Chief for Technician_  
-Manager at Technician, student at NC State  
-contact info available [upon request](mailto:carter@carterpape.com)
+## Jonathan Carter  
+**Editor-in-Chief for Technician**  
+Manager at Technician, student at NC State
 
 ## Ryan Cude
-
-_Software Consultant for iCiDIGITAL_  
-Mentor at iCiDIGITAL  
-contact info available [upon request](mailto:carter@carterpape.com)
+**Software Consultant for iCiDIGITAL**  
+Mentor at iCiDIGITAL
