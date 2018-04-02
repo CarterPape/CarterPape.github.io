@@ -5,13 +5,13 @@ title: references
 ---
 References' contact information is available [upon request](mailto:carter@carterpape.com).
 
-## [Bill Leftwich III](https://www.linkedin.com/in/lssg3/)  
-**Principal Consultant at LS Strategic / L3 Group**  
-Mentor, moderator of [2018 Spring Diversity Dialogue][Diversity Dialogue]
-
 ## [Jamie Gilbert](https://www.linkedin.com/in/jamielynngilbert/)  
 **Associate Director of Student Media at NC State**  
 Advisor for The Praeci Podcast
+
+## [Bill Leftwich III](https://www.linkedin.com/in/lssg3/)  
+**Principal Consultant at LS Strategic / L3 Group**  
+Mentor, moderator of [2018 Spring Diversity Dialogue][Diversity Dialogue]
 
 ## [Jonathan Carter](https://www.linkedin.com/in/jonathan-carter-b67430146/)  
 **Editor-in-Chief for Technician**  
