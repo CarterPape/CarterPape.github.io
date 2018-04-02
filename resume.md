@@ -68,7 +68,7 @@ Fourth year student at North Carolina State University
 
 ## non-work experience
 
-### Panelist in NC State's [Spring Diversity Dialogue][Diversity Dialogue]
+### Panelist for NC State's [2018 Spring Diversity Dialogue][Diversity Dialogue]
 #### February 26, 2018
 
 * Discussed issues of diversity and inclusion alongside [13 other student panelists][Diversity Dialogue photo] in Witherspoon Student Center, facilitated by [Bill Leftwich][Bill on LinkedIn]
