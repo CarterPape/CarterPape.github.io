@@ -4,10 +4,10 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: $white;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
-  color:#595959;
+  color: $body-reg;
   font-weight:400;
   width: 770px;
   margin: auto;
@@ -19,9 +19,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
   margin-top: 1em;
   margin-bottom: 7px;
+  line-height:1.1;
   &:first-child {
     margin-top: 0;
   }
@@ -34,11 +34,8 @@ p, ul, ol, table, pre, dl {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height:1.1;
-}
-
 h1 {
+  color: $head-reg;
   font-size: 28px;
   font-weight: 500;
   line-height:1.1;
@@ -48,13 +45,13 @@ h2 {
   line-height:1.1;
   font-style: italic;
   font-weight: 400;
-  color: #393939;
+  color: lighten($head-reg, 10%);
   font-size: 20px;
   margin-top: 1.4em;
 }
 
 h3 {
-  color: #494949;
+  color: lighten($head-reg, 15%);
   font-weight: 500;
   font-size: 1.2em;
 }
@@ -62,33 +59,30 @@ h3 {
 h4 {
   font-weight: 300;
   margin-top: 0;
-  color:#595959;
+  color: lighten($head-reg, 25%);
   font-size: 1em;
 }
 
 h5, h6 {
-  color:#595959;
+  color: lighten($head-reg, 25%);
   font-size: 1em;
 }
 
 a {
-  color:#39c;
-  text-decoration:none;
-}
-
-a:hover {
-  color:#069;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
+    color:#39c;
+    text-decoration:none;
+    small {
+        font-size:11px;
+        color:#777;
+        margin-top:-0.3em;
+        display:block;
+    }
+    &:hover {
+        color:#069;
+        small {
+          color:#777;
+        }
+    }
 }
 
 .wrapper {

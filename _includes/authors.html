@@ -1,0 +1,17 @@
+{% assign author_count = page.authors | size %}
+{% if author_count == 0 %}
+{% elsif author_count == 1 %}
+    by 
+    <span class="name final-name">{{page.authors | first}}</span>
+{% elsif author_count == 2 %}
+    by 
+    <span class="name">{{page.authors | first}}</span> and 
+    <span class="name final-name">{{page.authors | last}}</span>
+{% else %}
+    {% assign author_count = author_count | minus: 1 %}
+    by 
+    {% for author in page.authors limit: author_count%}
+        <span class="name">{{author}}</span>, 
+    {% endfor %}
+     and <span class="name final-name">{{page.authors | last}}</span>
+{% endif %}

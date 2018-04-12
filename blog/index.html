@@ -1,0 +1,27 @@
+---
+layout: page
+title: "the blog"
+---
+
+{% assign feed = site.categories.blog %}
+
+{% for post in feed %}{% if post.front-page != false %}
+    {% assign title=post.title %}
+    {% assign formatted_date=post.date | date: '%B %-d' %}
+    {% assign length=post.duration_string %}
+    
+    {% if post.categories contains "podcast" %}
+        {% assign title=title | prepend: "The Praeci Podcast: " %}
+    {% elsif post.categories contains  "protected-class" %}
+        {% assign title=title | prepend: "Protected Class: " %}
+    {% elsif post.categories contains  "video" %}
+        {% assign title=title | prepend: "Video: " %}
+    {% elsif post.categories contains "news" %}
+        {% assign formatted_date=post.date | date: '%B %-d at %I:%M %p' %}
+        {% assign length=post.content | number_of_words | append: " words" %}
+    {% else %}
+        {% assign length=post.content | number_of_words | append: " words" %}
+    {% endif %}
+    
+    {% include inline-post.html post=post title=title formatted_date=formatted_date length=length %}
+{% endif %}{% endfor %}

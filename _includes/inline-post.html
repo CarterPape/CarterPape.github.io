@@ -1,0 +1,17 @@
+<article class="post">
+    {% if include.post.thumb %}
+        <a class="post-thumbnail {{include.post.thumb.style}}" style="background-image: url('{{include.post.thumb.path}}')" href="{{include.post.url | prepend: site.baseurl}}"></a>
+        <div class="post-content">
+    {% elsif include.post.img %}
+        <a class="post-thumbnail {{include.post.img.style}}" style="background-image: url('{{include.post.img.path}}')" href="{{include.post.url | prepend: site.baseurl}}"></a>
+        <div class="post-content">
+    {% else %}
+        <div class="post-content full-width">
+    {% endif %}
+    <h2><a href="{{include.post.url | prepend: site.baseurl}}" class="post-title">{{include.title}}</a></h2>
+    <p>{{ include.post.excerpt | strip_html }}</p>
+    <span class="post-date">{{ include.formatted_date }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{{ include.length }}</span>
+    <hr class="post-separator"/>
+    </div>
+</article>
