@@ -1,6 +1,6 @@
 ---
 title: "buy GMOs, buy non-organic"
-excerpt: "There's a lot of misunderstanding about what a GMO actually is and what the difference between organic and conventional farming is. Neither is as bad as you imagine."
+excerpt: "There's a lot of misunderstanding about what a GMO actually is and what the difference between organic and conventional farming is. Neither is as bad as you might imagine."
 date: 2018-04-11 20:08:00 -0400
 tags: [Genetically Modified Organisms]
 authors: ["Morgan Impink", "Carter Pape"]
