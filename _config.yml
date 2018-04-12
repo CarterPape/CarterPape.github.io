@@ -8,7 +8,9 @@ author:
         path: "/assets/images/Carter-Pape.jpg"
         title: "Carter Pape in front of Winslow Hall"
         alt: "Carter Pape stands in front of Winslow Hall on campus at NC State."
-        
+
+timezone: America/New_York
+lang: en-us
 
 praeci_link: http://praeci.com
 technician_link: http://technicianonline.com
