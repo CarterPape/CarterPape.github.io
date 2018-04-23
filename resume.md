@@ -32,6 +32,7 @@ Fourth year student at North Carolina State University
 * Creating 40-minute podcast episodes twice a week on NC State news and stories, including a focus on topics of diversity and inclusion through the podcast series [_Protected Class_][Protected Class]
 * Periodic [reporting][impeachment Praeci article] and [commentary][Jess commentary] on NC State Student Government news
 * Part of two semester capstone project counting toward completion of NC State Honors Program
+* Won NC State Student Involvement's 2018 [Model the Way][Model the Way] award for excellence of work
 
 ### News Editor at [Technician][Technician]
 #### April 2017 – September 2017
@@ -98,6 +99,7 @@ Fourth year student at North Carolina State University
 [Jess commentary]: http://praeci.com/commentary/breakdown-of-the-candidates
 [LinkedIn]: {{site.author.linkedin_url}}
 [Meteor]: https://www.meteor.com
+[Model the Way]: https://studentinvolvement.dasa.ncsu.edu/development/wolfpack-leadership-challenge-awards/
 [open meeting story]: http://www.technicianonline.com/news/article_496ee4d6-9374-11e7-98cd-cf58cf169e20.html
 [OpenScience]: http://openscience.us
 [Podcasting presentation]: https://twitter.com/ellenmeder/status/967483510935248897
