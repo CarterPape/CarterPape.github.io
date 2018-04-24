@@ -1,41 +1,47 @@
 {
 "podcast": [
     {
+        "title": "Protected Class: Nashia Whittenburg",
+        "publish-info": "Published for The Praeci Podcast on February 14, 2018.",
+        "description": "The director of Multicultural Student Affairs at NC State talks about her experience growing up in Greenville, South Carolina, and the racial hatred she endured as a young girl.",
+        "link": "http://praeci.com/protected-class/nashia-whittenburg"
+    },
+    {
         "title": "Students first",
         "publish-info": "Published for The Praeci Podcast on November 13, 2017.",
         "description": "Edited over 5 hours of interviews and research down to a 73 minute episode on the history of how student and academic affairs at NC State became a part of the same division.",
         "link": "http://praeci.com/podcast/history-of-dasa"
     },
     {
+        "title": "Protected Class: Moses T. Alexander Greene",
+        "publish-info": "Published for The Praeci Podcast on February 7, 2018.",
+        "description": "I spoke with the director of the African American Cultural Center at NC State about common mistakes White people make when talking about Black people and identity.",
+        "link": "http://praeci.com/protected-class/moses-t-alexander-greene"
+    },
+    {
         "title": "Title IX in the Trump era",
         "publish-info": "Published for The Praeci Podcast on October 16, 2017.",
         "description": "In the first episode of The Praeci Podcast, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy DeVos.",
         "link": "http://praeci.com/Podcast-Title-IX-in-the-Trump-era.html"
-    },
-    {
-        "title": "Interview with NC State’s Dean of the College of Humanities and Social Sciences",
-        "publish-info": "Published for the Dialogue with Technician podcast on September 4, 2017.",
-        "description": "I interviewed Dean Jeff Braden about the College of Humanities and Social Sciences (CHASS), general education requirements, and what it’s like to be a CHASS major at a STEM university.",
-        "link": "https://overcast.fm/+J5iNb_-lk"
-    },
-    {
-        "title": "Interview with Chancellor Randy Woodson",
-        "publish-info": "Published for the Dialogue with Technician podcast on August 28, 2017.",
-        "description": "I interviewed Chancellor Woodson for the first interview of Technician’s news podcast, Dialogue with Technician. We talked about statements he made about the Charlottesville demonstrations, disability access at NC State, and other topics.",
-        "link": "https://overcast.fm/+J5iMLr8WA"
     }
 ],
 "print": [
     {
-        "title": "Student Government impeachment proceedings set for a do-over",
-        "publish-info": "Published for Praeci on October 11, 2017.",
-        "description": "Coverage of an ongoing story about the impeachment of NC State’s Student Body Treasurer, released about an hour after the news release from the presiding committee chair about the decision to start the impeachment proceedings over.",
-        "link": "http://praeci.com/initial-impeachment-hearing-set-for-a-do-over.html"
+        "title": "Timeline of the Willis impeachment process",
+        "publish-info": "Published for Praeci on November 1, 2017.",
+        "description": "Retrospective coverage of a story about the impeachment of NC State’s Student Body Treasurer after he announced his resignation.",
+        "link": "http://praeci.com/news/willis-impeachment-overview"
+    },
+    {
+        "title": "Breakdown of the candidates: 2018 Student Body President",
+        "publish-info": "Published for Praeci on February 21, 2018.",
+        "description": "Commentary on the 2018 race for Student Body President and Student Body Vice President, written after the annual, moderated debate by Technician.",
+        "link": "http://praeci.com/commentary/breakdown-of-the-candidates"
     },
     {
         "title": "Activism on campus from the student perspective",
         "publish-info": "Published in Technician on February 27, 2017.",
-        "description": "I interviewed six NC State students with a reputation for activism and community involvement. The article was part of a series I wrote about activism at NC State early in my reporting for Technician.",
+        "description": "I interviewed six NC State students with a reputation for activism and community involvement for the first article in a series about activism at NC State. [Part 2](http://www.technicianonline.com/news/article_583d43d0-0a04-11e7-a817-ebc6c833a86a.html) was about faculty and activism, [part 3](http://www.technicianonline.com/news/article_bb210f42-1420-11e7-88e6-e7ca771fd926.html) was about the history of activism at NC State.",
         "link": "http://www.technicianonline.com/news/article_a924243e-fcae-11e6-ab57-53e36d7a71c7.html"
     },
     {
@@ -45,13 +51,6 @@
         "link": "http://www.technicianonline.com/news/article_53efab54-7261-11e7-a331-43b27938e602.html"
     },
     {
-        "title": "Student Government committee drops charges in impeachment hearing",
-        "publish-info": "Published in Technician on September 6, 2017.",
-        "description": "The hearing lasted from 7 PM to 11 PM and the story was published just before 1 AM because follow-up interviews and some open door law research was required before publishing.",
-        "link": "http://www.technicianonline.com/news/article_aef556ec-92bf-11e7-a1ef-5f8fc9433b52.html"
-    },
-    {
-        "medium": "print",
         "title": "Student Senate votes down endorsement of Transportation fee increase",
         "publish-info": "Published in Technician on September 13, 2017.",
         "description": "This was coverage of a Student Senate hearing on fee increases.",
