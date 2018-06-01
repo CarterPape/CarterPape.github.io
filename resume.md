@@ -5,33 +5,29 @@ title: résumé
 ---
 ## profile
 
-I am a student journalist reporting on NC State and Raleigh news through my own digital media project, which I am producing as part of my NC State Honors capstone project.
-
-I have extensive experience in web development and software engineering, priming me for working in the digital media environment. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
+I am a student journalist with extensive experience in web development and software engineering, priming me for working in the digital media environment. I have held leadership positions at NC State's student newspaper and radio station. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
 
 ## why reporting?
 
-I seek to capitalize on my experience in student journalism by assimilating into a reporting career. I aim to establish myself as a skilled, reliable reporter. I hope to report alongside professional journalists, editors, radio hosts, and others.
+I seek to capitalize on my experience in student journalism by assimilating into a professional reporting career. I aim to establish myself as a skilled, reliable journalist. I hope to work alongside professional reporters, editors, radio hosts, and others.
 
 ## education
 
-Fourth year student at North Carolina State University
-* Graduating May 2018
-* 3.453 GPA
-* Receiving B.S. in Mathematics
+North Carolina State University
+* Received B.S. in Mathematics
+* Graduated May 2018
 * Received S-STEM Scholarship for excellence in math
 
 ## work experience
 
-[My LinkedIn profile][LinkedIn] provides a comprehensive list of work experiences.
+[My LinkedIn profile][LinkedIn] provides a comprehensive list of my work experiences.
 
 ### Editor and Producer of [Praeci][Praeci]
-#### September 2017 – present
+#### September 2017 – May 2018
 
-* Built [Praeci.com][Praeci] website with Jekyll and GitHub Pages
-* Creating 40-minute podcast episodes twice a week on NC State news and stories, including a focus on topics of diversity and inclusion through the podcast series [_Protected Class_][Protected Class]
-* Periodic [reporting][impeachment Praeci article] and [commentary][Jess commentary] on NC State Student Government news
-* Part of two semester capstone project counting toward completion of NC State Honors Program
+* Built [Praeci.com][Praeci] website from the ground up with Jekyll and GitHub Pages
+* Created 40-minute podcast episodes on NC State news and stories, including a focus on topics of diversity and inclusion through the podcast series [_Protected Class_][Protected Class]
+* Included [reporting][impeachment Praeci article] and [commentary][Jess commentary] on NC State Student Government news
 * Won NC State Student Involvement's 2018 [Model the Way][Model the Way] award for excellence of work
 
 ### News Editor at [Technician][Technician]
@@ -81,10 +77,10 @@ Fourth year student at North Carolina State University
 * Presented with [Jamie Lynn Gilbert][Jamie Gilbert] at the 2018 North Carolina College Media Association to an audience of North Carolina student journalists on how student newspapers can bring podcasting to their audiences
 
 ### Volunteer for [SATELLITE][SATELLITE] at NC State
-#### May 2017 - present
+#### May 2017 - May 2018
 
 * SATELLITE introduces North Carolina high school students from underserved parts of the state to college opportunities, focused in STEM topics and hosted at NC State. SATELLITE is organized and run by students of NC State, through the Caldwell Fellows Program.
-* Joined the program as a camp counselor in 2017, now working to provide meals for SATELLITE campers and volunteers in its 21st year
+* Joined the program as a camp counselor in 2017, then worked to provide meals for SATELLITE campers and volunteers in its 21st year
 
 [activism series]: http://www.technicianonline.com/search/?f=html&q=activism+series+carter+pape&d1=2017-02-01&d2=2017-04-01&sd=desc&l=25&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
 [Bill on LinkedIn]: https://www.linkedin.com/in/lssg3/

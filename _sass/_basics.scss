@@ -47,7 +47,7 @@ h2 {
   font-weight: 400;
   color: lighten($head-reg, 10%);
   font-size: 20px;
-  margin-top: 1.4em;
+  margin-top: 2.2em;
 }
 
 h3 {
@@ -148,7 +148,7 @@ header.site-info {
   float:left;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align: right;
-  
+
   p.site-description {
     margin-bottom: 1.5em;
   }
@@ -177,9 +177,9 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background: $divider-gray;
   height:1px;
-  margin:20px;
+  margin:3em;
 }
 
 footer {
