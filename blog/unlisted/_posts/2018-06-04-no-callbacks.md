@@ -3,6 +3,8 @@ title: "they didn't even call to say I didn't get the job"
 excerpt: "The worst part of the job application process may actually be a market inefficiency."
 date: 2018-06-04 17:08:00 -0400
 tags: [job search]
+img:
+    path: "/assets/images/jobs.png"
 ---
 
 **note to all readers**: I do not have any research, data, or expertise to claim that what I describe in this article is an actual inefficiency in the job market. This is an idea, and it's one I'm interested to explore further so that I can have the data and knowledge to bolster the argument, but this should not be confused for journalism or well-researched commentary. If anything, it's informed venting, but it's something to which you may be able to relate.
