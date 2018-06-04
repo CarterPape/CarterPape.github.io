@@ -23,7 +23,7 @@ After initial contact, hiring processes can become excruciatingly painful. When 
 
 <small>Tangent: at what rate do companies actually let rejected applicants know that they didn’t get the job?</small>
 
-And of course, at one level, why should I expect to ever hear back from a company if they aren't interested in hiring me? It’s more work for the company that, and it doesn’t benefit them in any way; there doesn’t appear to be an individual incentive to cater at all to me or any other rejected employees.
+And of course, at one level, why should I expect to ever hear back from a company if they aren't interested in hiring me? It’s more work for the company, and it doesn’t benefit them in any way; there doesn’t appear to be an individual incentive to cater at all to me or any other rejected employees.
 
 I think there’s an argument to be made in the opposite direction, though.
 
@@ -47,7 +47,7 @@ And there’s a world of alternative possibilities that you will never know; The
 
 ## an anecdote
 
-Last summer I called NPR during the summer because I had submitted multiple applications to multiple internship openings at the company and heard back from none of them. I did this as an exercise because the start date for the jobs had already passed, so I knew I hadn’t gotten them, but I wanted to verify that they indeed didn’t contact rejected applicants. So I called to ask why I had never heard back, and indeed, they had not contacted rejected applicants.
+Last summer, I called NPR because I had submitted multiple applications to multiple internship openings at the company and heard back from none of them. I did this as an exercise because the start date for the jobs had already passed, so I knew I hadn’t gotten them, but I wanted to verify that they indeed didn’t contact rejected applicants. So I called to ask why I had never heard back, and indeed, they had not contacted rejected applicants.
 
 After that experience, I applied to a few jobs at the New York Times because… you know, why not? How many people apply to competitive schools and jobs they only hope to get into? I never expected to hear back after the NPR and similar application processes.
 
