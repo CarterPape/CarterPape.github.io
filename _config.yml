@@ -21,8 +21,15 @@ permalink: /:categories/:title
 defaults:
     -
         scope:
-            path: "/blog/"
+            path: "blog"
             type: "posts"
         values:
             authors: ["Carter Pape"]
             layout: post
+            unlisted: false
+    -
+        scope:
+            path: "blog/unlisted"
+            type: "posts"
+        values:
+            unlisted: yes
