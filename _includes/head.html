@@ -7,7 +7,7 @@
 	    {% endif %}
 	{% endcapture %}
 	{% assign title = title | strip %}
-	
+
 	{% capture description %}
 	    {% if page.description %}
 	        {{ page.description }}
@@ -16,13 +16,19 @@
 	    {% endif %}
 	{% endcapture %}
 	{% assign description = description | strip_html %}
-	
-	{% assign social-image = site.author.photo %}
-	
+
+	{% if page.social-image %}
+	    {% assign social-image = page.social-image %}
+	{% elsif page.img %}
+	    {% assign social-image = page.img %}
+	{% else %}
+	    {% assign social-image = site.author.photo %}
+	{% endif %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{title}}</title>
-    
+
     <meta property="og:url" content="{{ page.url | absolute_url }}">
 	<meta property="og:link" content="{{ page.url | absolute_url }}">
 	<meta property="og:title" content="{{title}}">
@@ -30,7 +36,7 @@
 	<meta property="og:site_name" content="{{site.title}}">
 	<meta name="description" content="{{ description }}">
 	<meta property="og:image" content="{{ social-image.path | absolute_url }}">
-	
+
 	<meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@CarterPape">
     <meta name="twitter:creator" content="@CarterPape">
@@ -45,6 +51,6 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+
     {% include analytics.html %}
 </head>
