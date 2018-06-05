@@ -11,7 +11,7 @@ img:
 
 **note to hiring managers**: I want to emphasize that this article is not an attack on you. This is a complaint about a standard practice in the labor market. Hopefully, I have taken a respectful enough tact in writing about this topic to implicitly convince you that I am not out to make people in human resources look bad.
 
-<hr>
+----------------
 
 I’ve applied for a lot of jobs for which I was definitely not qualified. I'll find a job opening listed on LinkedIn or one of the millions of other job boards where I could be looking, and there’s a button that says “Easy Apply”, and I hit it, spend a few minutes tweaking my résumé and writing a cover letter, and suddenly I've already submitted.
 
