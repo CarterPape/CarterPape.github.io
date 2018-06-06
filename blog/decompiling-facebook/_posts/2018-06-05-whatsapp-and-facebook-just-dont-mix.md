@@ -2,6 +2,9 @@
 title: "Facebook and privacy just don't mix."
 excerpt: "The tension in the story of Facebook and WhatsApp is a close parallel to a larger tension between user privacy and Facebook's profit motives."
 
+social-image:
+    path: /assets/images/whatsapp.jpg
+
 date: 2018-06-05 21:46:00 -0400
 
 ext-link: "https://www.washingtonpost.com/business/economy/whatsapp-founder-plans-to-leave-after-broad-clashes-with-parent-facebook/2018/04/30/49448dd2-4ca9-11e8-84a0-458a1aa9ac0a_story.html"
