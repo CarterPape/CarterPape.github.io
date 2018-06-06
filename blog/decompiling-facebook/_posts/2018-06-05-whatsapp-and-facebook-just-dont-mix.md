@@ -3,7 +3,7 @@ title: "Facebook and privacy just don't mix."
 excerpt: "The tension in the story of Facebook and WhatsApp is a close parallel to a larger tension between user privacy and Facebook's profit motives."
 
 social-image:
-    path: /assets/images/whatsapp.jpg
+    path: "https://s3.amazonaws.com/carterpape-assets/WhatsApp+preview.png"
 
 date: 2018-06-05 21:46:00 -0400
 
