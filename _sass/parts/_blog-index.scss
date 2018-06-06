@@ -18,28 +18,21 @@
         }
     }
     .post-content {
-        .post-filing, .post-date, .post-words {
-            font-size: 12px;
-        }
-        .post-filing {
-            margin-bottom: .7em;
-        }
         .post-title {
-            text-decoration: none;
-            h1 {
-                margin: 0 0 10px;
-                line-height: 1.2;
-            }
+            margin-bottom: 0;
         }
-        p {
-            margin-top: 0;
+        .post-filing, .post-date, .post-words {
+            font-size: .8em;
+        }
+        .post-excerpt {
+            margin-top: .6em;
         }
         &.full-width {
             width: 100%;
         }
     }
     &:first-of-type {
-        margin-top: 20px;
+        margin-top: 1.4em;
     }
     &:last-of-type {
         margin-bottom: 0;
@@ -47,5 +40,5 @@
 }
 
 hr.post-separator {
-    margin: 20px;
+    margin: 1.4em;
 }
