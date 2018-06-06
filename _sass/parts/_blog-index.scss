@@ -18,8 +18,11 @@
         }
     }
     .post-content {
-        .post-date, .post-words {
+        .post-filing, .post-date, .post-words {
             font-size: 12px;
+        }
+        .post-filing {
+            margin-bottom: .7em;
         }
         .post-title {
             text-decoration: none;

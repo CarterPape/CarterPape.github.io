@@ -9,6 +9,10 @@
         <div class="post-content full-width">
     {% endif %}
     <h2><a href="{{include.post.url | prepend: site.baseurl}}" class="post-title">{{include.title}}</a></h2>
+    {% if include.series-display-name %}
+        {% capture category-url %}{{ include.post.categories | join:"/" | prepend:"/" | absolute_url }}{% endcapture %}
+        <div class="post-filing">filed under <a href="{{category-url}}">{{ include.series-display-name }}</a></div>
+    {% endif %}
     <p>{{ include.post.excerpt | strip_html }}</p>
     <span class="post-date">{{ include.formatted_date }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
     <span class="post-words">{{ include.length }}</span>

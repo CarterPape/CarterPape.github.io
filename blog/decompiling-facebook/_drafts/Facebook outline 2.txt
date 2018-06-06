@@ -1,0 +1,16 @@
+Facebook
+    data collection
+        Facebook doesn't fully disclose what it collects, how it retains it
+            what does it delete?
+                https://www.facebook.com/help/356107851084108?helpref=uf_permalink
+        Facebook doesn't sell data to third parties, and it never will
+        How does Facebook use user data for content curation?
+        How does Facebook use user data when curating ads?
+        Does Facebook allow users to access the totality of their own data?
+        What security practices does Facebook use to ensure the safety of intimate user data?
+        Who gets access to users' data? Internal Facebook entities, government when they make data requests, ... anyone else?
+            How does Facebook handle government inquiries?
+    How much revenue does an individual user generate for Facebook
+
+https://www.facebook.com/about/basics/privacy-principles
+    "You own the information you share on Facebook. This means you decide what you share and who you share it with on Facebook, and you can change your mind. That’s why we give you tools for deleting anything you’ve posted. We remove it from your timeline and from our servers. You can also delete your account whenever you want."
