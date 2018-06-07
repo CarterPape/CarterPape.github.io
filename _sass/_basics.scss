@@ -80,7 +80,8 @@ a {
 }
 
 .wrapper {
-    width: 730px;
+    width: 100%;
+    max-width: 730px;
     margin: 50px auto;
     display: block;
     &:after {
