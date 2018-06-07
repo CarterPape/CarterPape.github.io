@@ -21,7 +21,7 @@ permalink: /:categories/:title
 defaults:
     -
         scope:
-            path: "blog"
+            path: "the-blog"
             type: "posts"
         values:
             authors: ["Carter Pape"]
@@ -29,7 +29,10 @@ defaults:
             unlisted: false
     -
         scope:
-            path: "blog/unlisted"
+            path: "the-blog/unlisted"
             type: "posts"
         values:
             unlisted: yes
+
+plugins:
+  - jekyll-redirect-from

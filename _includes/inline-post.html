@@ -1,13 +1,12 @@
-<article class="post">
+<article class="card post">
     <div class="post-content full-width">
-    <h2 class="post-title"><a href="{{include.post.url | prepend: site.baseurl}}">{{include.title}}</a></h2>
-    {% if include.series-display-name %}
-        {% capture category-url %}{{ include.post.categories | join:"/" | prepend:"/" | absolute_url }}{% endcapture %}
-        <div class="post-filing">filed under <a href="{{category-url}}">{{ include.series-display-name }}</a></div>
-    {% endif %}
-    <p class="post-excerpt">{{ include.post.excerpt | strip_html }}</p>
-    <span class="post-date">{{ include.formatted_date }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{{ include.length }}</span>
-    <hr class="post-separator"/>
+        <h2 class="post-title"><a href="{{include.post.url | prepend: site.baseurl}}">{{include.title}}</a></h2>
+        {% if include.series-display-name %}
+            {% capture category-url %}{{ include.post.categories | join:"/" | prepend:"/" | absolute_url }}{% endcapture %}
+        {% include post-filing.html category-url=category-url series-display-name=series-display-name %}
+        {% endif %}
+        <p class="post-excerpt">{{ include.post.excerpt | strip_html }}</p>
+        <span class="post-date">{{ include.formatted_date }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+        <span class="post-words">{{ include.length }}</span>
     </div>
 </article>

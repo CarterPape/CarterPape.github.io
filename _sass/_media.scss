@@ -1,15 +1,44 @@
-@media only screen and (max-device-width: 480px)  { 
-    
-	html, body {
-	    font-size: 20px;
-	}
-	header.site-info {
-	    font-size: 1.2rem;
-	    li {
-	        line-height: 1.7em;
-	    }
-	}
-	h1 {
-	    font-size: 1.4rem;
-	}
+@media screen and (max-width: 760px)  {
+    .wrapper {
+        margin: 0 auto;
+        & > section, > header {
+            width: 100% !important;
+        }
+        header.navigation {
+            text-align: left !important;
+            margin-bottom: 1.3em !important;
+            float: none;
+            .site-name {
+                text-align: center;
+            }
+            .menu-button {
+                display: initial;
+            }
+            #nav-link-list {
+                display: none;
+                background: $white;
+                padding-bottom: .4em;
+                margin-bottom: 1em;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                position: absolute;
+                top: 38px;
+                left: -7px;
+                right: -7px;
+                &:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                ul {
+                    float: left;
+                    text-align: center;
+                    width: 50%;
+                    margin: 1em 0 1em 0;
+                    li {
+                        margin: .4em 0 0 0;
+                    }
+                }
+            }
+        }
+    }
 }

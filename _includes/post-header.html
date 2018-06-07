@@ -1,0 +1,26 @@
+{% assign title=page.title %}
+{% if page.collection == "podcast" %}
+    {% assign title=title | prepend:"The Praeci Podcast: " %}
+{% endif %}
+
+{% if page.categories contains "decompiling-facebook" %}
+    {% assign series-display-name="decompiling Facebook" %}
+{% elsif page.categories contains "unlisted" %}
+    {% assign series-display-name=null %}
+{% elsif page.categories contains "the-blog" %}
+    {% assign series-display-name="the blog" %}
+{% endif %}
+
+<header class="post-header">
+    <h1 class="doc-title">{{title}}</h1>
+    {% if series-display-name != null %}
+        {% capture category-url %}{{ page.categories | join:"/" | prepend:"/" | absolute_url }}{% endcapture %}
+        {% include post-filing.html category-url=category-url series-display-name=series-display-name %}
+    {% endif %}
+    <div class="signatory">
+        <span class="byline">
+            {% include authors.html %}
+        </span>
+        <span class="article-date">{{page.date | date: '%B %-d at %I:%M %p'}}</span>
+    </div>
+</header>

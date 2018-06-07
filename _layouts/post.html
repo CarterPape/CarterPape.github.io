@@ -1,32 +1,14 @@
 ---
-layout: main
+layout: no-nav
 ---
-{% assign title=page.title %}
-{% if page.collection == "podcast" %}
-    {% assign title=title | prepend:"The Praeci Podcast: " %}
-{% endif %}
-<article class="article-page">
-  <div class="page-content">
-    <div class="wrap-content">
-      <header class="header-page">
-        <h1 class="article-title">{{title}}</h1>
-        <div class="signatory">
-            <span class="byline">
-                {% include authors.html %}
-            </span>
-            <span class="article-date">{{page.date | date: '%B %-d at %I:%M %p'}}</span>
-        </div>
-      </header>
-      {% if page.img %}
+<article class="card full-post">
+    {% include post-header.html %}
+    
+    {% if page.img %}
         {% include inline-img.html img=page.img %}
-      {% endif %}
-      {{ content | markdownify }}
-      <div class="page-footer">
-        <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-        </div>
-      </div>
-    </div>
-  </div>
+    {% endif %}
+    
+    {{ content | markdownify }}
+    
+    {% include post-footer.html %}
 </article>

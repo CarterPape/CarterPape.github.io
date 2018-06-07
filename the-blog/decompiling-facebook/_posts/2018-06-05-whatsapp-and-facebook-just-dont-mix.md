@@ -82,7 +82,7 @@ What Facebook doesn't do is provide users information within these settings abou
 
 The location where your profile picture was taken, the ideas you share in the missives you write in Facebook posts, the content of messages you send to your friends and loved ones, and nearly all of the other information you provide to Facebook… all of it can be used for ad targeting purposes, and it's in Facebook's interest not to remind you that such is the case.
 
-[Decompiling Facebook index]: /blog/decompiling-facebook/
+[Decompiling Facebook index]: /the-blog/decompiling-facebook/
 [help page on secret conversations]: https://www.facebook.com/help/messenger-app/1084673321594605/?helpref=hc_fnav
 [Messenger white paper]: https://fbnewsroomus.files.wordpress.com/2016/07/messenger-secret-conversations-technical-whitepaper.pdf
 [secret conversations press release]: https://newsroom.fb.com/news/2016/07/messenger-starts-testing-end-to-end-encryption-with-secret-conversations/

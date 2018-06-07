@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post-index
 title: "the blog"
 description: "a public repository of my personally and professionally relevant musings, updates, ideas, and more"
+redirect_from: "/blog/"
 ---
 
-{% assign feed = site.categories.blog %}
+{% assign feed = site.categories.the-blog %}
 
 {% for post in feed %}{% if post.unlisted != true %}
     {% assign title=post.title %}
@@ -12,7 +13,7 @@ description: "a public repository of my personally and professionally relevant m
     {% assign length=post.content | number_of_words | append: " words" %}
 
     {% if post.categories contains "decompiling-facebook" %}
-        {% assign series-display-name="Decompiling Facebook" %}
+        {% assign series-display-name="decompiling Facebook" %}
     {% else %}
         {% assign series-display-name=null %}
     {% endif %}
