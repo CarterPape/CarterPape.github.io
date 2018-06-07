@@ -6,7 +6,7 @@ html {
 body {
     font: 14px/1.5em -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Segoe UI Symbol";
     color: $body-reg;
-    font-weight:400;
+    font-weight: 400;
     margin: 1em;
     &:after {
         content: "";
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-    margin:0 0 1em;
+    margin: 0 0 1em;
     ul, ol {
         margin: 0;
     }
@@ -35,11 +35,11 @@ h1 {
     color: $head-reg;
     font-size: 2em;
     font-weight: 500;
-    line-height:1.1;
+    line-height: 1.1;
 }
 
 h2 {
-    line-height:1.1;
+    line-height: 1.1;
     font-style: italic;
     font-weight: 400;
     color: lighten($head-reg, 10%);
@@ -66,15 +66,15 @@ h5, h6 {
 }
 
 a {
-    color:#39c;
-    text-decoration:none;
+    color: #39c;
+    text-decoration: none;
     small {
-        color:#777;
+        color: #777;
     }
     &:hover {
-        color:#069;
+        color: #069;
         small {
-            color:#777;
+            color: #777;
         }
     }
 }
@@ -97,44 +97,44 @@ a {
 }
 
 blockquote {
-    border-left:1px solid #e5e5e5;
-    margin:0;
-    padding:0 0 0 20px;
-    font-style:italic;
+    border-left: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-style: italic;
 }
 
 code, pre {
-    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-    color:#333;
-    font-size:12px;
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    color: #333;
+    font-size: 12px;
 }
 
 pre {
-    padding:8px 15px;
+    padding: 8px 15px;
     background: #f8f8f8;
-    border-radius:5px;
-    border:1px solid #e5e5e5;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
     overflow-x: auto;
 }
 
 table {
-    width:100%;
-    border-collapse:collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 th, td {
-    text-align:left;
-    padding:5px 10px;
-    border-bottom:1px solid #e5e5e5;
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 dt {
-    color:#444;
-    font-weight:500;
+    color: #444;
+    font-weight: 500;
 }
 
 th {
-    color:#444;
+    color: #444;
 }
 
 img {
@@ -142,8 +142,8 @@ img {
 }
 
 strong {
-    color:#222;
-    font-weight:500;
+    color: #222;
+    font-weight: 500;
 }
 
 small {
@@ -153,16 +153,16 @@ small {
 }
 
 hr {
-    border:0;
+    border: 0;
     background: $divider-gray;
-    height:1px;
-    margin:3em;
+    height: 1px;
+    margin: 3em;
 }
 
 footer {
-    width:270px;
-    float:left;
-    position:fixed;
-    bottom:50px;
-    -webkit-font-smoothing:subpixel-antialiased;
+    width: 270px;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
