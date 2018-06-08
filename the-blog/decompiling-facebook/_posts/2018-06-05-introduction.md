@@ -1,6 +1,6 @@
 ---
 title: "introducing a series on how to fix Facebook"
-excerpt: "Decompiling Facebook seeks to answer big questions regarding the regulation of social media companies, Facebook being chief among them."
+excerpt: "decompiling Facebook seeks to answer big questions regarding the regulation of social media companies, Facebook being chief among them."
 
 date: 2018-06-05 21:31:00 -0400
 
@@ -18,7 +18,7 @@ Here are some questions I've been thinking about lately:
 - What protections should Americans expect when they go on the internet?
 - Should I delete my Facebook account?
 
-Every day during this series, I will present notes on something I'm reading—e.g. scientific research, a news article, an opinion piece—as I attempt to answer these questions and find more to ask. By the end, hopefully I will have laid out a blueprint for understanding Facebook and the larger ecosystem of social networking sites as I look deeply at the socioeconomic impacts of social media companies, and the threats and possibilities to humanity that they present.
+Every week during this series, I will present notes on something I'm reading—e.g. scientific research, a news article, an opinion piece—as I attempt to answer these questions and find more to ask. By the end, hopefully I will have laid out a blueprint for understanding Facebook and the larger ecosystem of social networking sites as I look deeply at the socioeconomic impacts of social media companies, and the threats and possibilities to humanity that they present.
 
 Along the way, I will present context from adjacent fields and topics, including how Bitcoin works and is regulated, the mental health of children who frequently use websites like YouTube, what makes the design of Snapchat unique among social networking sites, and more.
 
