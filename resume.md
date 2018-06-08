@@ -104,6 +104,6 @@ North Carolina State University
 [SATELLITE]: https://www.go.ncsu.edu/satellite
 [sexual assault story]: http://www.technicianonline.com/news/article_cb06d7fa-9a5a-11e7-ab79-cbf49ebd73c0.html
 [SG Reporting]: http://www.technicianonline.com/search/?f=html&q=student+government+carter+pape&sd=desc&l=25&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=
-[Technician]: {{site.technician_link}}
+[Technician]: http://www.technicianonline.com
 [vision article]: http://www.technicianonline.com/news/article_53efab54-7261-11e7-a331-43b27938e602.html
 [Woodson Charlottesville]: http://www.technicianonline.com/news/article_08252fd6-813a-11e7-ba3c-271a59543588.html
