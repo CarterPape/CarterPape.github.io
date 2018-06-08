@@ -6,8 +6,7 @@ redirect-from: "/the-blog/decompiling-facebook/"
 ---
 
 {% assign feed = site.categories.decompiling-facebook %}
-
-This is {{ page.description }}. You can expect updates every weekday. See the [first post][series intro]
+This is {{ page.description }}. Updated every week. See the [first post][series intro] for details.
 
 {% for post in feed %}{% if post.unlisted != true %}
     {% assign title=post.title %}
