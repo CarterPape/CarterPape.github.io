@@ -1,6 +1,6 @@
 <article class="card post">
     <div class="post-content full-width">
-        <h2 class="post-title"><a href="{{include.post.url | prepend: site.baseurl}}">{{include.title}}</a></h2>
+        <h2 class="post-title"><a href="{{ include.post.url | prepend: site.baseurl }}">{{ include.title }}</a></h2>
         {% if include.series-display-name %}
             {% capture category-url %}{{ include.post.categories | join:"/" | prepend:"/" | absolute_url }}{% endcapture %}
         {% include post-filing.html category-url=category-url series-display-name=series-display-name %}

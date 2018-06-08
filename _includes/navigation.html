@@ -17,7 +17,7 @@
         </h1>
     </div>
     
-    <div class="site-description">Carter Pape is a recent NC State graduate seeking full-time work in journalism</div>
+    <div class="site-description">{{ site.author.short_description }}</div>
     
     <section id="nav-link-list">
         <ul>
@@ -31,8 +31,8 @@
             <li><a href="/the-blog/">the blog</a></li>
         </ul>
         <ul>
-            <li><a href="{{site.author.linkedin_url}}" target="_blank">on LinkedIn</a></li>
-            <li><a href="{{site.author.twitter_url}}" target="_blank">on Twitter</a></li>
+            <li><a href="{{ site.author.linkedin_url }}" target="_blank">on LinkedIn</a></li>
+            <li><a href="{{ site.author.twitter_url }}" target="_blank">on Twitter</a></li>
         </ul>
     </section>
     

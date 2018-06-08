@@ -5,7 +5,7 @@ title: résumé
 ---
 ## profile
 
-I am a student journalist with extensive experience in web development and software engineering, priming me for working in the digital media environment. I have held leadership positions at NC State's student newspaper and radio station. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
+I am a freelance journalist, writer, and web developer with extensive work experience, priming me for a career in the digital media environment. I have held leadership positions at NC State's student newspaper and radio station. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
 
 ## why reporting?
 

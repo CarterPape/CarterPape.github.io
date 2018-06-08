@@ -1,12 +1,12 @@
-<figure class="inline-img" {% if include.img.max-width %}style="max-width: {{include.img.max-width}}"{% endif %}>
-    <img src="{{include.img.path}}">
+<figure class="inline-img" {% if include.img.max-width %}style="max-width: {{ include.img.max-width }}"{% endif %}>
+    <img src="{{ include.img.path }}">
     {% if include.img.caption or include.img.credit %}
     <figcaption>
         {% if include.img.caption %}
-            {{include.img.caption}}
+            {{ include.img.caption }}
         {% endif %}
         {% if include.img.credit %}
-            ({{include.img.credit}})
+            ({{ include.img.credit }})
         {% endif %}
     </figcaption>
     {% endif %}

@@ -1,6 +1,7 @@
 title: "Carter Pape's personal website"
 author:
     name: "Carter Pape"
+    short_description: "Carter Pape is a freelance writer and developer seeking full-time work in journalism"
     email: "carterpape@gmail.com"
     linkedin_url: "https://www.linkedin.com/in/carter-pape/"
     twitter_url: "https://twitter.com/cartrpape"
@@ -11,10 +12,6 @@ author:
 
 timezone: America/New_York
 lang: en-us
-
-praeci_link: http://praeci.com
-technician_link: http://technicianonline.com
-tech_articles_link: http://www.technicianonline.com/search/?f=html&q=carter+pape&c%5B0%5D=news%2A&s=start_time&sd=desc&l=10&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
 
 permalink: /:categories/:title
 
