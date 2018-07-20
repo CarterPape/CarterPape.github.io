@@ -21,7 +21,7 @@ keywords:
     - Facebook Messenger
     - Messenger
 
-unlisted: yes
+unlisted: true
 ---
 
 I'll begin near the end, with the departure of WhatsApp's founders from Facebook after they got acquired by the tech giant. From Elizabeth Dwoskin's story in The Washington Post published April 30, 2018, [WhatsApp founder plans to leave after broad clashes with parent Facebook]({{ page.ext-link }}):
