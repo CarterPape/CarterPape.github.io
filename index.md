@@ -9,9 +9,9 @@ I am a freelancer with experience in student journalism as the news editor my al
 
 ## highlights
 
-* Produced [Praeci][Praeci], which covered NC State and Raleigh news
+* Produced [Praeci], which covered NC State and Raleigh news
     * Praeci was part of my senior capstone project
-* Former news editor of [Technician][technician]
+* Former news editor of [Technician]
     * Created and produced the paper's first podcast, [Dialogue with Technician][Dialogue]
 * Nine years of programming experience, six of which have been in the workplace
     * Extensive web development and software engineering experience

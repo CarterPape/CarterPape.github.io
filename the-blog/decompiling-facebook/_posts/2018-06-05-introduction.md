@@ -12,16 +12,20 @@ keywords:
     - security
 ---
 
-Here are some questions I've been thinking about lately:
-- Is there something fundamentally wrong with the design of Facebook?
-- How should Congress regulate social media companies?
-- What protections should Americans expect when they go on the internet?
-- Should I delete my Facebook account?
+Is addiction to social media a thing? Does targeted advertising just feel a little creepy, or is something actually wrong with it?
 
-Every week during this series, I will present notes on something I'm reading—e.g. scientific research, a news article, an opinion piece—as I attempt to answer these questions and find more to ask. By the end, hopefully I will have laid out a blueprint for understanding Facebook and the larger ecosystem of social networking sites as I look deeply at the socioeconomic impacts of social media companies, and the threats and possibilities to humanity that they present.
+Does social media actually divide people more than it connects them?
 
-Along the way, I will present context from adjacent fields and topics, including how Bitcoin works and is regulated, the mental health of children who frequently use websites like YouTube, what makes the design of Snapchat unique among social networking sites, and more.
+Every week during this series, I will present notes on something I'm reading—e.g. scientific research, a news article, an opinion piece—as I attempt to create an understanding of social media (known to researchers as "Social Networking Services") and their role in society. 
 
-Ideally, I will even conduct interviews and start doing original research and journalism by the end to add to the body of work surrounding Facebook and its practices.
+Along the way, I will present context from adjacent fields and topics, including how Bitcoin works and is regulated, the mental health of children who frequently use websites like YouTube, how Google uses users' personal information differently than Facebook, and more.
 
-I'm writing these posts as I conduct this work, so sometimes the posts will be short, abridged versions of my thoughts. Other days, they will be long and comprehensive. Only time will tell what are the best systems for writing, sorting, sharing these, but you're more than welcome to join for the ride.
+Later, I will also conduct interviews and present original research and reporting that will add to this body of work.
+
+I'm writing these posts as I conduct this work, so sometimes they will be short notes. Other days, they will be longform articles. Only time will tell what are the best systems for writing, organizing, and sharing my thoughts, but you're more than welcome to join for the ride.
+
+The end goal of this series is to create a contextualized understanding of social media that yields meaningful responses to the big questions surrounding Facebook, Google, privacy, democracy, and society. If you'd like to get updates in your inbox 
+
+_This article was edited on June 11, 2018. You can view this document's [revision history] on GitHub._
+
+[revision history]: https://github.com/CarterPape/CarterPape.github.io/commits/master/the-blog/decompiling-facebook/_posts/2018-06-05-introduction.md

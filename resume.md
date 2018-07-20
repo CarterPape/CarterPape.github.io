@@ -22,15 +22,15 @@ North Carolina State University
 
 [My LinkedIn profile][LinkedIn] provides a comprehensive list of my work experiences.
 
-### Editor and Producer of [Praeci][Praeci]
+### Editor and Producer of [Praeci]
 #### September 2017 – May 2018
 
 * Built [Praeci.com][Praeci] website from the ground up with Jekyll and GitHub Pages
 * Created 40-minute podcast episodes on NC State news and stories, including a focus on topics of diversity and inclusion through the podcast series [_Protected Class_][Protected Class]
 * Included [reporting][impeachment Praeci article] and [commentary][Jess commentary] on NC State Student Government news
-* Won NC State Student Involvement's 2018 [Model the Way][Model the Way] award for excellence of work
+* Won NC State Student Involvement's 2018 [Model the Way] award for excellence of work
 
-### News Editor at [Technician][Technician]
+### News Editor at [Technician]
 #### April 2017 – September 2017
 
 * Provided editorial and managerial [leadership][vision article] to the news team of the student newspaper
@@ -49,7 +49,7 @@ North Carolina State University
 #### June 2014 – August 2016
 
 * Gamification tool development with Adobe CQ5
-* Development with [Meteor][Meteor] (platform for web apps) and Telescope (template for community-building)
+* Development with [Meteor] (platform for web apps) and Telescope (template for community-building)
 
 ### Developer for Dr. Timothy Menzies
 #### September 2014 – October 2015
@@ -74,9 +74,9 @@ North Carolina State University
 ### Presentation on [podcasting for print media][Podcasting presentation]
 #### February 24, 2018
 
-* Presented with [Jamie Lynn Gilbert][Jamie Gilbert] at the 2018 North Carolina College Media Association to an audience of North Carolina student journalists on how student newspapers can bring podcasting to their audiences
+* Presented with [Jamie Lynn Gilbert] at the 2018 North Carolina College Media Association to an audience of North Carolina student journalists on how student newspapers can bring podcasting to their audiences
 
-### Volunteer for [SATELLITE][SATELLITE] at NC State
+### Volunteer for [SATELLITE] at NC State
 #### May 2017 - May 2018
 
 * SATELLITE introduces North Carolina high school students from underserved parts of the state to college opportunities, focused in STEM topics and hosted at NC State. SATELLITE is organized and run by students of NC State, through the Caldwell Fellows Program.
@@ -91,7 +91,7 @@ North Carolina State University
 [iCiDIGITAL]: http://www.icidigital.com
 [impeachment Praeci article]: http://praeci.com/news/willis-impeachment-overview
 [impeachment Technician story]: http://www.technicianonline.com/news/article_aef556ec-92bf-11e7-a1ef-5f8fc9433b52.html
-[Jamie Gilbert]: https://studentmedia.ncsu.edu/web/?q=professional-staff
+[Jamie Lynn Gilbert]: https://studentmedia.ncsu.edu/web/?q=professional-staff
 [Jess commentary]: http://praeci.com/commentary/breakdown-of-the-candidates
 [LinkedIn]: {{site.author.linkedin_url}}
 [Meteor]: https://www.meteor.com

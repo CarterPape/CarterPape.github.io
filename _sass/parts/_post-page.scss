@@ -62,9 +62,23 @@ figure {
     hyphens: auto;
 }
 
+.footnotes {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: lighten($body-reg, 15%);
+    &::before {
+        content: "";
+        background: $divider-gray;
+        display: block;
+        height: 1px;
+        width: 10em;
+        margin: 3em 6em 1em 2.6rem;
+    }
+}
+
 .post-footer {
-    padding-top: 30px;
-    margin-top: 30px;
+    padding-top: 2em;
+    margin-top: 3em;
     border-top: 1px solid $divider-gray;
     
     .page-share {
