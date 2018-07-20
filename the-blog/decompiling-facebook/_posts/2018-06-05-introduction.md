@@ -10,6 +10,8 @@ keywords:
     - social media regulations
     - privacy
     - security
+
+unlisted: yes
 ---
 
 Is addiction to social media a thing? Does targeted advertising just feel a little creepy, or is something actually wrong with it?
