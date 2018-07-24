@@ -4,7 +4,7 @@ excerpt: "There are things iA Writer and other apps don't do that I wish they wo
 date: 2018-07-23 20:39:00 -0400
 
 social-image:
-    path: "https://s3.amazonaws.com/carterpape-assets/paper-screenshot.png"
+    path: "https://s3.amazonaws.com/carterpape-assets/write-render.png"
 
 tags: [text editors]
 keywords:
