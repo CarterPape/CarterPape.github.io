@@ -5,6 +5,8 @@
 
 {% if page.categories contains "decompiling-facebook" %}
     {% assign series-display-name="decompiling Facebook" %}
+{% elsif page.categories contains "making-write" %}
+    {% assign series-display-name="making write, the app" %}
 {% elsif page.categories contains "unlisted" %}
     {% assign series-display-name=null %}
 {% elsif page.categories contains "the-blog" %}

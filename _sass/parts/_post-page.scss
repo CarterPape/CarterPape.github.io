@@ -60,6 +60,17 @@ figure {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
+    position: relative;
+}
+
+.footnote {
+    line-height: 1;
+    &::before {
+        content: "[";
+    }
+    &::after {
+        content: "]"
+    }
 }
 
 .footnotes {

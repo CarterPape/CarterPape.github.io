@@ -69,13 +69,13 @@ h5, h6 {
     font-size: 1em;
 }
 
-a {
+a, a > pre, a > code {
     color: #39c;
     text-decoration: none;
     small {
         color: #777;
     }
-    &:hover {
+    &:hover, &:hover > pre, &:hover > code {
         color: #069;
         small {
             color: #777;
@@ -88,6 +88,7 @@ a {
     max-width: 730px;
     margin: 50px auto;
     display: block;
+    position: relative;
     &:after {
         content: "";
         display: table;
@@ -142,6 +143,12 @@ th {
 
 img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    &.float-right {
+        float: right;
+        margin-left: 10px;
+    }
 }
 
 strong {
@@ -168,4 +175,8 @@ footer {
     position: fixed;
     bottom: 50px;
     -webkit-font-smoothing: subpixel-antialiased;
+}
+
+sup, sub {
+    line-height: 1;
 }
