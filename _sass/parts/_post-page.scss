@@ -65,12 +65,7 @@ figure {
 
 .footnote {
     line-height: 1;
-    &::before {
-        content: "[";
-    }
-    &::after {
-        content: "]"
-    }
+    margin: 0 1px
 }
 
 .footnotes {

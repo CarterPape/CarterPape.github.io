@@ -27,4 +27,4 @@ For a comprehensive look at my work, visit [Praeci][Praeci]{:target="_blank"}, b
 [Praeci]: http://praeci.com
 [Technician]: http://www.technicianonline.com
 [Technician articles]: http://www.technicianonline.com/search/?f=html&q=carter+pape&c%5B0%5D=news%2A&s=start_time&sd=desc&l=10&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
-[the blog]: {{ site.baseurl }}{% link the-blog/index.html %}
+[the blog]: {{ site.baseurl }}{% link the-blog/index.md %}

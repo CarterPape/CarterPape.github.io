@@ -1,12 +1,18 @@
-<article class="card post">
-    <div class="post-content full-width">
-        <h2 class="post-title"><a href="{{ include.post.url | prepend: site.baseurl }}">{{ include.title }}</a></h2>
-        {% if include.series-display-name %}
-            {% capture category-url %}{{ include.post.categories | join:"/" | prepend:"/" | absolute_url }}{% endcapture %}
-        {% include post-filing.html category-url=category-url series-display-name=series-display-name %}
-        {% endif %}
-        <p class="post-excerpt">{{ include.post.excerpt | strip_html }}</p>
-        <span class="post-date">{{ include.formatted_date }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-        <span class="post-words">{{ include.length }}</span>
-    </div>
-</article>
+{% if post.unlisted != true %}
+    {%- assign title=post.title -%}
+    {%- assign formatted_date=post.date | date: '%B %-d' -%}
+    {%- assign length=post.content | number_of_words | append: " words" -%}
+    
+    <article class="card post">
+        <div class="post-content full-width">
+            <h2 class="post-title"><a href="{{ include.post.url | prepend: site.baseurl }}">{{ title }}</a></h2>
+            {%- if include.render-filing != false -%}
+                {% include post-filing.html categories=include.post.categories %}
+            {%- endif -%}
+            <p class="post-excerpt">{{ include.post.excerpt | strip_html }}</p>
+            <span class="post-date">{{ formatted_date }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+            <span class="post-words">{{ length }}</span>
+        </div>
+    </article>
+
+{% endif %}

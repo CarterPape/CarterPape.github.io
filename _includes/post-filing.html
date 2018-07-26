@@ -1,3 +1,17 @@
-<div class="post-filing">
-    filed under <a href="{{ include.category-url }}">{{ include.series-display-name }}</a>
-</div>
+{% assign category-url = include.categories | join:"/" | prepend:"/" | absolute_url %}
+
+{% if include.categories contains "decompiling-facebook" %}
+    {% assign series-display-name="decompiling Facebook" %}
+{% elsif include.categories contains "making-write" %}
+    {% assign series-display-name="making write, the app" %}
+{% elsif include.categories contains "unlisted" %}
+    {% assign series-display-name=nil %}
+{% elsif include.categories contains "the-blog" %}
+    {% assign series-display-name="the blog" %}
+{% endif %}
+
+{% if series-display-name %}
+    <div class="post-filing">
+        filed under <a href="{{ category-url }}">{{ series-display-name }}</a>
+    </div>
+{% endif %}

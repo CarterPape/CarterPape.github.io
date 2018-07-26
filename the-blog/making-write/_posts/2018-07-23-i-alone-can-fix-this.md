@@ -15,6 +15,7 @@ keywords:
     - best text editors
     - write, the app
     - markdown editor
+    - software development
 ---
 
 It can be hard to just sit down and write. There are plenty of distractions in modern word processors. Using even the simplistic text editors—the ones that don't have page layout settings or font preferences—can prevent you from focusing on the action of writing. They can do this with fancy but irrelevant functionality, awkward workflows, or any number of other pitfalls that come with designing a text editor.
