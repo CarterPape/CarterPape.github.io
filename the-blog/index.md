@@ -6,7 +6,7 @@ redirect_from:
     - /blog/
 ---
 
-{% assign feed = site.categories.the-blog %}
+{% assign feed = site.categories["the-blog"] %}
 
 {% for post in feed %}
     {%- assign categories-string = post.categories | join: "," -%}
