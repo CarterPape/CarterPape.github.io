@@ -1,14 +1,18 @@
 @media screen and (max-width: 760px)  {
+    html {
+        -webkit-text-size-adjust: none;
+    }
     .wrapper {
         margin: 0 auto;
         & > section, > header {
             width: 100% !important;
         }
         header.navigation {
+            z-index: 1000;
             text-align: left !important;
             margin-bottom: 1.3em !important;
             float: none;
-            .site-name {
+            .site-name, .site-description {
                 text-align: center;
             }
             .menu-button {
@@ -20,10 +24,11 @@
                 padding-bottom: .4em;
                 margin-bottom: 1em;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: .3em;
                 position: absolute;
                 top: 38px;
                 left: -7px;
-                right: -7px;
+                width: 17em;
                 &:after {
                     content: "";
                     display: table;
@@ -40,5 +45,27 @@
                 }
             }
         }
+    }
+    section .card {
+        margin: 0 -.8em;
+        padding: 1.3em 1em;
+        figure {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        .footnotes {
+            &::before {
+                margin-left: 2em;
+            }
+            & > ol {
+                padding-left: 2em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px)  {
+    .card figure.screenshot figcaption {
+        margin-top: 0em;
     }
 }
