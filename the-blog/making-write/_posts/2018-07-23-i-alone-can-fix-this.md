@@ -69,11 +69,11 @@ If you are interested to see [the original Adobe Illustrator file][design in ai]
 
 [^CHINA]: They also have periodic [editorializing][Oliver Reichenstein on China] about tech-related topics on the blog.
 
-[design in ai]: https://s3.amazonaws.com/carterpape-assets/how+the+app+will+look.zip
-[design in pdf]: https://s3.amazonaws.com/carterpape-assets/how+the+app+will+look.pdf
-[naming the app]: {% link the-blog/making-write/_posts/2018-07-23-naming.md %}
+[design in ai]: https://s3.amazonaws.com/carterpape-assets/how+the+app+will+look.zip "direct download of the original .ai file and related assets"
+[design in pdf]: https://s3.amazonaws.com/carterpape-assets/how+the+app+will+look.pdf "direct download of a .pdf version of the write app rendering"
+[naming the app]: {% link the-blog/making-write/_posts/2018-07-23-naming.md %} "blog post about how I named write, the app"
 [Oliver Reichenstein on China]: https://ia.net/topics/designed-in-china-assembled-in-california
-[Paper]: http://www.papereditorapp.com/
+[Paper]: http://www.papereditorapp.com/ "link to the app's website"
 [Paper on Twitter]: https://twitter.com/papereditorapp
-[Paper screenshot]: https://s3.amazonaws.com/carterpape-assets/paper-screenshot.png
-[write render]: https://s3.amazonaws.com/carterpape-assets/write-render.png
+[Paper screenshot]: https://s3.amazonaws.com/carterpape-assets/paper-screenshot.png "a screenshot of Paper, the app I am currently using and upon whose functionalities I seek to improve"
+[write render]: https://s3.amazonaws.com/carterpape-assets/write-render.png "a render of write, the app, created with Adobe Illustrator"
