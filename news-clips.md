@@ -6,21 +6,21 @@ title: news clips
 
 The following are podcast episodes I edited and produced and news stories on which I was first or only author. These works are meant to highlight the voice, clarity, and insightfulness of my reporting work.
 
-For a comprehensive look at my work, visit [Praeci][Praeci]{:target="_blank"}, browse [my blog][the blog], and [search my name][Technician articles]{:target="_blank"} on the [Technician website][Technician]{:target="_blank"}.
+For a comprehensive look at my work, visit [Praeci], browse [my blog][the blog], and [search my name][Technician articles] on the [Technician website][Technician].
 
 ## podcast episodes
 
 {% for clip in site.data.news-clips.podcast %}
-### [{{ clip.title }}]({{ clip.link }}){:target="_blank"}  
-#### {{ clip.publish-info }}  
+### [{{ clip.title }}]({{ clip.link }})
+#### {{ clip.publish-info }}
 {{ clip.description }}
 {% endfor %}
 
 ## print clips
 
 {% for clip in site.data.news-clips.print %}
-### [{{ clip.title }}]({{ clip.link }}){:target="_blank"}  
-#### {{ clip.publish-info }}  
+### [{{ clip.title }}]({{ clip.link }})
+#### {{ clip.publish-info }}
 {{ clip.description }}
 {% endfor %}
 
