@@ -103,6 +103,22 @@ figure {
         width: 10em;
         margin: 3em 6em 1em 2.6rem;
     }
+    li {
+        margin-bottom: 2em;
+        &:target {
+            border: $target-outline solid 1px;
+            box-shadow: 0 0 0 0.2em $target-shadow;
+            border-radius: .3em;
+            padding: .5em;
+            *:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.reversefootnote {
+    margin-left: .3em;
 }
 
 .post-footer {
