@@ -4,8 +4,8 @@ layout: no-nav
 <article class="card full-post">
     {% include post-header.html %}
     
-    {% if page.img %}
-        {% include inline-img.html img=page.img %}
+    {% if page.image %}
+        {% include blocks/top-image.html image=page.image %}
     {% endif %}
     
     {{ content | markdownify }}
