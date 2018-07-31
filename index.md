@@ -5,7 +5,7 @@ permalink: "/"
 
 ![{{ site.author.photo.alt }}][Carter pic]
 
-I am a freelancer with experience in student journalism as the news editor my alma mater's [student newspaper][Technician] and through my own [digital media project][Praeci].
+I am a freelancer with experience in student journalism and software development. I served as news editor of my alma mater's [student newspaper][Technician] and created my own [digital media project][Praeci].
 
 ## highlights
 
