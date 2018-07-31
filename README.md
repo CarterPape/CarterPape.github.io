@@ -1,3 +1,3 @@
 # carterpape.com
 
-This is my personal website based on the [minimal theme](https://github.com/orderedlist/minimal). See [the website](http://carterpape.com) for more information.
+This is my personal website based originally on the [minimal theme](https://github.com/orderedlist/minimal) by Steve Smith, but it has grown quickly into a much more robust style. See [the website](http://carterpape.com) for more information.
