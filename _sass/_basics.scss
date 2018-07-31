@@ -72,6 +72,7 @@ h5, h6 {
 a, a > pre, a > code {
     color: #39c;
     text-decoration: none;
+    transition: color .3s;
     small {
         color: #777;
     }
@@ -109,8 +110,11 @@ blockquote {
 
 code, pre {
     font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-    color: #333;
-    font-size: 12px;
+}
+
+code {
+    font-size: .9em;
+    line-height: 1;
 }
 
 pre {
