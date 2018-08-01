@@ -8,19 +8,17 @@
 	{% endcapture %}
 	{% assign title = title | strip %}
 
-	{% capture description %}
-	    {% if page.description %}
-	        {{ page.description }}
-	    {% else %}
-	        {{ page.excerpt }}
-	    {% endif %}
-	{% endcapture %}
+	{% if page.description %}
+	    {% assign description = page.social-image %}
+	{% else %}
+	    {% assign description = page.excerpt %}
+	{% endif %}
 	{% assign description = description | strip_html %}
 
 	{% if page.social-image %}
 	    {% assign social-image = page.social-image %}
-	{% elsif page.img %}
-	    {% assign social-image = page.img %}
+	{% elsif page.image %}
+	    {% assign social-image = page.image %}
 	{% else %}
 	    {% assign social-image = site.author.photo %}
 	{% endif %}
