@@ -103,9 +103,19 @@ a, a > pre, a > code {
 }
 
 blockquote {
-    border-left: 1px solid #e5e5e5;
-    margin: 0;
-    padding: 0 0 0 1.3rem;
+    border-left: 1px solid $divider-gray;
+    margin: 0 0 1em 0;
+    padding: .5em 0 .5em 1.3rem;
+    font-weight: 200;
+    background-color: rgba(0,0,0,.04);
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
 
 code, pre {
@@ -121,7 +131,7 @@ pre {
     padding: 8px 15px;
     background: #f8f8f8;
     border-radius: 5px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid $divider-gray;
     overflow-x: auto;
 }
 
@@ -133,7 +143,7 @@ table {
 th, td {
     text-align: left;
     padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid $divider-gray;
 }
 
 dt {

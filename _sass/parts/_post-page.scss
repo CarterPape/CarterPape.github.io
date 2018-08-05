@@ -55,9 +55,9 @@ figure {
     margin-left: 3em;
     margin-top: 1.5em;
     margin-bottom: 2em;
-    :nth-last-child(2) {
+    & > :nth-last-child(2) {
         margin-bottom: 0;
-        :last-child {
+        & > :last-child {
             margin-bottom: 0;
         }
     }
@@ -75,6 +75,20 @@ figure {
             margin-top: -1em;
             margin-right: 2em;
             margin-left: 2em;
+        }
+    }
+    &.attributed-quote {
+        margin-left: 0;
+        margin-right: 0;
+        figcaption {
+            margin-top: .8em;
+            margin-left: 4em;
+            p {
+                display: inline;
+            }
+            &::first-letter {
+                margin-left: -2.5ex;
+            }
         }
     }
 }
