@@ -1,6 +1,18 @@
 ---
 title: "round it out and fix the footnotes"
-date: 2018-07-29 10:36:00 -0400
+date: 2018-08-09 10:36:00 -0400
+
+keywords:
+    - personal website
+    - GitHub
+    - website maintenance
+    - web design
+    - rounded corners
+    - footnotes
+    - target blank
+    - Markdown
+    - animation
+    - jekyll references
 ---
 
 I've recently done some changes to the website that I thought might be useful to document, so this article provides a rundown of some of what I changed.
