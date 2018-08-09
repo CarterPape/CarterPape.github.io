@@ -36,3 +36,5 @@ plugins:
 
 kramdown:
     footnote_backlink: "⤴"
+
+exclude: ["writing aids/*"]
