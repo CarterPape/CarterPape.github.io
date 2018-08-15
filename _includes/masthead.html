@@ -1,11 +1,11 @@
-<header class="navigation">
-    <div class="menu-button"><button onclick="toggleNavList()">
-        <svg id="nav-hamburger" height=16 width=16>
+<header class="masthead">
+    <div id="sitewide-nav-button" class="menu-button"><button onclick="toggleNavList()">
+        <svg id="sitewide-nav-hamburger" height=16 width=16>
             <rect x="1" y="3" fill="#333333" width="14" height="2"></rect>
             <rect x="1" y="7" fill="#333333" width="14" height="2"></rect>
             <rect x="1" y="11" fill="#333333" width="14" height="2"></rect>
         </svg>
-        <svg id="nav-exit-button" style="display: none;" viewBox="0 0 12 12" stroke="#000" stroke-linecap="round"  height=16 width=16>
+        <svg id="sitewide-nav-exit-button" style="display: none;" viewBox="0 0 12 12" stroke="#000" stroke-linecap="round"  height=16 width=16>
             <line x1="11" y1="1" x2="1" y2="11"></line>
             <line x1="1" y1="1" x2="11" y2="11"></line>
         </svg>
@@ -19,7 +19,7 @@
     
     <div class="site-description">{{ site.author.short_description }}</div>
     
-    <section id="nav-link-list">
+    <nav id="sitewide-nav">
         <ul>
             <li><a href="/resume/">résumé</a></li>
             <li><a href="/references/">references</a></li>
@@ -34,18 +34,18 @@
             <li><a href="{{ site.author.linkedin_url }}" target="_blank">on LinkedIn</a></li>
             <li><a href="{{ site.author.twitter_url }}" target="_blank">on Twitter</a></li>
         </ul>
-    </section>
+    </nav>
     
     <script>
-    function toggleNavList() {
-        var navList = document.getElementById("nav-link-list");
-        navList.style.display = (navList.style.display == "block" ? "" : "block");
+        function toggleNavList() {
+            var navList = document.getElementById("sitewide-nav");
+            navList.style.display = (navList.style.display == "block" ? "" : "block");
         
-        var navHamburger = document.getElementById("nav-hamburger");
-        navHamburger.style.display = (navHamburger.style.display == "none" ? "" : "none");
+            var navHamburger = document.getElementById("sitewide-nav-hamburger");
+            navHamburger.style.display = (navHamburger.style.display == "none" ? "" : "none");
         
-        var navExit = document.getElementById("nav-exit-button");
-        navExit.style.display = (navExit.style.display == "none" ? "" : "none");
-    }
+            var navExit = document.getElementById("sitewide-nav-exit-button");
+            navExit.style.display = (navExit.style.display == "none" ? "" : "none");
+        }
     </script>
 </header>

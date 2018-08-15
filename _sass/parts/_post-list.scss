@@ -1,4 +1,10 @@
-.post {
+@media screen and (min-width: 761px) {
+    #post-list {
+        width: 490px;
+    }
+}
+
+article.post-preview {
     .post-thumbnail {
         width: 30%;
         max-width: 100%;
@@ -13,25 +19,20 @@
             background-position: 100% 50%;
         }
     }
-    .post-content {
-        .post-title {
-            margin-bottom: 0;
-        }
-        .post-filing, .post-date, .post-words {
-            font-size: .8em;
-        }
-        .post-excerpt {
-            margin-top: .6em;
-        }
-        &.full-width {
-            width: 100%;
-        }
+    .post-title {
+        margin-bottom: 0;
+    }
+    .post-meta {
+        font-size: .8em;
+        margin-top: .2em;
+    }
+    .post-excerpt {
+        margin-top: .6em;
     }
     &:first-of-type {
         margin-top: 1.4em;
     }
-}
-
-hr.post-separator {
-    margin: 1.4em;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 }

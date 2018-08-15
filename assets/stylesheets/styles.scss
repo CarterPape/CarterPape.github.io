@@ -2,7 +2,20 @@
 ---
 @import 'variables';
 @import 'basics';
-@import 'media';
+
+@import 'layout/fundamental';
+@import 'layout/browsing';
+@import 'layout/reading';
+
+@import 'parts/masthead';
+@import 'parts/masthead/navigation';
+
+@import 'parts/card';
 @import 'parts/post-list';
-@import 'parts/navigation';
-@import 'parts/post-page';
+
+@import 'parts/post';
+@import 'parts/post/header';
+@import 'parts/post/figure';
+@import 'parts/post/aside';
+@import 'parts/post/footnotes';
+@import 'parts/post/footer';

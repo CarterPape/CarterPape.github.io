@@ -1,3 +1,4 @@
+url: "https://carterpape.com/"
 title: "Carter Pape's personal website"
 
 author:
@@ -22,7 +23,7 @@ defaults:
             type: "posts"
         values:
             authors: ["Carter Pape"]
-            layout: post
+            layout: "reading/post"
             unlisted: false
     -
         scope:

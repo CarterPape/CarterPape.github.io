@@ -1,0 +1,52 @@
+.footnote {
+    line-height: 1;
+    margin: 0 1px;
+}
+
+.footnotes {
+    font-size: .9em;
+    color: lighten($body-reg, 15%);
+}
+
+.footnotes {
+    &::before {
+        content: "";
+        background: $divider-gray;
+        display: block;
+        height: 1px;
+        width: 10em;
+        margin-top: 3em;
+        margin-right: 6em;
+        margin-bottom: 1em;
+        margin-left: 2.6em;
+    }
+    li {
+        margin-bottom: 2em;
+        
+        &:target {
+            border: $target-outline solid 1px;
+            box-shadow: 0 0 0 0.2em $target-shadow;
+            border-radius: .3em;
+            padding: .5em;
+            
+            *:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.reversefootnote {
+    margin-left: .3em;
+}
+
+@media screen and (max-width: 760px) {
+    .footnotes {
+        &::before {
+            margin-left: 2em;
+        }
+        & > ol {
+            padding-left: 2em;
+        }
+    }
+}

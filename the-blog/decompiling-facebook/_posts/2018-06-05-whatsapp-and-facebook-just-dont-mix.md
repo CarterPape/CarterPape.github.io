@@ -20,11 +20,9 @@ keywords:
     - secret conversations
     - Facebook Messenger
     - Messenger
-
-unlisted: true
 ---
 
-I'll begin near the end, with the departure of WhatsApp's founders from Facebook after they got acquired by the tech giant. From Elizabeth Dwoskin's story in *The Washington Post* published April 30, 2018, [WhatsApp founder plans to leave after broad clashes with parent Facebook]({{ page.ext-link }}):
+I'll begin near the end, with the departure of WhatsApp's founders from Facebook after they got acquired by the tech giant. From Elizabeth Dwoskin's story in *The Washington Post* published April 30, 2018, [_WhatsApp founder plans to leave after broad clashes with parent Facebook_]({{ page.ext-link }}):
 
 > The billionaire chief executive of WhatsApp, Jan Koum, is planning to leave the company after clashing with its parent, Facebook, over the popular messaging service’s strategy and Facebook’s attempts to use its personal data and weaken its encryption, according to people familiar with internal discussions.
 
@@ -84,10 +82,12 @@ What Facebook doesn't do is provide users information within these settings abou
 
 The location where your profile picture was taken, the ideas you share in the missives you write in Facebook posts, the content of messages you send to your friends and loved ones, and nearly all of the other information you provide to Facebook… all of it can be used for ad targeting purposes, and it's in Facebook's interest not to remind you that such is the case.
 
+_This post was last updated August 10, 2018 with minor grammatical changes._
 
 
 
-[^Messenger]: Understanding whether Facebook actually uses Messenger conversations to do ad targeting will be the subject of a future post. For now, I can say that it is likely, but merely the fact that I have been researching this and can't find a clear answer says something about Facebook's problem with transparency.
+
+[^Messenger]: Understanding whether Facebook actually uses Messenger conversations to do ad targeting will be the subject of a future post. For now, I can say that it is nearly certain, but merely the fact that I have been researching this and can't find a clear answer from Facebook itself says something about their problem with transparency.
 
 
 [Decompiling Facebook index]: /the-blog/decompiling-facebook/

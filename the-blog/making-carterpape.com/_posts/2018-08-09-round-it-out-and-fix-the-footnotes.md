@@ -119,7 +119,7 @@ As I browsed Jekyll plugins, I found one that I thought may prove useful: [`jeky
 — from GitHub repository [`jekyll-references`](https://github.com/olov/jekyll-references/blob/master/README.md) by user [olov](https://github.com/olov).
 {% endcapture %}
 
-{% include blocks/figure.html class="attributed-quote" %}
+{% include authoring/figure/attributed-quote.html %}
 
 I am still considering bringing this plugin into the fold, but I have reservations. I will probably be using it within a month.
 

@@ -39,7 +39,7 @@ This was one of my favorite freelance articles to write; researching for the art
 — from _[IoT Started with a Vending Machine](https://www.machinedesign.com/industrial-automation/iot-started-vending-machine)_, an article I wrote for DO Supply about the history of IoT
 {% endcapture %}
 
-{% include blocks/figure.html class="attributed-quote" %}
+{% include authoring/figure/attributed-quote.html %}
 
 For this article, Daniel originally asked that I write on the topic of IoT but gave me leeway to decide the specifics of how I would write about it. I did preliminary research on what IoT is, who is developing the technology, and where it is going. After this search, I decided that one of the more interesting parts of the IoT story was its history.
 

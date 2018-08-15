@@ -1,13 +1,15 @@
 html {
+    -webkit-text-size-adjust: none;
     background-color: $site-bg;
     font-size: 14px;
 }
 
 body {
-    font: 14px/1.5em -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Segoe UI Symbol";
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Segoe UI Symbol";
     color: $body-reg;
     font-weight: 400;
     margin: 1em;
+    
     &:after {
         content: "";
         display: table;
@@ -19,20 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
     margin-bottom: .4em;
     line-height: 1.1;
+    
     &:first-child {
         margin-top: 0;
     }
-}
-
-p, ul, ol, table, pre, dl {
-    margin: 0 0 1em;
-    ul, ol {
-        margin: 0;
-    }
-}
-
-ul, ol {
-    padding-left: 2.6rem;
 }
 
 h1 {
@@ -69,37 +61,26 @@ h5, h6 {
     font-size: 1em;
 }
 
+p, ul, ol, table, pre, dl {
+    margin: 0 0 1em;
+    
+    ul, ol {
+        margin: 0;
+    }
+}
+
+ul, ol {
+    padding-left: 2.6rem;
+}
+
 a, a > pre, a > code {
     color: #39c;
     text-decoration: none;
     transition: color .3s;
-    small {
-        color: #777;
-    }
+    
     &:hover, &:hover > pre, &:hover > code {
         color: #069;
-        small {
-            color: #777;
-        }
     }
-}
-
-.wrapper {
-    width: 100%;
-    max-width: 730px;
-    margin: 50px auto;
-    display: block;
-    position: relative;
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-.wrapper.full-nav > section {
-    width: 490px;
-    float: right;
 }
 
 blockquote {
@@ -108,6 +89,7 @@ blockquote {
     padding: .5em 1.3rem;
     font-weight: 200;
     background-color: rgba(0,0,0,.04);
+    
     &::after {
         content: "";
         display: table;
@@ -159,6 +141,7 @@ img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+    
     &.float-right {
         float: right;
         margin-left: 10px;
@@ -168,12 +151,15 @@ img {
 strong {
     color: #222;
     font-weight: 500;
+    
+    code, pre {
+        font-weight: 600;
+    }
 }
 
 small, .tangent {
     display: inline-block;
     font-size: .8em;
-    line-height: 1.5em;
 }
 
 hr {
@@ -181,14 +167,6 @@ hr {
     background: $divider-gray;
     height: 1px;
     margin: 3em;
-}
-
-footer {
-    width: 270px;
-    float: left;
-    position: fixed;
-    bottom: 50px;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 sup, sub {

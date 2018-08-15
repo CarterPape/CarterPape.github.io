@@ -1,0 +1,15 @@
+#root-container.for-reading {
+    header.masthead {
+        width: 100%;
+        float: none;
+        margin-bottom: 3em;
+        text-align: center;
+    
+        #sitewide-nav {
+            display: none;
+        }
+        .site-name {
+            display: block;
+        }
+    }
+}

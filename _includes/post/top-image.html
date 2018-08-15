@@ -4,10 +4,10 @@
         {% if include.image.title %}
             title="{{ include.image.title }}"
         {% endif %}
-        >
+    >
     {% if include.image.caption %}
-    <figcaption>
-        {{ include.image.caption | markdownify }}
-    </figcaption>
+        <figcaption>
+            {{ include.image.caption | markdownify }}
+        </figcaption>
     {% endif %}
 </figure>

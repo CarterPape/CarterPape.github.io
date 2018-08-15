@@ -1,0 +1,16 @@
+{% assign title = page.title %}
+{% assign datetime = page.date | date: '%F' %}
+{% assign formatted_date = page.date | date: '%B %-d at %I:%M %p' %}
+
+<header class="post-header">
+    <a href="{{ page.url }}">
+        <h1 class="doc-title">{{ title }}</h1>
+    </a>
+    {% include post/filing.html categories=page.categories %}
+    <div class="signatory">
+        <span class="byline">
+            {% include post/authors.html %}
+        </span>
+        <time class="article-date" datetime="{{ datetime }}">{{ formatted_date }}</span>
+    </div>
+</header>
