@@ -9,7 +9,9 @@
 	{% assign title = title | strip %}
 
 	{% if page.description %}
-	    {% assign description = page.social-image %}
+	    {% assign description = page.description %}
+	{% elsif page.url == "/" %}
+	    {% assign description = site.description %}
 	{% else %}
 	    {% assign description = page.excerpt %}
 	{% endif %}

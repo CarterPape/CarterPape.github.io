@@ -1,9 +1,10 @@
 url: "https://carterpape.com/"
-title: "Carter Pape's personal website"
+title: "Carter Pape's website"
+description: "Carter Pape is a freelance writer and developer seeking full-time work in journalism. This website provides his résumé, contact information, blog, and more."
 
 author:
     name: "Carter Pape"
-    short_description: "Carter Pape is a freelance writer and developer seeking full-time work in journalism"
+    short_description: "Carter Pape is a freelance writer and developer seeking full-time work in journalism."
     email: "carterpape@gmail.com"
     linkedin_url: "https://www.linkedin.com/in/carter-pape/"
     twitter_url: "https://twitter.com/cartrpape"
