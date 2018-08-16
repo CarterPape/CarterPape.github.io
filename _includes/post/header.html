@@ -3,9 +3,9 @@
 {% assign formatted_date = page.date | date: '%B %-d at %I:%M %p' %}
 
 <header class="post-header">
-    <a href="{{ page.url }}">
-        <h1 class="doc-title">{{ title }}</h1>
-    </a>
+    <h1 class="doc-title">
+        <a href="{{ page.url }}" class="not-blue">{{ title }}</a>
+    </h1>
     {% include post/filing.html categories=page.categories %}
     <div class="signatory">
         <span class="byline">
@@ -13,4 +13,5 @@
         </span>
         <time class="article-date" datetime="{{ datetime }}">{{ formatted_date }}</span>
     </div>
+    <hr />
 </header>

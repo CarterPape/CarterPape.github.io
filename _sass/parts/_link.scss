@@ -1,0 +1,7 @@
+a.not-blue {
+    transition-property: background-color;
+    
+    &:hover {
+        background-color: $link-hover-bg;
+    }
+}

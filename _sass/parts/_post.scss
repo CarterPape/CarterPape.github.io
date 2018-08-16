@@ -1,7 +1,14 @@
+.post-filing {
+    font-weight: 500;
+    margin-top: .3em;
+    
+    a {
+        color: $body-reg;
+        text-decoration: underline;
+    }
+}
+
 .full-post {
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
     position: relative;
 }
 

@@ -1,26 +1,12 @@
-header.title-nav {
-    .home-link {
-        text-align: center;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    li {
-        float: left;
-    }
-    margin-bottom: 3em;
-}
-
 header.post-header {
     font-weight: 100;
     margin: 0 0 10px 0;
     
     .doc-title {
         margin: 0;
+        a {
+            color: $head-reg;
+        }
     }
     .signatory {
         font-size: .8em;
@@ -32,5 +18,8 @@ header.post-header {
         .final-name {
             margin-right: 10px;
         }
+    }
+    hr {
+        margin: 2em 3em;
     }
 }

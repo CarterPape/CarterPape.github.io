@@ -1,18 +1,23 @@
 #root-container {
     width: 100%;
-    max-width: 730px;
     display: block;
     position: relative;
     
-    @media screen and (max-width: 760px) {
-        margin: 0 auto;
-    }
-    @media screen and (min-width: 761px) {
-        margin: 50px auto;
-    }
     &:after {
         content: "";
         display: table;
         clear: both;
     }
+    @media screen and (max-width: 760px) {
+        margin: 0 auto;
+    }
+    @media screen and (min-width: 761px)  {
+        max-width: 730px;
+        margin: 50px auto;
+    }
+}
+
+#main-container {
+    max-width: 37em;
+    margin: auto;
 }
