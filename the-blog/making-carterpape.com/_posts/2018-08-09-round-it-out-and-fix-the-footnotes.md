@@ -135,7 +135,7 @@ I'm also weighing the ideas of branch-driven development and use of GitHub's iss
 
 
 [^gruber-footnote-symbol]:
-    Also, John Gruber has used the ↩ symbol [since 2005][Gruber on footnotes], so I figured he had a good rationale for using it. If he's rationalized using it, why should I change? The answer: because changing it became convenient.
+    Also, John Gruber has used the ↩︎︎ symbol [since 2005][Gruber on footnotes], so I figured he had a good rationale for using it. If he's rationalized using it, why should I change? The answer: because changing it became convenient.
     
 [^how-do]:
     I still do not fully understand how the plugin works. Is every anchor tag on the site affected by this `target="_blank"` trick? Can just the ones rendered from Markup be changed? 🤷🏼‍♂️
