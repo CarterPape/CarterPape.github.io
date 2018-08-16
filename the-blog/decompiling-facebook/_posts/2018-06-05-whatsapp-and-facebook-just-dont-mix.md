@@ -6,6 +6,7 @@ social-image:
     path: "https://s3.amazonaws.com/carterpape-assets/WhatsApp+preview.png"
 
 date: 2018-06-05 21:46:00 -0400
+last_modified_at: 2018-08-10 12:00:00 -0400
 
 ext-link: "https://www.washingtonpost.com/business/economy/whatsapp-founder-plans-to-leave-after-broad-clashes-with-parent-facebook/2018/04/30/49448dd2-4ca9-11e8-84a0-458a1aa9ac0a_story.html"
 

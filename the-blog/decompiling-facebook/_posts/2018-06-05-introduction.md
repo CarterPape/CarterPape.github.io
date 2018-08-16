@@ -3,6 +3,7 @@ title: "introducing a series on how to fix Facebook"
 excerpt: "decompiling Facebook seeks to investigate big questions regarding the regulation of social media companies, Facebook being chief among them."
 
 date: 2018-06-05 21:31:00 -0400
+last_modified_at: 2018-08-10 12:00:00 -0400
 
 tags: [Facebook]
 keywords:

@@ -2,6 +2,7 @@
 title: "buy GMOs, buy non-organic"
 excerpt: "What is a non-GMO food? What does it mean to be \"certified organic\"? Neither is as good as it might sound."
 date: 2018-04-11 20:08:00 -0400
+last_modified_at: 2018-04-15 12:00:00 -0400
 tags: [genetically modified organisms, organic farming]
 keywords:
     - gmo
