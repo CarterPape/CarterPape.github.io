@@ -5,8 +5,10 @@
 }
 
 @media screen and (max-width: 760px) {
-    #post-list > header {
-        padding: 0 1em;
+    #post-list {
+        & > header, & > p {
+            padding: 0 1em;
+        }
     }
 }
 
