@@ -37,7 +37,7 @@ kramdown:
     footnote_backlink: "⤴"
 ~~~~
 
-Of course kramdown should be the one addressing the footnote backlink problem; it is the entity rendering the footnotes! Thus, I had found the perfect solution, and it even circumvented the "↩ renders as ↩️ on iPhones" problem.
+Of course kramdown should be the one addressing the footnote backlink problem; it is the entity rendering the footnotes! Thus, I had found the perfect solution, and it even circumvented the "↩︎︎ renders as ↩️ on iPhones" problem.
 
 
 ## External links now open in a new tab.
