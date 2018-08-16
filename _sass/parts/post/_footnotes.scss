@@ -20,7 +20,7 @@
         margin-bottom: 1em;
         margin-left: 2.6em;
     }
-    li {
+    & > ol > li {
         margin-bottom: 2em;
         
         &:target {
@@ -32,6 +32,9 @@
             *:last-child {
                 margin-bottom: 0;
             }
+        }
+        & > ol, & > ul {
+            margin: 0 0 1em;
         }
     }
 }
