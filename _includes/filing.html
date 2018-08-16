@@ -1,0 +1,36 @@
+{% assign subcategory-relative-url = include.categories | slice: 0, include.leftmost-depth %}
+{% assign subcategory-relative-url = subcategory-relative-url | join: "/" | append: "/" %}
+
+{% for subcategory in include.categories offset:include.leftmost-depth %}
+    
+    {% assign subcategory-relative-url = subcategory-relative-url | append: subcategory | append: "/" %}
+    {% assign subcategory-url = subcategory-relative-url | absolute_url %}
+
+    {% if subcategory == "decompiling-facebook" %}
+        {% assign subcategory-display-name = "decompiling Facebook" %}
+    {% elsif subcategory == "making-write" %}
+        {% assign subcategory-display-name = "making write, the app" %}
+    {% elsif subcategory == "making-carterpape.com" %}
+        {% assign subcategory-display-name = "making carterpape.com" %}
+    {% elsif subcategory == "unlisted" %}
+        {% break %}
+    {% elsif subcategory == "the-blog" %}
+        {% assign subcategory-display-name = "the blog" %}
+    {% endif %}
+
+    {% if top-category %}
+         &nbsp;>&nbsp;&nbsp;<a href="{{ subcategory-url }}" class="not-blue">{{ subcategory-display-name }}</a>
+    {% else %}
+        <nav class="filing">
+            filed under: &nbsp;<a href="{{ subcategory-url }}" class="not-blue">{{ subcategory-display-name }}</a>
+        
+        {% assign top-category = subcategory %}
+    {% endif %}
+    
+{% endfor %} 
+
+{% if top-category %}
+    </nav>
+{% endif %}
+
+{% assign top-category = nil %}
