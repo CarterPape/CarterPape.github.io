@@ -3,7 +3,7 @@ layout: "browsing/page"
 permalink: "/references/"
 title: references
 ---
-References' contact information is available [upon request](mailto:carter@carterpape.com).
+References' contact information is available [upon request]({% link contact.md %}).
 
 ## [Jamie Gilbert](https://www.linkedin.com/in/jamielynngilbert/)  
 **Associate Director of Student Media at NC State**  
