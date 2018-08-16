@@ -4,6 +4,12 @@
     }
 }
 
+@media screen and (max-width: 760px) {
+    #post-list > header {
+        padding: 0 1em;
+    }
+}
+
 article.post-preview {
     .post-thumbnail {
         width: 30%;
