@@ -1,5 +1,8 @@
 ---
-layout: "browsing/post-index"
+categories:
+    - the-blog
+    - making-carterpape.com
+layout: "browsing/post-list"
 title: "making write, the app"
 description: "a series of notes on creating this website"
 ---
@@ -8,5 +11,5 @@ description: "a series of notes on creating this website"
 This is {{ page.description }}. The series provides documentation about the creation of <carterpape.com>, from front-end to back-end, including the people and websites from whom I drew design inspiration and the tools I am using under the hood.
 
 {% for post in feed %}
-    {%- include post/preview.html post=post render-filing=false -%}
+    {%- include post/preview.html post=post -%}
 {% endfor %}

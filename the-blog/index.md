@@ -1,5 +1,7 @@
 ---
-layout: "browsing/post-index"
+categories:
+    - the-blog
+layout: "browsing/post-list"
 title: "the blog"
 description: "a public repository of my personally and professionally relevant musings, updates, ideas, and more"
 redirect_from:
@@ -9,10 +11,5 @@ redirect_from:
 {% assign feed = site.categories["the-blog"] %}
 
 {% for post in feed %}
-    {%- assign categories-string = post.categories | join: "," -%}
-    {%- if categories-string == "the-blog" -%}
-        {%- include post/preview.html post=post render-filing=false -%}
-    {%- else -%}
-        {%- include post/preview.html post=post render-filing=true -%}
-    {%- endif -%}
+    {%- include post/preview.html post=post -%}
 {% endfor %}

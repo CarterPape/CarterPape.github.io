@@ -6,7 +6,7 @@
     <h1 class="doc-title">
         <a href="{{ page.url }}" class="not-blue">{{ title }}</a>
     </h1>
-    {% include post/filing.html categories=page.categories %}
+    {% include filing.html categories=page.categories leftmost-depth=0 %}
     <div class="signatory">
         <span class="byline">
             {% include post/authors.html %}

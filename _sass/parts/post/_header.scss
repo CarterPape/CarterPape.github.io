@@ -2,11 +2,10 @@ header.post-header {
     font-weight: 100;
     margin: 0 0 10px 0;
     
-    .doc-title {
+    .doc-title > a {
+        color: $head-reg;
         margin: 0;
-        a {
-            color: $head-reg;
-        }
+        padding: 0;
     }
     .signatory {
         font-size: .8em;
