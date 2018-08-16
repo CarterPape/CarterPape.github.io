@@ -35,6 +35,7 @@ defaults:
 
 plugins:
     - jekyll-redirect-from
+    - jekyll-sitemap
 
 kramdown:
     footnote_backlink: "⤴"
