@@ -45,7 +45,9 @@ Kuom's departure, which came six months after the departure of his co-founder Br
 - Will WhatsApp users ever see ads in the app?
 - Will WhatsApp messages remain encrypted end-to-end?
 
-WhatsApp built end-to-end encryption into the app in 2016, after its acquisition by Facebook, giving users a totally private messaging experience. By contrast, Messenger, which is Facebook's messaging platform, can monetize users' conversations.[^Messenger] In other words, Facebook has the ability to mine users' conversations for ad targeting fodder because those messages are not encrypted end-to-end.
+WhatsApp built end-to-end encryption into the app in 2016, after its acquisition by Facebook, giving users a totally private messaging experience. By contrast, Messenger, which is Facebook's messaging platform, can monetize users' conversations.[^Messenger]
+
+In other words, Facebook has the ability to mine users' conversations on Messenger for ad targeting fodder because those messages are not encrypted end-to-end.
 
 The result is that Facebook can present advertisements to you in your news feed that are targeted to you based on the private conversations you're having in Messenger. If you're talking about how hungry you are with your friends, maybe you'll start seeing advertisements for local restaurants!
 
@@ -57,21 +59,19 @@ To better understand Facebook's thinking on WhatsApp and how it fits into their 
 
 As it turns out, Facebook kind of trips over itself explaining secret conversations in their [initial press release][secret conversations press release] about it, awkwardly dodging the technical detail that end-to-end encryption's main draw is that it prevents Facebook from seeing the content of your messages (i.e. it prevents your messages from being monetized):
 
-> Your messages and calls on Messenger already benefit from strong security systems… [but] We’ve heard from you that there are times when you want additional safeguards — perhaps when discussing private information like an illness or a health issue with trusted friends and family, or sending financial information to an accountant.
+> Your messages and calls on Messenger already benefit from strong security systems… [but] We’ve heard from you that there are times when you want additional safeguards — perhaps when discussing private information like an illness or a health issue with trusted friends and family, or sending financial information to an accountant.[^private-on-messenger]
 
-(By the way, nobody who understands that Messenger can monetize users' conversations thinks, "I'd really like to use this to send financial or medical information to people!")
-
-The only mention of third parties in explaining secret conversations is at the end of the [white paper they released][Messenger white paper] accompanying the secret conversations announcement:
+The announcement manages to sidestep all mentions of what those "additional safeguards" are: a means of preventing Facebook from seeing your messages. The only mention of third parties in explaining secret conversations is at the end of the [white paper][Messenger white paper] that accompanies the secret conversations announcement:
 
 > Third parties — Facebook included — do not have access to message plaintext and messages can only be decrypted by their intended recipient.
 
-This explanation of secret conversations begs the question: why wouldn't Facebook bake this maximum level of security into _all_ its messaging? The presumptive answer is that it has a competing value that causes it to sacrifice privacy: driving profits through ad targeting.
+This line begs the question: why wouldn't Facebook bake this maximum level of security into _all_ its messaging? That's a question for Facebook to answer, but their business model provides a possible explanation: access to users' private conversations helps Facebook's ad targeting business.
 
 Something else to note: Facebook makes secret conversations pretty inaccessible to users.
 
 First, it keeps the secret conversations functionality within the Messenger app a secret. Without looking, can you figure out what you might do to send a secret message? Once you've thought about that, go look at how you actually [enable secret conversations].
 
-Second, Facebook does not enable secret conversations on the Messenger website (i.e. you cannot use secret conversations in a browser on your computer). This is in part because the secret conversations protocol is not compatible with use in an internet browser.
+Second, Facebook does not enable secret conversations on the Messenger website (i.e. you cannot use secret conversations in a browser on your computer). This is in part because their conversation encryption protocol is not compatible with use in an internet browser.
 
 Because broad usage of Facebook's secret conversations (rather than standard Messenger conversations) would cut out Facebook's ability to use your conversations to inform their ad targeting operations, they have a profit incentive to _not_ make secret conversations their standard for messaging.
 
@@ -83,12 +83,17 @@ What Facebook doesn't do is provide users information within these settings abou
 
 The location where your profile picture was taken, the ideas you share in the missives you write in Facebook posts, the content of messages you send to your friends and loved ones, and nearly all of the other information you provide to Facebook… all of it can be used for ad targeting purposes, and it's in Facebook's interest not to remind you that such is the case.
 
-_This post was last updated August 10, 2018 with minor grammatical changes._
+_This post was last updated August 16, 2018 with minor grammatical and layout changes._
 
 
 
 
-[^Messenger]: Understanding whether Facebook actually uses Messenger conversations to do ad targeting will be the subject of a future post. For now, I can say that it is nearly certain, but merely the fact that I have been researching this and can't find a clear answer from Facebook itself says something about their problem with transparency.
+[^Messenger]:
+    Understanding whether Facebook actually uses Messenger conversations to do ad targeting will be the subject of a future post. For now, I can say that it is nearly certain, but merely the fact that I have been researching this and can't find a clear answer from Facebook itself says something about their problem with transparency.
+    
+[^private-on-messenger]:
+    It seems unlikely to me that anyone who understands that their messages on Messenger can be monetized would feel okay using the service to share sensitive information like financial or medical records.
+
 
 
 [Decompiling Facebook index]: /the-blog/decompiling-facebook/
