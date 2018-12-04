@@ -1,17 +1,17 @@
 url: "https://carterpape.com"
 title: "Carter Pape's website"
-description: "Carter Pape is a freelance writer and developer seeking full-time work in journalism. This website provides his résumé, contact information, blog, and more."
+description: "Carter Pape is a journalist and developer seeking full-time work as a reporter. This website provides his résumé, contact information, blog, and more."
 
 author:
     name: "Carter Pape"
-    short_description: "Carter Pape is a freelance writer and developer seeking full-time work in journalism."
+    short_description: "Carter Pape is a journalist and developer seeking full-time work as a reporter."
     email: "carterpape@gmail.com"
     linkedin_url: "https://www.linkedin.com/in/carter-pape/"
     twitter_url: "https://twitter.com/cartrpape"
     photo:
-        path: "/assets/images/Carter-Pape.jpg"
-        title: "Carter in front of Winslow Hall"
-        alt: "Carter stands in front of Winslow Hall on campus at NC State."
+        path: "https://s3.amazonaws.com/carterpape-assets/Carter+Pape+mountains.jpeg"
+        title: "Carter posing in front of Mt. Waas in Utah"
+        alt: "Carter poses in front of Mt. Waas west of Moab, Utah during a camping trip."
 
 timezone: America/New_York
 lang: en-us

@@ -5,22 +5,25 @@ title: résumé
 ---
 ## profile
 
-I am a freelance journalist, writer, and web developer with extensive work experience, priming me for a career in the digital media environment. I have held leadership positions at NC State's student newspaper and radio station. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
+I am a reporter with professional experience in newspaper journalism, student journalism, and software development. I have lived in North Carolina, Colorado, and now Utah. I am looking for reporting jobs around the country and am willing to relocate.
 
-## why reporting?
-
-I seek to capitalize on my experience in student journalism by assimilating into a professional reporting career. I aim to establish myself as a skilled, reliable journalist. I hope to work alongside professional reporters, editors, radio hosts, and others.
+I have extensive experience in web development and software engineering, priming me for working in the digital media environment. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science.
 
 ## education
 
-North Carolina State University
-* Received B.S. in Mathematics
-* Graduated May 2018
+### North Carolina State University
+#### August 2014 – May 2018
+* Earned a Bachelors of Science degree in Mathematics
 * Received S-STEM Scholarship for excellence in math
 
 ## work experience
 
 [My LinkedIn profile][LinkedIn] provides a comprehensive list of my work experiences.
+
+### Reporter at [The Journal]
+#### September 2018 - November 2018
+* Reported on education, news from the nearby town of Mancos, and other local topics
+* Produced [a series][CKMS series] of thoroughly researched articles about a local public charter school
 
 ### Editor and Producer of [Praeci]
 #### September 2017 – May 2018
@@ -84,6 +87,7 @@ North Carolina State University
 
 [activism series]: http://www.technicianonline.com/search/?f=html&q=activism+series+carter+pape&d1=2017-02-01&d2=2017-04-01&sd=desc&l=25&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
 [Bill on LinkedIn]: https://www.linkedin.com/in/lssg3/
+[CKMS series]: https://the-journal.com/search?query=carter+pape+ckms
 [Dialogue with Technician]: https://itunes.apple.com/us/podcast/dialogue-with-technician/id1275744725?mt=2
 [Diversity Dialogue]: https://oied.ncsu.edu/divweb/2018/01/25/diversity-dialogue-to-delve-into-issues-on-college-campuses/
 [Diversity Dialogue photo]: https://oied.smugmug.com/Diversity/Diversity-Dialogue-Spring-2018/i-fSF5zVc/A
@@ -93,6 +97,7 @@ North Carolina State University
 [impeachment Technician story]: http://www.technicianonline.com/news/article_aef556ec-92bf-11e7-a1ef-5f8fc9433b52.html
 [Jamie Lynn Gilbert]: https://studentmedia.ncsu.edu/web/?q=professional-staff
 [Jess commentary]: http://praeci.com/commentary/breakdown-of-the-candidates
+[The Journal]: https://the-journal.com
 [LinkedIn]: {{site.author.linkedin_url}}
 [Meteor]: https://www.meteor.com
 [Model the Way]: https://studentinvolvement.dasa.ncsu.edu/development/wolfpack-leadership-challenge-awards/

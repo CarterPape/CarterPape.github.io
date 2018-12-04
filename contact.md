@@ -9,8 +9,6 @@ If you would like to contact me, you can:
     * (just replace `#####` with my first name)
 * [tweet at me]({{ site.author.twitter_url }}).
 * post a message to me on [my Wikipedia talk page].
-* search my name on the [NC State campus directory].
-    * (my name may no longer show up because I graduated)
 * search my name on [whitepages.com].
 
 [my Wikipedia talk page]: https://en.wikipedia.org/w/index.php?title=User_talk:Carterpape&action=edit
