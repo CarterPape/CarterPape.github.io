@@ -18,11 +18,11 @@
 
 article.post-preview {
     .post-thumbnail {
-        width: 30%;
-        max-width: 100%;
-        min-height: 11rem;
-        background-size: cover;
-        background-position: 50% 50%;
+        width:                  30%;
+        max-width:              100%;
+        min-height:             11rem;
+        background-size:        cover;
+        background-position:    50% 50%;
         
         &.fix-left {
             background-position: 0% 50%;
@@ -35,11 +35,11 @@ article.post-preview {
         margin-bottom: 0;
     }
     .post-meta {
-        font-size: .8em;
-        margin-top: .2em;
+        font-size:  0.8em;
+        margin-top: 0.2em;
     }
     .post-excerpt {
-        margin-top: .6em;
+        margin-top: 0.6em;
     }
     &:first-of-type {
         margin-top: 1.4em;

@@ -1,26 +1,40 @@
 html {
-    -webkit-text-size-adjust: none;
-    background-color: $site-bg;
-    font-size: 14px;
+    -webkit-text-size-adjust:   none;
+    background-color:           $site-bg;
+    font-size:                  14px;
 }
 
 body {
-    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Segoe UI Symbol";
-    color: $body-reg;
-    font-weight: 400;
-    margin: .2em;
+    color:          $regular-text;
+    font-weight:    400;
+    margin:         0.2em;
+    
+    font: 14px/1.5
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Fira Sans",
+        "Droid Sans",
+        "Helvetica Neue",
+        Arial,
+        sans-serif,
+        "Segoe UI Symbol";
     
     &:after {
-        content: "";
-        display: table;
-        clear: both;
+        content:    "";
+        display:    table;
+        clear:      both;
     }
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 1em;
-    margin-bottom: .4em;
-    line-height: 1.2;
+    margin-top:     1em;
+    margin-bottom:  0.4em;
+    line-height:    1.2;
     
     &:first-child {
         margin-top: 0;
@@ -32,35 +46,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    color: $head-reg;
-    font-size: 2.6em;
-    font-weight: 500;
+    color:          $stand-out-text;
+    font-size:      2.6em;
+    font-weight:    500;
 }
 
 h2 {
-    font-style: italic;
-    font-weight: 400;
-    color: lighten($head-reg, 10%);
-    font-size: 2.2em;
-    margin-top: 1.2em;
+    font-style:     italic;
+    font-weight:    400;
+    color:          lighten($stand-out-text, 10%);
+    font-size:      2.2em;
+    margin-top:     1.2em;
 }
 
 h3 {
-    color: lighten($head-reg, 15%);
-    font-weight: 500;
-    font-size: 1.8em;
+    color:          lighten($stand-out-text, 15%);
+    font-weight:    500;
+    font-size:      1.8em;
 }
 
 h4 {
-    font-weight: 300;
-    margin-top: 0;
-    color: lighten($head-reg, 25%);
-    font-size: 1.4em;
+    font-weight:    300;
+    margin-top:     0;
+    color:          lighten($stand-out-text, 25%);
+    font-size:      1.4em;
 }
 
 h5, h6 {
-    color: lighten($head-reg, 25%);
-    font-size: 1em;
+    color:      lighten($stand-out-text, 25%);
+    font-size:  1em;
 }
 
 p, ul, ol, table, pre, dl {
@@ -76,26 +90,26 @@ ul, ol {
 }
 
 a, a > pre, a > code {
-    color: #39c;
-    text-decoration: none;
-    transition: color .3s;
+    color:              $link-color;
+    text-decoration:    none;
+    transition:         color .3s;
     
     &:hover, &:hover > pre, &:hover > code {
-        color: #069;
+        color: $link-float-color;
     }
 }
 
 blockquote {
-    border-left: 1px solid $divider-gray;
-    margin: 0 0 1em 0;
-    padding: .5em 1.3rem;
-    font-weight: 200;
-    background-color: rgba(0,0,0,.04);
+    border-left:        1px solid $divider-gray;
+    margin:             0 0 1em 0;
+    padding:            0.5em 1.3rem;
+    font-weight:        200;
+    background-color:   rgba(0, 0, 0, 0.04);
     
     &::after {
-        content: "";
-        display: table;
-        clear: both;
+        content:    "";
+        display:    table;
+        clear:      both;
     }
     p:last-child {
         margin-bottom: 0;
@@ -103,36 +117,45 @@ blockquote {
 }
 
 code, pre {
-    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    font-family:
+        Monaco,
+        Bitstream Vera Sans Mono,
+        Lucida Console,
+        Terminal,
+        Consolas,
+        Liberation Mono,
+        DejaVu Sans Mono,
+        Courier New,
+        monospace;
 }
 
 code {
-    font-size: .9em;
-    line-height: 1;
+    font-size:      0.9em;
+    line-height:    1;
 }
 
 pre {
-    padding: 8px 15px;
-    background: #f8f8f8;
-    border-radius: 5px;
-    border: 1px solid $divider-gray;
-    overflow-x: auto;
+    padding:        8px 15px;
+    background:     #f8f8f8;
+    border-radius:  5px;
+    border:         1px solid $divider-gray;
+    overflow-x:     auto;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width:              100%;
+    border-collapse:    collapse;
 }
 
 th, td {
-    text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid $divider-gray;
+    text-align:     left;
+    padding:        5px 10px;
+    border-bottom:  1px solid $divider-gray;
 }
 
 dt {
-    color: #444;
-    font-weight: 500;
+    color:          #444;
+    font-weight:    500;
 }
 
 th {
@@ -140,19 +163,19 @@ th {
 }
 
 img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+    max-width:  100%;
+    display:    block;
+    margin:     0 auto;
     
     &.float-right {
-        float: right;
-        margin-left: 10px;
+        float:          right;
+        margin-left:    10px;
     }
 }
 
 strong {
-    color: #222;
-    font-weight: 500;
+    color:          $stand-out-text;
+    font-weight:    500;
     
     code, pre {
         font-weight: 600;
@@ -160,15 +183,15 @@ strong {
 }
 
 small, .tangent {
-    display: inline-block;
-    font-size: .8em;
+    display:    inline-block;
+    font-size:  .8em;
 }
 
 hr {
-    border: 0;
+    border:     0;
     background: $divider-gray;
-    height: 1px;
-    margin: 3em;
+    height:     1px;
+    margin:     3em;
 }
 
 sup, sub {

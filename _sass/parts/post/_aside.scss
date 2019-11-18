@@ -1,9 +1,9 @@
 aside.card {
-    font-size: 90%;
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    background: rgb(255, 255, 237);
+    font-size:      90%;
+    position:       relative;
+    margin-top:     1em;
+    margin-bottom:  1em;
+    background:     rgb(255, 255, 237);
     
     p:last-child {
         margin-bottom: 0;
@@ -12,23 +12,23 @@ aside.card {
 
 @media screen and (min-width: 761px) {
     aside.card {
-        width: 36%;
-        float: right;
-        right: -3.6em;
-        margin-left: -2.3em;
+        width:          36%;
+        float:          right;
+        right:          -3.6em;
+        margin-left:    -2.3em;
     }
 }
 
 @media screen and (max-width: 790px)  {
     aside.card {
-        margin-left: 1em;
-        right: 0;
+        margin-left:    1em;
+        right:          0;
     }
 }
 
 @media screen and (max-width: 760px)  {
     aside.card {
-        width: initial;
-        margin-left: initial;
+        width:          initial;
+        margin-left:    initial;
     }
 }

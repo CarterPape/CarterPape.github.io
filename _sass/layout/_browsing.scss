@@ -1,22 +1,22 @@
 #root-container.for-browsing {
     @media screen and (min-width: 761px)  {
         #main-container {
-            width: 490px;
-            float: right;
+            width:  490px;
+            float:  right;
         }
         header.masthead {
-            float: left;
-            width: 200px;
-            margin-bottom: 1em;
+            float:          left;
+            width:          200px;
+            margin-bottom:  1em;
         }
     }
     @media screen and (max-width: 760px) {
         header.masthead:after {
-            content: "";
-            display: block;
-            width: 5em;
-            margin: 2em auto 1.5em;
-            border-bottom: $divider-gray solid 1px;
+            content:        "";
+            display:        block;
+            width:          5em;
+            margin:         2em auto 1.5em;
+            border-bottom:  $divider-gray solid 1px;
         }
     }
 }

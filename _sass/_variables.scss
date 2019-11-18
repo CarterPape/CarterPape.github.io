@@ -1,20 +1,20 @@
-$white: #ffffff;
-$clear: rgba($white, 0);
+$white:             #ffffff;
+$clear:             rgba($white, 0);
 
-$site-bg: #f3fbff;
+$site-bg:           #f3fbff;
+$link-color:        #3399cc;
+$link-float-color:  #006699;
 
-$bold-gray: #303030;
+$regular-text:      #595959;
+$light-text:        rgba($regular-text, 0.75);
+$stand-out-text:    darken($regular-text, 25%);
 
-$body-reg: #595959;
-$body-gray: #909090;
-$head-reg: #222222;
+$link-hover-bg:     rgba(0, 0, 0, .07);
+$divider-gray:      #e5e5e5;
 
-$link-hover-bg: rgba(0, 0, 0, .07);
-$divider-gray: #e5e5e5;
+$button-bg:         #fafafa;
+$button-dark:       #ecf0f1;
+$button-text:       #263959;
 
-$button-bg: #fafafa;
-$button-dark: #ecf0f1;
-$button-text: #263959;
-
-$target-outline: #FFADB6;
-$target-shadow: lighten($target-outline, 10%);
+$target-outline:    #FFADB6;
+$target-shadow:     lighten($target-outline, 10%);

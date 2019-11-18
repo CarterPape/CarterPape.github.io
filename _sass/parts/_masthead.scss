@@ -1,14 +1,14 @@
 header.masthead {
-    position: relative;
+    position:               relative;
     -webkit-font-smoothing: subpixel-antialiased;
     
     .site-name h1 {
         font-size: 2em;
     }
     .site-name .home-link {
-        color: $head-reg;
-        padding: 0.3em 0.6em;
-        margin: -0.3em -0.6em;
+        color:      $stand-out-text;
+        padding:    0.3em 0.6em;
+        margin:     -0.3em -0.6em;
     }
     .site-description {
         margin-bottom: 0.6em;
@@ -17,16 +17,16 @@ header.masthead {
 
 @media screen and (min-width: 761px) {
     header.masthead {
-        float: left;
+        float:      left;
         text-align: right;
     }
 }
 
 @media screen and (max-width: 760px)  {
     header.masthead {
-        z-index: 1000;
-        margin-bottom: 1.3em;
-        float: none;
+        z-index:        1000;
+        margin-bottom:  1.3em;
+        float:          none;
         
         .site-name, .site-description {
             text-align: center;

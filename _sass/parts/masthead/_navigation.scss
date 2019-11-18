@@ -1,7 +1,7 @@
 header.masthead {
     #sitewide-nav ul {
         list-style: none;
-        padding: 0;
+        padding:    0;
     }
 }
 
@@ -9,6 +9,7 @@ header.masthead {
     header.masthead {
         #sitewide-nav ul {
             margin: 2em 0 0 0;
+            
             &:last-child {
                 margin-bottom: 2.3em;
             }
@@ -22,40 +23,42 @@ header.masthead {
 @media screen and (max-width: 760px)  {
     header.masthead {
         .menu-button {
-            position: absolute;
-            left: 0px;
-            top: .5em;
+            position:   absolute;
+            left:       0;
+            top:        0.5em;
         
             button {
-                border: none;
+                border:     none;
                 background: $clear;
             }
         }
         #sitewide-nav {
-            display: none;
-            background: $white;
-            padding-bottom: .4em;
-            margin-bottom: 1em;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: .3em;
-            position: absolute;
-            top: 38px;
-            left: -7px;
-            width: 17em;
+            display:        none;
+            background:     $white;
+            padding-bottom: 0.4em;
+            margin-bottom:  1em;
+            border-radius:  0.3em;
+            position:       absolute;
+            top:            38px;
+            left:           -7px;
+            width:          17em;
+            box-shadow:
+                0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
             
             &:after {
-                content: "";
-                display: table;
-                clear: both;
+                content:    "";
+                display:    table;
+                clear:      both;
             }
             ul {
-                float: left;
+                float:      left;
                 text-align: center;
-                width: 50%;
-                margin: 1em 0 1em 0;
+                width:      50%;
+                margin:     1em 0 1em 0;
                 
                 li {
-                    margin: .4em 0 0 0;
+                    margin: 0.4em 0 0 0;
                 }
             }
         }
