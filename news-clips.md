@@ -2,7 +2,7 @@
 layout: "browsing/page"
 permalink: "/news-clips/"
 title: news clips
-last_updated: "December 2018"
+last_updated: "Nov. 21, 2018"
 ---
 
 The following are news stories on which I was first or only author and podcast episodes I edited and produced. These works are meant to highlight the thoroughness, voice, and clarity of my reporting.
@@ -21,6 +21,26 @@ For a comprehensive look at my work:
 #### {{ clip.publish-info }}
 {{ clip.description }}
 {% endfor %}
+
+{% if false %}
+
+## video samples
+
+{% for clip in site.data.news-clips.video %}
+### [{{ clip.title }}]({{ clip.link }})
+#### {{ clip.publish-info }}
+{{ clip.description }}
+{% endfor %}
+
+## photography
+
+{% for clip in site.data.news-clips.photo %}
+### [{{ clip.title }}]({{ clip.link }})
+#### {{ clip.publish-info }}
+{{ clip.description }}
+{% endfor %}
+
+{% endif %}
 
 ## podcast episodes
 

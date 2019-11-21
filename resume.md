@@ -6,7 +6,7 @@ last_updated: "Nov. 17, 2019"
 ---
 ## profile
 
-I am a reporter with professional experience in newspaper journalism, student journalism, and software development. I have lived in North Carolina, Colorado, and now Utah.
+I am a reporter with work experience in newspaper journalism, student journalism, and software development. I have lived in North Carolina, Colorado, and now Utah.
 
 I have extensive experience in web development and software engineering, priming me for working in the digital media environment. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science, and have reported data journalism.
 
