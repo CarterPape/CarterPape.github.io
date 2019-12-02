@@ -1,11 +1,12 @@
 ---
 layout: "browsing/page"
+body-tag-class: "news-clips"
 permalink: "/news-clips/"
 title: news clips
 last_updated: "Nov. 21, 2018"
 ---
 
-The following are news stories on which I was first or only author and podcast episodes I edited and produced. These works are meant to highlight the thoroughness, voice, and clarity of my reporting.
+The following are works on which I was first or only author or producer. These works are meant to highlight the clarity and voice of my reporting, my aptitude for capturing striking imagery, and my presence in podcast and radio productions.
 
 For a comprehensive look at my work:
 - read [articles with my byline][my T-I articles] on [_The Times-Independent_'s website][The Times-Independent]
@@ -14,40 +15,28 @@ For a comprehensive look at my work:
 - [search my name][Technician articles] on [_Technician_'s website][Technician]
 - [search my name][The Journal articles] on [_The Journal_'s website][The Journal]
 
-## print clips
+{% for clip in site.data.news-clips %}
 
-{% for clip in site.data.news-clips.print %}
-### [{{ clip.title }}]({{ clip.link }})
-#### {{ clip.publish-info }}
-{{ clip.description }}
-{% endfor %}
+------
 
-{% if false %}
-
-## video samples
-
-{% for clip in site.data.news-clips.video %}
-### [{{ clip.title }}]({{ clip.link }})
-#### {{ clip.publish-info }}
-{{ clip.description }}
-{% endfor %}
-
-## photography
-
-{% for clip in site.data.news-clips.photo %}
-### [{{ clip.title }}]({{ clip.link }})
-#### {{ clip.publish-info }}
-{{ clip.description }}
-{% endfor %}
-
+{% if clip.photo-src %}
+<a href="{{ clip.link }}"><img src="{{ clip.photo-src }}" /></a>
+{% elsif clip.embed-element %}
+{{ clip.embed-element }}
 {% endif %}
 
-## podcast episodes
-
-{% for clip in site.data.news-clips.podcast %}
+{% if clip.title %}
 ### [{{ clip.title }}]({{ clip.link }})
+{% endif %}
+
+{% if clip.publish-info %}
 #### {{ clip.publish-info }}
+{% endif %}
+
+{% if clip.description %}
 {{ clip.description }}
+{% endif %}
+
 {% endfor %}
 
 [my T-I articles]: https://moabtimes.com/author/carter-pape/

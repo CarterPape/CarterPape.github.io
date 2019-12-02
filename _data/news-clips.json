@@ -1,22 +1,52 @@
-{
-"print": [
+[
     {
         "title": "Study: Half of Moabites can’t afford housing",
         "publish-info": "Published by _The Times-Independent_ on June 28, 2019",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/06/26-housing-unaffordable.jpeg",
         "description": "This story dug into findings from multiple studies recently completed by state and local governments about Moab's housing crisis, which by many measures, is the worst in Utah.",
         "link": "https://moabtimes.com/2019/06/28/study-half-of-moabites-cant-afford-housing/"
     },
     {
+        "embed-element": "<iframe width='100%' height='250px' src='https://www.youtube.com/embed/m27oVxfyfaQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
         "title": "Mail thief caught?",
         "publish-info": "Published by _The Times-Independent_ on September 13, 2019",
-        "description": "This story broke news about the Inspector General of the U.S. Postal Service finding a \"person of interest\" in multiple recent cases of alleged mail theft at the Moab Post Office. Those allegations [also received attention](https://moabtimes.com/2019/04/26/locals-tell-their-missing-mail-stories/) from _The T-I_.",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/05/21-USPS-investigation.jpg",
+        "description": "This story broke news about the Inspector General of the U.S. Postal Service finding a \"person of interest\" during an investigation of multiple recent cases of alleged mail theft at the Moab Post Office. Those allegations [also received attention](https://moabtimes.com/2019/04/26/locals-tell-their-missing-mail-stories/) from _The T-I_ months prior.",
         "link": "https://moabtimes.com/2019/09/13/mail-thief-caught/"
+    },
+    {
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/08/31-Huckabay-hates-Loves-1.jpeg",
+        "link": "https://moabtimes.com/2019/08/08/sitla-neighbor-would-rather-live-by-a-dump/"
+    },
+    {
+        "title": "Activism on campus from the student perspective",
+        "publish-info": "Published by _Technician_ on February 27, 2017",
+        "description": "I interviewed six NC State students with a reputation for activism and community involvement for the first article in a series about activism at NC State. [Part two](http://www.technicianonline.com/news/article_583d43d0-0a04-11e7-a817-ebc6c833a86a.html) was about faculty and activism, [part three](http://www.technicianonline.com/news/article_bb210f42-1420-11e7-88e6-e7ca771fd926.html) was about the history of activism at NC State.",
+        "link": "http://www.technicianonline.com/news/article_a924243e-fcae-11e6-ab57-53e36d7a71c7.html"
+    },
+    {
+        "title": "Protected Class: Moses T. Alexander Greene",
+        "publish-info": "Published for _The Praeci Podcast_ on February 7, 2018",
+        "photo-src": "https://s3.amazonaws.com/praeci-assets/moses-greene-promo.png",
+        "description": "I spoke with the director of the African American Cultural Center at NC State about common mistakes White people make when talking about Black people and identity. This podcast episode is [nominated for a national collegiate award](https://www.linkedin.com/feed/update/urn:li:activity:6435915679433580544).",
+        "link": "http://praeci.com/protected-class/moses-t-alexander-greene"
+    },
+    {
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/06/IMG_3277.jpeg",
+        "link": "https://moabtimes.com/2019/06/02/fire-on-100-south-possibly-started-in-engine-of-car/"
     },
     {
         "title": "Auditor: Kiva Montessori might not last 12 months",
         "publish-info": "Published by _The Journal_ on November 29, 2018",
+        "photo-src": "https://dur-cjweb.newscyclecloud.com/storyimage/CJ/20181129/NEWS01/181129868/AR/0/AR-181129868.jpg",
         "description": "This was part of a series of articles related to a local montessori [school's](https://the-journal.com/articles/117894-ckms-board-no-evidence-of-asbestos-exposure) [financial](https://the-journal.com/articles/118934-kivas-use-of-emergency-fund-might-be-unconstitutional), [leadership](https://the-journal.com/articles/115305-before-changes-kiva-parents-criticized-school-leadership-for-over-a-year), and [performance](https://the-journal.com/articles/114863-staff-shakeup-low-test-scores-hit-kiva-montessori-school) problems. An independent financial auditor expressed \"substantial doubt\" that the school would survive another 12 months due to the recent funding crisis.",
         "link": "https://the-journal.com/articles/118933-auditor-kiva-montessori-might-not-last-12-months"
+    },
+    {
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/07/IMG_3855.jpg",
+        "link": "https://moabtimes.com/2019/07/05/celebrating-freedom-with-free-food-music-fireworks/"
     },
     {
         "title": "Timeline of the Willis impeachment process",
@@ -25,36 +55,29 @@
         "link": "http://praeci.com/news/willis-impeachment-overview"
     },
     {
-        "title": "Activism on campus from the student perspective",
-        "publish-info": "Published by _Technician_ on February 27, 2017",
-        "description": "I interviewed six NC State students with a reputation for activism and community involvement for the first article in a series about activism at NC State. [Part two](http://www.technicianonline.com/news/article_583d43d0-0a04-11e7-a817-ebc6c833a86a.html) was about faculty and activism, [part three](http://www.technicianonline.com/news/article_bb210f42-1420-11e7-88e6-e7ca771fd926.html) was about the history of activism at NC State.",
-        "link": "http://www.technicianonline.com/news/article_a924243e-fcae-11e6-ab57-53e36d7a71c7.html"
-    }
-],
-"podcast": [
+        "title": "Title IX in the Trump era",
+        "publish-info": "Published for _The Praeci Podcast_ on October 16, 2017",
+        "photo-src": "https://s3.amazonaws.com/praeci-assets/Betsy_DeVos.png",
+        "description": "In the first episode of _The Praeci Podcast_, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy DeVos.",
+        "link": "http://praeci.com/Podcast-Title-IX-in-the-Trump-era.html"
+    },
     {
-        "title": "Protected Class: Moses T. Alexander Greene",
-        "publish-info": "Published for _The Praeci Podcast_ on February 7, 2018",
-        "description": "I spoke with the director of the African American Cultural Center at NC State about common mistakes White people make when talking about Black people and identity. This podcast episode is [nominated for a national collegiate award](https://www.linkedin.com/feed/update/urn:li:activity:6435915679433580544).",
-        "link": "http://praeci.com/protected-class/moses-t-alexander-greene"
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/03/13-curtis-town-hall.jpeg",
+        "link": "https://moabtimes.com/2019/03/27/curtis-takes-town-hall-heat/"
     },
     {
         "title": "Students first",
         "publish-info": "Published for _The Praeci Podcast_ on November 13, 2017",
+        "photo-src": "https://s3.amazonaws.com/praeci-assets/DASA-podcast.png",
         "description": "Edited over 5 hours of interviews and research down to a 73 minute episode on the history of how student and academic affairs at NC State became a part of the same division.",
         "link": "http://praeci.com/podcast/history-of-dasa"
     },
     {
-        "title": "Protected Class: Nashia Whittenburg",
-        "publish-info": "Published for _The Praeci Podcast_ on February 14, 2018",
-        "description": "The director of Multicultural Student Affairs at NC State talks about her experience growing up in Greenville, South Carolina, and the racial hatred she endured as a young girl.",
-        "link": "http://praeci.com/protected-class/nashia-whittenburg"
+        "embed-element": "<iframe width='100%' height='250px' src='https://www.youtube.com/embed/h97f4vfoFgA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+        "link": "https://moabtimes.com/2019/04/23/video-climbing-potato-salad-hill/"
     },
     {
-        "title": "Title IX in the Trump era",
-        "publish-info": "Published for _The Praeci Podcast_ on October 16, 2017",
-        "description": "In the first episode of _The Praeci Podcast_, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy DeVos.",
-        "link": "http://praeci.com/Podcast-Title-IX-in-the-Trump-era.html"
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/08/IMG_0041.jpeg",
+        "link": "https://moabtimes.com/2019/08/29/city-considers-change-to-church-sewer-fees/"
     }
 ]
-}
