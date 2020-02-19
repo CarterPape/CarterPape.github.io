@@ -8,7 +8,7 @@ If you would like to contact me, you can:
 
 * [call or visit](https://moabtimes.com/contact-us/) The Times-Independent.
 * email me at **`#####@carterpape.com`**.
-    * (replace `#####` with my first name)
+    * (replace `#####` with [the standard English greeting word](https://en.wiktionary.org/wiki/hello))
 * [tweet at me]({{ site.author.twitter_url }}).
 * post a message to me on [my Wikipedia talk page].
 * search my name on [whitepages.com].
