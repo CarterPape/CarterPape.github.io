@@ -2,7 +2,7 @@
 layout: "browsing/page"
 permalink: "/contact/"
 title: contact
-last_updated: "Nov. 17, 2019"
+last_updated: "Feb. 18, 2020"
 ---
 If you would like to contact me, you can:
 
