@@ -9,11 +9,11 @@ author:
     linkedin_url: "https://www.linkedin.com/in/carter-pape/"
     twitter_url: "https://twitter.com/cartrpape"
     photo:
-        path: "https://s3.amazonaws.com/carterpape-assets/Carter+Pape+mountains.jpeg"
-        title: "Carter posing in front of Mt. Waas in Utah"
-        alt: "Carter poses in front of Mt. Waas west of Moab, Utah during a camping trip."
+        path: "/assets/images/profile-photos/2020.jpeg"
+        title: "It me."
+        alt: "me standing with my bike on Falcon Flow, a bike trail in Moab opened in 2020"
 
-timezone: America/New_York
+timezone: America/Denver
 lang: en-us
 
 permalink: /:categories/:title
