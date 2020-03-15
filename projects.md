@@ -11,12 +11,6 @@ last_updated: "Nov. 17, 2019"
 
 I am currently developing a paywall for the website to restrict access by non-subscribers via a monthly quota of free articles. The plugin, called [RedRock Subscriptions], is built with [Memberful], is based on the company's own WordPress plugin, and is set to go live by January 2020.
 
-## **write**
-
-**write** is a digital notepad currently under development for macOS that provides focused, beautiful, and responsive word processing for web content writers. **write** responds to Markdown syntax, allowing writers and editors to see and do text formatting without lifting a finger from the keyboard. The app provides an environment for web content creation that is distraction-free and simple to use.
-
-For more about **write**, read my [introduction][write introduction] to the [series of articles][write series] I am writing as I develop the app. You can also see the project [on GitHub](https://github.com/CarterPape/write).
-
 ## _Praeci_
 
 _Praeci_ is a reporting project I created for presenting NC State and Raleigh news with a focus on succinct writing and attractive presentation. I built the website myself using Jekyll and GitHub Pages.
@@ -32,6 +26,12 @@ This project was an excursion into genetic optimization. I built the original fr
 Swift is not the optimal language for building this tool. However, I used Swift anyway because I was interested to learn the language at the same time that I was thinking about building a genetic optimization framework.
 
 [See the project on GitHub](https://github.com/CarterPape/Basic-binary-genetic-optimization)
+
+## **write**
+
+**write** is a digital notepad currently under development for macOS that provides focused, beautiful, and responsive word processing for web content writers. **write** responds to Markdown syntax, allowing writers and editors to see and do text formatting without lifting a finger from the keyboard. The app provides an environment for web content creation that is distraction-free and simple to use.
+
+For more about **write**, read my [introduction][write introduction] to the [series of articles][write series] I am writing as I develop the app. You can also see the project [on GitHub](https://github.com/CarterPape/write).
 
 
 [Memberful]: https://memberful.com
