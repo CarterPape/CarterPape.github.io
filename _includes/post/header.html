@@ -3,7 +3,7 @@
 {% assign formatted_date = page.date | date: '%B %-d at %l:%M %p' %}
 
 <header class="post-header">
-    <h1 class="doc-title">
+    <h1 class="doc-title balance-text">
         <a href="{{ page.url }}" class="not-blue">{{ title }}</a>
     </h1>
     {% include filing.html categories=page.categories leftmost-depth=0 %}

@@ -27,6 +27,7 @@ For a comprehensive look at my work:
 
 {% if clip.title %}
 ### [{{ clip.title }}]({{ clip.link }})
+{:.balance-text}
 {% endif %}
 
 {% if clip.publish-info %}
