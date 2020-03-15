@@ -6,7 +6,7 @@ last_updated: "Nov. 17, 2019"
 
 ![{{ site.author.photo.alt }}][Carter pic]
 
-I am a reporter, systems administrator, and web developer for _The Times-Independent_ in Moab, Utah. Previously, I studied mathematics at North Carolina State University, where I also did student journalism and software development.
+I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied mathematics at North Carolina State University, where I also did student journalism and software development.
 
 ## highlights
 
