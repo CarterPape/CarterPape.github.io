@@ -11,13 +11,12 @@ I am a reporter, systems administrator, and web developer for _The Times-Indepen
 ## highlights
 
 * Reporter for _[The Times-Independent]_
-    * I report on city politics, tourism, crime and other topics.
-    * In addition to my reporting duties, I also created and manage [the newspaper's website][The Times-Independent].
+    * I report on county politics, tourism, crime and other topics.
 * Former news editor of _[Technician]_
     * I created and produced the paper's first podcast, _[Dialogue with Technician]_.
 * Producer of _[Praeci]_, which covered NC State and Raleigh news
     * Through _Praeci_, I independently produced two podcast series.
-* Nine years of programming experience, six of which have been in the workplace
+* 11 years of programming experience, eight of which have been in the workplace
     * I have extensive web development and software engineering experience.
 
 [Carter pic]: {{ site.author.photo.path }} "{{ site.author.photo.title }}"
