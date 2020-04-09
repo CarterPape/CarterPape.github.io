@@ -2,8 +2,16 @@
 layout: "browsing/page"
 permalink: "/projects/"
 title: projects
-last_updated: "Nov. 17, 2019"
+last_updated: "April 9, 2020"
 ---
+
+## NewsBot
+
+[NewsBot] is a tool that runs scheduled tasks — chiefly web scraping — to automate some of the more rote parts of my and The Times-Independent's workflows. Such tasks include gathering and formatting weather data that is used in the weekly print edition of the newspaper, checking for updates on [investigations](https://moabtimes.com/2019/07/08/state-probing-frontier-following-service-complaints/) that we are following, looking out for new [oil](https://moabtimes.com/2020/02/21/sand-flats-pulled-from-potential-drilling-sites/) and [gas](https://moabtimes.com/2020/03/27/230-parcels-many-near-arches-canyonlands-up-for-oil-gas-lease-sale/) lease sales in the area and more.
+
+With each feature I have added to NewsBot, it has proven to be a boon to my team's productivity. It has saved the office time by taking care of some of the routine we typically face daily or weekly, affording us greater mental and temporal capacity to focus on the more important, less mindless parts of our jobs.
+
+_[See the public parts of NewsBot on GitHub](https://github.com/CarterPape/NewsBot)._
 
 ## moabtimes.com
 
@@ -13,11 +21,11 @@ I am currently developing a paywall for the website to restrict access by non-su
 
 ## _Praeci_
 
-_Praeci_ is a reporting project I created for presenting NC State and Raleigh news with a focus on succinct writing and attractive presentation. I built the website myself using Jekyll and GitHub Pages.
+[_Praeci_](https://praeci.com) [was](https://praeci.com/praeci-is-defunct) a reporting project I created for presenting NC State and Raleigh news with a focus on succinct writing and attractive presentation. I built the website myself using Jekyll and GitHub Pages.
 
 I customized a template built by Artem Sheludko, adding custom layouts and elements. I also built the site's podcast RSS feed syndication, enabled by Amazon S3 for storage of podcast audio and by [PodTrac](http://analytics.podtrac.com) download analytics.
 
-[See the _Praeci_ code on GitHub](https://github.com/Praeci/praeci.github.io)
+_[See the Praeci code on GitHub](https://github.com/Praeci/praeci.github.io)._
 
 ## Basic binary genetic optimization
 
@@ -25,16 +33,17 @@ This project was an excursion into genetic optimization. I built the original fr
 
 Swift is not the optimal language for building this tool. However, I used Swift anyway because I was interested to learn the language at the same time that I was thinking about building a genetic optimization framework.
 
-[See the project on GitHub](https://github.com/CarterPape/Basic-binary-genetic-optimization)
+_[See the project on GitHub](https://github.com/CarterPape/Basic-binary-genetic-optimization)._
 
 ## **write**
 
-**write** is a digital notepad currently under development for macOS that provides focused, beautiful, and responsive word processing for web content writers. **write** responds to Markdown syntax, allowing writers and editors to see and do text formatting without lifting a finger from the keyboard. The app provides an environment for web content creation that is distraction-free and simple to use.
+**write** is a digital notepad that I have taken a break from developing. It is an app for macOS that provides focused, beautiful, and responsive word processing for web content writers. **write** responds to Markdown syntax, allowing writers and editors to see and do text formatting without lifting a finger from the keyboard. The app provides an environment for web content creation that is distraction-free and simple to use.
 
 For more about **write**, read my [introduction][write introduction] to the [series of articles][write series] I am writing as I develop the app. You can also see the project [on GitHub](https://github.com/CarterPape/write).
 
 
 [Memberful]: https://memberful.com
+[NewsBot]: https://github.com/CarterPape/NewsBot
 [RedRock]: https://github.com/the-times-independent/RedRock
 [RedRock Subscriptions]: https://github.com/the-times-independent/RedRock-Subscriptions
 [The Times-Independent]: https://moabtimes.com/
