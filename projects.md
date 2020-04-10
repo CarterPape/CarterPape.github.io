@@ -9,7 +9,7 @@ last_updated: "April 9, 2020"
 
 [NewsBot] is a tool that runs scheduled tasks — chiefly web scraping — to automate some of the more rote parts of my and The Times-Independent's workflows. Such tasks include gathering and formatting weather data that is used in the weekly print edition of the newspaper, checking for updates on [investigations](https://moabtimes.com/2019/07/08/state-probing-frontier-following-service-complaints/) that we are following, looking out for new [oil](https://moabtimes.com/2020/02/21/sand-flats-pulled-from-potential-drilling-sites/) and [gas](https://moabtimes.com/2020/03/27/230-parcels-many-near-arches-canyonlands-up-for-oil-gas-lease-sale/) lease sales in the area and more.
 
-With each feature I have added to NewsBot, it has proven to be a boon to my team's productivity. It has saved the office time by taking care of some of the routine we typically face daily or weekly, affording us greater mental and temporal capacity to focus on the more important, less mindless parts of our jobs.
+With each feature I have added to NewsBot, it has proven to be a boon to my team's productivity. It has saved the office time by taking care of some of the routine tasks we typically face daily or weekly, affording us greater mental and temporal capacity to focus on the more important, less mindless parts of our jobs.
 
 _[See the public parts of NewsBot on GitHub](https://github.com/CarterPape/NewsBot)._
 

@@ -5,7 +5,7 @@ date: 2018-07-28 20:39:00 -0400
 
 image:
     path: "https://s3.amazonaws.com/carterpape-assets/olivermak.es.png"
-    caption: "the [home page](https://olivermake.es) of Oliver Pattison's website ([Oliver Pattison](https://olivermak.es/), [CC BY-NC 4.0](https://olivermak.es/license/))"
+    caption: "the [home page](https://olivermak.es) of Oliver Pattison's website ([Oliver Pattison](https://olivermak.es/), [CC BY-NC 4.0](https://olivermak.es/license/))"
     alt: "the home page of Oliver Pattison's website"
     title: "the home page of Oliver Pattison's website"
     class: screenshot
