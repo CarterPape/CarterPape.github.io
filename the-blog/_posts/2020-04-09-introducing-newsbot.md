@@ -11,9 +11,11 @@ social-image:
     class: screenshot
 ---
 
-This past weekend, I completed the most recent version, 0.3.0, of [NewsBot][NewsBot on GitHub], a series of time-saving automations that contribute to my work reporting for [The Times-Independent]. At this point, NewsBot is a collection of web scrapers — some of which are [private](https://github.com/CarterPape/NewsBot/tree/92ef25ca911c1f60a157c83f4089baeabfab502f#the-private-subproject) — that regularly capture updates, saving me from keeping a series of bookmarks that I check every hour or so. In the future, it will likely expand past mere web scraping.
+This past weekend, I completed the most recent version, 0.3.0, of [NewsBot][NewsBot on GitHub], a series of time-saving automations that contribute to my work reporting for [The Times-Independent]. At this point, NewsBot is a collection of web scrapers — some of which are [private](https://github.com/CarterPape/NewsBot/tree/92ef25ca911c1f60a157c83f4089baeabfab502f#the-private-subproject) — that regularly capture updates to specific webpages, saving me from keeping a series of bookmarks that I have to check every hour or so.
 
-I will explain the idea behind NewsBot with an example.
+In the future, NewsBot will likely expand past mere web scraping into other automations, like providing an online dashboard of recent and popular tweets, news articles, Facebook posts, and other items shared about Moab. That dashboard would likely be hosted at the currently nonexistent website [newsbot.carterpape.com](https://newsbot.carterpape.com).
+
+For now, I will explain the idea behind the current iteration of NewsBot with an example.
 
 {% capture content %}
 [![an email from NewsBot with an update on the investigation of Frontier communications of Utah](/assets/images/for-posts/a-NewsBot-email.png)](/assets/documents/for-posts/a-NewsBot-email.eml)
