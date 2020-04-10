@@ -43,7 +43,7 @@ For more about **write**, read my [introduction][write introduction] to the [ser
 
 
 [Memberful]: https://memberful.com
-[NewsBot]: https://github.com/CarterPape/NewsBot
+[NewsBot]: {% post_url the-blog/2020-04-09-introducing-newsbot %}
 [RedRock]: https://github.com/the-times-independent/RedRock
 [RedRock Subscriptions]: https://github.com/the-times-independent/RedRock-Subscriptions
 [The Times-Independent]: https://moabtimes.com/
