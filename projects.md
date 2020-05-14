@@ -2,7 +2,7 @@
 layout: "browsing/page"
 permalink: "/projects/"
 title: projects
-last_updated: "April 9, 2020"
+last_updated: "May 14, 2020"
 ---
 
 ## NewsBot
@@ -15,9 +15,11 @@ _[See the public parts of NewsBot on GitHub](https://github.com/CarterPape/NewsB
 
 ## moabtimes.com
 
-[moabtimes.com][The Times-Independent] is _The Times-Independent_'s website. It is built on WordPress, and although the content is protected by copyright, the source code (namely, the WordPress theme, called [RedRock]) has [an open source license](https://github.com/the-times-independent/RedRock/blob/master/LICENSE).
+[moabtimes.com][The Times-Independent] is _The Times-Independent_'s website. Prior to May 2020, I maintained the website after developing it myself. Although the content on the site is protected by copyright, the source code from the previous iteration of the site (namely, the WordPress theme, called [RedRock]) has [an open source license](https://github.com/the-times-independent/RedRock/blob/master/LICENSE).
 
-I am currently developing a paywall for the website to restrict access by non-subscribers via a monthly quota of free articles. The plugin, called [RedRock Subscriptions], is built with [Memberful], is based on the company's own WordPress plugin, and is set to go live by January 2020.
+I had begun developing a paywall for the website to restrict access by non-subscribers via a monthly quota of free articles. The plugin, called [RedRock Subscriptions], is built with [Memberful], and is based on [that company's own WordPress plugin](https://wordpress.org/plugins/memberful-wp/).
+
+_[See RedRock on GitHub](https://github.com/the-times-independent/RedRock)._
 
 ## _Praeci_
 
@@ -40,6 +42,8 @@ _[See the project on GitHub](https://github.com/CarterPape/Basic-binary-genetic-
 **write** is a digital notepad that I have taken a break from developing. It is an app for macOS that provides focused, beautiful, and responsive word processing for web content writers. **write** responds to Markdown syntax, allowing writers and editors to see and do text formatting without lifting a finger from the keyboard. The app provides an environment for web content creation that is distraction-free and simple to use.
 
 For more about **write**, read my [introduction][write introduction] to the [series of articles][write series] I am writing as I develop the app. You can also see the project [on GitHub](https://github.com/CarterPape/write).
+
+_[See the project on GitHub](https://github.com/CarterPape/write)._
 
 
 [Memberful]: https://memberful.com
