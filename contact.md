@@ -13,6 +13,6 @@ If you would like to contact me, you can:
 * post a message to me on [my Wikipedia talk page].
 * search my name on [whitepages.com].
 
-[my Wikipedia talk page]: https://en.wikipedia.org/w/index.php?title=User_talk:Carterpape&action=edit
+[my Wikipedia talk page]: https://en.wikipedia.org/wiki/User_talk:Carter_Pape
 [NC State campus directory]: https://directory.ncsu.edu/directory/
 [whitepages.com]: https://www.whitepages.com
