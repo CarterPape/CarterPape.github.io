@@ -6,7 +6,7 @@ last_updated: "Feb. 18, 2020"
 ---
 If you would like to contact me, you can:
 
-* [call or visit](https://moabtimes.com/contact-us/) The Times-Independent.
+* [Call or visit](https://moabtimes.com/contact-us/) The Times-Independent.
 * Email me at **`#####@carterpape.com`**.
     * (Replace `#####` with [the standard English greeting word](https://en.wiktionary.org/wiki/hello).)
 * [Tweet at me]({{ site.author.twitter_url }}).
