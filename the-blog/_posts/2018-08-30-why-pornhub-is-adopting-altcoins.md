@@ -4,6 +4,8 @@ excerpt: "Pornhub just added PumaPay to its repertoire of supported cryptocurren
 date: 2018-08-30 15:56 -04:00
 ---
 
+***Note:*** *As part of a job application submitted a little while before the publication of this article, I was asked to write an article on the topic of Pornhub adopting PumaPay. This is the article I wrote.*
+
 Pornhub, the leader in online pornography distribution, announced last week that it would be adopting its fourth cryptocurrency in five months. The company appears to be looking to add even more crypto support in the near future.
 
 The website began accepting crypto payments in April when it adopted Verge, an anonymity-focused coin with the 41st largest market capitalization among cryptos as of writing. Two months later, Pornhub adopted two more coins, and now PumaPay is next.

@@ -10,6 +10,8 @@ redirect_from: "/blog/unlisted/no-callbacks/"
 
 **note to all readers**: I do not have any research, data, or expertise to claim that what I describe in this article is an actual inefficiency in the job market. This is an idea, and it's one I'm interested to explore further so that I can have the data and knowledge to bolster the argument, but this should not be confused for journalism or well-researched commentary. If anything, it's informed venting, but it's something to which you may be able to relate.
 
+Because I don't have data or factual backing besides my personal experience, this post is unlisted (i.e. not publicly accessible except to anyone with a link).
+
 **note to hiring managers**: I want to emphasize that this article is not an attack on you. This is a complaint about a standard practice in the labor market. Hopefully, I have taken a respectful enough tact in writing about this topic to implicitly convince you that I am not out to make people in human resources look bad.
 
 ----------------
@@ -48,19 +50,19 @@ And there’s a world of alternative possibilities that you will never know; The
 
 ## an anecdote
 
-Last summer, I called NPR because I had submitted multiple applications to multiple internship openings at the company and heard back from none of them. I did this as an exercise because the start date for the jobs had already passed, so I knew I hadn’t gotten them, but I wanted to verify that they indeed didn’t contact rejected applicants. So I called to ask why I had never heard back, and indeed, they had not contacted rejected applicants.
+Last summer, I called NPR because I had submitted multiple applications to multiple internship openings at the company and heard back on none of them. I did this as an exercise because the start date for the jobs had already passed, so I knew I hadn’t gotten them, but I wanted to verify that they indeed didn’t contact rejected applicants. So I called to ask why I had never heard back, and indeed, they had not contacted rejected applicants.
 
 After that experience, I applied to a few jobs at the New York Times because… you know, why not? How many people apply to competitive schools and jobs they only hope to get into? I never expected to hear back after the NPR and similar application processes.
 
-However, to my surprise, a few weeks after I sent in my application, the New York Times emailed me to tell me I did not get the job, and it was a relief. Despite no specific feedback about the application process, and a generic email about how qualified the candidates were this year, I was just happy to know to get an actual confirmation.
+However, to my surprise, a few weeks after I sent in my application, the New York Times emailed me to tell me I did not get the job, and it was a relief. Despite no specific feedback about the application process, and a generic email about how qualified the candidates were this year, I was just happy to get an actual confirmation.
 
-## what does this mean?
+## What does this mean?
 
 As an individual, I have little information guiding me as I look for jobs in journalism. I can browse job listings, look at the postings that friends and family send me, and fantasize about the types of jobs I would like to get. However, I do not have good information about where I am likely to be hired. I get no feedback from companies that I need more experience if I am to work at a place like the local newspaper or radio station.
 
 This lack of information means that individuals like me spend lots of time sending applications to places where we never stood a chance or where our skills really don't align with the work they're doing. While the list of requirements on these postings are helpful, it's not as useful as knowing whether hiring managers believe I meet the requirements. Perhaps I'm the only one who believes I meet their requirements!
 
-And the response, of course, is to develop the strategy I mentioned earlier: go for quantity over quality. Apply to every job that you see that you might like, and focus on applying to many jobs rather than applying to the truly attractive ones, or the ones where you know you're qualified.
+And the response, of course, is to develop the strategy I mentioned earlier: Go for quantity over quality. Apply to every job that you see that you might like, and focus on applying to many jobs rather than applying to the truly attractive ones, or the ones where you know you're qualified.
 
 Beyond just applying to more jobs, under-qualified candidates don't get useful information about where they should be applying instead, what sort of training they need to seek, or what kind of schooling they need to pursue if they want the job they didn't get.
 

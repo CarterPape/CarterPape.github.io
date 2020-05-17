@@ -62,7 +62,7 @@ I therefore vote to capitalize "Black" and "White."[^Tharps-op-ed]
 
 ----
 
-I'm not writing news stories on this site, but I am hoping to foster a writing style that appeals to the principles of journalism. The primary ways in which I appeal to these principles is in how I plan and research each article, but writing is another essential part of that.
+I haven't been writing news stories on this site, but I am hoping to foster a writing style that appeals to the principles of journalism. The primary ways in which I appeal to these principles is in how I plan and research each article, but writing is another essential part of that.
 
 It is for these reasons that I have chosen to generally adhere to AP style guidelines in my writing on this site, and it is primarily for the purposes of personalizing my site and properly formatting my writing that I diverge from them.
 

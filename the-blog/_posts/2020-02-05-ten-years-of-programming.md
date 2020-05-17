@@ -10,9 +10,9 @@ I just took the [annual Stack Overflow Developer Survey](https://stackoverflow.c
 
 The answer is 10 years. I started learning LabView when I was 13 (QWICK MATHS: I am 23). The story I started telling people a few years later about why and how I started programming is as follows:
 
-When I was younger, and around the time I started learning LabView, I was 13 (and honestly, I might have started when I was 12 or 14; who remembers these things?), Travis Pape was always on his computer in his office working on side-hustles like for iBike or just random projects like a computer assistant for some strategy game he liked to play I can't remember what it is.
+When I was younger, and around the time I started learning LabView, I was 13 (and honestly, I might have started when I was 12 or 14; who remembers these things?), Dad was always on his computer in his office working on side-hustles like for iBike or just random projects like a computer assistant for some strategy game he liked to play I can't remember what it is.
 
-He is still, by the way, uses LabView to create projects that have no business being created with LabView, but it's what he knows, so it's all fine and good and I do (try to) not judge.
+He still, by the way, uses LabView to create projects that have no business being created with LabView, but it's what he knows, so it's all fine and good and I do (try to) not judge.
 
 {% capture content %}
 ![A screenshot of LabView source code, showing virtual boxes connected by virtual wires, some of the wires different, vibrant colors](/assets/images/for-posts/labview-cli-write-code-example.png "A screen capture of LabView source code")
@@ -32,7 +32,7 @@ I know I must have grinded incredibly hard for such a long time through the lear
 
 After a few basic lessons from dad, I got started on my own projects that involved a **ton** of trial and **even more** error, and to this day, there is immense joy in making a program that does something ridiculous like print the words "poo poo pee pee" on screen, and if you can get that program to SAY those words OUT LOUD??? That's a keeper right there, bud. Add one more thing: Set the computer speakers' volume to 100% before it says the words, for extra impact.
 
-So anyway, I enjoyed a few projects-worth of time making **really** dumb stuff and moved on to make **less** dumb stuff. One of the less dumb projects I remember (and I have asked my father to help me dig this up, so we'll see if he can drudge it out of the bowels of the numerous computer files stored on numerous memory discs around his house) was a program that created random photos.
+So anyway, I enjoyed a few projects-worth of time making **really** dumb stuff and moved on to make **less** dumb stuff. One of the less dumb projects I remember (and I have asked my father to help me dig this up, so we'll see if he can drudge it out of the bowels of the numerous computer files stored on numerous memory discs around my parents' house) was a program that created random photos.
 
 The way that the program worked was that, for each pixel in a photo, the program would come up with a red, green, and blue value and assign those values to the pixel. It's just a simple way of generating a color; the idea is that the right combination of red, green and blue can create any color, including black and white.
 

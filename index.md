@@ -1,7 +1,7 @@
 ---
 layout: "browsing/homepage"
 permalink: "/"
-last_updated: "May 14, 2020"
+last_updated: "May 17, 2020"
 ---
 
 ![{{ site.author.photo.alt }}][Carter pic]
@@ -11,7 +11,7 @@ I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied
 ## highlights
 
 * Reporter for _[The Times-Independent]_
-    * I report on county government, the local impact of COVID-19, tourism, crime and other topics.
+    * I report on county government, the local impact of COVID-19, tourism, business, and other topics.
 * Former news editor of _[Technician]_
     * I created and produced the paper's first podcast, _[Dialogue with Technician]_.
 * Producer of _[Praeci]_, which covered NC State and Raleigh news

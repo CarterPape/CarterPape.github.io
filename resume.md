@@ -2,24 +2,17 @@
 layout: "browsing/page"
 permalink: "/resume/"
 title: résumé
-last_updated: "Nov. 17, 2019"
+last_updated: "May 17, 2019"
 ---
 ## profile
 
-I am a reporter with work experience in newspaper journalism, student journalism, and software development. I have lived in North Carolina, Colorado, and now Utah.
+I am a reporter with work experience in newspaper journalism and software development. I have lived in North Carolina, Colorado, and now Utah.
 
-I have extensive experience in web development and software engineering, priming me for working in the digital media environment. I also have experience in data analysis and data mining, complemented by my undergraduate studies in mathematics and computer science, and have reported data journalism.
-
-## education
-
-### North Carolina State University
-#### August 2014 – May 2018
-* Earned a Bachelors of Science degree in Mathematics
-* Received an [S-STEM Scholarship] for excellence in math
+I have done extensive web development and software engineering, priming me for working in the digital media environment. I have practiced data analysis and data mining in both academic and journalistic pursuits, all complemented by my undergraduate studies in mathematics and computer science.
 
 ## work experience
 
-[My LinkedIn profile] provides a comprehensive list of my work experiences.
+[My LinkedIn profile] provides a comprehensive list of my work experiences. Below is a selection of those jobs:
 
 ### Reporter at _[The Times-Independent]_
 #### January 2019 - now
@@ -28,21 +21,21 @@ I have extensive experience in web development and software engineering, priming
 
 ### Reporter at _[The Journal]_
 #### September 2018 - November 2018
-* Reported on education, news from the nearby town of Mancos, and other local topics
-* Produced [a series][CKMS series] of thoroughly researched articles about a local public charter school
+* Reported on city government, education, news from the nearby town of Mancos, and other local topics
+* Produced [a series][CKMS series] about a local public charter school facing financial and leadership distress
 
 ### Editor and Producer of _[Praeci]_
 #### September 2017 – May 2018
 
-* Built [Praeci.com][Praeci] website from the ground up with Jekyll and GitHub Pages
 * Created 40-minute podcast episodes on NC State news and stories, including a focus on topics of diversity and inclusion through the podcast series [_Protected Class_][Protected Class]
 * Included [reporting][impeachment Praeci article] and [commentary][Jess commentary] on NC State Student Government news
 * Won NC State Student Involvement's 2018 [Model the Way] award for excellence of work
+* Built [Praeci.com][Praeci] website from the ground up with Jekyll and GitHub Pages
 
 ### News Editor at _[Technician]_
 #### April 2017 – September 2017
 
-* Provided editorial and managerial [leadership][vision article] to the news team of the student newspaper
+* Provided editorial and managerial [leadership][vision article] to the news team of NC State's student newspaper
 * Recruited and retained record number of new student correspondents
 * Produced and edited [_Technician_’s first podcast][Dialogue with Technician] weekly
 * Covered the largest NC State stories of the year, [including on-campus sexual assault allegations][sexual assault story], [Student Government impeachment proceedings][impeachment Technician story], and [possible breach of open meetings law by Student Government][open meeting story]
@@ -51,7 +44,7 @@ I have extensive experience in web development and software engineering, priming
 #### January 2017 – April 2017
 
 * [Reported][SG Reporting] on NC State Student Government
-* Produced in-depth series on topics including [student activism][activism series]
+* Produced series on topics including [student activism][activism series]
 * Covered [local events][Woodson Charlottesville]
 
 ### Various programming jobs
@@ -60,6 +53,13 @@ I have extensive experience in web development and software engineering, priming
 * In my first internship, I created a server that propagated timesheet data to three billing websites.
 * I helped to create a website for intra-company, collaborative learning at [I-Cubed][I-Cubed acquired].
 * See [my LinkedIn profile] for more information.
+
+## education
+
+### North Carolina State University
+#### August 2014 – May 2018
+* Earned a Bachelors of Science degree in Mathematics
+* Received an [S-STEM Scholarship] for excellence in math
 
 ## non-work experience
 
