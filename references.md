@@ -30,6 +30,7 @@ Former manager at student newspaper
 Senior editor of [The Journal] in Cortez, Colorado
 Previously, my manager
 
+
 [The Times-Independent]: https://moabtimes.com
 [Technician]: http://www.technicianonline.com
 [The Praeci Podcast]: https://praeci.com/podcast/
