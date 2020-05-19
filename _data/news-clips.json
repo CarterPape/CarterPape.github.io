@@ -1,48 +1,95 @@
 [
     {
         "title": "Study: Half of Moabites can’t afford housing",
-        "publish-info": "Published by _The Times-Independent_ on June 28, 2019",
+        "publish-info": "Published by _The Times-Independent_<br />on June 28, 2019",
         "photo-src": "https://moabtimes.com/wp-content/uploads/2019/06/26-housing-unaffordable.jpeg",
-        "description": "This story dug into findings from multiple studies recently completed by state and local governments about Moab's housing crisis, which by many measures, is the worst in Utah.",
+        "description": "This story explained findings from multiple studies recently completed by state and local governments about Moab’s housing crisis, which by many measures, is the worst in Utah.",
         "link": "https://moabtimes.com/2019/06/28/study-half-of-moabites-cant-afford-housing/"
+    },
+    {
+        "title": "Seasonal workers are running out on unemployment insurance",
+        "publish-info": "Published by _The Times-Independent_<br />on April 24, 2020",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2020/04/16-unemployment-600-1024x683-1.jpg",
+        "link": "https://moabtimes.com/2020/04/24/unemployment-benefits-are-running-out-for-seasonal-workers/",
+        "description": "Due to a lack of local job opportunities, Moab workers typically rely on unemployment insurance when it isn’t tourism season. This year, the pandemic struck as their benefits ran out. Congress took action, but a month hence, the state had yet to help them and had no timeline for assistance."
+    },
+    {
+        "title": "Mail thief caught?",
+        "publish-info": "Published by _The Times-Independent_<br />on September 13, 2019",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/05/21-USPS-investigation.jpg",
+        "description": "This story broke news about the Inspector General of the U.S. Postal Service finding a \"person of interest\" during an investigation of multiple recent cases of alleged mail theft at the Moab Post Office. Months prior, the newspaper published reports about [locals alleging such theft](https://moabtimes.com/2019/04/26/locals-tell-their-missing-mail-stories/). The person of interest [later pled guilty to the charges against him](https://moabtimes.com/2020/03/06/former-moab-post-office-employee-pleads-guilty-to-mail-theft/).",
+        "link": "https://moabtimes.com/2019/09/13/mail-thief-caught/"
+    },
+    {
+        "title": "Does Sand Flats even have any oil?",
+        "publish-info": "Published by _The Times-Independent_<br />on February 21, 2020",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2020/02/IMG_0852-scaled.jpg",
+        "link": "https://moabtimes.com/2020/02/21/does-sand-flats-even-have-any-oil/",
+        "description": "After the Bureau of Land Management proposed two parcels inside a local recreation area [go up for oil and gas lease sales](https://moabtimes.com/2020/01/31/city-opposes-subsurface-drilling-in-sand-flats/), the newspaper found that the last company to look for oil there had come up dry."
+    },
+    {
+        "title": "School business administrator resigns amid investigation",
+        "publish-info": "Published by _The Times-Independent_<br />on January 9, 2020",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2020/01/IMG_8359-scaled.jpg",
+        "link": "https://moabtimes.com/2020/01/09/school-business-administrator-resigns-amid-investigation/",
+        "description": "Amid an investigation into allegations of sexual harassment by a longtime district employee, the local school district placed the former business administrator on leave. He later signed an agreement to resign his position."
+    },
+    {
+        "title": "Auditor: Kiva Montessori might not last 12 months",
+        "publish-info": "Published by _The Journal_<br />on November 29, 2018",
+        "photo-src": "https://dur-cjweb.newscyclecloud.com/storyimage/CJ/20181129/NEWS01/181129868/AR/0/AR-181129868.jpg",
+        "description": "This story explained poor financial findings by an independent auditor about a public Montessori school in Cortez. The school, at the time, was facing [financial](https://the-journal.com/articles/118934-kivas-use-of-emergency-fund-might-be-unconstitutional), [leadership](https://the-journal.com/articles/115305-before-changes-kiva-parents-criticized-school-leadership-for-over-a-year), and [student performance](https://the-journal.com/articles/114863-staff-shakeup-low-test-scores-hit-kiva-montessori-school) problems, among [others](https://the-journal.com/articles/117894-ckms-board-no-evidence-of-asbestos-exposure)",
+        "link": "https://the-journal.com/articles/118933-auditor-kiva-montessori-might-not-last-12-months"
+    },
+    {
+        "title": "Moab loses ‘Padre Espiritual’ in car crash; suspect faces manslaughter charge",
+        "publish-info" : "Published by _The Times-Independent_<br />on February 10, 2020",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2020/02/IMG_0377.png",
+        "description": "A deadly crash at the center of town in February took the life of a local spiritual leader. His son later died from injuries sustained in the crash.",
+        "link": "https://moabtimes.com/2020/02/10/moab-loses-padre-espiritual-in-car-crash-suspect-faces-manslaughter-charge/"
     },
     {
         "embed-element": "<iframe width='100%' height='250px' src='https://www.youtube.com/embed/m27oVxfyfaQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     },
     {
-        "title": "Mail thief caught?",
-        "publish-info": "Published by _The Times-Independent_ on September 13, 2019",
-        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/05/21-USPS-investigation.jpg",
-        "description": "This story broke news about the Inspector General of the U.S. Postal Service finding a \"person of interest\" during an investigation of multiple recent cases of alleged mail theft at the Moab Post Office. Those allegations [also received attention](https://moabtimes.com/2019/04/26/locals-tell-their-missing-mail-stories/) from _The T-I_ months prior. The person of interest [later pled guilty to the charges against him](https://moabtimes.com/2020/03/06/former-moab-post-office-employee-pleads-guilty-to-mail-theft/)",
-        "link": "https://moabtimes.com/2019/09/13/mail-thief-caught/"
+        "title": "Title IX in the Trump era",
+        "publish-info": "Published via The Praeci Podcast<br />on October 16, 2017",
+        "photo-src": "https://s3.amazonaws.com/praeci-assets/Betsy_DeVos.png",
+        "description": "In the first episode of _The Praeci Podcast_, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy DeVos.",
+        "link": "http://praeci.com/Podcast-Title-IX-in-the-Trump-era.html"
     },
     {
         "photo-src": "https://moabtimes.com/wp-content/uploads/2019/08/31-Huckabay-hates-Loves-1.jpeg",
         "link": "https://moabtimes.com/2019/08/08/sitla-neighbor-would-rather-live-by-a-dump/"
     },
     {
-        "title": "Activism on campus from the student perspective",
-        "publish-info": "Published by _Technician_ on February 27, 2017",
-        "description": "I interviewed six NC State students with a reputation for activism and community involvement for the first article in a series about activism at NC State. [Part two](http://www.technicianonline.com/news/article_583d43d0-0a04-11e7-a817-ebc6c833a86a.html) was about faculty and activism, [part three](http://www.technicianonline.com/news/article_bb210f42-1420-11e7-88e6-e7ca771fd926.html) was about the history of activism at NC State.",
-        "link": "http://www.technicianonline.com/news/article_a924243e-fcae-11e6-ab57-53e36d7a71c7.html"
-    },
-    {
         "title": "Protected Class: Moses T. Alexander Greene",
-        "publish-info": "Published for _The Praeci Podcast_ on February 7, 2018",
+        "publish-info": "Published via The Praeci Podcast<br />on February 7, 2018",
         "photo-src": "https://s3.amazonaws.com/praeci-assets/moses-greene-promo.png",
         "description": "I spoke with the director of the African American Cultural Center at NC State about common mistakes White people make when talking about Black people and identity. This podcast episode is [nominated for a national collegiate award](https://www.linkedin.com/feed/update/urn:li:activity:6435915679433580544).",
         "link": "http://praeci.com/protected-class/moses-t-alexander-greene"
+    },
+    {
+        "title": "Tales of trails: My very bad, no good night on Porcupine Rim",
+        "publish-info": "Published by _The Times-Independent_<br />on April 24, 2019",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2020/04/17-Colorado-overlook-1024x768-1.jpeg",
+        "description": "Porcupine Rim, a popular downhill mountain biking route in Moab, is notorious for the dangers it poses to riders. My first encounter with the trail ended with a flat tire and a long walk in the dark.",
+        "link": "https://moabtimes.com/2020/04/24/tales-of-trails-my-very-bad-no-good-night-on-porcupine-rim/"
+    },
+    {
+        "title": "Beloved black buck leaves legacy",
+        "publish-info": "Published by _The Times-Independent_<br />on December 27, 2019",
+        "photo-src": "https://moabtimes.com/wp-content/uploads/2019/12/52-A1-black-buck-2048x1365.jpg",
+        "description": "Albino deer are rare. Even more rare are melanistic deer, which have a darker-than-typical pigment. Moab had just such a deer, but in late 2019, it died sooner than some locals were prepared to bid it farewell.",
+        "link": "https://moabtimes.com/2019/12/27/beloved-black-buck-leaves-legacy/"
     },
     {
         "photo-src": "https://moabtimes.com/wp-content/uploads/2019/06/IMG_3277.jpeg",
         "link": "https://moabtimes.com/2019/06/02/fire-on-100-south-possibly-started-in-engine-of-car/"
     },
     {
-        "title": "Auditor: Kiva Montessori might not last 12 months",
-        "publish-info": "Published by _The Journal_ on November 29, 2018",
-        "photo-src": "https://dur-cjweb.newscyclecloud.com/storyimage/CJ/20181129/NEWS01/181129868/AR/0/AR-181129868.jpg",
-        "description": "This was part of a series of articles related to a local montessori [school's](https://the-journal.com/articles/117894-ckms-board-no-evidence-of-asbestos-exposure) [financial](https://the-journal.com/articles/118934-kivas-use-of-emergency-fund-might-be-unconstitutional), [leadership](https://the-journal.com/articles/115305-before-changes-kiva-parents-criticized-school-leadership-for-over-a-year), and [performance](https://the-journal.com/articles/114863-staff-shakeup-low-test-scores-hit-kiva-montessori-school) problems. An independent financial auditor expressed \"substantial doubt\" that the school would survive another 12 months due to the recent funding crisis.",
-        "link": "https://the-journal.com/articles/118933-auditor-kiva-montessori-might-not-last-12-months"
+        "embed-element": "<iframe width='100%' height='250px' src='https://www.youtube.com/embed/h97f4vfoFgA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+        "link": "https://moabtimes.com/2019/04/23/video-climbing-potato-salad-hill/"
     },
     {
         "photo-src": "https://moabtimes.com/wp-content/uploads/2019/07/IMG_3855.jpg",
@@ -50,16 +97,9 @@
     },
     {
         "title": "Timeline of the Willis impeachment process",
-        "publish-info": "Published for _Praeci_ on November 1, 2017",
+        "publish-info": "Published via Praeci<br />on November 1, 2017",
         "description": "Retrospective coverage of a story about the impeachment of NC State’s Student Body Treasurer after he announced his resignation",
         "link": "http://praeci.com/news/willis-impeachment-overview"
-    },
-    {
-        "title": "Title IX in the Trump era",
-        "publish-info": "Published for _The Praeci Podcast_ on October 16, 2017",
-        "photo-src": "https://s3.amazonaws.com/praeci-assets/Betsy_DeVos.png",
-        "description": "In the first episode of _The Praeci Podcast_, I spoke to Robin Kelley, NC State’s deputy Title IX coordinator, about the history of Title IX, including contemporaneous changes made by Betsy DeVos.",
-        "link": "http://praeci.com/Podcast-Title-IX-in-the-Trump-era.html"
     },
     {
         "photo-src": "https://moabtimes.com/wp-content/uploads/2019/03/13-curtis-town-hall.jpeg",
@@ -67,14 +107,10 @@
     },
     {
         "title": "Students first",
-        "publish-info": "Published for _The Praeci Podcast_ on November 13, 2017",
+        "publish-info": "Published via The Praeci Podcast<br />on November 13, 2017",
         "photo-src": "https://s3.amazonaws.com/praeci-assets/DASA-podcast.png",
         "description": "Edited over 5 hours of interviews and research down to a 73 minute episode on the history of how student and academic affairs at NC State became a part of the same division.",
         "link": "http://praeci.com/podcast/history-of-dasa"
-    },
-    {
-        "embed-element": "<iframe width='100%' height='250px' src='https://www.youtube.com/embed/h97f4vfoFgA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
-        "link": "https://moabtimes.com/2019/04/23/video-climbing-potato-salad-hill/"
     },
     {
         "photo-src": "https://moabtimes.com/wp-content/uploads/2019/08/IMG_0041.jpeg",
