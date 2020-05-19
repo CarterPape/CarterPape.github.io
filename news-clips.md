@@ -9,11 +9,11 @@ last_updated: "Nov. 21, 2018"
 The following are works on which I was first or only author or producer. These works are meant to highlight the clarity and voice of my reporting, my aptitude for capturing striking imagery, and my presence in podcast and radio productions.
 
 For a comprehensive look at my work:
-- read [articles with my byline][my T-I articles] on [_The Times-Independent_'s website][The Times-Independent]
-- visit _[Praeci]_
-- browse [my blog][the blog]
-- [search my name][Technician articles] on [_Technician_'s website][Technician]
-- [search my name][The Journal articles] on [_The Journal_'s website][The Journal]
+- Read [articles with my byline][my T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
+- Visit _[Praeci]_.
+- Browse [my blog][the blog].
+- [Search my name][Technician articles] on [_Technician_'s website][Technician].
+- [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].
 
 {% for clip in site.data.news-clips %}
 
