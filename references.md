@@ -15,7 +15,7 @@ Currently, publisher of _The Times-Independent_
 The publisher at my current employer
 
 ### [Ashley Bunton](https://twitter.com/ashbunton)
-Previously, editor of [Moab Sun News]
+Previously, editor of [Moab Sun News]  
 Previously, my manager during a [short](https://www.moabsunnews.com/news/article_d5fd5344-0f7c-11e9-8454-efcfea735d62.html) [freelance](https://www.moabsunnews.com/news/article_efd96012-14fb-11e9-b112-07eec2cf9fb1.html) [stint](https://www.moabsunnews.com/get_out_and_go/article_b057be9a-047d-11e9-bb09-678e32afd377.html)
 
 ### [Jamie Gilbert](https://www.linkedin.com/in/jamielynngilbert/)  
@@ -27,7 +27,7 @@ Previously, editor-in-chief of _[Technician]_ at NC State
 Former manager at student newspaper
 
 ### [Trent Stephens](https://muckrack.com/trent-stephens)
-Senior editor of [The Journal] in Cortez, Colorado
+Senior editor of [The Journal] in Cortez, Colorado  
 Previously, my manager
 
 
