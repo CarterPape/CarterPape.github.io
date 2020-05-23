@@ -43,4 +43,4 @@ plugins:
 kramdown:
     footnote_backlink: "⤴"
 
-exclude: ["writing aids/*"]
+exclude: ["writing aids/*", ".vscode"]
