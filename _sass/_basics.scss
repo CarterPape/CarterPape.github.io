@@ -94,7 +94,7 @@ a, a > pre, a > code {
     color:              $link-color;
     fill:               $link-color;
     text-decoration:    none;
-    transition:         color .3s;
+    transition:         all .3s;
     
     &:hover, &:hover > pre, &:hover > code {
         color:  $link-float-color;
