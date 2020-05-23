@@ -2,7 +2,7 @@
 layout: "browsing/page"
 permalink: "/resume/"
 title: résumé
-last_updated: "May 17, 2019"
+last_updated: "May 17, 2020"
 ---
 ## profile
 
