@@ -4,8 +4,9 @@ header.post-header {
     
     .doc-title > a {
         color:      $stand-out-text;
-        margin:     0;
-        padding:    0;
+        display:    inline-block;
+        margin:     -0.1em;
+        padding:    0.1em;
     }
     .signatory {
         font-size:  0.8em;
