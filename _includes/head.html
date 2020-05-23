@@ -1,4 +1,13 @@
 <head>
+    {% capture og_title %}
+        {% if page.title %}
+            {{ page.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    {% endcapture %}
+    {% assign og_title = og_title | strip %}
+    
     {% capture title %}
         {% if page.title %}
             {{ page.title }} - {{ site.author.name }}
@@ -40,7 +49,7 @@
     
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:link" content="{{ page.url | absolute_url }}">
-    <meta property="og:title" content="{{ title }}">
+    <meta property="og:title" content="{{ og_title }}">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta name="description" content="{{ description }}">
@@ -49,7 +58,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@CarterPape">
     <meta name="twitter:creator" content="@CarterPape">
-    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:title" content="{{ og_title }}">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="{{ social-image.path | absolute_url }}">
