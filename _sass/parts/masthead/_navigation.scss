@@ -3,6 +3,9 @@ header.masthead {
         list-style: none;
         padding:    0;
     }
+    #my-social-links svg {
+        height: 1.7em;
+    }
 }
 
 @media screen and (min-width: 761px) {

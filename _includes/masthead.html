@@ -31,8 +31,23 @@
             <li><a href="/the-blog/">the blog</a></li>
         </ul>
         <ul>
-            <li><a href="{{ site.author.linkedin_url }}" target="_blank">on LinkedIn</a></li>
-            <li><a href="{{ site.author.twitter_url }}" target="_blank">on Twitter</a></li>
+            <li id="my-social-links">
+                <a href="{{ site.author.linkedin_url }}" target="_blank">
+                    {% include brand-icons/linkedin.svg %}
+                </a>
+                <a href="{{ site.author.github_url }}" target="_blank">
+                    {% include brand-icons/github.svg %}
+                </a>
+                <a href="{{ site.author.twitter_url }}" target="_blank">
+                    {% include brand-icons/twitter.svg %}
+                </a>
+                <a href="{{ site.author.facebook_url }}" target="_blank">
+                    {% include brand-icons/facebook.svg %}
+                </a>
+                <a href="{{ site.author.instagram_url }}" target="_blank">
+                    {% include brand-icons/instagram.svg %}
+                </a>
+            </li>
         </ul>
     </nav>
     
