@@ -20,7 +20,7 @@ Previously, my manager during a [short](https://www.moabsunnews.com/news/article
 
 ### [Jamie Gilbert](https://www.linkedin.com/in/jamielynngilbert/)  
 Associate director of [Student Media] at NC State  
-Former advisor for _[The Praeci Podcast]_ and _[Protected Class]_
+Former advisor for [The Praeci Podcast] and [Protected Class]
 
 ### [Jonathan Carter](https://www.linkedin.com/in/jonathan-carter-b67430146/)  
 Previously, editor-in-chief of _[Technician]_ at NC State  

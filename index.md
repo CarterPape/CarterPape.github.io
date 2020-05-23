@@ -14,8 +14,8 @@ I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied
     * I report on county government, the local impact of COVID-19, tourism, business, and other topics.
 * Former news editor of _[Technician]_
     * I created and produced the paper's first podcast, _[Dialogue with Technician]_.
-* Producer of _[Praeci]_, which covered NC State and Raleigh news
-    * Through _Praeci_, I independently produced two podcast series.
+* Producer of [Praeci], which covered NC State and Raleigh news
+    * Through Praeci, I independently produced two podcast series.
 * 11 years of programming experience, eight of which have been in the workplace
     * I have extensive web development and software engineering experience.
 

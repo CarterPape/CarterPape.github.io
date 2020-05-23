@@ -10,7 +10,7 @@ The following are works on which I was first or only author or producer. These w
 
 For a comprehensive look at my work:
 - Read [articles with my byline][my T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
-- Visit _[Praeci]_.
+- Visit [Praeci].
 - Browse [my blog][the blog].
 - [Search my name][Technician articles] on [_Technician_'s website][Technician].
 - [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].

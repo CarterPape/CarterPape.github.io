@@ -21,9 +21,9 @@ I had begun developing a paywall for the website to restrict access by non-subsc
 
 _[See RedRock on GitHub](https://github.com/the-times-independent/RedRock)._
 
-## _Praeci_
+## Praeci
 
-[_Praeci_](https://praeci.com) [was](https://praeci.com/praeci-is-defunct) a reporting project I created for presenting NC State and Raleigh news with a focus on succinct writing and attractive presentation. I built the website myself using Jekyll and GitHub Pages.
+[Praeci](https://praeci.com) [was](https://praeci.com/praeci-is-defunct) a reporting project I created for presenting NC State and Raleigh news with a focus on succinct writing and attractive presentation. I built the website myself using Jekyll and GitHub Pages.
 
 I customized a template built by Artem Sheludko, adding custom layouts and elements. I also built the site's podcast RSS feed syndication, enabled by Amazon S3 for storage of podcast audio and by [PodTrac](http://analytics.podtrac.com) download analytics.
 
