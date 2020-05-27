@@ -1,7 +1,7 @@
 {% if post.unlisted != true %}
     {%- assign title=post.title -%}
     {%- assign datetime=post.date | date: '%F' -%}
-    {%- assign formatted_date=post.date | date: '%B %-d' -%}
+    {%- assign formatted_date=post.date | date: '%B %-d, %Y' -%}
     {%- assign length=post.content | number_of_words | append: " words" -%}
     
     <article class="card post-preview">
