@@ -4,9 +4,17 @@ permalink: "/"
 last_updated: "May 17, 2020"
 ---
 
-![{{ site.author.photo.alt }}][Carter pic]
+{% capture content %}
+![{{ site.author.photo.alt }}]({{ site.author.photo.path }} "{{ site.author.photo.title }}")
+{% endcapture %}
 
-I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied mathematics at North Carolina State University, where I also did student journalism and software development.
+{% capture caption %}
+_photo by [Miguel Angel](https://miguelangel.photography)_{:.credit}
+{% endcapture %}
+
+{% include authoring/figure.html %}
+
+I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied mathematics at North Carolina State University, where I also did student journalism and software development. I grew up in Durham, North Carolina.
 
 ## highlights
 
@@ -18,8 +26,6 @@ I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied
     * Through Praeci, I independently produced two podcast series.
 * 11 years of programming experience, eight of which have been in the workplace
     * I have extensive web development and software engineering experience.
-
-[Carter pic]: {{ site.author.photo.path }} "{{ site.author.photo.title }}"
 
 [Dialogue with Technician]: https://overcast.fm/itunes1275744725/dialogue-with-technician
 [Praeci]: https://praeci.com
