@@ -10,7 +10,9 @@
     
     {% capture title %}
         {% if page.title %}
-            {{ page.title }} - {{ site.author.name }}
+            {{ page.title }}
+            -
+            {{ site.author.name }}
         {% else %}
             {{ site.title }}
         {% endif %}
@@ -24,14 +26,14 @@
     {% else %}
         {% assign description = page.excerpt %}
     {% endif %}
-    {% assign description = description | strip_html %}
+    {% assign description = description | markdownify | strip_html %}
 
-    {% if page.social-image %}
-        {% assign social-image = page.social-image %}
-    {% elsif page.image %}
-        {% assign social-image = page.image %}
+    {% if page.social_image %}
+        {% assign social_image = page.social_image %}
+    {% elsif page.featured_image %}
+        {% assign social_image = page.featured_image %}
     {% else %}
-        {% assign social-image = site.author.photo %}
+        {% assign social_image = site.author.photo %}
     {% endif %}
 
     {% assign author_count = page.authors | size %}
@@ -42,8 +44,8 @@
     {% endif %}
     
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>{{ title }}</title>
     <meta name="author" content="{{ author_name }}">
     
@@ -53,48 +55,48 @@
     <meta property="og:description" content="{{ description }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta name="description" content="{{ description }}">
-    <meta property="og:image" content="{{ social-image.path | absolute_url }}">
+    <meta property="og:image" content="{{ social_image.path | absolute_url }}">
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@CarterPape">
-    <meta name="twitter:creator" content="@CarterPape">
+    <meta content="summary" name="twitter:card">
+    <meta content="@CarterPape" name="twitter:site">
+    <meta content="@CarterPape" name="twitter:creator">
     <meta name="twitter:title" content="{{ og_title }}">
     <meta name="twitter:description" content="{{ description }}">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ social-image.path | absolute_url }}">
+    <meta content="summary" name="twitter:card">
+    <meta name="twitter:image" content="{{ social_image.path | absolute_url }}">
     
-    <link rel="stylesheet" href="https://use.typekit.net/zoa8ulo.css">
-    <link rel="stylesheet" href="/assets/stylesheets/styles.css">
-    <link rel="stylesheet" href="/assets/stylesheets/pygment_trac.css">
+    <link href="https://use.typekit.net/zoa8ulo.css" rel="stylesheet">
+    <link href="/assets/stylesheets/styles.css" rel="stylesheet">
+    <link href="/assets/stylesheets/pygment_trac.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+        
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
         
     {% include head/analytics.html %}
     {% include head/headline-balancing.html %}
-    
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-touch-icon-57x57.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-touch-icon-60x60.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-touch-icon-76x76.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon-120x120.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-touch-icon-144x144.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-touch-icon-152x152.png?v=8jMvbKom95">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon-180x180.png?v=8jMvbKom95">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png?v=8jMvbKom95">
-    <link rel="icon" type="image/png" sizes="194x194" href="/assets/images/favicons/favicon-194x194.png?v=8jMvbKom95">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-chrome-192x192.png?v=8jMvbKom95">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png?v=8jMvbKom95">
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest?v=8jMvbKom95">
-    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg?v=8jMvbKom95" color="#0593ab">
-    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico?v=8jMvbKom95">
-    <meta name="apple-mobile-web-app-title" content="Carter Pape">
-    <meta name="application-name" content="Carter Pape">
-    <meta name="msapplication-TileColor" content="#0593ab">
-    <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png?v=8jMvbKom95">
-    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml?v=8jMvbKom95">
-    <meta name="theme-color" content="#f3fafb">
+        
+    <link href="/assets/images/favicons/apple-touch-icon-57x57.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="57x57">
+    <link href="/assets/images/favicons/apple-touch-icon-60x60.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="60x60">
+    <link href="/assets/images/favicons/apple-touch-icon-72x72.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="72x72">
+    <link href="/assets/images/favicons/apple-touch-icon-76x76.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="76x76">
+    <link href="/assets/images/favicons/apple-touch-icon-114x114.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="114x114">
+    <link href="/assets/images/favicons/apple-touch-icon-120x120.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="120x120">
+    <link href="/assets/images/favicons/apple-touch-icon-144x144.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="144x144">
+    <link href="/assets/images/favicons/apple-touch-icon-152x152.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="152x152">
+    <link href="/assets/images/favicons/apple-touch-icon-180x180.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="180x180">
+    <link href="/assets/images/favicons/favicon-32x32.png?v=8jMvbKom95" rel="icon" sizes="32x32" type="image/png">
+    <link href="/assets/images/favicons/favicon-194x194.png?v=8jMvbKom95" rel="icon" sizes="194x194" type="image/png">
+    <link href="/assets/images/favicons/android-chrome-192x192.png?v=8jMvbKom95" rel="icon" sizes="192x192" type="image/png">
+    <link href="/assets/images/favicons/favicon-16x16.png?v=8jMvbKom95" rel="icon" sizes="16x16" type="image/png">
+    <link href="/assets/images/favicons/site.webmanifest?v=8jMvbKom95" rel="manifest">
+    <link color="#0593ab" href="/assets/images/favicons/safari-pinned-tab.svg?v=8jMvbKom95" rel="mask-icon">
+    <link href="/assets/images/favicons/favicon.ico?v=8jMvbKom95" rel="shortcut icon">
+    <meta content="Carter Pape" name="apple-mobile-web-app-title">
+    <meta content="Carter Pape" name="application-name">
+    <meta content="#0593ab" name="msapplication-TileColor">
+    <meta content="/assets/images/favicons/mstile-144x144.png?v=8jMvbKom95" name="msapplication-TileImage">
+    <meta content="/assets/images/favicons/browserconfig.xml?v=8jMvbKom95" name="msapplication-config">
+    <meta content="#f3fafb" name="theme-color">
 </head>

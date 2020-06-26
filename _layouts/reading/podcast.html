@@ -3,7 +3,9 @@ layout: reading/post
 ---
 {{ content }}
 
-{% capture pod_avail %}{% include podcast-availability.md %}{% endcapture %}
+{% capture pod_avail %}
+    {% include podcast-availability.md %}
+{% endcapture %}
 {{ pod_avail | markdownify }}
 
 <audio controls>

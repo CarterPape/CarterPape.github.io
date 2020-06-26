@@ -2,7 +2,11 @@
 
 ---
 <!DOCTYPE html>
-<html lang="en" {% if page.outer-bg %}style="background: {{ page.outer-bg }}"{% endif %}>
+<html lang="en"
+    {% if page.outer-bg %}
+        style="background: {{ page.outer-bg }}"
+    {% endif %}
+>
     {% include head.html %}
     <body
         {% if page.body-tag-class %}

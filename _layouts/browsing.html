@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
-<div id="root-container" class="for-browsing">
+<div class="for-browsing" id="root-container">
     {% include masthead.html %}
     <div id="main-container">
         {{ content }}
         {% if page.last_updated %}
-            <p class="last-updated-text">last updated {{page.last_updated}}</p>
+            <p class="last-updated-text">
+                last updated
+                {{page.last_updated}}
+            </p>
         {% endif %}
     </div>
 </div>
