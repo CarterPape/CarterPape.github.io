@@ -1,8 +1,8 @@
 figure {
-    margin-right:   3em;
-    margin-left:    3em;
+    margin-right:   0;
+    margin-left:    0;
     margin-top:     1.5em;
-    margin-bottom:  2em;
+    margin-bottom:  1.5em;
     
     & > :nth-last-child(2) {
         margin-bottom: 0;
@@ -13,8 +13,20 @@ figure {
     }
     figcaption {
         color:      $light-text;
-        margin-top: 1.3em;
+        margin-top: 1.1em;
         font-size:  0.8em;
+        
+        .credit {
+            float: right;
+        }
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        & > :last-child {
+            margin-bottom: 0;
+        }
     }
     &.screenshot {
         margin-left:    0;

@@ -2,6 +2,15 @@
 title: "I learned to program at 13, and I am so grateful to my father for helping me do that."
 excerpt: "My dad taught me to program in LabView because I saw him using it and thought it looked colorful and interesting. Turns out I was *extremely* correct."
 date: 2020-02-05 11:08 -07:00
+
+social_image:
+    path: "/assets/images/for-posts/labview-cli-write-code-example.png"
+    caption: "*A screen capture of LabView source code. [Photo](https://www.wiresmithtech.com/articles/what-is-labview-and-why-do-i-care/) copyright [Wiresmith Technology Ltd.](https://www.wiresmithtech.com)*{:.credit}"
+    alt: "A screenshot of LabView source code, showing virtual boxes connected by virtual wires, some of the wires different, vibrant colors"
+    title: "A screen capture of LabView source code"
+
+featured_image:
+    hide_at_top_of_page: true
 ---
 
 *Note I originally [posted this on Facebook](https://www.facebook.com/carter.pape.12/posts/791217341360306).*
@@ -19,7 +28,7 @@ He still, by the way, uses LabView to create projects that have no business bein
 {% endcapture %}
 
 {% capture caption %}
-A screen capture of LabView source code. [Photo](https://www.wiresmithtech.com/articles/what-is-labview-and-why-do-i-care/) copyright [Wiresmith Technology Ltd.](https://www.wiresmithtech.com)
+a screen capture of LabView source code *[Photo](https://www.wiresmithtech.com/articles/what-is-labview-and-why-do-i-care/) copyright [Wiresmith Technology Ltd.](https://www.wiresmithtech.com)*{:.credit}
 {% endcapture %}
 
 {% include authoring/figure.html %}
@@ -41,7 +50,7 @@ The way that the program worked was that, for each pixel in a photo, the program
 {% endcapture %}
 
 {% capture caption %}
-An image of visual noise. Photo by Carter Pape, [no rights reserved](https://creativecommons.org/share-your-work/public-domain/cc0/)
+an image of visual noise *Photo by Carter Pape, [no rights reserved](https://creativecommons.org/share-your-work/public-domain/cc0/)*{:.credit}
 {% endcapture %}
 
 {% include authoring/figure.html %}

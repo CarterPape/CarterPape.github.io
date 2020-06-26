@@ -7,4 +7,19 @@
         0   6px     20px    0   rgba(0, 0, 0, 0.19);
     border-radius:  0.4em;
     background:     $white;
+    overflow:       hidden;
+    
+    & > :first-child {
+        margin-top: 0;
+    }
+    
+    & > img:first-child, & > figure:first-child img {
+        margin-top: -1.6em;
+    }
+    
+    img {
+        margin-left:    -1.6em;
+        margin-right:   -1.6em;
+        max-width:      calc(100% + 3.2em);
+    }
 }

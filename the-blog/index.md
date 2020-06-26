@@ -8,8 +8,8 @@ redirect_from:
     - /blog/
 ---
 
-{% assign feed = site.categories["the-blog"] %}
+{% assign blog_feed = site.categories["the-blog"] %}
 
-{% for post in feed %}
-    {%- include post/preview.html post=post -%}
+{% for each_post in blog_feed %}
+    {%- include post/preview.html the_post=each_post -%}
 {% endfor %}

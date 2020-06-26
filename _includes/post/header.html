@@ -13,5 +13,10 @@
         </span>
         <time class="article-date" datetime="{{ datetime }}">{{ formatted_date }}</span>
     </div>
-    <hr />
+    {% include post/featured-image.html %}
+    
+    {% if the_image %}
+    {% else %}
+        <hr/>
+    {% endif %}
 </header>

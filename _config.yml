@@ -29,6 +29,8 @@ defaults:
             authors: ["Carter Pape"]
             layout: "reading/post"
             unlisted: false
+            featured_image:
+                same_as_social_image: true
     -
         scope:
             path: "the-blog/unlisted"
