@@ -16,7 +16,7 @@ _The Times-Independent_ competed this year among Utah weeklies with circulations
 
 For a variety of reasons, including that volunteers from out of state judge Utah's Better Newspaper Contest and that this year's award ceremony was cancelled due to the pandemic, the press association and judges did not provide specific comments about why each of this year's winners were selected.
 
-In lieu of judges' comments, I wanted to give some brief thoughts of my own about the 2019 version of the website and what made it worthy of recognition.
+In lieu of judges' comments, I wanted to give some brief thoughts of my own about the 2019 version of the website and what made it worthy of recognition. I built the site over the course of two months essentially from the ground-up and spent a lot of time making sure that it would be something people enjoyed using.
 
 To avoid confusion, I will say at this point that the current version of [`moabtimes.com`](https://moabtimes.com) is not the one that I built. [Tom Perkins](http://awebstudio.com) built and manages the 2020 version of `moabtimes.com`; he has built websites for a variety of Moab companies including that of *The Times-Independent* Associate Editor Sena Taylor Hauer's horseback riding business, [Moab Horses](https://moabhorses.com).
 
@@ -36,9 +36,9 @@ These are websites with their own professional web designers that have iterated 
 
 One of the best examples of clean, ad-free, distraction-free (besides the unfortunate pop-up it has about its newsletter) web design that I have found from a digital news site is from [ProPublica](https://www.propublica.org).
 
-As a nonprofit with a solid base of donations and foundation dollars, the publication doesn't use any advertising from what I have seen, getting at one of the key challenges that faces news publications: The business model.
+As a nonprofit with a solid base of donations and foundation dollars, the publication doesn't use any advertising from what I have seen, getting at one of the key challenges that faces news publications: the business model.
 
-Solving this business problem has meant that ProPublica is free to do pretty much whatever it wants with its web design — no ads, few distractions: just the good stuff. That really becomes apparent browsing around the site.
+Solving this revenue problem has meant that ProPublica is free to do pretty much whatever it wants with its web design — no ads, few distractions: just the good stuff. That really becomes apparent browsing around the site (again, with the nagging exception of the newsletter popup).
 
 ## Its pages were small and fast.
 {:#fast}
@@ -46,11 +46,11 @@ Solving this business problem has meant that ProPublica is free to do pretty muc
 
 Moab generally has pretty good internet speeds, but if you trek far enough from the valley, those speeds either fall drastically or disappear completely.[^rural-broadband] As of writing, uncapped broadband internet is unavailable in Castle Valley, a town of just under 400 people, and in some places in the southern part of Spanish Valley.
 
-For that reason, and because even some people who live near downtown Moab do not pay for (and maybe cannot pay for) the fastest internet speeds available to them, it is important to make web pages small so that people can actually load them.
+For that reason, and because even some people who live near downtown Moab do not pay for (and maybe cannot pay for) the fastest internet speeds available to them, it is important to make web pages small enough that people can actually load them.
 
 It's like trying to download a movie versus loading a small image. Cutting the cruft that can build up on websites — needless scripts, images that are too large, unused typefaces — helps keep page sizes small, making your website accessible to more people.
 
-Maintaining a fast web server can be a relatively low-cost task, but you have to [program it with the right priorities](#software). A [mid-tier Amazon Lightstail server](https://aws.amazon.com/lightsail/pricing/) hosted the 2019 version of `moabtimes.com`, and [Cloudflare](https://www.cloudflare.com)'s content delivery network served the content, combining for one of the most cost-effective and fast back ends currently available to small businesses. More on the [systems](#systems) and [software](#software) later.
+Maintaining a fast web server can be a relatively low-cost task, but you have to [program it with the right priorities](#software) then keep it that way. A [mid-tier Amazon Lightstail server](https://aws.amazon.com/lightsail/pricing/) hosted the 2019 version of `moabtimes.com`, and [Cloudflare](https://www.cloudflare.com)'s content delivery network served the content, combining for one of the most cost-effective and fast back ends currently available to small businesses. More on the [systems](#systems) and [software](#software) later.
 
 Together, these cost-effective web technologies serving a stripped-down WordPress site made for page speeds that consistently rated 90% or better on [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=moabtimes.com) — on par or better than most national news outlets.
 
@@ -60,17 +60,19 @@ For more on the key principals of modern website administration, see Google's [w
 {:#focus}
 {:.balance-text}
 
-Local news does not need to be the center of attention for people. Gaining attention can help a newspaper's bottom line in the short term, but keeping `moabtimes.com` focused rather than trying to be everything to everyone meant that the newspaper built rapport with readers for giving them exactly what they came for and nothing more: All the news happening in Moab.
+Local news does not need to be the center of attention for people. Gaining attention can help a newspaper's bottom line in the short term, but keeping `moabtimes.com` focused rather than trying to be everything to everyone meant that the newspaper built rapport with readers for giving them exactly what they came for and not selling them on anything more.
 
 For-profit news organizations — desperate for eyes; having seen the success of Facebook, Twitter, YouTube, and other sites in fully consuming content consumers' attention with their platforms; and failing to sustain themselves on the economics of advertising that worked before social media — can find themselves doing whatever they can to yank at and hold readers' attention, which I made sure `moabtimes.com` and the newspaper's social media presence didn't do.
 
 As is my personal website, the 2019 version of `moabtimes.com` was designed to focus readers on what they were reading, watching, or looking at. That meant no ditracting sidebars, no pop-ups, and no elements that move unless the user wants them to move.
 
-The newspaper is and always has been supported by advertising, so there was by necessity a single ad spot at the top of each page — though that is much less than the number of ad spots on [the *Moab Sun News*'s site](https://www.moabsunnews.com). On my last visit, I counted the number of ads on the 12 tops stories on their site and got a range of five to seven ads per story (usually seven), not including the donation solicitations at the top of every page.
+The newspaper is and always has been supported by advertising, so there was by necessity a single ad spot at the top of each page — though that is much less than the number of ad spots on [the *Moab Sun News*'s site](https://www.moabsunnews.com).
 
-Eliminating distractions and designing the page for readability (i.e. choosing readable fonts, picking the optimal width for the text so lines aren't too long or too short, …) gives the reader an opportunity to digest the information at their own pace rather than pushing them to click away to an ad, a donation page, irrelevant information or another story.
+On my last visit, I counted the number of ads on the 12 tops stories on their site and got a range of five to seven ads per story (usually seven), not including the donation solicitations at the top of every page. That's not exactly a fair comparison, though, since the *Sun* is free and supported by ads while the *T-I* runs on both ads and subscriptions.
 
-However, building a newspaper around advertising will always, necessarily lead to dividing the readers' attention between the news and commercial promotions.
+Eliminating distractions and designing pages for readability (i.e. choosing readable fonts, picking the optimal width for the text so lines aren't too long or too short, …) gives the reader an opportunity to digest the information at their own pace rather than pushing them to click away to an ad, a donation page, irrelevant information or another story.
+
+However, building a newspaper around advertising will always, necessarily lead to dividing the readers' attention between the news and commercial promotions — even if advertising is only a part of the organization's revenue. News sites like ProPublica that don't monetize readers' attention are rare.
 
 ## Everything unnecessary was stripped away.
 {:#necessity}
