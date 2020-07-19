@@ -19,7 +19,9 @@
         </h1>
     </div>
     
-    <div class="site-description balance-text">{{ site.author.short_description }}</div>
+    {% if page.layout contains "browsing" %}
+        <div class="site-description balance-text">{{ site.author.short_description }}</div>
+    {% endif %}
     
     <nav id="sitewide-nav">
         <ul>

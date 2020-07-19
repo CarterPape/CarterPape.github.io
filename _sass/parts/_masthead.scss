@@ -28,8 +28,11 @@ header.masthead {
         margin-bottom:  1.3em;
         float:          none;
         
-        .site-name, .site-description {
+        .site-name {
             text-align: center;
+        }
+        .site-description {
+            display: none;
         }
     }
 }
