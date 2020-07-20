@@ -16,7 +16,7 @@ _The Times-Independent_ competed this year among Utah weeklies with circulations
 
 For a variety of reasons, including that volunteers from out of state judge Utah's Better Newspaper Contest and that this year's award ceremony was cancelled due to the pandemic, the press association and judges did not provide specific comments about why each of this year's winners were selected.
 
-In lieu of judges' comments, I wanted to give some brief thoughts of my own about the 2019 version of the website and what made it worthy of recognition. I built the site over the course of two months essentially from the ground-up and spent a lot of time making sure that it would be something people enjoyed using.
+In lieu of judges' comments, I wanted to give some thoughts of my own about the 2019 version of the website and what made it worthy of recognition. I built the site over the course of two months essentially from the ground-up and spent a lot of time making sure that it would be something people enjoyed using.
 
 To avoid confusion, I will say at this point that the current version of [`moabtimes.com`](https://moabtimes.com) is not the one that I built. [Tom Perkins](http://awebstudio.com) built and manages the 2020 version of `moabtimes.com`; he has built websites for a variety of Moab companies including that of *The Times-Independent* Associate Editor Sena Taylor Hauer's horseback riding business, [Moab Horses](https://moabhorses.com).
 
@@ -30,7 +30,7 @@ Here is what I think made `moabtimes.com` a winner:
 
 When building a new website, there is no need to reinvent the wheel. By that, I mean that there is no need to build something from scratch and make novel design choices in the process; many other sites have already made design choices worth learning from.
 
-The websites for [The New York Times](https://www.nytimes.com), [The Washington Post](https://www.washingtonpost.com), [Politico](https://www.politico.com), [Axios](https://www.axios.com), and other digitally-focused news sites have a lot to teach about designing a news site, including the location of the search bar, location and size of the masthead, screen width of articles, number of fonts used, layout of the front page, how much white space to use, how much text to use, how many images to use, …
+The websites for [The New York Times](https://www.nytimes.com), [The Washington Post](https://www.washingtonpost.com), [Politico](https://www.politico.com), [Axios](https://www.axios.com), and other digitally-focused news sites have a lot to teach about designing a news site, from the big things like front page layout and color scheming to smaller things like the location of the search bar, location and size of the masthead, screen width of articles, number of fonts used, how much white space to use, how much text to use, how many images to use, …
 
 These are websites with their own professional web designers that have iterated on the design of their sites for years. If there is anyone from whom to steal ideas, it is them.
 
@@ -40,7 +40,7 @@ As a nonprofit with a solid base of donations and foundation dollars, the public
 
 Solving this revenue problem has meant that ProPublica is free to do pretty much whatever it wants with its web design — no ads, few distractions: just the good stuff. That really becomes apparent browsing around the site (again, with the nagging exception of the newsletter popup).
 
-## Its pages were small and fast.
+## It was small and fast.
 {:#fast}
 {:.balance-text}
 
