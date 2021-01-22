@@ -1,10 +1,11 @@
 {% if include.the_post %}
-    {% assign the_post=include.the_post %}
+    {% assign the_post = include.the_post %}
 {% else %}
-    {% assign the_post=page %}
-    {% if the_post.featured_image %}
-        {% assign hide=the_post.featured_image.hide_at_top_of_page %}
-    {% endif %}
+    {% assign the_post = page %}
+{% endif %}
+
+{% if the_post.featured_image %}
+    {% assign hide=the_post.featured_image.hide_at_top_of_page %}
 {% endif %}
 
 {% if hide != true and the_post.featured_image %}
@@ -12,7 +13,7 @@
         {% if the_post.social_image %}
             {% assign the_image = the_post.social_image %}
         {% else %}
-        {% assign the_image = false %}
+            {% assign the_image = false %}
         {% endif %}
     {% else %}
         {% assign the_image = the_post.featured_image %}
