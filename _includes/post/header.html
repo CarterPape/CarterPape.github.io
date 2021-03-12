@@ -1,6 +1,6 @@
-{% assign title = page.title %}
-{% assign datetime = page.date | date: '%F' %}
-{% assign formatted_date = page.date | date: '%B %-d, %Y at %l:%M %p' %}
+{% assign title =           page.title %}
+{% assign xml_datetime =    page.date | date_to_xmlschema %}
+{% assign formatted_date =  page.date | date: '%B %-d, %Y at %l:%M %p' %}
 
 <header class="post-header">
     <h1 class="doc-title balance-text">
@@ -11,7 +11,9 @@
         <span class="byline">
             {% include post/authors.html %}
         </span>
-        <time class="article-date" datetime="{{ datetime }}">{{ formatted_date }}</span>
+        <time class="article-date" datetime="{{ xml_datetime }}">
+            {{ formatted_date }}
+        </time>
     </div>
     {% include post/featured-image.html %}
     

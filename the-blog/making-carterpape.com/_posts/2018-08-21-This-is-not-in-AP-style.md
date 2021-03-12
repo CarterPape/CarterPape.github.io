@@ -55,7 +55,7 @@ The question, therefore, is whether the words "black" and "white" are proper nam
 I do not have a particularly strong opinion on this because capitalization is not a hill on which I wish to die. However, whereas:
 
 1. Classification of a word as a "proper noun" is a somewhat collective choice among English speakers.
-2. There's an aire of dignity to capitalization.
+2. There is an air of dignity to capitalization.
 3. It's okay to err on the side of respect when it comes to referring to a group of persons.
 
 I therefore vote to capitalize "Black" and "White."[^Tharps-op-ed]
