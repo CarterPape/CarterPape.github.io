@@ -9,7 +9,7 @@ title: "LibSass is dying. How will Jekyll respond?"
 Here's exactly how Jekyll is affected:
 
 - The [`jekyll`](https://github.com/jekyll/jekyll) gem [depends on](https://github.com/jekyll/jekyll/blob/c9c9dc7dac74bce963101dd5c8670226dae01d85/jekyll.gemspec#L39) the [`jekyll-sass-converter`](https://github.com/jekyll/jekyll-sass-converter) gem.
-- The `jekyll-sass-converter` gem [depends on](https://github.com/jekyll/jekyll-sass-converter/blob/d2b4d3e797c4fa549fc68aba0cb2c21c64c13db4/jekyll-sass-converter.gemspec#L19) the [`sassc`](https://rubygems.org/gems/sassc/versions/1.1.0) gem (also known as [`sassc-ruby`](https://github.com/sass/sassc-ruby) and not to be confused with [`sassc`](https://github.com/sass/sassc), a wrapper around LibSass written in C).
+- The `jekyll-sass-converter` gem [depends on](https://github.com/jekyll/jekyll-sass-converter/blob/d2b4d3e797c4fa549fc68aba0cb2c21c64c13db4/jekyll-sass-converter.gemspec#L19) the [`sassc`](https://rubygems.org/gems/sassc/versions/1.1.0) gem[^libsass-note].
 - The `sassc` gem, because it is a Ruby wrapper around LibSass, is [among those affected](https://sass-lang.com/blog/libsass-is-deprecated#how-do-i-migrate) by the project's deprecation.
 - There are currently [no plans](https://github.com/sass/sassc-ruby/issues/220) for migrating the `sassc` gem to [Dart Sass](https://sass-lang.com/dart-sass), which is the "primary" or ["reference"](https://github.com/sass/dart-sass) implementation of Sass.
 
@@ -21,4 +21,6 @@ As you can see, I have been scouring for references on this and trying to figure
 
 So, my question is: **What is the Jekyll project's plan for migrating away from LibSass?** I think it would be best to maintain rather than drop Sass support and to do so by moving to Dart Sass, but I'm likely not the person who would do that programming, and I am only so tied into the weeds of the project itself.
 
-Any and all guidance, references, opinions, or updates welcome.
+Any and all guidance, references, opinions, or updates [welcome](https://talk.jekyllrb.com/t/migrating-away-from-libsass/5770).
+
+[^libsass-note]: The `sassc` gem is also known as [`sassc-ruby`](https://github.com/sass/sassc-ruby) and not to be confused with [`sassc`](https://github.com/sass/sassc), a wrapper around LibSass written in C.
