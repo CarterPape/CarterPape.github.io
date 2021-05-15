@@ -6,7 +6,8 @@ $base-accent:       #0593ab;
 
 $site-bg:           mix($base-accent, $white, 5%);
 $link-color:        $base-accent;
-$link-float-color:  darken($base-accent, 12%);
+$link-darken-amount: 12%;
+$link-float-color:  darken($base-accent, $link-darken-amount);
 
 $regular-text:      #595959;
 $light-text:        rgba($regular-text, 0.75);
