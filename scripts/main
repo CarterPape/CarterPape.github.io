@@ -1,0 +1,67 @@
+#!/bin/zsh
+set -e
+
+export script_path=$(realpath $0)
+export scripts_dir_path=$(dirname $script_path)
+export project_dir_path=$(dirname $scripts_dir_path)
+export site_path="$project_dir_path/_site"
+export posts_path="$project_dir_path/_posts"
+export post_assets_path="$project_dir_path/assets/posts"
+
+purge_htmlproofer_cache_of_internal_query_links () {
+    gsed -i 's ,"\(/\|#\)[^"]*?[^"]*":{[^}]*}  g' "$project_dir_path/tmp/.htmlproofer/cache.log"
+}
+
+proof_html () {
+    purge_htmlproofer_cache_of_internal_query_links
+    htmlproofer $site_path \
+        --internal_domains carterpape.com \
+        --assume_extension \
+        --enforce_https \
+        --check_favicon \
+        --check_html \
+        --check_opengraph \
+        --check_img_http \
+        --check_external_hash \
+        --report_invalid_tags \
+        --report_missing_names \
+        --report_eof_tags \
+        --report_mismatched_tags \
+        --timeframe 2d
+}
+
+dev () {
+    bundle exec jekyll serve --incremental
+}
+
+test () {
+    JEKYLL_ENV="production" bundle exec jekyll build --incremental
+    proof_html
+    # rclone sync --checksum --progress --fast-list --dry-run $site_path s3-for-carterpape-com:carterpape.com
+}
+
+push () {
+    git pull
+    git push
+    JEKYLL_ENV="production" bundle exec jekyll build
+    proof_html
+    rclone sync --checksum --progress --fast-list $site_path s3-for-carterpape-com:carterpape.com
+}
+
+subcommand="${1}" 
+case ${subcommand} in 
+    dev)
+        dev
+        ;;
+    test)
+        test
+        ;;
+    push)
+        push
+        ;;
+    *)
+        echo "`basename ${0}`: usage: dev | test | push" 
+        exit 1
+        ;; 
+esac
+
