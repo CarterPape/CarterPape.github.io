@@ -1,11 +1,11 @@
 ---
 layout: "browsing/homepage"
 permalink: "/"
-last_updated: "May 17, 2020"
+last_updated: "May 1, 2021"
 ---
 
 {% capture content %}
-![{{ site.author.photo.alt }}]({{ site.author.photo.path }} "{{ site.author.photo.title }}")
+!["Carter Pape takes a photo during a Black Lives Matter protest in Moab in June 2020"](/assets/images/profile-photos/2020-06.jpg "Me photographing a Black Lives Matter protest in Moab in June 2020")
 {% endcapture %}
 
 {% capture caption %}
@@ -31,4 +31,4 @@ I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied
 [Praeci]: https://praeci.com
 [Technician]: https://technicianonline.com
 [The Journal]: https://the-journal.com
-[The Times-Independent]: https://moabtimes.com
+[The Times-Independent]: https://www.moabtimes.com

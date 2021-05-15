@@ -82,14 +82,14 @@ At a larger scale, though, farming has considerable environmental impacts. Indiv
 [genetic engineering wiki]: https://en.wikipedia.org/wiki/Genetic_engineering
 [golden rice opposition]: https://nyti.ms/2jSlqRf
 [golden rice research]: https://academic.oup.com/ajcn/article/96/3/658/4576908
-[Greenpeace protest]: http://www.abc.net.au/news/2011-07-14/20110714-greenpeace-gm-protest/2794272
-[nutrition paper]: http://dx.doi.org/10.3945/ajcn.2010.29269
+[Greenpeace protest]: https://www.abc.net.au/news/2011-07-14/20110714-greenpeace-gm-protest/2794272
+[nutrition paper]: https://dx.doi.org/10.3945/ajcn.2010.29269
 [organic sustainability paper]: https://www.sciencedirect.com/science/article/pii/S0308521X00000603
 [papaya video]: https://youtu.be/CX7AqBOJS84
 [potato article]: https://www.genengnews.com/gen-news-highlights/sweet-potato-is-a-natural-gmo/81251182/
-[Reason article]: http://reason.com/blog/2013/09/30/scientists-call-out-greenpeace-for-killi
+[Reason article]: https://reason.com/blog/2013/09/30/scientists-call-out-greenpeace-for-killi
 [Scientific American on organic]: https://blogs.scientificamerican.com/science-sushi/httpblogsscientificamericancomscience-sushi20110718mythbusting-101-organic-farming-conventional-agriculture/
 [selective breeding]: https://en.wikipedia.org/wiki/Selective_breeding
 [Seufert paper]: https://www.ncbi.nlm.nih.gov/pubmed/22535250
-[Slate on organic]: http://www.slate.com/articles/double_x/the_kids/2014/01/organic_vs_conventional_produce_for_kids_you_don_t_need_to_fear_pesticides.html
+[Slate on organic]: https://www.slate.com/articles/double_x/the_kids/2014/01/organic_vs_conventional_produce_for_kids_you_don_t_need_to_fear_pesticides.html
 [transgene]: https://en.wikipedia.org/wiki/Transgene

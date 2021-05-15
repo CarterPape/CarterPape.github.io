@@ -10,7 +10,7 @@ social_image:
 
 This past weekend, I completed the most recent version, 0.3.0, of [NewsBot][NewsBot on GitHub], a series of time-saving automations that contribute to my work reporting for [The Times-Independent]. At this point, NewsBot is a collection of web scrapers — some of which are [private](https://github.com/CarterPape/NewsBot/tree/92ef25ca911c1f60a157c83f4089baeabfab502f#the-private-subproject) — that regularly capture updates to specific webpages, saving me from keeping a series of bookmarks that I have to check every hour or so.
 
-In the future, NewsBot will likely expand past mere web scraping into other automations, like providing an online dashboard of recent and popular tweets, news articles, Facebook posts, and other items shared about Moab. That dashboard would likely be hosted at the currently nonexistent website [newsbot.carterpape.com](https://newsbot.carterpape.com).
+In the future, NewsBot will likely expand past mere web scraping into other automations, like providing an online dashboard of recent and popular tweets, news articles, Facebook posts, and other items shared about Moab. That dashboard would likely be hosted at the currently nonexistent website [newsbot.carterpape.com](https://newsbot.carterpape.com){:data-proofer-ignore="true" title="This link might be broken."}.
 
 For now, I will explain the idea behind the current iteration of NewsBot with an example.
 
@@ -24,7 +24,7 @@ This is an email from NewsBot with an update on the investigation of Frontier co
 
 {% include authoring/figure/screenshot.html %}
 
-The Utah Division of Public Utilities is [investigating Frontier Communications of Utah](https://moabtimes.com/2019/07/08/state-probing-frontier-following-service-complaints/) following formal complaints of poor quality of service in certain remote areas around Moab, where the company holds a state certificate granting it a monopoly for landline services.
+The Utah Division of Public Utilities is [investigating Frontier Communications of Utah](https://www.moabtimes.com/articles/state-probing-frontier-following-service-complaints/) following formal complaints of poor quality of service in certain remote areas around Moab, where the company holds a state certificate granting it a monopoly for landline services.
 
 To keep up with the investigation, typically I would have to regularly visit the [the docket webpage](https://psc.utah.gov/2019/05/20/docket-no-19-041-04/), where filings in the investigation are hosted, to check for new documents. It would be easy to miss a development in the investigation while we are focused on other stories that are physically happening in Moab.
 
@@ -57,5 +57,5 @@ Information systems are tools for humans to use to standardize and make reliable
 
 
 
-[The Times-Independent]: https://moabtimes.com/
+[The Times-Independent]: https://www.moabtimes.com/
 [NewsBot on GitHub]: https://github.com/CarterPape/NewsBot

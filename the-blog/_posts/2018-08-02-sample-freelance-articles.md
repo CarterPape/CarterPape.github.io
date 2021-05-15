@@ -32,7 +32,7 @@ My writing for DO Supply concerns many technical subjects, usually concentrated 
 This was one of my favorite freelance articles to write; researching for the article was interesting, and the idea of doing an historical overview of the Internet of Things (IoT) was mine. It is written in a dually historical and technical perspective, which also made it unique.[^not-journalism]
 
 {% capture content %}
-> Ashton put a lot of stock in RFID at the time, and even as late as 2009 was [writing about the promises the technology offered](http://www.rfidjournal.com/articles/view?4986). However, IoT seems to be turning away from RFID technology, foregoing RFID-tagged objects in favor of objects that are computers unto themselves.
+> Ashton put a lot of stock in RFID at the time, and even as late as 2009 was [writing about the promises the technology offered](https://www.rfidjournal.com/articles/view?4986). However, IoT seems to be turning away from RFID technology, foregoing RFID-tagged objects in favor of objects that are computers unto themselves.
 {% endcapture %}
 
 {% capture caption %}
@@ -59,5 +59,5 @@ You can read [the full article][IoT Started with a Vending Machine], nicely form
 [DO Supply]: https://www.dosupply.com/index.php
 [IoT Started with a Vending Machine]: https://www.machinedesign.com/industrial-automation/iot-started-vending-machine
 [Machine Design]: https://www.machinedesign.com/
-[the blog]: {% link the-blog/index.md %}
 [Upwork]: https://www.upwork.com/
+[the blog]: {% link the-blog/index.md %}

@@ -40,7 +40,7 @@ I'm making this app as something that I would want to use regularly myself, beca
 
 The idea for this app came to me as I was using [Paper], which is available on the macOS App Store and continues to be my writing environment of choice while *write* is under development.
 
-Paper is a decent place for writing and editing prose that is sprinkled with Markdown elements. It recognizes and formats the common form of links that look like \[this\]\(http://link.location\). Paper bolds lines containing ATX headers; it bolds or emphasizes text with asterisks and underscores; it shows ordered and unordered lists.
+Paper is a decent place for writing and editing prose that is sprinkled with Markdown elements. It recognizes and formats the common form of links that look like `\[this\]\(https://link.location\)`. Paper bolds lines containing ATX headers; it bolds or emphasizes text with asterisks and underscores; it shows ordered and unordered lists.
 
 However, there are plenty of things that Paper does not do or recognize. Paper does not recognize link references; it does not recognize header levels deeper than three; it only provides one look for headers (the same look that bolded text has); it doesn't recognize blockquotes; … the list is long.
 
@@ -71,9 +71,10 @@ If you are interested to see [the original Adobe Illustrator file][design in ai]
 
 [design in ai]: https://s3.amazonaws.com/carterpape-assets/how+the+app+will+look.zip "direct download of the original .ai file and related assets"
 [design in pdf]: https://s3.amazonaws.com/carterpape-assets/how+the+app+will+look.pdf "direct download of a .pdf version of the write app rendering"
-[naming the app]: {% link the-blog/making-write/_posts/2018-07-23-naming.md %} "blog post about how I named write, the app"
 [Oliver Reichenstein on China]: https://ia.net/topics/designed-in-china-assembled-in-california
-[Paper]: http://www.papereditorapp.com/ "link to the app's website"
+[Paper]: https://www.papereditor.app/ "link to the app's website"
 [Paper on Twitter]: https://twitter.com/papereditorapp
 [Paper screenshot]: https://s3.amazonaws.com/carterpape-assets/paper-screenshot.png "a screenshot of Paper, the app I am currently using and upon whose functionalities I seek to improve"
 [write render]: https://s3.amazonaws.com/carterpape-assets/write-render.png "a render of write, the app, created with Adobe Illustrator"
+
+[naming the app]: {% link the-blog/making-write/_posts/2018-07-23-naming.md %} "blog post about how I named write, the app"

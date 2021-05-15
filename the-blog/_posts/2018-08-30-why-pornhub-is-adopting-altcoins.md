@@ -30,7 +30,7 @@ This has [given rise to coins](https://cryptoslate.com/battle-privacy-monero-vs-
 
 ## Are cryptos paying Pornhub for adoption?
 
-Despite the baseline of crypto security offered by Tron, the developers of the coin do not make promises of its untraceability. This has led [skeptics](https://www.ccn.com/whats-the-motive-behind-pornhubs-listing-of-verge-and-now-tron/), who question what was behind Pornhub's decision to adopt the coin, to conclude that the company is only accepting cryptocurrencies that pay substantially for partnership.
+Despite the baseline of crypto security offered by Tron, the developers of the coin do not make promises of its untraceability. This has led [skeptics](https://www.ccn.com/whats-the-motive-behind-pornhubs-listing-of-verge-and-now-tron/){:data-proofer-ignore="true" title="This link might be broken."}, who question what was behind Pornhub's decision to adopt the coin, to conclude that the company is only accepting cryptocurrencies that pay substantially for partnership.
 
 After Pornhub's announcement that it would start accepting Verge, Charlie Lee, the creator of LiteCoin (LTC), said in [a tweet](https://twitter.com/satoshilite/status/986249542453506048?lang=en) that Pornhub should start accepting "real crytocurrencies like BTC, LTC, and XMR." Pornhub has not directly responded to these criticisms.
 

@@ -19,6 +19,7 @@ I've recently done some changes to the website that I thought might be useful to
 
 
 ## The footnote backlink symbol now makes sense.
+
 **Previously:** Footnote backlinks on my site used the ↩︎︎ character.  
 **[Now][GitHub: footnote backlink]:** Footnote backlinks on my site now use the ⤴ character.
 
@@ -41,6 +42,7 @@ Of course kramdown should be the one addressing the footnote backlink problem; i
 
 
 ## External links now open in a new tab.
+
 **Previously:** I had to manually specify `target="_blank"` for each external link on my site.  
 **[Now][GitHub: external links]:** All external links automatically get the `target="_blank"` attribute.
 
@@ -50,6 +52,7 @@ The way you tell a browser to open a link in a new tab is by adding `target="_bl
 
 
 ## Links now fade during mouseover events.
+
 **Previously:** Links changed colors instantly when moused over ([like this](#){:style="transition: none;"}).  
 **[Now][GitHub: link fading]:** Links change color animatedly during mouseover events ([like this](#)).
 
@@ -57,6 +60,7 @@ I can't remember where I saw this trick, but as soon as I realized that the webs
 
 
 ## The selected footnote gets highlighted.
+
 **Previously:** Clicking a footnote would scroll the browser to the selected footnote at the bottom of the article[^learn-bookmarking], but it wouldn't visually highlight it.  
 **[Now][GitHub: footnote highlighting]:** Clicking a footnote scrolls the view to the selected footnote *and* visually outlines the selected footnote.
 
@@ -70,6 +74,7 @@ I found that GitHub uses the [pseudo-class] CSS selector `:target`[^missed-that-
 
 
 ## The corners of "card" views are now rounded.
+
 **Previously:** The corners of article views and other main content views were sharp.  
 **[Now][Github: rounded corners]:** Corners are rounded.
 
@@ -97,22 +102,29 @@ However, after playing around with different animation timings, I figured that i
 As I browsed Jekyll plugins, I found one that I thought may prove useful: [`jekyll-references`]. Here's an excerpt from the plugin's `README`:
 
 {% capture content %}
+
 > ### Usage
+> 
 > Add `references.rb` file to your `_plugins` directory (create it if needed).
 > Create a file named `_references.md` in your Jekyll site root,
 > then add your markdown reference-style link definitions to it.
 > 
 > For example:
 > 
->     [google]: http://www.google.com  "Google it!"
->     [wiki]: http://wikipedia.org  "Online Encyclopedia"
->     [id]: url  "tooltip"
+> ~~~~~~markdown
+> [google]: https://www.google.com  "Google it!"
+> [wiki]: https://wikipedia.org  "Online Encyclopedia"
+> [id]: url  "tooltip"
+> ~~~~~~~
 > 
 > You can now reference these links in any markdown file.
 > For example:
 > 
+> ~~~~~~markdown
 >     [Google][google] is a popular search engine and [Wikipedia][wiki] an
 >     online encyclopedia.
+> ~~~~~~~
+
 {% endcapture %}
 
 {% capture caption %}
@@ -170,6 +182,7 @@ I'm also weighing the ideas of branch-driven development and use of GitHub's iss
 [GitHub: link fading]: https://github.com/CarterPape/CarterPape.github.io/commit/8bc9eccb2f6a0c65de97720bd302d6618eed9594#diff-b3d05ca4cdcb64807acb71a9a9242186R75 "the diff on GitHub that adds link fading"
 [Github: rounded corners]: https://github.com/CarterPape/CarterPape.github.io/commit/8bc9eccb2f6a0c65de97720bd302d6618eed9594#diff-6758c1b8821482430af37822790a26ceR6 "the diff on GitHub that created the rounded corners"
 [Gruber on footnotes]: https://daringfireball.net/2005/07/footnotes "John Gruber talking about adding footnotes to his site"
-[me on olivermak.es]: {% link the-blog/making-carterpape.com/_posts/2018-07-28-olivermak-es-is-pretty.md %} "an article I wrote about a beautiful website"
 [olivermak.es]: https://olivermak.es "a beautiful website"
 [pseudo-class]: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes "the Mozilla foundation's documentation of CSS pseudo-classes"
+
+[me on olivermak.es]: {% link the-blog/making-carterpape.com/_posts/2018-07-28-olivermak-es-is-pretty.md %} "an article I wrote about a beautiful website"

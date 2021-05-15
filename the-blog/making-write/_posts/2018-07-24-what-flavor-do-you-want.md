@@ -98,7 +98,7 @@ If CommonMark can't become the common Markdown standard, I think it's very unlik
 [^standard-markdown-features]: For example, even John Gruber, [the inventor of Markdown][Gruber's Markdown spec], [uses footnotes][Gruber using footnotes] on [his blog][Daring Fireball], yet they are not included in his Markdown spec. Footnotes are not specified in the CommonMark spec, either.
 
 
-[CommonMark 1.0]: http://commonmark.org/#when
+[CommonMark 1.0]: https://commonmark.org/#when
 [CommonMark appendix]: https://spec.commonmark.org/0.28/#appendix-a-parsing-strategy
 [CommonMark change log]: https://spec.commonmark.org/changelog.txt
 [CommonMark GitHub wiki]: https://github.com/CommonMark/CommonMark/wiki

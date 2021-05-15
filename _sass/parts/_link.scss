@@ -8,3 +8,8 @@ a.not-blue {
         background-color: $link-hover-bg;
     }
 }
+
+a[data-proofer-ignore] {
+    color: inherit;
+    fill: inherit;
+}
