@@ -1,80 +1,27 @@
+{%- assign i_just_want_nice_formatting_without_errors = "" -%}
+
 <head>
-    {% capture og_title %}
-        {% if page.title %}
-            {{ page.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
-    {% endcapture %}
-    {% assign og_title = og_title | strip %}
-    
-    {% capture title %}
-        {% if page.title %}
-            {{ page.title }}
-            -
-            {{ site.author.name }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
-    {% endcapture %}
-    {% assign title = title | strip %}
-    
-    {% if page.description %}
-        {% assign description = page.description %}
-    {% elsif page.url == "/" %}
-        {% assign description = site.description %}
-    {% else %}
-        {% assign description = page.excerpt %}
-    {% endif %}
-    {% assign description = description | markdownify | strip_html %}
-
-    {% if page.social_image %}
-        {% assign social_image = page.social_image %}
-    {% elsif page.featured_image %}
-        {% assign social_image = page.featured_image %}
-    {% else %}
-        {% assign social_image = site.author.photo %}
-    {% endif %}
-
-    {% assign author_count = page.authors | size %}
-    {% if author_count == 0 %}
-        {% assign author_name = site.author.name %}
-    {% else %}
-        {% assign author_name = page.authors[0] %}
-    {% endif %}
-    
     <meta charset="utf-8">
-    <meta content="chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>{{ title }}</title>
-    <meta name="author" content="{{ author_name }}">
-    
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:link" content="{{ page.url | absolute_url }}">
-    <meta property="og:title" content="{{ og_title }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta name="description" content="{{ description }}">
-    <meta property="og:image" content="{{ social_image.path | absolute_url }}">
-    
-    <meta content="summary" name="twitter:card">
-    <meta content="@CartrPape" name="twitter:site">
-    <meta content="@CartrPape" name="twitter:creator">
-    <meta name="twitter:title" content="{{ og_title }}">
-    <meta name="twitter:description" content="{{ description }}">
-    <meta content="summary" name="twitter:card">
-    <meta name="twitter:image" content="{{ social_image.path | absolute_url }}">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta name="viewport"
+        content="
+            {{- i_just_want_nice_formatting_without_errors -}}
+            width=device-width,
+            initial-scale=1
+            {{- i_just_want_nice_formatting_without_errors -}}
+        "
+    >
+    {%- seo -%}
     
     <link href="https://use.typekit.net/zoa8ulo.css" rel="stylesheet">
     <link href="/assets/stylesheets/styles.css" rel="stylesheet">
     <link href="/assets/stylesheets/pygment_trac.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-        
+    
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
-    {% include head/headline-balancing.html %}
+    {%- include head/headline-balancing.html -%}
     
     <link href="/assets/images/favicons/apple-touch-icon-57x57.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="57x57">
     <link href="/assets/images/favicons/apple-touch-icon-60x60.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="60x60">
