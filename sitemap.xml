@@ -1,0 +1,37 @@
+---
+layout: null
+sitemap:
+    exclude: true
+regenerate: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    {%- for each_post in site.posts -%}
+        {%- unless
+            each_post.published == false
+            or each_post.unlisted == true
+            or each_post.sitemap.exclude == true
+        -%}
+            <url>
+                <loc>{{ each_post.url | absolute_url | xml_escape }}</loc>
+                {%- if each_post.last_modified -%}
+                    <lastmod>{{ each_post.last_modified | date_to_xmlschema }}</lastmod>
+                {%- endif -%}
+            </url>
+        {%- endunless -%}
+    {%- endfor -%}
+    {%- for each_page in site.pages -%}
+        {%- unless
+            each_page.published == false
+            or each_page.sitemap.exclude == true
+            or each_page.name == "feed.xml"
+        -%}
+            <url>
+                <loc>{{ each_page.url | absolute_url | xml_escape }}</loc>
+                {%- if each_page.last_modified -%}
+                    <lastmod>{{ each_page.last_modified | date_to_xmlschema }}</lastmod>
+                {%- endif -%}
+            </url>
+        {%- endunless -%}
+    {%- endfor -%}
+</urlset>
