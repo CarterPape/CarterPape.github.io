@@ -1,3 +1,9 @@
+{%- assign site_author = 
+    site.data.authors[
+        site.author
+    ]
+-%}
+
 <header class="masthead">
     <div class="menu-button" id="sitewide-nav-button">
         <button onclick="toggleNavList()">
@@ -48,29 +54,24 @@
         </ul>
         <ul>
             <li id="my-social-links">
-                <a href="{{ site.author.github_url }}" target="_blank">
+                <a href="https://github.com/{{ site_author.github }}" target="_blank">
                     <svg>
                         <use xlink:href="/assets/images/brand-icons.svg#github" />
                     </svg>
                 </a>
-                <a href="{{ site.author.facebook_url }}" target="_blank">
+                <a href="https://www.facebook.com/{{ site_author.facebook }}" target="_blank">
                     <svg>
                         <use xlink:href="/assets/images/brand-icons.svg#facebook" />
                     </svg>
                 </a>
-                <a href="{{ site.author.twitter_url }}" target="_blank">
+                <a href="https://twitter.com/{{ site_author.twitter }}" target="_blank">
                     <svg>
                         <use xlink:href="/assets/images/brand-icons.svg#twitter" />
                     </svg>
                 </a>
-                <a href="{{ site.author.instagram_url }}" target="_blank">
+                <a href="https://www.instagram.com/{{ site_author.instagram }}/" target="_blank">
                     <svg>
                         <use xlink:href="/assets/images/brand-icons.svg#instagram" />
-                    </svg>
-                </a>
-                <a href="{{ site.author.linkedin_url }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#linkedin" />
                     </svg>
                 </a>
             </li>
