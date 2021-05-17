@@ -2,6 +2,8 @@
 title: "LibSass is dying. How will Jekyll respond?"
 ---
 
+*Note: This post was created originally for 
+
 [The king](https://sass-lang.com/libsass) is [(almost) dead](https://sass-lang.com/blog/libsass-is-deprecated). Long live [the king](https://github.com/sass/dart-sass)!
 
 [LibSass](https://sass-lang.com/libsass), which undergirds [Jekyll's native Sass pre-compiler](https://github.com/jekyll/jekyll-sass-converter), [is deprecated](https://sass-lang.com/blog/libsass-is-deprecated). Jekyll has roughly until November to transition to Dart Sass or drop native Sass support altogether.
