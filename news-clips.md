@@ -6,19 +6,21 @@ title: news clips
 last_updated: "Nov. 21, 2018"
 ---
 
-The following are works on which I was first or only author or producer. These works are meant to highlight the clarity and voice of my reporting, my aptitude for capturing striking imagery, and my presence in podcast and radio productions.
+This page showcases my journalistic work. I have a separate list for my [completed and active programming projects]({% link projects.md %}), some of which directly supports my work in local journalism.
 
-For a comprehensive look at my work:
+The following are works on which I was first or only author or producer. The list is meant to highlight the clarity and voice of my reporting, my eye for striking imagery, and my presence in podcast and radio productions.
 
-- Read [articles with my byline][my T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
+For a comprehensive look at my writing:
+
+- [Search my name][T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
+- [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].
+- [Search my name][Technician articles] on [_Technician_'s website][Technician].
 - Visit [Praeci].
 - Browse [my blog][the blog].
-- [Search my name][Technician articles] on [_Technician_'s website][Technician].
-- [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].
 
 **Under construction**
 
-[my T-I articles]: https://www.moabtimes.com/author/carter-pape/
+[T-I articles]: https://www.moabtimes.com/?s=Carter+Pape
 [Praeci]: https://praeci.com
 [Technician]: https://www.technicianonline.com
 [Technician articles]: https://www.technicianonline.com/search/?f=html&q=carter+pape&c%5B0%5D=news%2A&s=start_time&sd=desc&l=10&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
