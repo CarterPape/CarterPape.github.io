@@ -2,7 +2,7 @@
 title: "LibSass is dying. How will Jekyll respond?"
 ---
 
-*Note: This post was created originally for 
+*Note: This post was created originally for [Jekyll's Discourse web forum](https://talk.jekyllrb.com). You can find the original version at [this link](https://talk.jekyllrb.com/t/migrating-away-from-libsass/5770). Also see the [GitHub issue](https://github.com/jekyll/jekyll-sass-converter/issues/116) on this.*
 
 [The king](https://sass-lang.com/libsass) is [(almost) dead](https://sass-lang.com/blog/libsass-is-deprecated). Long live [the king](https://github.com/sass/dart-sass)!
 
@@ -23,6 +23,6 @@ As you can see, I have been scouring for references on this and trying to figure
 
 So, my question is: **What is the Jekyll project's plan for migrating away from LibSass?** I think it would be best to maintain rather than drop Sass support and to do so by moving to Dart Sass, but I'm likely not the person who would do that programming, and I am only so tied into the weeds of the project itself.
 
-Any and all guidance, references, opinions, or updates [welcome](https://talk.jekyllrb.com/t/migrating-away-from-libsass/5770).
+Any and all guidance, references, opinions, or updates [welcome](https://github.com/jekyll/jekyll-sass-converter/issues/116).
 
 [^libsass-note]: The `sassc` gem is also known as [`sassc-ruby`](https://github.com/sass/sassc-ruby) and not to be confused with [`sassc`](https://github.com/sass/sassc), a wrapper around LibSass written in C.
