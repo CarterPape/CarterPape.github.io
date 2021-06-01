@@ -8,14 +8,15 @@
 
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files, you will see them accessed via {{ site.title }}, {{ site.email }}, and so on. You can create any custom variable you would like, and they will be accessible in the templates via {{ site.myvariable }}.
+# These are used to personalize your new site. If you look in the HTML files, you will see them accessed via {{ site.title }}, {{ site.tagline }}, and so on. You can create any custom variable you would like, and they will be accessible in the templates via {{ site.myvariable }}.
 
 url:            https://carterpape.com
 title:          Carter Pape's website
-email:          hello@carterpape.com
 tagline:        Carter Pape is a reporter<br/>for The Times-Independent<br/>in Moab, Utah.
 author:         carter_pape
 lang:           en-us
+
+cloudflare_token: e0a891b5512949ac844da72b444e0b9b
 
 # Formatting settings
 
