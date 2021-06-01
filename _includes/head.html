@@ -1,48 +1,47 @@
 {%- assign i_just_want_nice_formatting_without_errors = "" -%}
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible"
+    <meta charset="utf-8" />
+    <meta
+        http-equiv="X-UA-Compatible"
         content="IE=edge"
-    >
-    <meta name="viewport"
+    />
+    <meta
+        name="viewport"
         content="
             {{- i_just_want_nice_formatting_without_errors -}}
             width=device-width,
             initial-scale=1
             {{- i_just_want_nice_formatting_without_errors -}}
         "
-    >
+    />
+    
     {%- seo -%}
     
-    <link href="https://use.typekit.net/zoa8ulo.css" rel="stylesheet">
-    <link href="/assets/stylesheets/styles.css" rel="stylesheet">
-    <link href="/assets/stylesheets/pygment_trac.css" rel="stylesheet">
+    <link
+        href="https://use.typekit.net/zoa8ulo.css"
+        rel="stylesheet"
+    />
+    <link
+        href="/assets/stylesheets/styles.css"
+        rel="stylesheet"
+    />
+    <link
+        href="/assets/stylesheets/pygment_trac.css"
+        rel="stylesheet"
+    />
     
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script
+        src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+    ></script>
+    
+    <script
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
     
     {%- include head/headline-balancing.html -%}
-    
-    <link href="/assets/images/favicons/apple-touch-icon-57x57.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="57x57">
-    <link href="/assets/images/favicons/apple-touch-icon-60x60.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="60x60">
-    <link href="/assets/images/favicons/apple-touch-icon-72x72.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="72x72">
-    <link href="/assets/images/favicons/apple-touch-icon-76x76.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="76x76">
-    <link href="/assets/images/favicons/apple-touch-icon-114x114.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="114x114">
-    <link href="/assets/images/favicons/apple-touch-icon-120x120.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="120x120">
-    <link href="/assets/images/favicons/apple-touch-icon-144x144.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="144x144">
-    <link href="/assets/images/favicons/apple-touch-icon-152x152.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="152x152">
-    <link href="/assets/images/favicons/apple-touch-icon-180x180.png?v=8jMvbKom95" rel="apple-touch-icon" sizes="180x180">
-    <link href="/assets/images/favicons/favicon-32x32.png?v=8jMvbKom95" rel="icon" sizes="32x32" type="image/png">
-    <link href="/assets/images/favicons/favicon-194x194.png?v=8jMvbKom95" rel="icon" sizes="194x194" type="image/png">
-    <link href="/assets/images/favicons/android-chrome-192x192.png?v=8jMvbKom95" rel="icon" sizes="192x192" type="image/png">
-    <link href="/assets/images/favicons/favicon-16x16.png?v=8jMvbKom95" rel="icon" sizes="16x16" type="image/png">
-    <link href="/assets/images/favicons/site.webmanifest?v=8jMvbKom95" rel="manifest">
-    <link color="#0593ab" href="/assets/images/favicons/safari-pinned-tab.svg?v=8jMvbKom95" rel="mask-icon">
-    <link href="/assets/images/favicons/favicon.ico?v=8jMvbKom95" rel="shortcut icon">
-    <meta content="Carter Pape" name="apple-mobile-web-app-title">
-    <meta content="Carter Pape" name="application-name">
-    <meta content="#0593ab" name="msapplication-TileColor">
-    <meta content="/assets/images/favicons/mstile-144x144.png?v=8jMvbKom95" name="msapplication-TileImage">
-    <meta content="/assets/images/favicons/browserconfig.xml?v=8jMvbKom95" name="msapplication-config">
-    <meta content="#f3fafb" name="theme-color">
+    {%- include head/favicons.html -%}
+    {%- feed_meta -%}
 </head>
