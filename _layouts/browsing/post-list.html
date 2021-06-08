@@ -4,8 +4,7 @@ layout: browsing
 <section id="post-list">
     <header>
         <h1 class="doc-title balance-text">{{ page.title }}</h1>
-        {% assign categories = page.categories | pop %}
-        {% include filing.html categories=categories leftmost-depth=0 %}
+        {%- include post/filing.html categories=categories leftmost-depth=0 -%}
     </header>
     {{ content }}
 </section>
