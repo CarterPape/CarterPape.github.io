@@ -12,6 +12,7 @@
         text-align: right;
         font-style: italic;
         color:      $light-text;
+        fill:       $light-text;
     }
     @media screen and (max-width: 760px) {
         max-width:  560px;

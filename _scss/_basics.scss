@@ -4,8 +4,14 @@ html {
     font-size:                  14px;
 }
 
+head,
+head * {
+    display: none;
+}
+
 body {
     color:          $regular-text;
+    fill:           $regular-text;
     font-weight:    400;
     margin:         0.2em;
     
