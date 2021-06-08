@@ -55,6 +55,11 @@ kramdown:
     auto_ids: true
     auto_id_stripping: true
 
+category_display_names:
+    the-blog:               "the blog"
+    making-carterpape-com:  "making carterpape.com"
+    decompiling-facebook:   "decompiling Facebook"
+    making-write:           "making write"
 
 # Build settings
 
