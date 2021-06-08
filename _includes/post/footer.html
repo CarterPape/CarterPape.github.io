@@ -1,6 +1,17 @@
+{%- capture period_and_two_newlines %}.
+
+{% endcapture -%}
+
+{%- assign twitter_text =
+    "This is the best writing I have ever seen in my life. Astounding work, @"
+    | append: site.data.authors[page.author].twitter
+    | append: period_and_two_newlines
+    | url_encode
+-%}
+
 <footer class="post-footer">
     <div class="content-share">
-        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" rel="nofollow" target="_blank" title="share on Twitter">share on Twitter</a>
+        <a href="https://twitter.com/intent/tweet?text={{ twitter_text }}&url={{ page.url | absolute_url }}" rel="nofollow" target="_blank" title="share on Twitter">share on Twitter</a>
         <a href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" rel="nofollow" target="_blank" title="share on Facebook">share on Facebook</a>
     </div>
 </footer>
