@@ -54,25 +54,17 @@
         </ul>
         <ul>
             <li id="my-social-links">
-                <a href="https://github.com/{{ site_author.github }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#github" />
-                    </svg>
+                <a href="https://github.com/{{ site_author.github }}/" target="_blank">
+                    {% include icon.html which="github" %}
                 </a>
-                <a href="https://www.facebook.com/{{ site_author.facebook }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#facebook" />
-                    </svg>
+                <a href="https://www.facebook.com/{{ site_author.facebook }}/" target="_blank">
+                    {% include icon.html which="facebook" %}
                 </a>
-                <a href="https://twitter.com/{{ site_author.twitter }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#twitter" />
-                    </svg>
+                <a href="https://twitter.com/{{ site_author.twitter }}/" target="_blank">
+                    {% include icon.html which="twitter" %}
                 </a>
                 <a href="https://www.instagram.com/{{ site_author.instagram }}/" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#instagram" />
-                    </svg>
+                    {% include icon.html which="instagram" %}
                 </a>
             </li>
         </ul>
