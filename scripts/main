@@ -1,51 +1,118 @@
 #!/bin/zsh
-set -e
+set -eu
 
-export script_path=$(realpath $0)
-export scripts_dir_path=$(dirname $script_path)
-export project_dir_path=$(dirname $scripts_dir_path)
-export site_path="$project_dir_path/_site"
-export posts_path="$project_dir_path/_posts"
-export post_assets_path="$project_dir_path/assets/posts"
+domain="carterpape.com"
+production_bucket="s3-for-moab-news:moab.news"
 
-purge_htmlproofer_cache_of_internal_query_links () {
-    gsed -i 's ,"\(/\|#\)[^"]*?[^"]*":{[^}]*}  g' "$project_dir_path/tmp/.htmlproofer/cache.log"
-}
-
-proof_html () {
-    purge_htmlproofer_cache_of_internal_query_links
-    htmlproofer $site_path \
-        --internal_domains carterpape.com \
-        --assume_extension \
-        --enforce_https \
-        --check_favicon \
-        --check_html \
-        --check_opengraph \
-        --check_img_http \
-        --check_external_hash \
-        --report_invalid_tags \
-        --report_missing_names \
-        --report_eof_tags \
-        --report_mismatched_tags \
-        --timeframe 2d
-}
+script_path=$(realpath $0)
+scripts_dir_path=$(dirname $script_path)
+project_dir_path=$(dirname $scripts_dir_path)
+site_path="$project_dir_path/_site"
+posts_path="$project_dir_path/_posts"
+post_assets_path="$project_dir_path/assets/posts"
 
 dev () {
+    remove_generated_files_if_present
+    npx webpack --mode=development
+    
+    trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
+    
+    npx webpack             \
+        --mode=development  \
+        --watch             \
+        &
     bundle exec jekyll serve --incremental
 }
 
+remove_generated_files_if_present () {
+    if [ -d "$project_dir_path/assets/generated" ]; then
+        rm -r "$project_dir_path/assets/generated"
+    fi
+}
+
 test () {
-    JEKYLL_ENV="production" bundle exec jekyll build --incremental
+    # check_names --print-on-fail
+    # check_for_archived_pages
+    production_build
+    
     proof_html
-    # rclone sync --checksum --progress --fast-list --dry-run $site_path s3-for-carterpape-com:carterpape.com
+    
+    rclone sync         \
+        --dry-run       \
+        --checksum      \
+        --progress      \
+        --fast-list     \
+        --track-renames \
+        $site_path      \
+        $production_bucket
+}
+
+production_build () {
+    remove_generated_files_if_present
+    
+    npx webpack --mode=production --progress
+    JEKYLL_ENV="production" bundle exec jekyll build
 }
 
 push () {
+    # check_names --die-on-fail
+    # archive_new_links
+    production_build
+    
+    proof_html
+    
+    rclone sync         \
+        --checksum      \
+        --progress      \
+        --fast-list     \
+        --track-renames \
+        $site_path      \
+        $production_bucket
+    
+    index
+    
+    # set the caching headers on all files that need it (maybe with https://s3tools.org/s3cmd)
+    # purge the CloudFlare cache of updated files
+    
     git pull
     git push
-    JEKYLL_ENV="production" bundle exec jekyll build
-    proof_html
-    rclone sync --checksum --progress --fast-list $site_path s3-for-carterpape-com:carterpape.com
+}
+
+# index () {
+#     set -o allexport
+#     source "$project_dir_path/.env"
+#     set +o allexport
+    
+#     bundle exec jekyll algolia
+# }
+
+give_names () {
+    $dir_path/scripts/give_names.rb
+}
+
+check_names () {
+    $dir_path/scripts/check_names.rb $1
+}
+
+purge_htmlproofer_cache_of_internal_links() {
+    gsed -i 's ,"\(/\|#\)[^"]*":{[^}]*}  g' "$project_dir_path/tmp/.htmlproofer/cache.log"
+}
+
+proof_html () {
+    purge_htmlproofer_cache_of_internal_links
+    
+    htmlproofer $site_path              \
+        --internal_domains $domain      \
+        --assume_extension              \
+        --enforce_https                 \
+        --check_favicon                 \
+        --check_html                    \
+        --check_opengraph               \
+        --check_img_http                \
+        --report_invalid_tags           \
+        --report_missing_names          \
+        --report_eof_tags               \
+        --timeframe 2d
 }
 
 subcommand="${1}" 
@@ -59,9 +126,11 @@ case ${subcommand} in
     push)
         push
         ;;
+    # index)
+    #     index
+    #     ;;
     *)
-        echo "`basename ${0}`: usage: dev | test | push" 
+        echo "`basename ${0}`: usage: dev | test | push | index"
         exit 1
-        ;; 
+        ;;
 esac
-

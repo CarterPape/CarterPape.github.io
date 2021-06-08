@@ -1,0 +1,83 @@
+{%- assign i_just_want_nice_formatting_without_errors = "" -%}
+
+<head>
+    <meta
+        charset="utf-8"
+    />
+    <meta
+        name="viewport"
+        content="
+            {{- i_just_want_nice_formatting_without_errors -}}
+            width=device-width,
+            initial-scale=1
+            {{- i_just_want_nice_formatting_without_errors -}}
+        "
+    />
+    
+    {%- seo -%}
+    
+    <link
+        href="
+            {{-
+                'assets/stylesheets/main.css'
+                | relative_url
+                | append: '?v=2021-06-07T22:22'
+            -}}
+        "
+        rel="stylesheet"
+    />
+    <link
+        href="/assets/stylesheets/pygment_trac.css?v=2021-06-05T11:32"
+        rel="stylesheet"
+    />
+    
+    <link
+        _name="jaf-bernino-sans--normal--400"
+        _for="p, .site-title"
+        rel="preload"
+        href="https://use.typekit.net/af/89f367/00000000000000003b9adef0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+        as="font"
+        type="font/woff2"
+        crossorigin
+    />
+    <link
+        _name="jaf-bernino-sans--italic--700"
+        _for="h1"
+        rel="preload"
+        href="https://use.typekit.net/af/c87723/00000000000000003b9aded9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3"
+        as="font"
+        type="font/woff2"
+        crossorigin
+    />
+    <link
+        _name="jaf-bernino-sans--normal--700"
+        _for="h2"
+        rel="preload"
+        href="https://use.typekit.net/af/825839/00000000000000003b9aded8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+        as="font"
+        type="font/woff2"
+        crossorigin
+    />
+    <link
+        _name="jaf-bernino-sans--italic--400"
+        _for="em"
+        rel="preload"
+        href="https://use.typekit.net/af/e3232d/00000000000000003b9adeee/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3"
+        as="font"
+        type="font/woff2"
+        crossorigin
+    />
+    
+    <script
+        src="
+            {{-
+                'assets/generated/main.js'
+                | relative_url
+                | append: '?v=2021-06-05T13:49'
+            -}}
+        "
+    ></script>
+    
+    {%- include head/favicons.html -%}
+    {%- feed_meta -%}
+</head>

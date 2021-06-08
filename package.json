@@ -1,0 +1,30 @@
+{
+    "type": "module",
+    "dependencies": {
+        "@algolia/autocomplete-js": "^1.0.1",
+        "@algolia/autocomplete-theme-classic": "^1.0.1",
+        "algoliasearch": "^4.9.1",
+        "balance-text": "^3.3.0",
+        "mathjax": "^3.1.4",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-instantsearch-dom": "^6.11.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^4.0.3",
+        "semantic-ui-react": "^2.0.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-react": "^7.13.13",
+        "@babel/register": "^7.13.16",
+        "babel-loader": "^8.2.2",
+        "dotenv-webpack": "^7.0.2",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.37.1",
+        "webpack-cli": "^4.7.0"
+    }
+}

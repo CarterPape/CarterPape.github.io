@@ -64,10 +64,12 @@ liquid:
 strict_front_matter: true
 
 sass:
+    implementation: sass-embedded
     style: compressed
 
 jekyll-minifier:
     compress_css: false
+    compress_javascript: false
 
 reduce_title_redundancy:
     strip_title: true
