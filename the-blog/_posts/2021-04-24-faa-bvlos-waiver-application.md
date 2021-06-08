@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # My application to the FAA to allow me to fly my drone far away
 
 ## Prelude

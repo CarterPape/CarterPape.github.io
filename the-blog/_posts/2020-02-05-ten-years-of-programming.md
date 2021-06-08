@@ -13,7 +13,7 @@ featured_image:
     hide_at_top_of_page: true
 ---
 
-*Note I originally [posted this on Facebook](https://www.facebook.com/carter.pape.12/posts/791217341360306).*
+*Note I originally [posted this on Facebook](https://www.facebook.com/carter.pape.12/posts/791217341360306). I posted it days before my birthday, so 10 years is slightly understated. I admit to not remembering the exact date I started.*
 
 I just took the [annual Stack Overflow Developer Survey](https://stackoverflow.com/dev-survey/start), and one of the questions was about how many years I have been programming.
 
