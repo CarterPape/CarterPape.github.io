@@ -1,6 +1,5 @@
 ---
 title: "olivermak.es a pretty website."
-excerpt: "I stumbled upon a designer's website, and at first it made me really jealous. Then I got over it."
 date: 2018-07-28 20:39:00 -0400
 
 image:

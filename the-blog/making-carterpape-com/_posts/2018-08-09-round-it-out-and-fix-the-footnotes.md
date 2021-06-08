@@ -185,4 +185,4 @@ I'm also weighing the ideas of branch-driven development and use of GitHub's iss
 [olivermak.es]: https://olivermak.es "a beautiful website"
 [pseudo-class]: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes "the Mozilla foundation's documentation of CSS pseudo-classes"
 
-[me on olivermak.es]: {% link the-blog/making-carterpape.com/_posts/2018-07-28-olivermak-es-is-pretty.md %} "an article I wrote about a beautiful website"
+[me on olivermak.es]: {% link the-blog/making-carterpape-com/_posts/2018-07-28-olivermak-es-is-pretty.md %} "an article I wrote about a beautiful website"

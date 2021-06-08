@@ -1,7 +1,6 @@
 ---
 title: "This is not AP style."
 date: 2018-08-21 15:56 -0400
-excerpt: "AP style is useful, but on this website, it isn't exactly what I need."
 ---
 
 The [Associated Press (AP) Stylebook](https://www.apstylebook.com/) provide a writing standard used by most journalists in their work. It's the standard I learned doing student journalism, and it's a standard I continue to reference in my personal writing.
