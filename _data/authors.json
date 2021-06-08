@@ -1,5 +1,5 @@
 {
-    "carter_pape": {
+    "Carter Pape": {
         "name": "Carter Pape",
         "email": "hello@carterpape.com",
         "image": "/assets/sitewide/Carter Pape.jpg",
@@ -7,6 +7,7 @@
         "facebook": "carter.pape.12",
         "github": "carterpape",
         "instagram": "carter.pape",
-        "linkedin": "carter-pape"
+        "linkedin": "carter-pape",
+        "wikipedia": "Carter_Pape"
     }
 }

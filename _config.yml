@@ -13,7 +13,7 @@
 url:            https://carterpape.com
 title:          Carter Pape's website
 tagline:        Carter Pape is a reporter<br/>for The Times-Independent<br/>in Moab, Utah.
-author:         carter_pape
+author:         Carter Pape
 lang:           en-us
 
 cloudflare_token: e0a891b5512949ac844da72b444e0b9b
@@ -30,7 +30,7 @@ defaults:
             path: ""
             type: "posts"
         values:
-            authors: ["Carter Pape"]
+            author: Carter Pape
             layout: "reading/post"
             unlisted: false
             featured_image:
