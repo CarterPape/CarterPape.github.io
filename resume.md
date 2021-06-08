@@ -12,7 +12,7 @@ I have done extensive web development and software engineering, priming me for w
 
 ## work experience
 
-[My LinkedIn profile] provides a comprehensive list of my work experiences. Below is a selection of those jobs:
+[My LinkedIn profile](https://www.linkedin.com/in/{{ site.data.authors[site.author].linkedin }}/) provides a comprehensive list of my work experiences. Below is a selection of those jobs:
 
 ### Reporter at _[The Times-Independent]_
 
@@ -48,7 +48,7 @@ I have done extensive web development and software engineering, priming me for w
 
 * Created 40-minute podcast episodes on NC State news and stories, including a focus on topics of diversity and inclusion through the podcast series [Protected Class].
 * Included [reporting][impeachment Praeci article] and [commentary][Jess commentary] on NC State Student Government news.
-* Won NC State Student Involvement's 2018 [Model the Way] award for excellence of work.
+* Won NC State Student Involvement's 2018 [Model the Way] award for general excellence.
 * Built [Praeci.com][Praeci] website from the ground up with Jekyll and GitHub Pages.
 
 [Protected Class]: https://praeci.com/protected-class/
@@ -93,7 +93,7 @@ I have done extensive web development and software engineering, priming me for w
 * I helped to create a website for intra-company, collaborative learning at [I-Cubed][I-Cubed acquired].
 * See [my LinkedIn profile] for more information.
 
-[my LinkedIn profile]: {{site.author.linkedin_url}}
+[my LinkedIn profile]: https://www.linkedin.com/in/{{ site.data.authors[site.author].linkedin }}/
 [I-Cubed acquired]: https://www.bizjournals.com/triangle/blog/techflash/2014/06/raleigh-based-i-cubed-is-acquired-by.html
 
 ## education
