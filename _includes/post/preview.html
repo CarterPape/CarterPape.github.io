@@ -14,8 +14,11 @@
         <h2 class="post-title balance-text">
             <a href="{{ the_link }}">{{ title }}</a>
         </h2>
-        {% include filing.html categories=the_post.categories leftmost-depth=page.categories.size %}
-        {% include post/featured-image.html
+        {%- include post/filing.html
+            categories=the_post.categories
+            leftmost-depth=page.categories.size
+        -%}
+        {%- include post/featured-image.html
             the_post=the_post
             no_caption=true
             the_link=the_link
