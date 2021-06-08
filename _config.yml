@@ -28,6 +28,12 @@ defaults:
     -
         scope:
             path: ""
+            type: "pages"
+        values:
+            layout: "browsing/page"
+    -
+        scope:
+            path: ""
             type: "posts"
         values:
             author: Carter Pape
