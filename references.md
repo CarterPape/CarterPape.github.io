@@ -1,6 +1,5 @@
 ---
 layout: "browsing/page"
-permalink: "/references/"
 title: references
 last_updated: "May 16, 2020"
 ---

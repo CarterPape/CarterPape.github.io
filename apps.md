@@ -1,11 +1,11 @@
 ---
 layout: "browsing/page"
-permalink: "/projects/"
-title: projects
+title: apps
 last_updated: "May 14, 2020"
+redirect_from: "/projects/"
 ---
 
-I don't just [report]({% link news-clips.md %}). I also [program](https://github.com/carterpape).
+I don't just [report]({% link journalism.md %}). I also [program](https://github.com/carterpape).
 
 I started out studying computer science and physics in college but ended up graduating in math, so I have both the skills and interest to program. Some of my projects support the work I do as a reporter; some of it is an outlet for my programmer impulses; some of it is both.
 
@@ -31,15 +31,17 @@ With each feature I have added to NewsBot, it has proven to be a boon to my team
 
 _[See the public parts of NewsBot on GitHub](https://github.com/CarterPape/NewsBot)._
 
-## moabtimes.com
+## moabtimes.com [{% include icon.html which="award" %}]({% link awards.md %}#2018-model-the-way){:title="first place: the Utah Press Association's 2019 award for best website"}
 
-[moabtimes.com][The Times-Independent] is _The Times-Independent_'s website. Prior to May 2020, I maintained the website after developing it myself. Although the content on the site is protected by copyright, the source code from the previous iteration of the site (namely, the WordPress theme, called [RedRock]) has [an open source license](https://github.com/the-times-independent/RedRock/blob/master/LICENSE.md).
+[moabtimes.com][The Times-Independent] is _The Times-Independent_'s website. Prior to May 2020, I maintained the website after developing it myself and [won and award for doing so]({% link the-blog/_posts/2020-06-15-moabtimes-com-wins-first.md %}).
+
+Although the content on the site is protected by copyright, the source code from the previous iteration of the site (namely, the WordPress theme, called [RedRock]) has [an open source license](https://github.com/the-times-independent/RedRock/blob/master/LICENSE.md).
 
 I had begun developing a paywall for the website to restrict access by non-subscribers via a monthly quota of free articles. The plugin, called [RedRock Subscriptions], is built with [Memberful], and is based on [that company's own WordPress plugin](https://wordpress.org/plugins/memberful-wp/).
 
 _[See RedRock on GitHub](https://github.com/the-times-independent/RedRock)._
 
-## Praeci
+## Praeci [{% include icon.html which="award" %}]({% link awards.md %}#2018-model-the-way){:title="NC State Student Involvement's 2018 Model the Way award for general excellence"}
 
 [Praeci](https://praeci.com) [was](https://praeci.com/praeci-is-defunct) a reporting project I created for presenting NC State and Raleigh news with a focus on succinct writing and attractive presentation. I built the website myself using Jekyll and GitHub Pages.
 

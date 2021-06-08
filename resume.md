@@ -1,9 +1,9 @@
 ---
 layout: "browsing/page"
-permalink: "/resume/"
 title: résumé
 last_updated: "May 17, 2020"
 ---
+
 ## profile
 
 I am a reporter with work experience in newspaper journalism and software development. I have lived in North Carolina, Colorado, and now Utah.

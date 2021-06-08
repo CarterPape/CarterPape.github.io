@@ -1,6 +1,5 @@
 ---
 layout: "browsing/page"
-permalink: "/contact/"
 title: contact
 last_updated: "Feb. 18, 2020"
 ---
