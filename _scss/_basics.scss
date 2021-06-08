@@ -32,8 +32,12 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top:     2em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom:  0.4em;
     line-height:    1.2;
     
@@ -41,62 +45,101 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0;
     }
     
-    & + h1, & + h2, & + h3, & + h4, & + h5, & + h6, hr + & {
+    & + h1,
+    & + h2,
+    & + h3,
+    & + h4,
+    & + h5,
+    & + h6,
+    hr + & {
         margin-top: 0;
     }
 }
 
 h1 {
-    color:          $stand-out-text;
     font-size:      2.6em;
-    font-weight:    500;
+    font-style:     italic;
+    font-weight:    700;
+    color:          $stand-out-text;
+    fill:           $stand-out-text;
+    margin-top:     2.8em;
 }
 
 h2 {
-    font-style:     italic;
-    font-weight:    400;
+    font-size:      2.0em;
+    font-style:     normal;
+    font-weight:    700;
     color:          lighten($stand-out-text, 10%);
-    font-size:      2.2em;
+    fill:           lighten($stand-out-text, 10%);
     margin-top:     2.2em;
 }
 
 h3 {
+    font-size:      1.6em;
+    font-style:     normal;
+    font-weight:    700;
     color:          lighten($stand-out-text, 15%);
-    font-weight:    500;
-    font-size:      1.8em;
+    fill:           lighten($stand-out-text, 15%);
+    margin-top:     1.9em;
 }
 
 h4 {
-    font-weight:    300;
-    margin-top:     0;
+    font-size:      1.3em;
+    font-style:     italic;
+    font-weight:    600;
     color:          lighten($stand-out-text, 25%);
-    font-size:      1.4em;
+    fill:           lighten($stand-out-text, 25%);
+    margin-top:     1.6em;
 }
 
-h5, h6 {
-    color:      lighten($stand-out-text, 25%);
-    font-size:  1em;
+h5 {
+    font-size:      1.15em;
+    font-style:     normal;
+    font-weight:    400;
+    color:          lighten($stand-out-text, 30%);
+    fill:           lighten($stand-out-text, 30%);
+    margin-top:     1.4em;
 }
 
-p, ul, ol, table, pre, dl {
+h6 {
+    font-size:      1em;
+    font-style:     italic;
+    font-weight:    300;
+    color:          lighten($stand-out-text, 35%);
+    fill:           lighten($stand-out-text, 35%);
+    margin-top:     1.2em;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+dl {
     margin: 0 0 1em;
     
-    ul, ol {
+    ul,
+    ol {
         margin: 0;
     }
 }
 
-ul, ol {
+ul,
+ol {
     padding-left: 2.6rem;
 }
 
-a, a > pre, a > code {
+a,
+a > pre,
+a > code {
     color:              $link-color;
     fill:               $link-color;
     text-decoration:    none;
     transition:         all .3s;
     
-    &:hover, &:hover > pre, &:hover > code {
+    &:hover,
+    &:hover > pre,
+    &:hover > code {
         color:  $link-float-color;
         fill:   $link-float-color;
     }
@@ -119,7 +162,8 @@ blockquote {
     }
 }
 
-code, pre {
+code,
+pre {
     font-family:
         Monaco,
         Bitstream Vera Sans Mono,
@@ -150,7 +194,8 @@ table {
     border-collapse:    collapse;
 }
 
-th, td {
+th,
+td {
     text-align:     left;
     padding:        5px 10px;
     border-bottom:  1px solid $divider-gray;
@@ -158,6 +203,7 @@ th, td {
 
 dt {
     color:          #444;
+    fill:           #444;
     font-weight:    500;
 }
 
@@ -178,9 +224,11 @@ img {
 
 strong {
     color:          $stand-out-text;
+    fill:           $stand-out-text;
 }
 
-small, .tangent {
+small,
+.tangent {
     display:    inline-block;
     font-size:  .8em;
 }
@@ -192,6 +240,7 @@ hr {
     margin:     3em;
 }
 
-sup, sub {
+sup,
+sub {
     line-height: 1;
 }

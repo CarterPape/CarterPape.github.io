@@ -66,6 +66,7 @@ strict_front_matter: true
 sass:
     implementation: sass-embedded
     style: compressed
+    sass_dir: _scss
 
 jekyll-minifier:
     compress_css: false
