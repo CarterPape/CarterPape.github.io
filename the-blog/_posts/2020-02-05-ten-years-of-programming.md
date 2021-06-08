@@ -1,6 +1,6 @@
 ---
 title: "I learned to program at 13, and I am so grateful to my father for helping me do that."
-excerpt: "My dad taught me to program in LabView because I saw him using it and thought it looked colorful and interesting. Turns out I was *extremely* correct."
+description: "My dad taught me to program in LabView because I saw him using it and thought it looked colorful and interesting. Turns out I was *extremely* correct."
 date: 2020-02-05 11:08 -07:00
 
 social_image:

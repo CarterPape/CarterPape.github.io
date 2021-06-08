@@ -1,6 +1,6 @@
 ---
 title: "What flavor do you want?"
-excerpt: "Markdown comes in all sorts of variations. Which one should I use in my app?"
+description: "Markdown comes in all sorts of variations. Which one should I use in my app?"
 date: 2018-07-24 10:00:00 -0400
 
 tags: [markdown flavors]

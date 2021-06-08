@@ -1,6 +1,6 @@
 ---
 title: "why Pornhub is adopting altcoins"
-excerpt: "Pornhub just added PumaPay to its repertoire of supported cryptocurrencies, but it hasn't jumped on Bitcoin or Ethereum. Here's a look at what might be behind this."
+description: "Pornhub just added PumaPay to its repertoire of supported cryptocurrencies, but it hasn't jumped on Bitcoin or Ethereum. Here's a look at what might be behind this."
 date: 2018-08-30 15:56 -04:00
 ---
 

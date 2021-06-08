@@ -1,6 +1,6 @@
 ---
 title: "I created a website that won a statewide award."
-excerpt: "The 2019 version of *The Times-Independent*'s website won best in class among Utah newspapers."
+description: "The 2019 version of *The Times-Independent*'s website won best in class among Utah newspapers."
 date: 2020-07-19 17:07 -06:00
 
 social_image:

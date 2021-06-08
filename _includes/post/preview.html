@@ -1,10 +1,10 @@
-{% assign the_post = include.the_post %}
+{%- assign the_post = include.the_post -%}
 
 {%- capture the_link -%}
-    {{ the_post.url | prepend: site.baseurl }}
+    {{ the_post.url | relative_url }}
 {%- endcapture -%}
 
-{% if the_post.unlisted != true %}
+{%- if the_post.unlisted != true and the_post.published != false -%}
     {%- assign title=the_post.title -%}
     {%- assign datetime=the_post.date | date: '%F' -%}
     {%- assign formatted_date=the_post.date | date: '%B %-d, %Y' -%}
@@ -19,8 +19,12 @@
             the_post=the_post
             no_caption=true
             the_link=the_link
-        %}
-        <p class="post-excerpt">{{ the_post.excerpt | markdownify }}</p>
+        -%}
+        {%- if the_post.description -%}
+            <p class="post-description">{{ the_post.description | markdownify }}</p>
+        {%- else -%}
+            <p class="post-excerpt">{{ the_post.excerpt | markdownify }}</p>
+        {%- endif -%}
         <div class="post-meta">
             <time class="post-date" datetime="{{ datetime }}">
                 {{- formatted_date -}}

@@ -1,6 +1,6 @@
 ---
 title: "I made a program that helps report the news."
-excerpt: "Although it is not yet sophisticated enough to write stories from scratch, it does save me a lot of time and mental energy."
+description: "Although it is not yet sophisticated enough to write stories from scratch, it does save me a lot of time and mental energy."
 date: 2020-04-09 02:33 -06:00
 
 social_image:

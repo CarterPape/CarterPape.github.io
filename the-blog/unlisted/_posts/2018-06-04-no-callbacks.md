@@ -1,6 +1,6 @@
 ---
 title: "they didn't even call to say I didn't get the job"
-excerpt: "The worst part of the job application process may actually be a market inefficiency."
+description: "The worst part of the job application process may actually be a market inefficiency."
 date: 2018-06-04 17:08:00 -0400
 tags: [job search]
 img:

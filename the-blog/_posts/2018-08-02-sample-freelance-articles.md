@@ -1,6 +1,6 @@
 ---
 title: "how IoT began"
-excerpt: "I was given permission to share some of my recent freelance writing on my blog, so here's a highlight of what I've made so far."
+description: "I was given permission to share some of my recent freelance writing on my blog, so here's a highlight of what I've made so far."
 
 date: 2018-08-02 19:22:00 -0400
 
