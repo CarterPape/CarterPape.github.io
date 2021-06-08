@@ -1,37 +1,37 @@
-{% if include.the_post %}
-    {% assign the_post = include.the_post %}
-{% else %}
-    {% assign the_post = page %}
-{% endif %}
+{%- if include.the_post -%}
+    {%- assign the_post = include.the_post -%}
+{%- else -%}
+    {%- assign the_post = page -%}
+{%- endif -%}
 
-{% if the_post.featured_image %}
-    {% assign hide=the_post.featured_image.hide_at_top_of_page %}
-{% else %}
-    {% assign hide = false %}
-{% endif %}
+{%- if the_post.featured_image -%}
+    {%- assign hide=the_post.featured_image.hide_at_top_of_page -%}
+{%- else -%}
+    {%- assign hide = false -%}
+{%- endif -%}
 
-{% if hide != true and the_post.featured_image %}
-    {% if the_post.featured_image.same_as_social_image %}
-        {% if the_post.social_image %}
-            {% assign the_image = the_post.social_image %}
-        {% else %}
-            {% assign the_image = nil %}
-        {% endif %}
-    {% else %}
-        {% assign the_image = the_post.featured_image %}
-    {% endif %}
-{% else %}
-    {% assign the_image = nil %}
-{% endif %}
+{%- if hide != true and the_post.featured_image -%}
+    {%- if the_post.featured_image.same_as_social_image -%}
+        {%- if the_post.social_image -%}
+            {%- assign the_image = the_post.social_image -%}
+        {%- else -%}
+            {%- assign the_image = nil -%}
+        {%- endif -%}
+    {%- else -%}
+        {%- assign the_image = the_post.featured_image -%}
+    {%- endif -%}
+{%- else -%}
+    {%- assign the_image = nil -%}
+{%- endif -%}
 
-{% if the_image %}
-    {% if include.the_link %}
+{%- if the_image -%}
+    {%- if include.the_link -%}
         <a href="{{ include.the_link }}">
-    {% endif %}
+    {%- endif -%}
     
     <figure
         class="featured-image
-            {%- if the_image.class %}
+            {% if the_image.class -%}
                 {{ the_image.class }}
             {%- endif -%}
         ">
@@ -43,14 +43,14 @@
                 title="{{ the_image.title }}"
             {% endif %}
         >
-        {% if the_image.caption and include.no_caption != true %}
+        {%- if the_image.caption and include.no_caption != true -%}
             <figcaption>
                 {{ the_image.caption | markdownify }}
             </figcaption>
-        {% endif %}
+        {%- endif -%}
     </figure>
     
-    {% if include.the_link %}
+    {%- if include.the_link -%}
         </a>
-    {% endif %}
-{% endif %}
+    {%- endif -%}
+{%- endif -%}

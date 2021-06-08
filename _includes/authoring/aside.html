@@ -1,7 +1,7 @@
 <aside class="card"
-    {% if include.width %}
+    {%- if include.width -%}
         style="width:{{ include.width }};"
-    {% endif %}
+    {%- endif -%}
 >
     {{ content | markdownify }}
 </aside>

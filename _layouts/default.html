@@ -3,17 +3,19 @@
 ---
 <!DOCTYPE html>
 <html lang="en"
-    {% if page.outer-bg %}
+    {%- if page.outer-bg -%}
         style="background: {{ page.outer-bg }}"
-    {% endif %}
+    {%- endif -%}
 >
-    {% include head.html %}
+    {%- include head/head.html -%}
     <body
-        {% if page.body-tag-class %}
+        {%- if page.body-tag-class -%}
             class="{{ page.body-tag-class }}"
-        {% endif %}
+        {%- endif -%}
     >
         {{ content }}
-        {% include analytics.html %}
+        
+        {%- include head/icons.svg -%}
+        {%- include analytics.html -%}
     </body>
 </html>

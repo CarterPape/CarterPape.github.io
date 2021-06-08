@@ -25,9 +25,9 @@
         </h1>
     </div>
     
-    {% if page.layout contains "browsing" %}
+    {%- if page.layout contains "browsing" -%}
         <div class="site-description balance-text">{{ site.author.short_description }}</div>
-    {% endif %}
+    {%- endif -%}
     
     <nav id="sitewide-nav">
         <ul>
@@ -60,7 +60,10 @@
         </ul>
         <ul>
             <li>
-                <a href="/the-blog/">the blog</a>
+                <a href="{% link contact.md %}">contact</a>
+            </li>
+            <li>
+                <a href="{% link legalese.md %}">legalese</a>
             </li>
         </ul>
         <ul>
