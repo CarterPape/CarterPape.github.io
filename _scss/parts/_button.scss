@@ -1,0 +1,12 @@
+.button-block {
+    fill: white;
+    color: white;
+    background-color: $base-accent;
+    border-radius: .4em;
+    padding: .4em 1em;
+    text-align: center;
+    border: 1px solid $black;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
