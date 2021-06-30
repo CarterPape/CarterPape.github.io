@@ -4,7 +4,7 @@ description: "I stumbled upon a designer's website, and at first it made me real
 date: 2018-07-28 20:39:00 -0400
 
 image:
-    path: "https://s3.amazonaws.com/carterpape-assets/olivermak.es.png"
+    path: "assets/posts/legacy/olivermak.es.png"
     caption: "the [home page](https://olivermak.es) of Oliver Pattison's website ([Oliver Pattison](https://olivermak.es/), [CC BY-NC 4.0](https://olivermak.es/license/))"
     alt: "the home page of Oliver Pattison's website"
     title: "the home page of Oliver Pattison's website"
@@ -67,7 +67,10 @@ As I browsed Pattison's website, I was looking for display elements that might b
 An example of Pattison's use of captions. [See this example on his website here](https://olivermak.es/2017/01/fluid-grid/#using-jekyll-collections). The caption on the code block element shown here is right-aligned to differentiate the text it contains from the body text. ([Oliver Pattison](https://olivermak.es/), [CC BY-NC 4.0](https://olivermak.es/license/))
 {% endcapture %}
 
-{% include authoring/figure/screenshot.html %}
+{% include authoring/screenshot.html
+    content = content
+    caption = caption
+%}
 
 As it turns out, it wasn't just the nice styling that impressed me; the programming behind this captioned element also struck me.
 
@@ -103,7 +106,10 @@ System.out.println("I hate Java.");
 the honest truth about my feelings
 {% endcapture %}
 
-{% include authoring/figure.html %}
+{% include authoring/captioned_figure.html
+    content = content
+    caption = caption
+%}
 
 Pattison uses `capture` tags[^I-use-capture] here to set two variables that are then rendered by the `block/code.html` element that he `include`s at the end.
 
@@ -140,7 +146,10 @@ This means that, as I was attempting to figure out how Pattison was generating c
 This is a screenshot of one subdirectory of Pattison's `_includes` folder. Imagine sorting through this list of elements without the help of `HTML` comments as you attempt to debug the rendering of a webpage. ([Oliver Pattison](https://olivermak.es/), [MIT](https://olivermak.es/license/))
 {% endcapture %}
 
-{% include authoring/figure/screenshot.html %}
+{% include authoring/screenshot.html
+    content = content
+    caption = caption
+%}
 
 Of course, this was a pretty minor problem for the moment because Pattison's website is not too big, but it struck me as a scalability issue. Imagine managing a larger static site with hundreds or thousands of layout files. Finding an error in any individual file is going to be hard no matter what, but without the guidance of generated `HTML` comments or other kinds of documentation, it's the kind of task that gets harder disproportionate to the size of the project.
 
@@ -171,7 +180,10 @@ This subtle difference (alongside likely differences in philosophy about how bes
 {% endcapture %}
 
 
-{% include authoring/figure/screenshot.html %}
+{% include authoring/screenshot.html
+    content = content
+    caption = caption
+%}
 
 
 

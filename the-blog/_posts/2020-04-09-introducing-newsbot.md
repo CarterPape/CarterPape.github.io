@@ -4,7 +4,7 @@ description: "Although it is not yet sophisticated enough to write stories from 
 date: 2020-04-09 02:33 -06:00
 
 social_image:
-    path: "/assets/images/for-posts/florian-klauer-mk7D-4UCfmg-unsplash.jpg"
+    path: "/assets/posts/legacy/florian-klauer-mk7D-4UCfmg-unsplash.jpg"
     caption: "*Photo by <a href='https://unsplash.com/@florianklauer'>Florian Klauer</a> on <a href='https://unsplash.com'>Unsplash</a>*{:.credit}"
 ---
 
@@ -15,14 +15,17 @@ In the future, NewsBot will likely expand past mere web scraping into other auto
 For now, I will explain the idea behind the current iteration of NewsBot with an example.
 
 {% capture content %}
-[![an email from NewsBot with an update on the investigation of Frontier communications of Utah](/assets/images/for-posts/a-NewsBot-email.png)](/assets/documents/for-posts/a-NewsBot-email.eml)
+[![an email from NewsBot with an update on the investigation of Frontier communications of Utah](/assets/posts/legacy/a-NewsBot-email.png)](/assets/posts/legacy/a-NewsBot-email.eml)
 {% endcapture %}
 
 {% capture caption %}
 This is an email from NewsBot with an update on the investigation of Frontier communications of Utah. The email came within minutes of the documents being uploaded to the docket.
 {% endcapture %}
 
-{% include authoring/figure/screenshot.html %}
+{% include authoring/screenshot.html
+    content = content
+    caption = caption
+%}
 
 The Utah Division of Public Utilities is [investigating Frontier Communications of Utah](https://www.moabtimes.com/articles/state-probing-frontier-following-service-complaints/) following formal complaints of poor quality of service in certain remote areas around Moab, where the company holds a state certificate granting it a monopoly for landline services.
 
@@ -30,8 +33,7 @@ To keep up with the investigation, typically I would have to regularly visit the
 
 Instead, NewsBot regularly [checks the docket](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/spiders/frontier_investigation_spider.py#L71) and [sends an email](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/item_pipelines/item_emailer.py#L98) whenever [new](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/item_pipelines/emailed_item_filter.py#L31) documents appear on it. The bot is currently programmed to load the page [every 5 to 15 minutes](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/spiders/frontier_investigation_spider.py#L43), so when a new filing appears, we get it very soon after it is available.
 
-[*View the NewsBot source on GitHub*][NewsBot on GitHub]
-{: style="text-align: center;"}
+[*View the NewsBot source on GitHub*][NewsBot on GitHub]{:.button-block}
 
 Lots of news gets disseminated as updates to a website, online database or other web location. Certainly not most, but plenty. Getting the earliest possible notice on a development in a story like the Frontier investigation sometimes involves closely watching a specific web page.
 

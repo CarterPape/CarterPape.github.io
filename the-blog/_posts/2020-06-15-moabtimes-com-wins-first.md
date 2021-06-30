@@ -4,7 +4,7 @@ description: "The 2019 version of *The Times-Independent*'s website won best in 
 date: 2020-07-19 17:07 -06:00
 
 social_image:
-    path: "/assets/images/for-posts/IMG_6686.jpg"
+    path: "/assets/posts/legacy/IMG_6686.jpg"
     caption: "An [archived view](https://web.archive.org/web/20191213143945/https://moabtimes.com/) of [moabtimes.com](https://moabtimes.com) from Dec. 13, 2019. *Photo by Carter Pape, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*{:.credit}"
     alt: "An archived view of moabtimes.com from Dec. 13, 2019."
     title: "An archived view of moabtimes.com from Dec. 13, 2019."

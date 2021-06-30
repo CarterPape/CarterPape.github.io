@@ -4,7 +4,7 @@ description: "The worst part of the job application process may actually be a ma
 date: 2018-06-04 17:08:00 -0400
 tags: [job search]
 img:
-    path: "/assets/images/jobs.png"
+    path: /assets/posts/legacy/jobs.png
 redirect_from: "/blog/unlisted/no-callbacks/"
 ---
 

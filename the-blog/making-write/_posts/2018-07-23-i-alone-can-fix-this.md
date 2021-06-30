@@ -4,7 +4,7 @@ description: "There are things iA Writer and other apps don't do that I wish the
 date: 2018-07-23 20:39:00 -0400
 
 social_image:
-    path: "https://s3.amazonaws.com/carterpape-assets/write-render.png"
+    path: /assets/posts/legacy/write-render.png
 
 tags: [text editors]
 keywords:

@@ -22,7 +22,10 @@ In the early 2000s, porn [catalyzed the growth](https://www.businessinsider.com/
 — Corey Price, vice president of operations at Pornhub, from [a statement](https://www.pornhub.com/press/show?id=1581) posted August 23, 2018
 {% endcapture %}
 
-{% include authoring/figure/attributed-quote.html %}
+{% include authoring/attributed_quote.html
+    quote = content
+    by =    caption
+%}
 
 While it is true that cryptocurrencies offer greater anonymity than their fiat counterparts, guaranteeing anonymity when using cryptocurrencies is [no trivial task](https://bitcoinmagazine.com/articles/is-bitcoin-anonymous-a-complete-beginner-s-guide-1447875283/).
 

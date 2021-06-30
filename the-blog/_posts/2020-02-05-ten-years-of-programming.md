@@ -4,7 +4,7 @@ description: "My dad taught me to program in LabView because I saw him using it 
 date: 2020-02-05 11:08 -07:00
 
 social_image:
-    path: "/assets/images/for-posts/labview-cli-write-code-example.png"
+    path: "/assets/posts/legacy/labview-cli-write-code-example.png"
     caption: "*A screen capture of LabView source code. [Photo](https://www.wiresmithtech.com/articles/what-is-labview-and-why-do-i-care/) copyright [Wiresmith Technology Ltd.](https://www.wiresmithtech.com)*{:.credit}"
     alt: "A screenshot of LabView source code, showing virtual boxes connected by virtual wires, some of the wires different, vibrant colors"
     title: "A screen capture of LabView source code"
@@ -24,14 +24,17 @@ When I was younger, and around the time I started learning LabView, I was 13 (an
 He still, by the way, uses LabView to create projects that have no business being created with LabView, but it's what he knows, so it's all fine and good and I do (try to) not judge.
 
 {% capture content %}
-![A screenshot of LabView source code, showing virtual boxes connected by virtual wires, some of the wires different, vibrant colors](/assets/images/for-posts/labview-cli-write-code-example.png "A screen capture of LabView source code")
+![A screenshot of LabView source code, showing virtual boxes connected by virtual wires, some of the wires different, vibrant colors](/assets/posts/legacy/labview-cli-write-code-example.png "A screen capture of LabView source code")
 {% endcapture %}
 
 {% capture caption %}
 a screen capture of LabView source code *[Photo](https://www.wiresmithtech.com/articles/what-is-labview-and-why-do-i-care/) copyright [Wiresmith Technology Ltd.](https://www.wiresmithtech.com)*{:.credit}
 {% endcapture %}
 
-{% include authoring/figure.html %}
+{% include authoring/captioned_figure.html
+    content=content
+    caption=caption
+%}
 
 Anyway, as you can see, LabView is a colorful, pretty little thing, ain't it? Bright colors, virtual wires connecting virtual boxes… Momentarily forget what you know about how electricity actually works. Doesn't it just look like that pink wire could cary words and sentences from one place to another and the blue wires could carry around numbers that don't have decimal places? That's exactly what they do!
 
@@ -46,14 +49,17 @@ So anyway, I enjoyed a few projects-worth of time making **really** dumb stuff a
 The way that the program worked was that, for each pixel in a photo, the program would come up with a red, green, and blue value and assign those values to the pixel. It's just a simple way of generating a color; the idea is that the right combination of red, green and blue can create any color, including black and white.
 
 {% capture content %}
-![An image of visual noise; each individual pixel is a random color (including shades of black and white) and there is no discernable pattern](/assets/images/for-posts/visual-noise.png "visual noise")
+![An image of visual noise; each individual pixel is a random color (including shades of black and white) and there is no discernable pattern](/assets/posts/legacy/visual-noise.png "visual noise")
 {% endcapture %}
 
 {% capture caption %}
 an image of visual noise *Photo by Carter Pape, [no rights reserved](https://creativecommons.org/share-your-work/public-domain/cc0/)*{:.credit}
 {% endcapture %}
 
-{% include authoring/figure.html %}
+{% include authoring/captioned_figure.html
+    content = content
+    caption = caption
+%}
 
 The result was color static, as depicted in that photo above. Random pixels thrown together creates… noise. Who would have thought?
 

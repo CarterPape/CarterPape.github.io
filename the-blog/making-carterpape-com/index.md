@@ -2,7 +2,7 @@
 categories:
     - the-blog
     - making-carterpape-com
-layout: "browsing/post-list"
+layout: "browsing/card-list"
 title: "making write, the app"
 description: "a series of notes on creating this website"
 ---
