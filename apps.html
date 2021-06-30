@@ -1,0 +1,52 @@
+---
+layout: "browsing/card-list"
+title: apps
+last_updated: "May 14, 2020"
+redirect_from: "/projects/"
+---
+
+<p>
+I started out studying computer science and physics in college, and I began working in software development internships in college, so I have both the skills and interest to program.
+</p>
+<p>
+Some of the projects shown here support the work I do as a reporter; some of it is an outlet for my programmer impulses; some of it is both.
+</p>
+<p>
+    Here are some highlights of my completed and active projects.
+</p>
+
+{%- for each_app in site.apps -%}
+    <div class="card">
+        <h2>
+            <a
+                href="
+                    {%- if each_app.link -%}
+                        {%- link {{ each_app.link }} -%}
+                    {%- else -%}
+                        {{- each_app.url -}}
+                    {%- endif -%}
+                "
+            >
+                {{ each_app.title }}
+            </a>
+        </h2>
+        {%- for each_award in each_app.awards -%}
+            <a
+                href="{% link awards.md %}#{{ each_award.hash }}"
+                title="{{ each_award.title }}"
+                class="card-award"
+            >
+                {% include icon.html which="award" color=each_award.color %}
+            </a>
+        {%- endfor -%}
+        {{ each_app.content | markdownify }}
+    </div>
+{%- endfor -%}
+
+{%- capture comprehensive_blurb -%}
+For a comprehensive look at my programming work, see [my GitHub profile](https://github.com/CarterPape).
+{%- endcapture -%}
+
+<div class="card">
+    {{ comprehensive_blurb | markdownify }}
+</div>

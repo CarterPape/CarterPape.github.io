@@ -31,6 +31,14 @@ collections:
             - free-reduced-meals.md
             - first-hdho-story.md
             - hopkin.md
+    apps:
+        output: false
+        order:
+            - moab.news.md
+            - newsbot.md
+            - moabtimes.com.md
+            - praeci.md
+            - genetic-optimization.md
 
 # Formatting settings
 
