@@ -1,5 +1,13 @@
+{%- if include.color -%}
+    {%- assign color_class =
+        include.color
+    -%}
+{%- else -%}
+    {%- assign color_class = "" -%}
+{%- endif -%}
+
 {%- assign i_just_want_nice_formatting_without_errors = "" -%}
 
-<svg class="icon"><use href="#{{ include.which }}" /></svg>
+<svg class="icon {{ color_class }}"><use href="#{{ include.which }}" /></svg>
 
 {{- i_just_want_nice_formatting_without_errors -}}
