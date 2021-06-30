@@ -4,6 +4,10 @@ set -eu
 domain="carterpape.com"
 production_bucket="s3-for-moab-news:moab.news"
 
+set -o allexport
+source .env
+set +o allexport
+
 script_path=$(realpath $0)
 scripts_dir_path=$(dirname $script_path)
 project_dir_path=$(dirname $scripts_dir_path)
@@ -21,7 +25,12 @@ dev () {
         --mode=development  \
         --watch             \
         &
-    bundle exec jekyll serve --incremental
+    
+    bundle exec jekyll serve \
+        --incremental \
+        --host $DEV_HOST_NAME \
+        --port $DEV_PORT \
+        --livereload-port $DEV_LIVERELOAD_PORT
 }
 
 remove_generated_files_if_present () {
