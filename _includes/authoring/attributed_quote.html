@@ -1,0 +1,42 @@
+{%- comment -%}
+    Usage:
+        {% capture quote %}
+        This is what he said.
+        
+        It was two paragraphs for illustrative purposes.
+        {% endcapture %}
+        
+        {% include authoring/attributed_quote.html
+            quote = quote
+            by =    "Carter Pape"
+        %}
+    
+    i.e. Do not include the "> " (blockquote syntax) in the content of the quote. Pass in what the original quote is — no extra quotes or quotation formatting, unless it a part of the quote itself — and the formatting is automatic after that.
+{%- endcomment -%}
+
+
+{%- assign formatted_quote =
+    include.quote
+    | markdownify
+-%}
+
+{%- assign formatted_by =
+    include.by
+    | markdownify
+-%}
+
+{%- capture html_content -%}
+    <blockquote
+        {%- if include.quote_citation -%}
+            cite = "{{- include.quote_citation -}}"
+        {%- endif -%}
+    >
+        {{- formatted_quote -}}
+    </blockquote>
+{%- endcapture -%}
+
+{%- include authoring/captioned_figure.html
+    class =         "attributed-quote"
+    html_content =  html_content
+    html_caption =  formatted_by
+-%}

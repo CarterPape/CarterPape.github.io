@@ -1,0 +1,23 @@
+{%- if include.start -%}
+    {%- assign start_query_part = 
+        "&start="
+        | append: include.start
+    -%}
+{%- endif -%}
+
+<div class="youtube_embed_wrapper">
+    <iframe
+        width="560"
+        height="349"
+        src="https://www.youtube.com/embed/{{ include.youtube_id }}?modestbranding=1&rel=0{{ start_query_part }}"
+        frameborder="0"
+        allow="
+            accelerometer;
+            autoplay;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture
+        "
+        allowfullscreen
+    ></iframe>
+</div>
