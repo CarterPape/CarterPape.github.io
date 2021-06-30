@@ -1,0 +1,62 @@
+---
+layout:         browsing/card-list
+body-tag-class: journalism
+title:          journalism
+last_updated:   Nov. 21, 2018
+redirect_from:  /news-clips/
+---
+
+<p>
+    The following are journalistic works on which I was first or only author or producer.
+</p>
+
+{%- for each_article in site.journalism -%}
+    <div class="card">
+        <h2>
+            <a
+                href="
+                    {%- if each_article.link -%}
+                        {%- link {{ each_article.link }} -%}
+                    {%- else -%}
+                        {{- each_article.url -}}
+                    {%- endif -%}
+                "
+            >
+                {{ each_article.title }}
+            </a>
+        </h2>
+        {%- for each_award in each_article.awards -%}
+            <a
+                href="{% link awards.md %}#{{ each_award.hash }}"
+                title="{{ each_award.title }}"
+                class="card-award"
+            >
+                {% include icon.html which="award" color=each_award.color %}
+            </a>
+        {%- endfor -%}
+        {{ each_article.content | markdownify }}
+    </div>
+{%- endfor -%}
+
+{%- capture comprehensive_blurb -%}
+For a comprehensive look at my journalism:
+
+- [Search my name][T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
+- [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].
+- [Search my name][Technician articles] on [_Technician_'s website][Technician].
+- Visit [Praeci].
+- Browse [my blog][the blog].
+
+[T-I articles]: https://www.moabtimes.com/?s=Carter+Pape
+[Praeci]: https://praeci.com
+[Technician]: https://www.technicianonline.com
+[Technician articles]: https://www.technicianonline.com/search/?f=html&q=carter+pape&c%5B0%5D=news%2A&s=start_time&sd=desc&l=10&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
+[the blog]: {% link the-blog/index.md %}
+[The Journal]: https://the-journal.com
+[The Journal articles]: https://the-journal.com/search?query=Carter+Pape
+[The Times-Independent]: https://www.moabtimes.com
+{%- endcapture -%}
+
+<div class="card">
+    {{ comprehensive_blurb | markdownify }}
+</div>

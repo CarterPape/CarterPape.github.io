@@ -21,6 +21,17 @@ lang:           en-us
 
 cloudflare_token: e0a891b5512949ac844da72b444e0b9b
 
+collections:
+    journalism:
+        output: false
+        order:
+            - hb-224-intent.md
+            - housing-series.md
+            - fox-in-mill-creek.md
+            - free-reduced-meals.md
+            - first-hdho-story.md
+            - hopkin.md
+
 # Formatting settings
 
 permalink:      /:categories/:title

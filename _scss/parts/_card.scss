@@ -7,7 +7,7 @@
         0   6px     20px    0   rgba(0, 0, 0, 0.19);
     border-radius:  0.4em;
     background:     $white;
-    overflow:       hidden;
+    position:       relative;
     
     & > :first-child {
         margin-top: 0;
