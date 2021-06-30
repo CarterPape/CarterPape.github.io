@@ -17,19 +17,7 @@ body {
     
     font: 14px/1.5
         jaf-bernino-sans,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Oxygen,
-        Ubuntu,
-        Cantarell,
-        "Fira Sans",
-        "Droid Sans",
-        "Helvetica Neue",
-        Arial,
-        sans-serif,
-        "Segoe UI Symbol";
+        sans-serif;
     
     &:after {
         content:    "";
@@ -82,7 +70,7 @@ h2 {
 
 h3 {
     font-size:      1.6em;
-    font-style:     normal;
+    font-style:     italic;
     font-weight:    700;
     color:          lighten($stand-out-text, 15%);
     fill:           lighten($stand-out-text, 15%);
@@ -91,7 +79,7 @@ h3 {
 
 h4 {
     font-size:      1.3em;
-    font-style:     italic;
+    font-style:     normal;
     font-weight:    600;
     color:          lighten($stand-out-text, 25%);
     fill:           lighten($stand-out-text, 25%);
@@ -100,7 +88,7 @@ h4 {
 
 h5 {
     font-size:      1.15em;
-    font-style:     normal;
+    font-style:     italic;
     font-weight:    400;
     color:          lighten($stand-out-text, 30%);
     fill:           lighten($stand-out-text, 30%);
@@ -109,7 +97,7 @@ h5 {
 
 h6 {
     font-size:      1em;
-    font-style:     italic;
+    font-style:     normal;
     font-weight:    300;
     color:          lighten($stand-out-text, 35%);
     fill:           lighten($stand-out-text, 35%);
@@ -135,19 +123,14 @@ ol {
     padding-left: 2.6rem;
 }
 
-a,
-a > pre,
-a > code {
+a {
     color:              $link-color;
     fill:               $link-color;
     text-decoration:    none;
     transition:         all .3s;
     
-    &:hover,
-    &:hover > pre,
-    &:hover > code {
-        color:  $link-float-color;
-        fill:   $link-float-color;
+    &:hover {
+        filter: brightness(80%);
     }
 }
 
@@ -171,14 +154,7 @@ blockquote {
 code,
 pre {
     font-family:
-        Monaco,
-        Bitstream Vera Sans Mono,
-        Lucida Console,
-        Terminal,
-        Consolas,
-        Liberation Mono,
-        DejaVu Sans Mono,
-        Courier New,
+        monaco,
         monospace;
 }
 
@@ -249,4 +225,9 @@ hr {
 sup,
 sub {
     line-height: 1;
+}
+
+
+.center {
+    text-align: center;
 }
