@@ -12,7 +12,10 @@
 
 url:            https://carterpape.com
 title:          Carter Pape's website
-tagline:        Carter Pape is a reporter<br/>for The Times-Independent<br/>in Moab, Utah.
+tagline:        |
+    Carter Pape is a reporter  
+    for *The Times-Independent*  
+    in Moab, Utah.
 author:         Carter Pape
 lang:           en-us
 
@@ -70,7 +73,7 @@ open_url:   true
 liquid:
     error_mode:         strict
     strict_variables:   false
-    strict_filters:     false
+    strict_filters:     true
 
 strict_front_matter: true
 
