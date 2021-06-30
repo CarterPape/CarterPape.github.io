@@ -26,7 +26,7 @@
     </div>
     
     {%- if page.layout contains "browsing" -%}
-        <div class="site-description balance-text">{{ site.author.short_description }}</div>
+        <div class="site-description balance-text">{{ site.tagline | markdownify }}</div>
     {%- endif -%}
     
     <nav id="sitewide-nav">
@@ -45,8 +45,10 @@
             <li>
                 <a href="{% link awards.md %}">awards</a>
             </li>
+        </ul>
+        <ul>
             <li>
-                <a href="{% link journalism.md %}">journalism</a>
+                <a href="{% link journalism.html %}">journalism</a>
             </li>
             <li>
                 <a href="{% link apps.md %}">apps</a>
@@ -56,6 +58,9 @@
             </li>
             <li>
                 <a href="{% link audio.md %}">audio</a>
+            </li>
+            <li>
+                <a href="{% link drone-work.md %}">drone work</a>
             </li>
         </ul>
         <ul>
@@ -71,14 +76,14 @@
                 <a href="https://github.com/{{ site_author.github }}/" target="_blank">
                     {% include icon.html which="github" %}
                 </a>
+                <a href="https://www.instagram.com/{{ site_author.instagram }}/" target="_blank">
+                    {% include icon.html which="instagram" %}
+                </a>
                 <a href="https://www.facebook.com/{{ site_author.facebook }}/" target="_blank">
                     {% include icon.html which="facebook" %}
                 </a>
                 <a href="https://twitter.com/{{ site_author.twitter }}/" target="_blank">
                     {% include icon.html which="twitter" %}
-                </a>
-                <a href="https://www.instagram.com/{{ site_author.instagram }}/" target="_blank">
-                    {% include icon.html which="instagram" %}
                 </a>
             </li>
         </ul>
@@ -87,7 +92,7 @@
     <script>
         function toggleNavList() {
             var navList = document.getElementById("sitewide-nav");
-            navList.style.display = (navList.style.display == "block" ? "" : "block");
+            navList.style.display = (navList.style.display == "flex" ? "" : "flex");
             
             var navHamburger = document.getElementById("sitewide-nav-hamburger");
             navHamburger.style.display = (navHamburger.style.display == "none" ? "" : "none");
