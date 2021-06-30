@@ -116,6 +116,9 @@ dl {
     ol {
         margin: 0;
     }
+    &:last-child{ 
+        margin: 0;
+    }
 }
 
 ul,
