@@ -5,7 +5,7 @@
     "tasks": [
         {
             "label": "serve it",
-            "command": "bundle exec jekyll serve",
+            "command": "${workspaceFolder}/scripts/main dev",
             "type": "shell",
             "presentation": {
                 "echo": true,
