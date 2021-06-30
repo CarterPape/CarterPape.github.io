@@ -12,7 +12,6 @@ gem "jekyll"
 group :jekyll_plugins do
     gem "jekyll-feed"
     gem "jekyll-target-blank"
-    gem "jekyll-compose"
     gem "jekyll-minifier"
     gem "jekyll-redirect-from"
     gem "jekyll-seo-tag"
