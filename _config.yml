@@ -64,6 +64,22 @@ collections:
             - bat.md
             - blm.md
             - usu.md
+    drone-work:
+        output: false
+        order:
+            - amtrak.md
+            - castle-valley.md
+            - navajo.md
+            - hells-revenge.md
+            - faux-falls.md
+            - gemini-bridges.md
+            - 191.md
+            - sand-flats.md
+            - puddles.md
+            - sego.md
+            - river-video.md
+    audio:
+        output: false
 
 # Formatting settings
 
