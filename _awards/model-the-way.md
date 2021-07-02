@@ -14,7 +14,7 @@ proof:
 ---
 
 {% include authoring/captioned_image.html
-    image_path = "assets/pages/awards/Carter_Pape_2017.jpg"
+    image_path = "assets/collections/awards/Carter_Pape_2017.jpg"
     alt = ""
     is_decorative = false
     credit = "Photo via NC State Office of Institutional Equity and Diversity"

@@ -14,7 +14,7 @@ proof:
 ---
 
 {% include authoring/captioned_image.html
-    image_path = "assets/pages/awards/DASA-thumb.png"
+    image_path = "assets/collections/awards/DASA-thumb.png"
     alt = "Talley Student Union, with a digital overlay"
     is_decorative = false
     credit = "Photo via Doyle Dickerson Terrazzo, Inc., graphic by Carter Pape"

@@ -14,7 +14,7 @@ proof:
 ---
 
 {% include authoring/captioned_image.html
-    image_path = "assets/pages/journalism/county.jpeg"
+    image_path = "assets/collections/journalism/county.jpeg"
     alt = ""
     is_decorative = false
     credit = "Photo by Carter Pape"

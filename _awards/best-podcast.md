@@ -14,7 +14,7 @@ proof:
 ---
 
 {% include authoring/captioned_image.html
-    image_path = "assets/pages/awards/moses-greene-thumb.png"
+    image_path = "assets/collections/awards/moses-greene-thumb.png"
     alt = ""
     is_decorative = false
     credit = "Photo via NC State African American Cultural Center, graphic by Carter Pape"
