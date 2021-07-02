@@ -1,6 +1,6 @@
 ---
 title: The housing affordability series
-link: the-blog/_posts/2021-06-27-housing-series.md
+_path: the-blog/_posts/2021-06-27-housing-series.md
 ---
 
 {% include authoring/captioned_image.html

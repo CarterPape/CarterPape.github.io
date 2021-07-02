@@ -10,41 +10,15 @@ redirect_from:  /news-clips/
     The following are journalistic works on which I was first or only author or producer.
 </p>
 
-{%- for each_article in site.journalism -%}
-    <div class="card">
-        <h2>
-            <a
-                href="
-                    {%- if each_article.link -%}
-                        {%- link {{ each_article.link }} -%}
-                    {%- else -%}
-                        {{- each_article.url -}}
-                    {%- endif -%}
-                "
-            >
-                {{ each_article.title }}
-            </a>
-        </h2>
-        {%- for each_award in each_article.awards -%}
-            <a
-                href="{% link awards.md %}#{{ each_award.hash }}"
-                title="{{ each_award.title }}"
-                class="card-award"
-            >
-                {% include icon.html which="award" color=each_award.color %}
-            </a>
-        {%- endfor -%}
-        {{ each_article.content | markdownify }}
-    </div>
-{%- endfor -%}
+{%- include collection-lister.html collection=site.journalism -%}
 
 {%- capture comprehensive_blurb -%}
 For a comprehensive look at my journalism:
 
 - [Search my name][T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
 - [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].
-- [Search my name][Technician articles] on [_Technician_'s website][Technician].
 - Visit [Praeci].
+- [Search my name][Technician articles] on [_Technician_'s website][Technician].
 - Browse [my blog][the blog].
 
 [T-I articles]: https://www.moabtimes.com/?s=Carter+Pape
@@ -57,6 +31,8 @@ For a comprehensive look at my journalism:
 [The Times-Independent]: https://www.moabtimes.com
 {%- endcapture -%}
 
-<div class="card">
-    {{ comprehensive_blurb | markdownify }}
+<div class="card-container">
+    <div class="card">
+        {{ comprehensive_blurb | markdownify }}
+    </div>
 </div>

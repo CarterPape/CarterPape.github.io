@@ -1,6 +1,6 @@
 ---
 title: Fox Corp. CEO acquires property, rock art along Mill Creek
-url: https://www.moabtimes.com/articles/fox-corp-ceo-acquires-property-rock-art-along-mill-creek/
+_url: https://www.moabtimes.com/articles/fox-corp-ceo-acquires-property-rock-art-along-mill-creek/
 
 awards:
 -

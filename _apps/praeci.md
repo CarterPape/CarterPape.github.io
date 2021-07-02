@@ -1,6 +1,6 @@
 ---
 title: Praeci
-url: https://praeci.com
+_url: https://praeci.com
 
 awards:
 -

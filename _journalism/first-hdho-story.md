@@ -1,6 +1,6 @@
 ---
 title: A new conflict could cost Grand hundreds of new homes
-url: https://www.moabtimes.com/articles/a-new-conflict-could-cost-grand-hundreds-of-new-homes/
+_url: https://www.moabtimes.com/articles/a-new-conflict-could-cost-grand-hundreds-of-new-homes/
 ---
 
 {% include authoring/captioned_image.html

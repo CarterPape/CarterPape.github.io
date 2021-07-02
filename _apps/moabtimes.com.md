@@ -1,6 +1,6 @@
 ---
 title: moabtimes.com
-link: the-blog/_posts/2020-06-15-moabtimes-com-wins-first.md
+_path: the-blog/_posts/2020-06-15-moabtimes-com-wins-first.md
 
 awards:
 -

@@ -1,6 +1,6 @@
 ---
 title: The lives touched by Margaret Hopkin
-url: https://www.moabtimes.com/articles/the-lives-touched-by-margaret-hopkin/
+_url: https://www.moabtimes.com/articles/the-lives-touched-by-margaret-hopkin/
 ---
 
 {% include authoring/captioned_image.html

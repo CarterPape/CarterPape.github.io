@@ -1,0 +1,35 @@
+{%- assign the_collection = include.collection -%}
+
+{%- for each_member in the_collection -%}
+    <div class="card-container">
+        <div class="card">
+            {%- if include.show_titles != false -%}
+                <h2
+                    id="{{ each_member.title | slugify: "ascii" }}"
+                >
+                    <a
+                        href="
+                            {%- if each_member._path -%}
+                                {%- link {{ each_member._path }} -%}
+                            {%- else -%}
+                                {{- each_member._url -}}
+                            {%- endif -%}
+                        "
+                    >
+                        {{- each_member.title -}}
+                    </a>
+                </h2>
+            {%- endif -%}
+            {%- for each_award in each_member.awards -%}
+                <a
+                    href="{%- link awards.html -%}#{{- each_award.hash -}}"
+                    title="{{- each_award.title -}}"
+                    class="card-award"
+                >
+                    {%- include icon.html which="award" color=each_award.color -%}
+                </a>
+            {%- endfor -%}
+            {{- each_member.content | markdownify -}}
+        </div>
+    </div>
+{%- endfor -%}

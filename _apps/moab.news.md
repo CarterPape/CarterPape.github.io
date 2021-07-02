@@ -1,6 +1,6 @@
 ---
 title: moab.news
-url: https://moab.news
+_url: https://moab.news
 ---
 
 `moab.news` is basically a daily blog that I write for myself, my family, my close friends, and my boss.

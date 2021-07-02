@@ -1,6 +1,6 @@
 ---
 title: Schools urge all parents to sign up for free, reduced meals. Here’s why.
-url: https://www.moabtimes.com/articles/schools-urge-all-parents-to-sign-up-for-free-reduced-meals-heres-why/
+_url: https://www.moabtimes.com/articles/schools-urge-all-parents-to-sign-up-for-free-reduced-meals-heres-why/
 
 awards:
 -

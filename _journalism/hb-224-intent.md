@@ -1,6 +1,6 @@
 ---
 title: HB 224 authors say Grand’s August amendments satisfy legislative intent
-url: https://www.moabtimes.com/articles/hb-224-authors-say-grands-august-amendments-satisfy-legislative-intent-regarding-form-of-government/
+_url: https://www.moabtimes.com/articles/hb-224-authors-say-grands-august-amendments-satisfy-legislative-intent-regarding-form-of-government/
 
 awards:
 -
