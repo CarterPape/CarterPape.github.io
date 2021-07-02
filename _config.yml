@@ -49,6 +49,13 @@ collections:
             - model-the-way.md
             - best-podcast.md
             - best-audio-documentary.md
+    references:
+        output: false
+        order:
+            - doug.md
+            - zane.md
+            - jamie.md
+            - jonathan.md
 
 # Formatting settings
 
