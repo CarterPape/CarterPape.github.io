@@ -16,4 +16,8 @@ a.not-blue:not([data-proofer-ignore]) {
 a[data-proofer-ignore] {
     color: inherit;
     fill: inherit;
+    
+    &:hover {
+        filter: none;
+    }
 }
