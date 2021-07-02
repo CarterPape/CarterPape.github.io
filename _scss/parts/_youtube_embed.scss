@@ -1,7 +1,13 @@
+.card-container figure.youtube_embed:first-child {
+    margin-top: -1.6em;
+}
+
 .youtube_embed_wrapper {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
+    margin-left: -1.6em;
+    margin-right: -1.6em;
     
     iframe {
         position: absolute;
