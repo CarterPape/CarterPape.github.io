@@ -21,7 +21,27 @@
     
     <div class="site-name">
         <h1>
-            <a href="{% link index.md %}" class="home-link not-blue">carterpape.com</a>
+            {%- if page.layout contains "reading" -%}
+                {%- assign maybe_home_link_class_prefix = "" -%}
+                {%- capture maybe_the_blog_link -%}
+                    /<a
+                        href="{%- link the-blog/index.md -%}"
+                        class="not-blue"
+                    >
+                        the-blog
+                    </a>
+                {%- endcapture -%}
+            {%- else -%}
+                {%- assign maybe_home_link_class_prefix = "home-link " -%}
+                {%- assign maybe_the_blog_link = "" -%}
+            {%- endif -%}
+            <a
+                href="{% link index.md %}"
+                class="{{- maybe_home_link_class_prefix -}} not-blue"
+            >
+                carterpape.com
+            </a>
+            {{- maybe_the_blog_link -}}
         </h1>
     </div>
     
