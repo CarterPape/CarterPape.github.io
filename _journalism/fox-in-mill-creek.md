@@ -11,7 +11,6 @@ awards:
 
 {% include authoring/captioned_image.html
     image_path = "assets/pages/journalism/Mill Creek.JPG"
-    caption = "Lachlan Murdoch purchased these properties in Mill Creek near the end of 2020. They include rock art documented by Moab local Rory Tyler."
     alt = "two houses sit in the shadows in Mill Creek near Moab, Utah"
     is_decorative = false
     credit = "Photo by Carter Pape"

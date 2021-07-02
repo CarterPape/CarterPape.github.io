@@ -5,7 +5,6 @@ _url: https://www.moabtimes.com/articles/the-lives-touched-by-margaret-hopkin/
 
 {% include authoring/captioned_image.html
     image_path = "assets/pages/journalism/Hopkin and Hickman.jpeg"
-    caption = "Athan Hickman, left, and Margaret Hopkin look at coins in Hickman's collection. He said that Hopkin, who died  would come back to Moab from trips to Japan with memorabilia and gifts for him, including coins to add to his collection."
     alt = "Athan Hickman and Margaret Hopkin pose with a coin collection"
     is_decorative = false
     credit = "Photo courtesy of Grand County School District"

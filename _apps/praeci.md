@@ -13,4 +13,4 @@ Praeci [was](https://praeci.com/praeci-is-defunct) a reporting project I created
 
 I customized a template built by Artem Sheludko, adding custom layouts and elements. I also built the site's podcast RSS feed syndication, enabled by Amazon S3 for storage of podcast audio and by [PodTrac](https://analytics.podtrac.com) download analytics.
 
-[See the Praeci code on GitHub](https://github.com/Praeci/praeci.github.io){:.button-block}
+[See the Praeci source code on GitHub](https://github.com/Praeci/praeci.github.io){:.button-block}
