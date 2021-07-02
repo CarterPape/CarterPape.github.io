@@ -56,6 +56,14 @@ collections:
             - zane.md
             - jamie.md
             - jonathan.md
+    photography:
+        output: false
+        order:
+            - castle-valley.md
+            - potato-salad.md
+            - bat.md
+            - blm.md
+            - usu.md
 
 # Formatting settings
 
