@@ -5,7 +5,7 @@ _url: https://www.moabtimes.com/articles/fox-corp-ceo-acquires-property-rock-art
 awards:
 -
     color: silver
-    hash: best-general-2019
+    hash: best-general-2020
     title: "Utah Press Association's Better Newspaper Contest: Best general news story (second place, 2020)"
 ---
 

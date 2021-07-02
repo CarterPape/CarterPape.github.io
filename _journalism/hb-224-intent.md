@@ -5,7 +5,7 @@ _url: https://www.moabtimes.com/articles/hb-224-authors-say-grands-august-amendm
 awards:
 -
     color: gold
-    hash: best-politics-2019
+    hash: best-politics-2020
     title: "Utah Press Association's Better Newspaper Contest: Best government/politics story (winner, 2020)"
 ---
 

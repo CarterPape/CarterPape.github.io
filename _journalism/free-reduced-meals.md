@@ -5,7 +5,7 @@ _url: https://www.moabtimes.com/articles/schools-urge-all-parents-to-sign-up-for
 awards:
 -
     color: silver
-    hash: best-politics-2019
+    hash: best-education-2020
     title: "Utah Press Association's Better Newspaper Contest: Best education story (second place, 2020)"
 ---
 
