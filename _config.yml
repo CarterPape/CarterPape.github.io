@@ -39,6 +39,16 @@ collections:
             - moabtimes.com.md
             - praeci.md
             - genetic-optimization.md
+    awards:
+        output: false
+        order:
+            - best-gov-pol-story.md
+            - best-general-news.md
+            - best-education-story.md
+            - best-website.md
+            - model-the-way.md
+            - best-podcast.md
+            - best-audio-documentary.md
 
 # Formatting settings
 
