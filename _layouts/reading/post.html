@@ -1,12 +1,14 @@
 ---
 layout: reading
 ---
-<article class="card">
-    <main class="full-post">
-        {%- include post/header.html -%}
+<div class="card-container">
+    <article class="card">
+        <main class="full-post">
+            {%- include post/header.html -%}
+            
+            {{ content | markdownify }}
+        </main>
         
-        {{ content | markdownify }}
-    </main>
-    
-    {%- include post/footer.html -%}
-</article>
+        {%- include post/footer.html -%}
+    </article>
+</div>

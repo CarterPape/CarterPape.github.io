@@ -12,8 +12,13 @@
     }
 }
 
-.card-list > header {
-    margin-bottom: 2em;
+.card-list {
+    & > header {
+        margin-bottom: 2em;
+    }
+    & > .card-container:first-of-type {
+        margin-top: 1.6em;
+    }
 }
 
 article.post-preview {
@@ -31,15 +36,9 @@ article.post-preview {
             background-position: 100% 50%;
         }
     }
-    .post-title {
-        margin-bottom: 0;
-    }
     .post-meta {
         font-size:  0.8em;
         margin-top: 0.2em;
-    }
-    .post-excerpt {
-        margin-top: 0.6em;
     }
     &:first-of-type {
         margin-top: 1.4em;

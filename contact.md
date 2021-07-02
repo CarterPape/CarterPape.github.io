@@ -1,5 +1,5 @@
 ---
-layout: "browsing/page"
+layout: "browsing/single-card"
 title: contact
 last_updated: "Feb. 18, 2020"
 ---

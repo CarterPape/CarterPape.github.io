@@ -1,5 +1,5 @@
 ---
-layout: "browsing/page"
+layout: "browsing/single-card"
 title: résumé
 last_updated: "May 17, 2020"
 ---

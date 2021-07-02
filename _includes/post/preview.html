@@ -10,29 +10,31 @@
     {%- assign formatted_date=the_post.date | date: '%B %-d, %Y' -%}
     {%- assign length=the_post.content | number_of_words | append: " words" -%}
     
-    <article class="card post-preview">
-        <h2 class="post-title balance-text">
-            <a href="{{ the_link }}">{{ title }}</a>
-        </h2>
-        {%- include post/filing.html
-            categories=the_post.categories
-            leftmost-depth=page.categories.size
-        -%}
-        {%- include post/featured-image.html
-            the_post=the_post
-            no_caption=true
-            the_link=the_link
-        -%}
-        {%- if the_post.description -%}
-            <p class="post-description">{{ the_post.description | markdownify }}</p>
-        {%- else -%}
-            <p class="post-excerpt">{{ the_post.excerpt | markdownify }}</p>
-        {%- endif -%}
-        <div class="post-meta">
-            <time class="post-date" datetime="{{ datetime }}">
-                {{- formatted_date -}}
-            </time>&nbsp;&nbsp;&nbsp;—&nbsp;
-            <span class="post-words">{{ length }}</span>
-        </div>
-    </article>
+    <div class="card-container">
+        <article class="card post-preview">
+            <h2 class="post-title balance-text">
+                <a href="{{ the_link }}">{{ title }}</a>
+            </h2>
+            {%- include post/filing.html
+                categories=the_post.categories
+                leftmost-depth=page.categories.size
+            -%}
+            {%- include post/featured-image.html
+                the_post=the_post
+                no_caption=true
+                the_link=the_link
+            -%}
+            {%- if the_post.description -%}
+                <p class="post-description">{{ the_post.description | markdownify }}</p>
+            {%- else -%}
+                <p class="post-excerpt">{{ the_post.excerpt | markdownify }}</p>
+            {%- endif -%}
+            <div class="post-meta">
+                <time class="post-date" datetime="{{ datetime }}">
+                    {{- formatted_date -}}
+                </time>&nbsp;&nbsp;&nbsp;—&nbsp;
+                <span class="post-words">{{ length }}</span>
+            </div>
+        </article>
+    </div>
 {%- endif -%}

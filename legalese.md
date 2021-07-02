@@ -1,3 +1,7 @@
+---
+layout: browsing/single-card
+---
+
 # legalese
 
 I (Carter Pape) own the source code for this website (`carterpape.com`) and [license it under the The GNU General Public License, version 3.0](https://github.com/CarterPape/carterpape.com/blob/master/LICENSE.md). I reserve the right to upgrade the license to newer versions of The GNU General Public License.
