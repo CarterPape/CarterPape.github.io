@@ -7,12 +7,6 @@ header.masthead {
         font-weight: normal;
         font-style: normal;
     }
-    .site-name .home-link {
-        color:      $stand-out-text;
-        fill:       $stand-out-text;
-        padding:    0.3em 0.6em;
-        margin:     -0.3em -0.6em;
-    }
     .site-description {
         margin-bottom: 0.6em;
     }
@@ -22,6 +16,7 @@ header.masthead {
     header.masthead {
         float:      left;
         text-align: right;
+        margin-bottom:  3em;
     }
 }
 
@@ -33,6 +28,10 @@ header.masthead {
         
         .site-name {
             text-align: center;
+            
+            h1 {
+                margin: 0 1.5em;
+            }
         }
         .site-description {
             display: none;
