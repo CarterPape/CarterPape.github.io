@@ -59,18 +59,22 @@ collections:
     photography:
         output: false
         order:
-            - castle-valley.md
             - potato-salad.md
             - bat.md
             - blm.md
+            - ahab.md
+            - fire.md
             - usu.md
+            - graduation.md
     drone-work:
         output: false
         order:
             - amtrak.md
             - castle-valley.md
             - navajo.md
+            - usu.md
             - hells-revenge.md
+            - red-dunes.md
             - faux-falls.md
             - gemini-bridges.md
             - 191.md
@@ -102,8 +106,6 @@ defaults:
             author: Carter Pape
             layout: "reading/post"
             unlisted: false
-            featured_image:
-                same_as_social_image: true
     -
         scope:
             path: "the-blog/unlisted"

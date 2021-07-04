@@ -9,12 +9,12 @@ awards:
     title: "Utah Press Association's Better Newspaper Contest: Best general news story (second place, 2020)"
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/journalism/Mill Creek.JPG"
     alt = "two houses sit in the shadows in Mill Creek near Moab, Utah"
     is_decorative = false
     credit = "Photo by Carter Pape"
-    license = "exclusive use"
+    license = "CC BY-SA 4.0"
 %}
 
 After the CEO of the Fox Corporation purchased a property along Mill Creek at the end of 2019, we spoke with a friend of his about the plans for cultural artifacts on the land.

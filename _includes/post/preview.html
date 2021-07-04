@@ -1,7 +1,7 @@
 {%- assign the_post = include.the_post -%}
 
 {%- capture the_link -%}
-    {{ the_post.url | relative_url }}
+    {{- the_post.url | relative_url -}}
 {%- endcapture -%}
 
 {%- if the_post.unlisted != true and the_post.published != false -%}
@@ -21,8 +21,8 @@
             -%}
             {%- include post/featured-image.html
                 the_post=the_post
-                no_caption=true
-                the_link=the_link
+                show_caption=false
+                link=the_link
             -%}
             {%- if the_post.description -%}
                 <p class="post-description">{{ the_post.description | markdownify }}</p>

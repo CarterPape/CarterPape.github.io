@@ -15,7 +15,7 @@
             {{ formatted_date }}
         </time>
     </div>
-    {%- include post/featured-image.html -%}
+    {%- include post/featured-image.html is_top_of_page = true -%}
     
     {%- if the_image -%}
     {%- else -%}

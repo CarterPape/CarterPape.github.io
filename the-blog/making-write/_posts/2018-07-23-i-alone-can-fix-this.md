@@ -3,8 +3,10 @@ title: "I alone can fix this."
 description: "There are things iA Writer and other apps don't do that I wish they would, so here's a first draft of a design solution."
 date: 2018-07-23 20:39:00 -0400
 
-social_image:
+image:
     path: /assets/posts/legacy/write-render.png
+    credit: by Carter Pape
+    license: CC BY-SA 4.0
 
 tags: [text editors]
 keywords:

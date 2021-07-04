@@ -39,7 +39,7 @@ This was one of my favorite freelance articles to write; researching for the art
 — from _[IoT Started with a Vending Machine](https://www.machinedesign.com/industrial-automation/iot-started-vending-machine)_, an article I wrote for DO Supply about the history of IoT
 {% endcapture %}
 
-{% include authoring/attributed_quote.html
+{% include authoring/quote.html
     quote = content
     by =    caption
 %}

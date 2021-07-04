@@ -12,7 +12,7 @@ last_updated: "May 1, 2021"
 _photo by [Miguel Angel](https://miguelangel.photography)_{:.credit}
 {% endcapture %}
 
-{% include authoring/captioned_figure.html
+{% include authoring/figure.html
     caption = caption
     content = content
 %}

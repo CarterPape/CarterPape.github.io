@@ -5,10 +5,12 @@ date: 2018-07-28 20:39:00 -0400
 
 image:
     path: "assets/posts/legacy/olivermak.es.png"
-    caption: "the [home page](https://olivermak.es) of Oliver Pattison's website ([Oliver Pattison](https://olivermak.es/), [CC BY-NC 4.0](https://olivermak.es/license/))"
+    caption: "the [home page](https://olivermak.es) of Oliver Pattison's website ([Oliver Pattison](https://olivermak.es/))"
     alt: "the home page of Oliver Pattison's website"
     title: "the home page of Oliver Pattison's website"
     class: screenshot
+    license: image licensed CC BY-NC 4.0
+    license_link: https://olivermak.es/license/
 
 tags: [good design]
 keywords:
@@ -106,7 +108,7 @@ System.out.println("I hate Java.");
 the honest truth about my feelings
 {% endcapture %}
 
-{% include authoring/captioned_figure.html
+{% include authoring/figure.html
     content = content
     caption = caption
 %}

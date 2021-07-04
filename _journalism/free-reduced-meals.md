@@ -9,7 +9,7 @@ awards:
     title: "Utah Press Association's Better Newspaper Contest: Best education story (second place, 2020)"
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/journalism/cdc-r2Tr3du99DM-unsplash.jpg"
     alt = "a child gets lunch at a school cafeteria"
     is_decorative = false

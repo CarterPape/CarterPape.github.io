@@ -22,7 +22,7 @@ In the early 2000s, porn [catalyzed the growth](https://www.businessinsider.com/
 — Corey Price, vice president of operations at Pornhub, from [a statement](https://www.pornhub.com/press/show?id=1581) posted August 23, 2018
 {% endcapture %}
 
-{% include authoring/attributed_quote.html
+{% include authoring/quote.html
     quote = content
     by =    caption
 %}

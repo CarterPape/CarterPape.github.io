@@ -13,7 +13,7 @@ proof:
     url: https://studentmedia.dasa.ncsu.edu/2018/11/wknc-wins-cma-awards/
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/awards/DASA-thumb.png"
     alt = "Talley Student Union, with a digital overlay"
     is_decorative = false

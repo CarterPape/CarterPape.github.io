@@ -13,7 +13,7 @@ proof:
     path: the-blog/_posts/2020-06-15-moabtimes-com-wins-first.md
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/posts/legacy/IMG_6686.jpg"
     alt = ""
     is_decorative = false

@@ -13,7 +13,7 @@ proof:
     url: https://studentmedia.ncsu.edu/web/training/wkncmanual.pdf
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/awards/Carter_Pape_2017.jpg"
     alt = ""
     is_decorative = false

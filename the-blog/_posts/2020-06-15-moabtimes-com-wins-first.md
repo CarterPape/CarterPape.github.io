@@ -3,11 +3,13 @@ title: "I created a website that won a statewide award."
 description: "The 2019 version of *The Times-Independent*'s website won best in class among Utah newspapers."
 date: 2020-07-19 17:07 -06:00
 
-social_image:
+image:
     path: "/assets/posts/legacy/IMG_6686.jpg"
-    caption: "An [archived view](https://web.archive.org/web/20191213143945/https://moabtimes.com/) of [moabtimes.com](https://moabtimes.com) from Dec. 13, 2019. *Photo by Carter Pape, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*{:.credit}"
+    caption: "An [archived view](https://web.archive.org/web/20191213143945/https://moabtimes.com/) of [moabtimes.com](https://moabtimes.com) from Dec. 13, 2019."
     alt: "An archived view of moabtimes.com from Dec. 13, 2019."
     title: "An archived view of moabtimes.com from Dec. 13, 2019."
+    credit: Photo by Carter Pape
+    license: CC BY-SA 4.0
 ---
 
 Last month, _The Times-Independent_ received from the Utah Press Association the 2019 award for Best Website among the largest weekly newspapers in Utah.

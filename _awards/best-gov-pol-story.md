@@ -13,7 +13,7 @@ proof:
     url: https://youtu.be/dwyBuSU_j-A?start=191
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/journalism/county.jpeg"
     alt = ""
     is_decorative = false

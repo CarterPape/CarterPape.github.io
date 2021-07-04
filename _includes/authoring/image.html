@@ -1,0 +1,122 @@
+{%- if include.alt -%}
+    {%- assign alt = include.alt -%}
+{%- elsif include.is_decorative != true -%}
+    {%- assign alt =
+        include.caption
+        | markdownify
+        | strip_html
+    -%}
+{%- endif -%}
+
+{%- if include.credit -%}
+    {%- assign credit =
+        include.credit
+        | rstrip
+    -%}
+{%- else -%}
+    {%- assign credit = nil -%}
+{%- endif -%}
+
+{%- if include.license -%}
+    {%- if include.credit -%}
+        {%- assign credit = 
+            credit
+            | append: ", "
+        -%}
+    {%- else -%}
+        {%- assign credit = "" -%}
+    {%- endif -%}
+    
+    {%- assign license = include.license -%}
+    {%- assign custom_license = nil -%}
+    
+    {%- if include.license_link -%}
+        {%- assign license_link = include.license_link -%}
+    {%- elsif include.license == "exclusive use" -%}
+        {%- assign license = "for exclusive use" -%}
+        {%- capture license_link -%}
+            {%- link legalese.md -%}#exclusive-use
+        {%- endcapture -%}
+    {%- elsif include.license == "CC BY-SA 4.0" -%}
+        {%- assign license_link = "https://creativecommons.org/licenses/by-sa/4.0/"
+        -%}
+    {%- else -%}
+        {% assign custom_license = true -%}
+    {%- endif -%}
+    
+    {%- if custom_license -%}
+        {%- if license_link -%}
+            {%- assign credit =
+                credit
+                | append: "["
+                | append: license
+                | append: "]("
+                | append: license_link
+                | append: ")"
+            -%}
+        {%- else -%}
+            {%- assign credit =
+                credit
+                | append: license
+            -%}
+        {%- endif -%}
+    {%- else -%}
+        {%- assign credit =
+            credit
+            | append: "licensed ["
+            | append: license
+            | append: "]("
+            | append: license_link
+            | append: ")"
+        -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- capture html_content -%}
+    {%- if include.link -%}
+        <a
+            href="{{include.link}}"
+            class="img-link"
+        >
+    {%- endif -%}
+    <div class="img-wrapper">
+        <img
+            {% if include.image_url %}
+                src="{{ include.image_url }}"
+            {% elsif include.image_path %}
+                src="{% link {{ include.image_path }} %}"
+            {% endif %}
+            alt="{{ alt | escape }}"
+        />
+    </div>
+    {%- if include.link or include.linked_file_name -%}
+        </a>
+    {%- endif -%}
+{%- endcapture -%}
+
+{%- if credit -%}
+    {%- capture caption -%}
+        {{ include.caption }} *{{ credit }}*{:.credit}
+    {%- endcapture -%}
+{%- elsif caption -%}
+    {%- capture caption -%}
+        {{ include.caption }}
+    {%- endcapture -%}
+{%- else -%}
+    {%- assign caption = false -%}
+{%- endif -%}
+
+{%- if caption -%}
+    {%- assign html_caption =
+        caption
+        | markdownify
+    -%}
+{%- else -%}
+    {%- assign html_caption = false -%}
+{% endif %}
+
+{%- include authoring/figure.html
+    html_content =  html_content
+    html_caption =  html_caption
+    class =         include.class
+-%}

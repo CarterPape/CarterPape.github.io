@@ -13,7 +13,7 @@ proof:
     url: https://studentmedia.dasa.ncsu.edu/2018/11/wknc-wins-cma-awards/
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/awards/moses-greene-thumb.png"
     alt = ""
     is_decorative = false

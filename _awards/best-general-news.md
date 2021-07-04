@@ -13,7 +13,7 @@ proof:
     url: https://youtu.be/dwyBuSU_j-A?start=96
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/journalism/Mill Creek.JPG"
     alt = ""
     is_decorative = false

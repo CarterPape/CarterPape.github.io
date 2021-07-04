@@ -9,7 +9,7 @@ awards:
     title: "Utah Press Association's Better Newspaper Contest: Best government/politics story (winner, 2020)"
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/journalism/county.jpeg"
     alt = "Grand County Courthouse"
     is_decorative = false

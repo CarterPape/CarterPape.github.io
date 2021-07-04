@@ -3,7 +3,7 @@ title: The lives touched by Margaret Hopkin
 _url: https://www.moabtimes.com/articles/the-lives-touched-by-margaret-hopkin/
 ---
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/collections/journalism/Hopkin and Hickman.jpeg"
     alt = "Athan Hickman and Margaret Hopkin pose with a coin collection"
     is_decorative = false

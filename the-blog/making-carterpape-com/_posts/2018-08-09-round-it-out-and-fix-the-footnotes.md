@@ -131,7 +131,7 @@ As I browsed Jekyll plugins, I found one that I thought may prove useful: [`jeky
 — from GitHub repository [`jekyll-references`](https://github.com/olov/jekyll-references/blob/master/README.md) by user [olov](https://github.com/olov).
 {% endcapture %}
 
-{% include authoring/attributed_quote.html
+{% include authoring/quote.html
     quote = content
     by =    caption
 %}

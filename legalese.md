@@ -36,7 +36,7 @@ Though I took this photo, it belongs to *The Times-Independent* because it is a 
 A nicer way of saying that it is that it is licensed for exclusive use.
 {% endcapture %}
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/pages/legalese/IMG_1417.jpeg"
     caption = caption
     alt = "A Nissan sedan sits on its roof, with belongings inside stacked inside the vehicle. Broken glass and some other belongings, including a cowboy-style hat, sit outside the vehicle. The front bumper of the car is partially torn away. First responders stand watch, waiting for a towing company in the background to flip the vehicle."
@@ -53,7 +53,7 @@ Here's the intuition behind it: *The Times-Independent* hired me to report, so t
 
 Of course, not every photo I take or program I create belongs to my employer. It is only the works for hire, which by law includes "a work prepared by an employee within the scope of his or her employment."
 
-{% include authoring/captioned_image.html
+{% include authoring/image.html
     image_path = "assets/pages/legalese/circ09_Page_1.png"
     link = "/assets/pages/legalese/circ09.pdf"
     class = "torn-paper"
