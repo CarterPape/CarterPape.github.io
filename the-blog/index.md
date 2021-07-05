@@ -1,7 +1,7 @@
 ---
 categories:
     - the-blog
-layout: "browsing/post-list"
+layout: "browsing/card-list"
 title: "the blog"
 description: "a public repository of my personally and professionally relevant musings, updates, ideas, and more"
 redirect_from:

@@ -1,0 +1,58 @@
+---
+layout: "browsing/card-list"
+title: awards
+body-tag-class: awards
+last_updated: "July 5, 2021"
+---
+
+{%- for each_award in site.awards -%}
+    {%- capture awardee_url -%}
+        {%- if each_award.awardee.url -%}
+            {{- each_award.awardee.url -}}
+        {%- else -%}
+            {%- link {{ each_award.awardee.path }} -%}
+        {%- endif -%}
+    {%- endcapture -%}
+    
+    {%- capture proof_url -%}
+        {%- if each_award.proof.url -%}
+            {{- each_award.proof.url -}}
+        {%- else -%}
+            {%- link {{ each_award.proof.path }} -%}
+        {%- endif -%}
+    {%- endcapture -%}
+    
+    <div class="card-container">
+        <div class="card">
+            <p
+                class="preheader balance-text"
+                id="{{ each_award.award.hash }}"
+            >
+                {{- each_award.award.category -}}
+            </p>
+            <h2
+                class="balance-text"
+            >
+                <a
+                    class="not-blue"
+                    href="{{ proof_url }}"
+                >
+                    {{- each_award.award.title -}}
+                </a>
+            </h2>
+            <h3
+                class="thin balance-text"
+            >
+                    {{- each_award.award.position -}}
+            </h3>
+            <h4
+                class="balance-text"
+            >
+                <a href="{{ awardee_url }}">
+                    {{- each_award.awardee.title -}}
+                </a>
+            </h4>
+            {{ each_award.content | markdownify }}
+        </div>
+    </div>
+{%- endfor -%}

@@ -1,6 +1,6 @@
 ---
 title: "why Pornhub is adopting altcoins"
-excerpt: "Pornhub just added PumaPay to its repertoire of supported cryptocurrencies, but it hasn't jumped on Bitcoin or Ethereum. Here's a look at what might be behind this."
+description: "Pornhub just added PumaPay to its repertoire of supported cryptocurrencies, but it hasn't jumped on Bitcoin or Ethereum. Here's a look at what might be behind this."
 date: 2018-08-30 15:56 -04:00
 ---
 
@@ -22,7 +22,10 @@ In the early 2000s, porn [catalyzed the growth](https://www.businessinsider.com/
 — Corey Price, vice president of operations at Pornhub, from [a statement](https://www.pornhub.com/press/show?id=1581) posted August 23, 2018
 {% endcapture %}
 
-{% include authoring/figure/attributed-quote.html %}
+{% include authoring/quote.html
+    quote = content
+    by =    caption
+%}
 
 While it is true that cryptocurrencies offer greater anonymity than their fiat counterparts, guaranteeing anonymity when using cryptocurrencies is [no trivial task](https://bitcoinmagazine.com/articles/is-bitcoin-anonymous-a-complete-beginner-s-guide-1447875283/).
 
@@ -30,7 +33,7 @@ This has [given rise to coins](https://cryptoslate.com/battle-privacy-monero-vs-
 
 ## Are cryptos paying Pornhub for adoption?
 
-Despite the baseline of crypto security offered by Tron, the developers of the coin do not make promises of its untraceability. This has led [skeptics](https://www.ccn.com/whats-the-motive-behind-pornhubs-listing-of-verge-and-now-tron/), who question what was behind Pornhub's decision to adopt the coin, to conclude that the company is only accepting cryptocurrencies that pay substantially for partnership.
+Despite the baseline of crypto security offered by Tron, the developers of the coin do not make promises of its untraceability. This has led [skeptics](https://www.ccn.com/whats-the-motive-behind-pornhubs-listing-of-verge-and-now-tron/){:data-proofer-ignore="true" title="This link might be broken."}, who question what was behind Pornhub's decision to adopt the coin, to conclude that the company is only accepting cryptocurrencies that pay substantially for partnership.
 
 After Pornhub's announcement that it would start accepting Verge, Charlie Lee, the creator of LiteCoin (LTC), said in [a tweet](https://twitter.com/satoshilite/status/986249542453506048?lang=en) that Pornhub should start accepting "real crytocurrencies like BTC, LTC, and XMR." Pornhub has not directly responded to these criticisms.
 

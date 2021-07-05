@@ -1,37 +1,40 @@
 ---
 title: "I made a program that helps report the news."
-excerpt: "Although it is not yet sophisticated enough to write stories from scratch, it does save me a lot of time and mental energy."
+description: "Although it is not yet sophisticated enough to write stories from scratch, it does save me a lot of time and mental energy."
 date: 2020-04-09 02:33 -06:00
 
-social_image:
-    path: "/assets/images/for-posts/florian-klauer-mk7D-4UCfmg-unsplash.jpg"
-    caption: "*Photo by <a href='https://unsplash.com/@florianklauer'>Florian Klauer</a> on <a href='https://unsplash.com'>Unsplash</a>*{:.credit}"
+image:
+    path: "/assets/posts/legacy/florian-klauer-mk7D-4UCfmg-unsplash.jpg"
+    credit: "Photo by <a href='https://unsplash.com/@florianklauer'>Florian Klauer</a> on <a href='https://unsplash.com'>Unsplash</a>"
+    alt: an old, German typewriter
 ---
 
 This past weekend, I completed the most recent version, 0.3.0, of [NewsBot][NewsBot on GitHub], a series of time-saving automations that contribute to my work reporting for [The Times-Independent]. At this point, NewsBot is a collection of web scrapers — some of which are [private](https://github.com/CarterPape/NewsBot/tree/92ef25ca911c1f60a157c83f4089baeabfab502f#the-private-subproject) — that regularly capture updates to specific webpages, saving me from keeping a series of bookmarks that I have to check every hour or so.
 
-In the future, NewsBot will likely expand past mere web scraping into other automations, like providing an online dashboard of recent and popular tweets, news articles, Facebook posts, and other items shared about Moab. That dashboard would likely be hosted at the currently nonexistent website [newsbot.carterpape.com](https://newsbot.carterpape.com).
+In the future, NewsBot will likely expand past mere web scraping into other automations, like providing an online dashboard of recent and popular tweets, news articles, Facebook posts, and other items shared about Moab. That dashboard would likely be hosted at the currently nonexistent website [newsbot.carterpape.com](https://newsbot.carterpape.com){:data-proofer-ignore="true" title="This link might be broken."}.
 
 For now, I will explain the idea behind the current iteration of NewsBot with an example.
 
 {% capture content %}
-[![an email from NewsBot with an update on the investigation of Frontier communications of Utah](/assets/images/for-posts/a-NewsBot-email.png)](/assets/documents/for-posts/a-NewsBot-email.eml)
+[![an email from NewsBot with an update on the investigation of Frontier communications of Utah](/assets/posts/legacy/a-NewsBot-email.png)](/assets/posts/legacy/a-NewsBot-email.eml)
 {% endcapture %}
 
 {% capture caption %}
 This is an email from NewsBot with an update on the investigation of Frontier communications of Utah. The email came within minutes of the documents being uploaded to the docket.
 {% endcapture %}
 
-{% include authoring/figure/screenshot.html %}
+{% include authoring/screenshot.html
+    content = content
+    caption = caption
+%}
 
-The Utah Division of Public Utilities is [investigating Frontier Communications of Utah](https://moabtimes.com/2019/07/08/state-probing-frontier-following-service-complaints/) following formal complaints of poor quality of service in certain remote areas around Moab, where the company holds a state certificate granting it a monopoly for landline services.
+The Utah Division of Public Utilities is [investigating Frontier Communications of Utah](https://www.moabtimes.com/articles/state-probing-frontier-following-service-complaints/) following formal complaints of poor quality of service in certain remote areas around Moab, where the company holds a state certificate granting it a monopoly for landline services.
 
 To keep up with the investigation, typically I would have to regularly visit the [the docket webpage](https://psc.utah.gov/2019/05/20/docket-no-19-041-04/), where filings in the investigation are hosted, to check for new documents. It would be easy to miss a development in the investigation while we are focused on other stories that are physically happening in Moab.
 
 Instead, NewsBot regularly [checks the docket](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/spiders/frontier_investigation_spider.py#L71) and [sends an email](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/item_pipelines/item_emailer.py#L98) whenever [new](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/item_pipelines/emailed_item_filter.py#L31) documents appear on it. The bot is currently programmed to load the page [every 5 to 15 minutes](https://github.com/CarterPape/NewsBot/blob/92ef25ca911c1f60a157c83f4089baeabfab502f/newsbot/spiders/frontier_investigation_spider.py#L43), so when a new filing appears, we get it very soon after it is available.
 
-[*View the NewsBot source on GitHub*][NewsBot on GitHub]
-{: style="text-align: center;"}
+[*View the NewsBot source on GitHub*][NewsBot on GitHub]{:.button-block}
 
 Lots of news gets disseminated as updates to a website, online database or other web location. Certainly not most, but plenty. Getting the earliest possible notice on a development in a story like the Frontier investigation sometimes involves closely watching a specific web page.
 
@@ -57,5 +60,5 @@ Information systems are tools for humans to use to standardize and make reliable
 
 
 
-[The Times-Independent]: https://moabtimes.com/
+[The Times-Independent]: https://www.moabtimes.com/
 [NewsBot on GitHub]: https://github.com/CarterPape/NewsBot

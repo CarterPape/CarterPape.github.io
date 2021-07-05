@@ -1,31 +1,40 @@
-{% assign the_post = include.the_post %}
+{%- assign the_post = include.the_post -%}
 
-{%- capture the_link -%}
-    {{ the_post.url | prepend: site.baseurl }}
-{%- endcapture -%}
-
-{% if the_post.unlisted != true %}
+{%- if the_post.unlisted != true and the_post.published != false -%}
     {%- assign title=the_post.title -%}
     {%- assign datetime=the_post.date | date: '%F' -%}
     {%- assign formatted_date=the_post.date | date: '%B %-d, %Y' -%}
     {%- assign length=the_post.content | number_of_words | append: " words" -%}
     
-    <article class="card post-preview">
-        <h2 class="post-title balance-text">
-            <a href="{{ the_link }}">{{ title }}</a>
-        </h2>
-        {% include filing.html categories=the_post.categories leftmost-depth=page.categories.size %}
-        {% include post/featured-image.html
-            the_post=the_post
-            no_caption=true
-            the_link=the_link
-        %}
-        <p class="post-excerpt">{{ the_post.excerpt | markdownify }}</p>
-        <div class="post-meta">
-            <time class="post-date" datetime="{{ datetime }}">
-                {{- formatted_date -}}
-            </time>&nbsp;&nbsp;&nbsp;—&nbsp;
-            <span class="post-words">{{ length }}</span>
-        </div>
-    </article>
-{% endif %}
+    <div class="card-container">
+        <article class="card post-preview">
+            <h2 class="post-title balance-text">
+                <a href="{{ the_post.url }}">{{ title }}</a>
+            </h2>
+            {%- include post/filing.html
+                categories=the_post.categories
+                leftmost-depth=page.categories.size
+            -%}
+            {%- include post/featured-image.html
+                the_post=the_post
+                show_caption=false
+                link=the_post.path
+            -%}
+            {%- if the_post.description -%}
+                <div class="post-description">
+                    {{ the_post.description | markdownify }}
+                </div>
+            {%- else -%}
+                <div class="post-excerpt">
+                    {{ the_post.excerpt | markdownify }}
+                </div>
+            {%- endif -%}
+            <div class="post-meta">
+                <time class="post-date" datetime="{{ datetime }}">
+                    {{- formatted_date -}}
+                </time>&nbsp;&nbsp;&nbsp;—&nbsp;
+                <span class="post-words">{{ length }}</span>
+            </div>
+        </article>
+    </div>
+{%- endif -%}

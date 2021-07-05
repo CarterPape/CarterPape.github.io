@@ -1,6 +1,6 @@
 ---
 title: "how IoT began"
-excerpt: "I was given permission to share some of my recent freelance writing on my blog, so here's a highlight of what I've made so far."
+description: "I was given permission to share some of my recent freelance writing on my blog, so here's a highlight of what I've made so far."
 
 date: 2018-08-02 19:22:00 -0400
 
@@ -32,14 +32,17 @@ My writing for DO Supply concerns many technical subjects, usually concentrated 
 This was one of my favorite freelance articles to write; researching for the article was interesting, and the idea of doing an historical overview of the Internet of Things (IoT) was mine. It is written in a dually historical and technical perspective, which also made it unique.[^not-journalism]
 
 {% capture content %}
-> Ashton put a lot of stock in RFID at the time, and even as late as 2009 was [writing about the promises the technology offered](http://www.rfidjournal.com/articles/view?4986). However, IoT seems to be turning away from RFID technology, foregoing RFID-tagged objects in favor of objects that are computers unto themselves.
+> Ashton put a lot of stock in RFID at the time, and even as late as 2009 was [writing about the promises the technology offered](https://www.rfidjournal.com/articles/view?4986). However, IoT seems to be turning away from RFID technology, foregoing RFID-tagged objects in favor of objects that are computers unto themselves.
 {% endcapture %}
 
 {% capture caption %}
 — from _[IoT Started with a Vending Machine](https://www.machinedesign.com/industrial-automation/iot-started-vending-machine)_, an article I wrote for DO Supply about the history of IoT
 {% endcapture %}
 
-{% include authoring/figure/attributed-quote.html %}
+{% include authoring/quote.html
+    quote = content
+    by =    caption
+%}
 
 For this article, Daniel originally asked that I write on the topic of IoT but gave me leeway to decide the specifics of how I would write about it. I did preliminary research on what IoT is, who is developing the technology, and where it is going. After this search, I decided that one of the more interesting parts of the IoT story was its history.
 
@@ -59,5 +62,5 @@ You can read [the full article][IoT Started with a Vending Machine], nicely form
 [DO Supply]: https://www.dosupply.com/index.php
 [IoT Started with a Vending Machine]: https://www.machinedesign.com/industrial-automation/iot-started-vending-machine
 [Machine Design]: https://www.machinedesign.com/
-[the blog]: {% link the-blog/index.md %}
 [Upwork]: https://www.upwork.com/
+[the blog]: {% link the-blog/index.md %}

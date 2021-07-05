@@ -1,0 +1,15 @@
+.for-browsing {
+    max-width:  730px;
+    
+    @media screen and (min-width: 761px)  {
+        .main-container {
+            width:  490px;
+            float:  right;
+        }
+        header.masthead {
+            float:          left;
+            width:          200px;
+            margin-bottom:  1em;
+        }
+    }
+}

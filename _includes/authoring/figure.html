@@ -1,6 +1,28 @@
-<figure class="{{ include.class }}">
-    {{ content | markdownify }}
-    <figcaption>
-        {{ caption | markdownify }}
-    </figcaption>
+{%- if include.html_caption -%}
+    {%- assign html_caption = include.html_caption -%}
+{%- elsif include.caption -%}
+    {%- assign html_caption = 
+        include.caption
+        | markdownify
+    -%}
+{%- else -%}
+    {%- assign html_caption = nil -%}
+{%- endif -%}
+
+{%- if include.content -%}
+    {%- assign html_content =
+        include.content
+        | markdownify
+    -%}
+{%- else -%}
+    {%- assign html_content = include.html_content -%}
+{%- endif -%}
+
+<figure class="{{- include.class -}}">
+    {{- html_content -}}
+    {%- if html_caption -%}
+        <figcaption>
+            {{- html_caption -}}
+        </figcaption>
+    {%- endif -%}
 </figure>

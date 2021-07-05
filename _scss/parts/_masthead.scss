@@ -1,0 +1,40 @@
+header.masthead {
+    position:               relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+    
+    .site-name h1 {
+        font-size: 2em;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .site-description {
+        margin-bottom: 0.6em;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    header.masthead {
+        float:      left;
+        text-align: right;
+        margin-bottom:  3em;
+    }
+}
+
+@media screen and (max-width: 760px)  {
+    header.masthead {
+        z-index:        1000;
+        margin-bottom:  1.3em;
+        float:          none;
+        
+        .site-name {
+            text-align: center;
+            
+            h1 {
+                margin: 0 1.5em;
+            }
+        }
+        .site-description {
+            display: none;
+        }
+    }
+}

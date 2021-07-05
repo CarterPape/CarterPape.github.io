@@ -1,0 +1,239 @@
+html {
+    -webkit-text-size-adjust:   none;
+    background-color:           $site-bg;
+    font-size:                  14px;
+}
+
+head,
+head * {
+    display: none;
+}
+
+body {
+    color:          $regular-text;
+    fill:           $regular-text;
+    font-weight:    400;
+    margin:         0.2em;
+    
+    font: 14px/1.5
+        jaf-bernino-sans,
+        sans-serif;
+    
+    &:after {
+        content:    "";
+        display:    table;
+        clear:      both;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom:  0.4em;
+    line-height:    1.2;
+    
+    &:first-child {
+        margin-top: 0;
+    }
+    
+    & + h1,
+    & + h2,
+    & + h3,
+    & + h4,
+    & + h5,
+    & + h6,
+    hr + & {
+        margin-top: 0;
+    }
+}
+
+h1 {
+    font-size:      2.6em;
+    font-style:     italic;
+    font-weight:    700;
+    color:          $stand-out-text;
+    fill:           $stand-out-text;
+    margin-top:     2.8em;
+}
+
+h2 {
+    font-size:      2.0em;
+    font-style:     normal;
+    font-weight:    700;
+    color:          lighten($stand-out-text, 10%);
+    fill:           lighten($stand-out-text, 10%);
+    margin-top:     2.2em;
+}
+
+h3 {
+    font-size:      1.6em;
+    font-style:     italic;
+    font-weight:    700;
+    color:          lighten($stand-out-text, 15%);
+    fill:           lighten($stand-out-text, 15%);
+    margin-top:     1.9em;
+}
+
+h4 {
+    font-size:      1.3em;
+    font-style:     normal;
+    font-weight:    600;
+    color:          lighten($stand-out-text, 25%);
+    fill:           lighten($stand-out-text, 25%);
+    margin-top:     1.6em;
+}
+
+h5 {
+    font-size:      1.15em;
+    font-style:     italic;
+    font-weight:    400;
+    color:          lighten($stand-out-text, 30%);
+    fill:           lighten($stand-out-text, 30%);
+    margin-top:     1.4em;
+}
+
+h6 {
+    font-size:      1em;
+    font-style:     normal;
+    font-weight:    300;
+    color:          lighten($stand-out-text, 35%);
+    fill:           lighten($stand-out-text, 35%);
+    margin-top:     1.2em;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+dl {
+    margin: 0 0 1em;
+    
+    ul,
+    ol {
+        margin: 0;
+    }
+    &:last-child{ 
+        margin: 0;
+    }
+}
+
+ul,
+ol {
+    padding-left: 2.6rem;
+}
+
+a {
+    color:              $link-color;
+    fill:               $link-color;
+    text-decoration:    none;
+    transition:         all .3s;
+    
+    &:hover {
+        filter: brightness(80%);
+    }
+}
+
+blockquote {
+    border-left:        1px solid $divider-gray;
+    margin:             0 0 1em 0;
+    padding:            0.5em 1.3rem;
+    font-weight:        200;
+    background-color:   rgba(0, 0, 0, 0.04);
+    
+    &::after {
+        content:    "";
+        display:    table;
+        clear:      both;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+code,
+pre {
+    font-family:
+        monaco,
+        monospace;
+}
+
+code {
+    font-size:      0.9em;
+    line-height:    1;
+}
+
+pre {
+    padding:        8px 15px;
+    background:     #f8f8f8;
+    border-radius:  5px;
+    border:         1px solid $divider-gray;
+    overflow-x:     auto;
+}
+
+table {
+    width:              100%;
+    border-collapse:    collapse;
+}
+
+th,
+td {
+    text-align:     left;
+    padding:        5px 10px;
+    border-bottom:  1px solid $divider-gray;
+}
+
+dt {
+    color:          #444;
+    fill:           #444;
+    font-weight:    500;
+}
+
+th {
+    color: #444;
+}
+
+img {
+    max-width:  100%;
+    display:    block;
+    margin:     0 auto;
+    
+    &.float-right {
+        float:          right;
+        margin-left:    10px;
+    }
+}
+
+strong {
+    color:          $stand-out-text;
+    fill:           $stand-out-text;
+}
+
+small,
+.tangent {
+    display:    inline-block;
+    font-size:  .8em;
+}
+
+hr {
+    border:     0;
+    background: $divider-gray;
+    height:     1px;
+    margin:     3em;
+}
+
+sup,
+sub {
+    line-height: 1;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.center {
+    text-align: center;
+}

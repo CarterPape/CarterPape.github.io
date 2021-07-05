@@ -1,0 +1,35 @@
+{%- assign truncated_categories = include.categories | slice: 0, include.leftmost-depth -%}
+{%- assign category_url =
+    truncated_categories
+    | join: "/"
+    | append: "/"
+-%}
+
+{%- for subcategory in include.categories offset:include.leftmost-depth -%}
+    {%- if subcategory == "unlisted" -%}
+        {%- break -%}
+    {%- endif -%}
+    
+    {%- assign category_url = 
+        category_url
+        | append: subcategory
+        | append: "/"
+    -%}
+    
+    {%- assign subcategory_display_name = site.category_display_names[subcategory] -%}
+    
+    {%- if top_category %}
+        > <a href="{{ category_url | relative_url }}" class="not-blue">{{ subcategory_display_name }}</a>
+    {%- else -%}
+        <nav class="filing">
+            filed under: <a href="{{ category_url | relative_url  }}" class="not-blue">{{ subcategory_display_name }}</a>
+        
+        {%- assign top_category = subcategory -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- if top_category -%}
+    </nav>
+{%- endif -%}
+
+{%- assign top_category = nil -%}

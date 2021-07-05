@@ -1,18 +1,21 @@
 ---
 layout: "browsing/homepage"
 permalink: "/"
-last_updated: "May 17, 2020"
+last_updated: "July 5, 2021"
 ---
 
 {% capture content %}
-![{{ site.author.photo.alt }}]({{ site.author.photo.path }} "{{ site.author.photo.title }}")
+!["Carter Pape takes a photo during a Black Lives Matter protest in Moab in June 2020"]({% link assets/pages/index/2020-06.jpg %} "Me photographing a Black Lives Matter protest in Moab in June 2020")
 {% endcapture %}
 
 {% capture caption %}
 _photo by [Miguel Angel](https://miguelangel.photography)_{:.credit}
 {% endcapture %}
 
-{% include authoring/figure.html %}
+{% include authoring/figure.html
+    caption = caption
+    content = content
+%}
 
 I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied mathematics at North Carolina State University, where I also did student journalism and software development. I grew up in Durham, North Carolina.
 
@@ -24,11 +27,13 @@ I am a reporter for _The Times-Independent_ in Moab, Utah. Previously, I studied
     * I created and produced the paper's first podcast, _[Dialogue with Technician]_.
 * Producer of [Praeci], which covered NC State and Raleigh news
     * Through Praeci, I independently produced two podcast series.
-* 11 years of programming experience, eight of which have been in the workplace
+* Twelve years of [programming experience]({% link the-blog/_posts/2020-02-05-ten-years-of-programming.md %}), nine of which have been [in the workplace]({% link resume.md %}#various-programming-jobs)
     * I have extensive web development and software engineering experience.
+* [Drone pilot]({% link drone-work.md %}) licensed for commercial flight
+    * I earned my [Part 107 authorization](https://www.faa.gov/uas/commercial_operators/) in May 2020 and have logged 17 hours of flight to date.
 
 [Dialogue with Technician]: https://overcast.fm/itunes1275744725/dialogue-with-technician
 [Praeci]: https://praeci.com
 [Technician]: https://technicianonline.com
 [The Journal]: https://the-journal.com
-[The Times-Independent]: https://moabtimes.com
+[The Times-Independent]: https://www.moabtimes.com

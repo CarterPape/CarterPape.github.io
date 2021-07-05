@@ -1,0 +1,38 @@
+---
+layout:         browsing/card-list
+body-tag-class: journalism
+title:          journalism
+last_updated:   July 5, 2021
+redirect_from:  /news-clips/
+---
+
+<p>
+    I have built my journalism career primarily through local newspapers. The following are what I believe to be the best reports I have produced for print.
+</p>
+
+{%- include collection-lister.html collection=site.journalism -%}
+
+{%- capture comprehensive_blurb -%}
+For a comprehensive look at my journalism:
+
+- [Search my name][T-I articles] on [_The Times-Independent_'s website][The Times-Independent].
+- [Search my name][The Journal articles] on [_The Journal_'s website][The Journal].
+- Visit [Praeci].
+- [Search my name][Technician articles] on [_Technician_'s website][Technician].
+- Browse [my blog][the blog].
+
+[T-I articles]: https://www.moabtimes.com/?s=Carter+Pape
+[Praeci]: https://praeci.com
+[Technician]: https://www.technicianonline.com
+[Technician articles]: https://www.technicianonline.com/search/?f=html&q=carter+pape&c%5B0%5D=news%2A&s=start_time&sd=desc&l=10&t=article%2Ccollection%2Cvideo%2Cyoutube&nsa=eedition
+[the blog]: {% link the-blog/index.md %}
+[The Journal]: https://the-journal.com
+[The Journal articles]: https://the-journal.com/search?query=Carter+Pape
+[The Times-Independent]: https://www.moabtimes.com
+{%- endcapture -%}
+
+<div class="card-container">
+    <div class="card">
+        {{ comprehensive_blurb | markdownify }}
+    </div>
+</div>

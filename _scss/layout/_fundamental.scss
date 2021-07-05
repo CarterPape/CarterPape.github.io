@@ -1,0 +1,24 @@
+body > div.root-container {
+    width:      100%;
+    display:    block;
+    position:   relative;
+    
+    &:after {
+        content:    "";
+        display:    table;
+        clear:      both;
+    }
+    .last-updated-text {
+        text-align: right;
+        font-style: italic;
+        color:      $light-text;
+        fill:       $light-text;
+    }
+    @media screen and (max-width: 760px) {
+        max-width:  560px;
+        margin: 1.3em auto;
+    }
+    @media screen and (min-width: 761px)  {
+        margin:     50px auto;
+    }
+}

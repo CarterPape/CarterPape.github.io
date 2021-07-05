@@ -1,6 +1,12 @@
+{%- assign site_author = 
+    site.data.authors[
+        site.author
+    ]
+-%}
+
 <header class="masthead">
-    <div class="menu-button" id="sitewide-nav-button">
-        <button onclick="toggleNavList()">
+    <div class="menu-button">
+        <button id="sitewide-nav-button">
             <svg height="16" id="sitewide-nav-hamburger" width="16">
                 <rect fill="#333333" height="2" width="14" x="1" y="3"></rect>
                 <rect fill="#333333" height="2" width="14" x="1" y="7"></rect>
@@ -15,78 +21,88 @@
     
     <div class="site-name">
         <h1>
-            <a href="{{ site.url | absolute_url }}" class="home-link not-blue">carterpape.com</a>
+            {%- if page.layout contains "reading" -%}
+                {%- assign maybe_home_link_class_prefix = "" -%}
+                {%- capture maybe_the_blog_link -%}
+                    /<a
+                        href="{%- link the-blog/index.md -%}"
+                        class="not-blue"
+                    >
+                        the-blog
+                    </a>
+                {%- endcapture -%}
+            {%- else -%}
+                {%- assign maybe_home_link_class_prefix = "home-link " -%}
+                {%- assign maybe_the_blog_link = "" -%}
+            {%- endif -%}
+            <a
+                href="{% link index.md %}"
+                class="{{- maybe_home_link_class_prefix -}} not-blue"
+            >
+                carterpape.com
+            </a>
+            {{- maybe_the_blog_link -}}
         </h1>
     </div>
     
-    {% if page.layout contains "browsing" %}
-        <div class="site-description balance-text">{{ site.author.short_description }}</div>
-    {% endif %}
+    {%- if page.layout contains "browsing" -%}
+        <div class="site-description balance-text">{{ site.tagline | markdownify }}</div>
+    {%- endif -%}
     
     <nav id="sitewide-nav">
         <ul>
             <li>
-                <a href="/resume/">résumé</a>
-            </li>
-            <li>
-                <a href="/references/">references</a>
-            </li>
-            <li>
-                <a href="/news-clips/">news clips</a>
-            </li>
-            <li>
-                <a href="/projects/">projects</a>
-            </li>
-            <li>
-                <a href="/contact/">contact</a>
+                <a href="{% link the-blog/index.md %}">the blog</a>
             </li>
         </ul>
         <ul>
             <li>
-                <a href="/the-blog/">the blog</a>
+                <a href="{% link resume.md %}">résumé</a>
+            </li>
+            <li>
+                <a href="{% link awards.html %}">awards</a>
+            </li>
+            <li>
+                <a href="{% link references.html %}">references</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="{% link journalism.html %}">journalism</a>
+            </li>
+            <li>
+                <a href="{% link apps.html %}">apps</a>
+            </li>
+            <li>
+                <a href="{% link photography.md %}">photography</a>
+            </li>
+            <li>
+                <a href="{% link drone-work.md %}">drone work</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="{% link contact.md %}">contact</a>
+            </li>
+            <li>
+                <a href="{% link legalese.md %}">legalese</a>
             </li>
         </ul>
         <ul>
             <li id="my-social-links">
-                <a href="{{ site.author.github_url }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#github" />
-                    </svg>
+                <a href="https://github.com/{{ site_author.github }}/" target="_blank">
+                    {% include icon.html which="github" %}
                 </a>
-                <a href="{{ site.author.facebook_url }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#facebook" />
-                    </svg>
+                <a href="https://www.instagram.com/{{ site_author.instagram }}/" target="_blank">
+                    {% include icon.html which="instagram" %}
                 </a>
-                <a href="{{ site.author.twitter_url }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#twitter" />
-                    </svg>
+                <a href="https://www.facebook.com/{{ site_author.facebook }}/" target="_blank">
+                    {% include icon.html which="facebook" %}
                 </a>
-                <a href="{{ site.author.instagram_url }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#instagram" />
-                    </svg>
-                </a>
-                <a href="{{ site.author.linkedin_url }}" target="_blank">
-                    <svg>
-                        <use xlink:href="/assets/images/brand-icons.svg#linkedin" />
-                    </svg>
+                <a href="https://twitter.com/{{ site_author.twitter }}/" target="_blank">
+                    {% include icon.html which="twitter" %}
                 </a>
             </li>
         </ul>
     </nav>
-    
-    <script>
-        function toggleNavList() {
-            var navList = document.getElementById("sitewide-nav");
-            navList.style.display = (navList.style.display == "block" ? "" : "block");
-            
-            var navHamburger = document.getElementById("sitewide-nav-hamburger");
-            navHamburger.style.display = (navHamburger.style.display == "none" ? "" : "none");
-            
-            var navExit = document.getElementById("sitewide-nav-exit-button");
-            navExit.style.display = (navExit.style.display == "none" ? "" : "none");
-        }
-    </script>
 </header>

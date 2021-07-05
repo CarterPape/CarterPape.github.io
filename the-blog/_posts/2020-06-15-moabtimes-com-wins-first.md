@@ -1,13 +1,15 @@
 ---
 title: "I created a website that won a statewide award."
-excerpt: "The 2019 version of *The Times-Independent*'s website won best in class among Utah newspapers."
+description: "The 2019 version of *The Times-Independent*'s website won best in class among Utah newspapers."
 date: 2020-07-19 17:07 -06:00
 
-social_image:
-    path: "/assets/images/for-posts/IMG_6686.jpg"
-    caption: "An [archived view](https://web.archive.org/web/20191213143945/https://moabtimes.com/) of [moabtimes.com](https://moabtimes.com) from Dec. 13, 2019. *Photo by Carter Pape, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*{:.credit}"
+image:
+    path: "/assets/posts/legacy/IMG_6686.jpg"
+    caption: "An [archived view](https://web.archive.org/web/20191213143945/https://moabtimes.com/) of [moabtimes.com](https://moabtimes.com) from Dec. 13, 2019."
     alt: "An archived view of moabtimes.com from Dec. 13, 2019."
     title: "An archived view of moabtimes.com from Dec. 13, 2019."
+    credit: Photo by Carter Pape
+    license: CC BY-SA 4.0
 ---
 
 Last month, _The Times-Independent_ received from the Utah Press Association the 2019 award for Best Website among the largest weekly newspapers in Utah.
@@ -18,7 +20,7 @@ For a variety of reasons, including that volunteers from out of state judge Utah
 
 In lieu of judges' comments, I wanted to give some thoughts of my own about the 2019 version of the website and what made it worthy of recognition. I built the site over the course of two months essentially from the ground-up and spent a lot of time making sure that it would be something people enjoyed using.
 
-To avoid confusion, I will say at this point that the current version of [`moabtimes.com`](https://moabtimes.com) is not the one that I built. [Tom Perkins](http://awebstudio.com) built and manages the 2020 version of `moabtimes.com`; he has built websites for a variety of Moab companies including that of *The Times-Independent* Associate Editor Sena Taylor Hauer's horseback riding business, [Moab Horses](https://moabhorses.com).
+To avoid confusion, I will say at this point that the current version of [`moabtimes.com`](https://moabtimes.com) is not the one that I built. [Tom Perkins](https://awebstudio.com) built and manages the 2020 version of `moabtimes.com`; he has built websites for a variety of Moab companies including that of *The Times-Independent* Associate Editor Sena Taylor Hauer's horseback riding business, [Moab Horses](https://moabhorses.com).
 
 The [2019 version of `moabtimes.com`](https://web.archive.org/web/20200215002625/https://moabtimes.com/) is available via Internet Archive's [Wayback Machine](https://web.archive.org).[^Internet-Archive] To get a feel for how the website looked at the time, [click around](https://web.archive.org/web/20200217010322/https://moabtimes.com/2020/02/10/moab-loses-padre-espiritual-in-car-crash-suspect-faces-manslaughter-charge/), but be prepared for many missing pages and photos and much slower page load times. The Wayback Machine is extremely useful but doesn't (and perhaps can't) do everything.
 
@@ -64,7 +66,7 @@ Local news does not need to be the center of attention for people. Gaining atten
 
 For-profit news organizations — desperate for eyes; having seen the success of Facebook, Twitter, YouTube, and other sites in fully consuming content consumers' attention with their platforms; and failing to sustain themselves on the economics of advertising that worked before social media — can find themselves doing whatever they can to yank at and hold readers' attention, which I made sure `moabtimes.com` and the newspaper's social media presence didn't do.
 
-As is my personal website, the 2019 version of `moabtimes.com` was designed to focus readers on what they were reading, watching, or looking at. That meant no ditracting sidebars, no pop-ups, and no elements that move unless the user wants them to move.
+As is my personal website, the 2019 version of `moabtimes.com` was designed to focus readers on what they were reading, watching, or looking at. That meant no distracting sidebars, no pop-ups, and no elements that move unless the user wants them to move.
 
 The newspaper is and always has been supported by advertising, so there was by necessity a single ad spot at the top of each page — though that is much less than the number of ad spots on [the *Moab Sun News*'s site](https://www.moabsunnews.com).
 
@@ -82,15 +84,15 @@ In my experience designing websites, promoting focus means keeping things simple
 
 I think about this in terms of browsing versus reading. When a reader visits the website's homepage, they're probably in a browsing or discovery mode. They might not know exactly what they're seeking, so I give them the menu of what is available to read and guide them toward the important stories by putting them at the top and using good photos and headlines.
 
-Readers can also come to a website knowing exactly what they're looking for; in that case, I give them a search bar to help them dig for the thing they want. There are also the middle cases where the reader knows what section they want to read from, or what topic interests them. The site can also serve those interets.
+Readers can also come to a website knowing exactly what they're looking for; in that case, I give them a search bar to help them dig for the thing they want. There are also the middle cases where the reader knows what section they want to read from, or what topic interests them. The site can also serve those interests.
 
-Once a reader has selected a story they want to read, I use a page design [stripped of all potential distractions](https://web.archive.org/web/20200213233902/https://moabtimes.com/2020/02/07/county-opposes-sand-flats-oil-gas-lease-sales/). This has two purposes: One is that the content is the very reason the reader is on the site, so I don't distract them from the content, and I support the content with a minimalistic design.
+Once a reader has selected a story they want to read, I use a page design [stripped of all potential distractions](https://web.archive.org/web/20200213233902/https://moabtimes.com/2020/02/07/county-opposes-sand-flats-oil-gas-lease-sales/). This has two purposes: One is that the content is the very reason the reader is on the site, so I don't distract them from the content, and I support the content with a minimalist design.
 
 Second is that it is hard to read something on a phone or computer without getting distracted, even before factoring in how jarring a pop-up or notification can be while you are trying to focus on the words. I do whatever I can to ensure the web design does noy contribute to the distracting nature of digital content.
 
 Minimizing distractions also applies when users are in browsing mode. News sites — especially desperate local news sites — will try to turn themselves into the center of their readers' attention, for a variety of reasons and with a variety of methods.
 
-Local news sites sometimes syndicate nonlocal stories from national outlets to minimize the reason for readers to go elsewhere for news; they boost their social media pages on their website to try to draw readers on every possible platform; I've even seen news sites host on their homepage a list of movies currently available on Netflix.
+Local news sites sometimes syndicate non-local stories from national outlets to minimize the reason for readers to go elsewhere for news; they boost their social media pages on their website to try to draw readers on every possible platform; I've even seen news sites host on their homepage a list of movies currently available on Netflix.
 
 *The Times-Independent*'s website didn't do those things. It gave readers the news they came to read and didn't distract them with anything else.
 
@@ -100,11 +102,11 @@ Local news sites sometimes syndicate nonlocal stories from national outlets to m
 
 Using [Amazon Lightsail](https://aws.amazon.com/lightsail/) is not the most surgical approach to web service; it's not exactly a one-size-fits-all solution, but it is closer to that than a modular approach, so it is simple and low-maintenance.
 
-While I was building and maintaining `moabtimes.com` (and, by choice, not being paid extra for it), I was also working as [a full-time reporter](https://moabtimes.com/author/carter-pape/). This meant I needed ways to use less of my brain thinking about the website, but I had to do so in a way that didn't sacrifice on the level of service the site provided to the reader. Amazon Lightsail offered that solution.
+While I was building and maintaining `moabtimes.com` (and, by choice, not being paid extra for it), I was also working as [a full-time reporter](https://www.moabtimes.com/author/carter-pape/). This meant I needed ways to use less of my brain thinking about the website, but I had to do so in a way that didn't sacrifice on the level of service the site provided to the reader. Amazon Lightsail offered that solution.
 
 A more ideal solution would have been to use [Amazon Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) to serve the website for scalability and modularity purposes. If the site was hit with a flood of traffic, more servers could spin up to ensure page speeds remained high. If a server had gone down (which started happening during the transition to the new site for reasons that are still unclear to me), it would automatically get replaced with a healthy server. A whole host of other benefits come of using Beanstalk, but a few key benefits came with using a simpler solution, as well.
 
-As for the other systems, [Cloudflare](https://moabtimes.com/author/carter-pape/) provided the site's domain registration, domain name system, content delivery network, site security, and many other things, all for the lowest price of any such collection of services. Choosing Cloudflare was a no-brainer, especially given that it consistently ranks as one of the fastest DNS and CDN services on the planet.[^Cloudflare-rankings]
+As for the other systems, Cloudflare provided the site's domain registration, domain name system, content delivery network, site security, and many other things, all for the lowest price of any such collection of services. Choosing Cloudflare was a no-brainer, especially given that it consistently ranks as one of the fastest DNS and CDN services on the planet.[^Cloudflare-rankings]
 
 As I alluded to, the essentials of content delivery and protection are all free through Cloudflare, and as a domain registrar, it imposes [only the bare minimum cost](https://www.cloudflare.com/products/registrar/) imposed by the organization that oversees the use of internet domains. Not only is it among the best; it is probably the lowest-cost option for small sites.
 
@@ -128,7 +130,7 @@ In this respect, WordPress was an obvious choice. Being built in large part with
 
 One of the foundational parts of WordPress is that it is open source. My suspicion is that its popularity has much to do with that fact. A consequence of it being open source is that it requires all themes and plugins built on top of WordPress to also be open source, because the software is [licensed under GNU Public License version 2.0](https://wordpress.org/about/license/), a [copyleft license](https://www.gnu.org/licenses/copyleft.en.html).
 
-The working name of the WordPress theme that powered the website was [RedRock](https://github.com/the-times-independent/RedRock). That theme is publicly available on GitHub and is [licensed under the GNU Public License version 3.0](https://github.com/the-times-independent/RedRock/blob/master/LICENSE). Anyone can modify it or use it for their own project. It is not the prettiest codebase I have ever written (I created it from an existing theme and codebase, [Rebalance](https://wordpress.com/theme/rebalance)), but it is pretty good for what it is.
+The working name of the WordPress theme that powered the website was [RedRock](https://github.com/the-times-independent/RedRock). That theme is publicly available on GitHub and is [licensed under the GNU Public License version 3.0](https://github.com/the-times-independent/RedRock/blob/master/LICENSE.md). Anyone can modify it or use it for their own project. It is not the prettiest codebase I have ever written (I created it from an existing theme and codebase, [Rebalance](https://wordpress.com/theme/rebalance)), but it is pretty good for what it is.
 
 --------
 
@@ -148,17 +150,17 @@ The 2019 version of `moabtimes.com` is a project of which I am very proud and on
     
     Since web locations can change on a regular basis, Internet Archive does not settle for archiving what it finds at a specific URL once; it revisits the URL in some cases [hundreds of times per day](https://web.archive.org/web/*/nytimes.com), capturing what it looked like at many specific moments and how it changed over time.
 
-[^rural-broadband]: I have [written very minimally](https://moabtimes.com/2020/05/01/where-is-broadband-available-in-moab/) about this topic before based on [a state map of broadband internet availability](https://mapserv.utah.gov/broadband/#/route/minDownSpeed=4&minUpSpeed=7&transTypes=40%7C41%7C10%7C20%7C30%7C50%7C70%7C71&extent=-12196644%7C4651808%7C577791). My experience is that mobile wireless coverage is not nearly as extensive as the map depicts.
+[^rural-broadband]: I have [written very minimally](https://www.moabtimes.com/article/where-is-broadband-available-in-moab/) about this topic before based on [a state map of broadband internet availability](https://mapserv.utah.gov/broadband/#/route/minDownSpeed=4&minUpSpeed=7&transTypes=40%7C41%7C10%7C20%7C30%7C50%7C70%7C71&extent=-12196644%7C4651808%7C577791). My experience is that mobile wireless coverage is not nearly as extensive as the map depicts.
 
 [^Cloudflare-rankings]:
     Here are a list of sources that rank Cloudflare against other content delivery networks and domain name systems:
 
-    - Data analytics platform [PerfOps](https://perfops.net) ranks Cloudflare #1 for perfomance among [authoritative](https://www.dnsperf.com) and [public DNS resolvers](https://www.dnsperf.com/#!dns-resolvers), #8 for [CDN query speed](https://www.cdnperf.com), and #2 for [CDN uptime](https://www.cdnperf.com/#!rum).
+    - Data analytics platform [PerfOps](https://perfops.net) ranks Cloudflare #1 for performance among [authoritative](https://www.dnsperf.com) and [public DNS resolvers](https://www.dnsperf.com/#!dns-resolvers), #8 for [CDN query speed](https://www.cdnperf.com), and #2 for [CDN uptime](https://www.cdnperf.com/#!rum).
     - Technology review site [TechRadar](https://www.techradar.com/) ranks Cloudflare [#1 among content delivery networks](https://www.techradar.com/news/the-best-cdns-of-2018).
     - European-based content delivery network [KeyCDN](https://www.keycdn.com/) ranks Cloudflare [#2 among domain name systems](https://www.keycdn.com/blog/best-free-dns-hosting-providers).
-    - Domain name server testing site [SolveDNS](https://www.solvedns.com/) consistently ranks Cloudflare [top 10 among domain name systems](https://www.solvedns.com/dns-comparison/).
+    - Domain name server testing site [SolveDNS](https://web.archive.org/web/20210525043002/https://www.solvedns.com/) consistently ranks Cloudflare [top 10 among domain name systems](https://web.archive.org/web/20210212040524/https://www.solvedns.com/dns-comparison/). (These links were originally to the live SolveDNS site, but inconsistency with the site led me to link to an archived version of it.)
     - Media site [Mashable](https://mashable.com/) ranks Cloudflare [#3 among content delivery networks](https://mashable.com/roundup/best-content-delivery-networks/).
-    - Technology review site [G2](https://www.g2.com/) ranks Cloudlfare [#1 among content delivery networks](https://www.g2.com/categories/content-delivery-network-cdn)
+    - Technology review site [G2](https://www.g2.com/){:data-proofer-ignore="true" title="This link might be broken."} ranks Cloudlfare [#1 among content delivery networks](https://www.g2.com/categories/content-delivery-network-cdn){:data-proofer-ignore="true" title="This link might be broken."}
     
     So, it gets a few good comments.
 
@@ -170,7 +172,7 @@ The 2019 version of `moabtimes.com` is a project of which I am very proud and on
     - Technology review site [TechRadar](https://www.techradar.com) ranks [WordPress top CMS](https://www.techradar.com/best/cms).
     - Technology review site [Toolbox](https://www.toolbox.com) ranks [WordPress top CMS](https://marketing.toolbox.com/articles/10-best-content-management-systems-cms-software-in-2020).
     - Web hosting provider [Hostinger](https://www.hostinger.com/) ranks [WordPress top CMS](https://www.hostinger.com/tutorials/best-cms).
-    - Technology review site [TrustRadius](https://www.trustradius.com) has WordPress as [one of its top ranked content management systems](https://www.trustradius.com/cms).
-    - Web hosting provider [Ionos](https://www.ionos.com) details [why WordPress is the most popular content managemtn system](https://www.ionos.com/digitalguide/hosting/cms/cms-comparison-a-review-of-the-best-platforms/).
+    - Web hosting provider [Ionos](https://www.ionos.com) details [why WordPress is the most popular content management system](https://www.ionos.com/digitalguide/hosting/cms/cms-comparison-a-review-of-the-best-platforms/).
+    - Technology review site [TrustRadius](https://www.trustradius.com){:data-proofer-ignore="true" title="This link might be broken."} has WordPress as [one of its top ranked content management systems](https://www.trustradius.com/cms){:data-proofer-ignore="true" title="This link might be broken."}.
     
     Again, a few good comments.

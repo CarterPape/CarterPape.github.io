@@ -1,0 +1,13 @@
+.awards {
+    .card {
+        h2 {
+            margin-bottom: .2em;
+            margin-top: 0em;
+        }
+        & > p:first-child {
+            font-weight: 100;
+            font-size: 1.1em;
+            margin-bottom: 0.2em;
+        }
+    }
+}

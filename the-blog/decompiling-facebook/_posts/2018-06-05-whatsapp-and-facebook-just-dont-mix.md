@@ -1,9 +1,12 @@
 ---
 title: "Facebook and privacy just don't mix."
-excerpt: "The tension in the story of Facebook and WhatsApp is a close parallel to a larger tension between user privacy and Facebook's profit motives."
+description: "The tension in the story of Facebook and WhatsApp is a close parallel to a larger tension between user privacy and Facebook's profit motives."
 
-social_image:
-    path: "https://s3.amazonaws.com/carterpape-assets/WhatsApp+preview.png"
+image:
+    path: /assets/posts/legacy/WhatsApp+preview.png
+    credit: by Carter Pape
+    license: CC BY-SA 4.0
+    alt: WhatsApp, Facebook, and Messenger open on a phone screen
 
 date: 2018-06-05 21:46:00 -0400
 last_modified_at: 2018-08-10 12:00:00 -0400
@@ -99,5 +102,5 @@ _This post was last updated August 16, 2018 with minor grammatical and layout ch
 [Decompiling Facebook index]: /the-blog/decompiling-facebook/
 [enable secret conversations]: https://www.facebook.com/help/messenger-app/811527538946901?helpref=uf_permalink
 [full help page on secret conversations]: https://www.facebook.com/help/messenger-app/1084673321594605/?helpref=hc_fnav
-[Messenger white paper]: https://fbnewsroomus.files.wordpress.com/2016/07/messenger-secret-conversations-technical-whitepaper.pdf
+[Messenger white paper]: https://web.archive.org/web/20200803073615/https://fbnewsroomus.files.wordpress.com/2016/07/messenger-secret-conversations-technical-whitepaper.pdf
 [secret conversations press release]: https://newsroom.fb.com/news/2016/07/messenger-starts-testing-end-to-end-encryption-with-secret-conversations/

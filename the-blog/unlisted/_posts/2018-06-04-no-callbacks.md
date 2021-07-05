@@ -1,10 +1,10 @@
 ---
 title: "they didn't even call to say I didn't get the job"
-excerpt: "The worst part of the job application process may actually be a market inefficiency."
+description: "The worst part of the job application process may actually be a market inefficiency."
 date: 2018-06-04 17:08:00 -0400
 tags: [job search]
 img:
-    path: "/assets/images/jobs.png"
+    path: /assets/posts/legacy/jobs.png
 redirect_from: "/blog/unlisted/no-callbacks/"
 ---
 
@@ -22,7 +22,7 @@ If I wanted, I could spend even less time on applications by writing a generic c
 
 <small>Tangent: is that a good strategy for getting a job?</small>
 
-After initial contact, hiring processes can become excruciatingly painful. When I'm passionate about getting a [specific](jobs.jobvite.com/mcclatchy/job/oIEe7fwr) [job](jobs.jobvite.com/capitolbroadcastingcompany/job/ouou7fwd), and I don’t make any attempts to contact that company before they contact me, sometimes I never hear back. In fact, probably a majority of the job applications I've ever submitted get no response at all.
+After initial contact, hiring processes can become excruciatingly painful. When I'm passionate about getting a [specific](https://jobs.jobvite.com/mcclatchy/job/oIEe7fwr) [job](https://jobs.jobvite.com/capitolbroadcastingcompany/job/ouou7fwd), and I don’t make any attempts to contact that company before they contact me, sometimes I never hear back. In fact, probably a majority of the job applications I've ever submitted get no response at all.
 
 <small>Tangent: at what rate do companies actually let rejected applicants know that they didn’t get the job?</small>
 

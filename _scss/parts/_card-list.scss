@@ -1,0 +1,46 @@
+@media screen and (min-width: 761px) {
+    .card-list {
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .card-list {
+        & > header, & > p {
+            padding: 0 1em;
+        }
+    }
+}
+
+.card-list {
+    & > header {
+        margin-bottom: 2em;
+    }
+    & > .card-container:first-of-type {
+        margin-top: 1.6em;
+    }
+}
+
+article.post-preview {
+    &:first-of-type {
+        margin-top: 1.4em;
+    }
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    figure {
+        margin-bottom: 0.5em;
+    }
+    .filing {
+        margin-bottom: 0.5em;
+    }
+    .post-description,
+    .post-excerpt {
+        margin-bottom: 0.75em;
+    }
+    .post-meta {
+        font-size:  0.8em;
+        font-weight: 100;
+        margin-top: 0.2em;
+    }
+}

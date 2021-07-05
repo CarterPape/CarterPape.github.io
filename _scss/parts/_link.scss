@@ -1,0 +1,23 @@
+a.not-blue:not([data-proofer-ignore]) {
+    transition-property:    background-color;
+    display:                inline-block;
+    color:                  inherit;
+    fill:                   inherit;
+    padding:                0.2em;
+    margin:                 -0.2em;
+    border-radius:          0.1em;
+    
+    &:hover {
+        background-color: $link-hover-bg;
+        filter: none;
+    }
+}
+
+a[data-proofer-ignore] {
+    color: inherit;
+    fill: inherit;
+    
+    &:hover {
+        filter: none;
+    }
+}

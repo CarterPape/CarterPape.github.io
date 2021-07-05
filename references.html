@@ -1,0 +1,37 @@
+---
+layout: "browsing/card-list"
+title: references
+last_updated: "July 5, 2021"
+---
+<p>
+    Contact information for references is available <a href="{% link contact.md %}">upon request</a>.
+</p>
+
+{%- for each_reference in site.references -%}
+    <div class="card-container">
+        <div class="card">
+            <h2>
+                {%- if each_reference._url -%}
+                    {%- assign url_domain =
+                        each_reference._url
+                        | split: "/"
+                        | slice: 2
+                        | first
+                        | slice: 4, 12
+                    -%}
+                    <a
+                        href="{{ each_reference._url }}"
+                        {% if url_domain == "linkedin.com" -%}
+                            data-proofer-ignore
+                        {%- endif -%}
+                    >
+                {%- endif -%}
+                {{- each_reference.title -}}
+                {%- if each_reference._url -%}
+                    </a>
+                {%- endif -%}
+            </h2>
+            {{- each_reference.content | markdownify -}}
+        </div>
+    </div>
+{%- endfor -%}

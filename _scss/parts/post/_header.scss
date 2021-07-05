@@ -1,0 +1,23 @@
+header.post-header {
+    font-weight:    100;
+    margin:         0 0 10px 0;
+    
+    .doc-title > a {
+        color:      $stand-out-text;
+        fill:       $stand-out-text;
+        display:    inline-block;
+        margin:     -0.1em;
+        padding:    0.1em;
+    }
+    .signatory {
+        font-size:  0.8em;
+        margin-top: 0.7em;
+        
+        .name {
+            font-weight: 500;
+        }
+        .final-name {
+            margin-right: 10px;
+        }
+    }
+}
