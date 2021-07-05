@@ -2,7 +2,7 @@
 set -eu
 
 domain="carterpape.com"
-production_bucket="s3-for-moab-news:moab.news"
+production_bucket="s3-for-carterpape-com:carterpape.com"
 
 set -o allexport
 source .env
