@@ -6,6 +6,9 @@
 -%}
 
 {%- for subcategory in include.categories offset:include.leftmost-depth -%}
+    {%- if subcategory == "unlisted" -%}
+        {%- break -%}
+    {%- endif -%}
     
     {%- assign category_url = 
         category_url
