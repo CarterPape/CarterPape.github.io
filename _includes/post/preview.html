@@ -1,9 +1,5 @@
 {%- assign the_post = include.the_post -%}
 
-{%- capture the_link -%}
-    {{- the_post.url | relative_url -}}
-{%- endcapture -%}
-
 {%- if the_post.unlisted != true and the_post.published != false -%}
     {%- assign title=the_post.title -%}
     {%- assign datetime=the_post.date | date: '%F' -%}
@@ -13,7 +9,7 @@
     <div class="card-container">
         <article class="card post-preview">
             <h2 class="post-title balance-text">
-                <a href="{{ the_link }}">{{ title }}</a>
+                <a href="{{ the_post.url }}">{{ title }}</a>
             </h2>
             {%- include post/filing.html
                 categories=the_post.categories
@@ -22,7 +18,7 @@
             {%- include post/featured-image.html
                 the_post=the_post
                 show_caption=false
-                link=the_link
+                link=the_post.path
             -%}
             {%- if the_post.description -%}
                 <div class="post-description">
