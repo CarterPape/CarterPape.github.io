@@ -87,7 +87,7 @@ collections:
 
 # Formatting settings
 
-permalink:      /:categories/:title
+permalink:      pretty
 timezone:       America/Denver
 date_format:    "%b. %-d, %Y"
 
