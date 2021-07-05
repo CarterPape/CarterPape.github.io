@@ -1,7 +1,7 @@
 ---
 layout: "browsing/single-card"
 title: résumé
-last_updated: "May 17, 2020"
+last_updated: "July 5, 2021"
 ---
 
 ## profile
@@ -18,9 +18,10 @@ I have done extensive web development and software engineering, priming me for w
 
 #### January 2019 - now
 
-* Reporting on [county government][pandemic vote], [local impacts of the pandemic], [tourism][lodging petition], [education][Farnsworth investigation], and [more][black buck].
+* Reporting on [housing]({% link the-blog/_posts/2021-07-05-housing-series.md %}), [county government][pandemic vote], [local impacts of the pandemic], [tourism][lodging petition], [education][Farnsworth investigation], and [more][black buck].
+* Coverage has won [multiple awards]({% link awards.html %}) from the state's press association.
 * Reported on [mail theft] in Moab, [the nonavailability of oil and gas] beneath a local recreation area that was nominated for drilling, and [the least affordable housing market] in the State of Utah.
-* Created and managed the newspaper’s previous website; advised on digital and IT operations.
+* Created and managed the newspaper’s previous, [award-winning]({% link the-blog/_posts/2020-06-15-moabtimes-com-wins-first.md %}) website; advised on digital and IT operations.
 
 [The Times-Independent]: https://moabtimes.com/
 [pandemic vote]: https://www.moabtimes.com/articles/grand-county-bending-to-business-votes-down-covid-19-response/
