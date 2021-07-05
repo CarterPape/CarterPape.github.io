@@ -12,7 +12,7 @@ I have done extensive web development and software engineering, priming me for w
 
 ## work experience
 
-[My LinkedIn profile](https://www.linkedin.com/in/{{ site.data.authors[site.author].linkedin }}/) provides a comprehensive list of my work experiences. Below is a selection of those jobs:
+[My LinkedIn profile](https://www.linkedin.com/in/{{ site.data.authors[site.author].linkedin }}/){:data-proofer-ignore="true" title="This link might be broken."} provides a comprehensive list of my work experiences. Below is a selection of those jobs:
 
 ### Reporter at _[The Times-Independent]_
 
@@ -91,7 +91,7 @@ I have done extensive web development and software engineering, priming me for w
 
 * In my first internship, I created a server that propagated timesheet data to three billing websites.
 * I helped to create a website for intra-company, collaborative learning at [I-Cubed][I-Cubed acquired].
-* See [my LinkedIn profile] for more information.
+* See [my LinkedIn profile]{:data-proofer-ignore="true" title="This link might be broken."} for more information.
 
 [my LinkedIn profile]: https://www.linkedin.com/in/{{ site.data.authors[site.author].linkedin }}/
 [I-Cubed acquired]: https://www.bizjournals.com/triangle/blog/techflash/2014/06/raleigh-based-i-cubed-is-acquired-by.html
