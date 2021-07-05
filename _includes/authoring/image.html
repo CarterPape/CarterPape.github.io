@@ -75,7 +75,7 @@
 {%- capture html_content -%}
     {%- if include.link -%}
         <a
-            href="{{include.link}}"
+            href="{% link {{ include.link }} %}"
             class="img-link"
         >
     {%- endif -%}
