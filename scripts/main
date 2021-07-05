@@ -78,8 +78,6 @@ push () {
         $site_path      \
         $production_bucket
     
-    index
-    
     # set the caching headers on all files that need it (maybe with https://s3tools.org/s3cmd)
     # purge the CloudFlare cache of updated files
     
