@@ -22,28 +22,25 @@
 }
 
 article.post-preview {
-    .post-thumbnail {
-        width:                  30%;
-        max-width:              100%;
-        min-height:             11rem;
-        background-size:        cover;
-        background-position:    50% 50%;
-        
-        &.fix-left {
-            background-position: 0% 50%;
-        }
-        &.fix-right {
-            background-position: 100% 50%;
-        }
-    }
-    .post-meta {
-        font-size:  0.8em;
-        margin-top: 0.2em;
-    }
     &:first-of-type {
         margin-top: 1.4em;
     }
     &:last-of-type {
         margin-bottom: 0;
+    }
+    figure {
+        margin-bottom: 0.5em;
+    }
+    .filing {
+        margin-bottom: 0.5em;
+    }
+    .post-description,
+    .post-excerpt {
+        margin-bottom: 0.75em;
+    }
+    .post-meta {
+        font-size:  0.8em;
+        font-weight: 100;
+        margin-top: 0.2em;
     }
 }
