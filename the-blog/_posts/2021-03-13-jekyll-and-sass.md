@@ -1,5 +1,6 @@
 ---
 title: "LibSass is dying. How will Jekyll respond?"
+description: In my search for a way to use newer Sass functions on my Jekyll site, I discovered that one reason I couldn't was that the implementation of Sass that Jekyll uses by default was deprecated. So, I filed an issue report.
 ---
 
 *Note: This post was created originally for [Jekyll's Discourse web forum](https://talk.jekyllrb.com). You can find the original version at [this link](https://talk.jekyllrb.com/t/migrating-away-from-libsass/5770). Also see the [GitHub issue](https://github.com/jekyll/jekyll-sass-converter/issues/116) on this.*
