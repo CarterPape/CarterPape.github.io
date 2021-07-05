@@ -1,4 +1,4 @@
-#root-container {
+body > div.root-container {
     width:      100%;
     display:    block;
     position:   relative;
@@ -19,7 +19,6 @@
         margin: 1.3em auto;
     }
     @media screen and (min-width: 761px)  {
-        max-width:  730px;
         margin:     50px auto;
     }
 }

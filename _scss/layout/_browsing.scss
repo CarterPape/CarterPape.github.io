@@ -1,6 +1,8 @@
 .for-browsing {
+    max-width:  730px;
+    
     @media screen and (min-width: 761px)  {
-        #main-container {
+        .main-container {
             width:  490px;
             float:  right;
         }
