@@ -1,7 +1,7 @@
 ---
 layout: "browsing/single-card"
 title: contact
-last_updated: "Feb. 18, 2020"
+last_updated: "July 5, 2020"
 ---
 If you would like to contact me, you can:
 
