@@ -11,4 +11,4 @@ _url: https://www.moabtimes.com/articles/a-new-conflict-could-cost-grand-hundred
     license = "exclusive use"
 %}
 
-This story was the first in [continued coverage]({% link the-blog/_posts/2021-06-27-HDHO-coverage.md %}) on a change in posture by Grand County toward developers participating in its High-Density Housing Overlay ordinance. The shift has slowed the development of affordable housing in the valley.
+This story was the first in [continued coverage]({% link the-blog/_posts/2021-07-04-HDHO-coverage.md %}) on a change in posture by Grand County toward developers participating in its High-Density Housing Overlay ordinance. The shift has slowed the development of affordable housing in the valley.
