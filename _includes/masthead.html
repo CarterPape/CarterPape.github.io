@@ -5,8 +5,8 @@
 -%}
 
 <header class="masthead">
-    <div class="menu-button" id="sitewide-nav-button">
-        <button onclick="toggleNavList()">
+    <div class="menu-button">
+        <button id="sitewide-nav-button">
             <svg height="16" id="sitewide-nav-hamburger" width="16">
                 <rect fill="#333333" height="2" width="14" x="1" y="3"></rect>
                 <rect fill="#333333" height="2" width="14" x="1" y="7"></rect>
@@ -105,17 +105,4 @@
             </li>
         </ul>
     </nav>
-    
-    <script>
-        function toggleNavList() {
-            var navList = document.getElementById("sitewide-nav");
-            navList.style.display = (navList.style.display == "flex" ? "" : "flex");
-            
-            var navHamburger = document.getElementById("sitewide-nav-hamburger");
-            navHamburger.style.display = (navHamburger.style.display == "none" ? "" : "none");
-            
-            var navExit = document.getElementById("sitewide-nav-exit-button");
-            navExit.style.display = (navExit.style.display == "none" ? "" : "none");
-        }
-    </script>
 </header>
