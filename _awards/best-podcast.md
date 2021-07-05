@@ -15,7 +15,7 @@ proof:
 
 {% include authoring/image.html
     image_path = "assets/collections/awards/moses-greene-thumb.png"
-    alt = ""
+    alt = "cover photo for an episode of the Protected Class podcast, featuring NC State African American Cultural Center Director Moses T. Alexander Greene"
     is_decorative = false
     credit = "Photo via NC State African American Cultural Center, graphic by Carter Pape"
     license = "exclusive use"

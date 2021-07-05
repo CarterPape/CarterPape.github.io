@@ -15,7 +15,7 @@ proof:
 
 {% include authoring/image.html
     image_path = "assets/posts/legacy/IMG_6686.jpg"
-    alt = ""
+    alt = "a computer screen showing moabtimes.com"
     is_decorative = false
     credit = "Photo by Carter Pape"
     license = "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"

@@ -15,7 +15,7 @@ proof:
 
 {% include authoring/image.html
     image_path = "assets/collections/journalism/Mill Creek.JPG"
-    alt = ""
+    alt = "the Mill Creek trailhead, a common access point for visitors looking to access the front and back country of the creek"
     is_decorative = false
     credit = "Photo by Carter Pape"
     license = "exclusive use"

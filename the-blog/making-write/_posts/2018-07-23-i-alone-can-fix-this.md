@@ -7,6 +7,7 @@ image:
     path: /assets/posts/legacy/write-render.png
     credit: by Carter Pape
     license: CC BY-SA 4.0
+    alt: a render of write, the app, showing a text editor with formatted Markdown
 
 tags: [text editors]
 keywords:

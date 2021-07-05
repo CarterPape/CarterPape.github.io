@@ -6,6 +6,7 @@ image:
     path: /assets/posts/legacy/WhatsApp+preview.png
     credit: by Carter Pape
     license: CC BY-SA 4.0
+    alt: WhatsApp, Facebook, and Messenger open on a phone screen
 
 date: 2018-06-05 21:46:00 -0400
 last_modified_at: 2018-08-10 12:00:00 -0400

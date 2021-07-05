@@ -15,7 +15,7 @@ proof:
 
 {% include authoring/image.html
     image_path = "assets/collections/journalism/cdc-r2Tr3du99DM-unsplash.jpg"
-    alt = ""
+    alt = "a young boy places sweet potato fries on his lunch plate in a school cafeteria line"
     is_decorative = false
     credit = "Photo by [CDC](https://unsplash.com/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/school-cafeteria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 %}

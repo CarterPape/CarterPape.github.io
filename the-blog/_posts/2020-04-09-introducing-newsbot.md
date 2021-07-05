@@ -6,6 +6,7 @@ date: 2020-04-09 02:33 -06:00
 image:
     path: "/assets/posts/legacy/florian-klauer-mk7D-4UCfmg-unsplash.jpg"
     credit: "Photo by <a href='https://unsplash.com/@florianklauer'>Florian Klauer</a> on <a href='https://unsplash.com'>Unsplash</a>"
+    alt: an old, German typewriter
 ---
 
 This past weekend, I completed the most recent version, 0.3.0, of [NewsBot][NewsBot on GitHub], a series of time-saving automations that contribute to my work reporting for [The Times-Independent]. At this point, NewsBot is a collection of web scrapers — some of which are [private](https://github.com/CarterPape/NewsBot/tree/92ef25ca911c1f60a157c83f4089baeabfab502f#the-private-subproject) — that regularly capture updates to specific webpages, saving me from keeping a series of bookmarks that I have to check every hour or so.

@@ -15,7 +15,7 @@ proof:
 
 {% include authoring/image.html
     image_path = "assets/collections/awards/Carter_Pape_2017.jpg"
-    alt = ""
+    alt = "Carter Pape standing with his longboard in front of Winslow Hall at NC State University"
     is_decorative = false
     credit = "Photo via NC State Office of Institutional Equity and Diversity"
     license = "exclusive use"
