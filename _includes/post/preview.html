@@ -25,9 +25,13 @@
                 link=the_link
             -%}
             {%- if the_post.description -%}
-                <p class="post-description">{{ the_post.description | markdownify }}</p>
+                <div class="post-description">
+                    {{ the_post.description | markdownify }}
+                </div>
             {%- else -%}
-                <p class="post-excerpt">{{ the_post.excerpt | markdownify }}</p>
+                <div class="post-excerpt">
+                    {{ the_post.excerpt | markdownify }}
+                </div>
             {%- endif -%}
             <div class="post-meta">
                 <time class="post-date" datetime="{{ datetime }}">
