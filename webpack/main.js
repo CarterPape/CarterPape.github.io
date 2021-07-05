@@ -23,5 +23,3 @@ document.addEventListener('DOMContentLoaded', function(event) {
     
     balanceText();
 })
-
-import {} from 'mathjax/es5/tex-chtml.js';
